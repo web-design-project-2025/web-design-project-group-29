@@ -1,0 +1,158 @@
+/* navbar styling */
+:root {
+  --primary-color: #fffdfa;
+  --secondary-color: #b6cae5;
+  --colorful-text: #6e2e15;
+  --text-color: #4a4a4a;
+  --light-text: #606060;
+  --border-color: #f1eeea;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 700;
+  padding: 20px;
+  font-size: 17px;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-icons a {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.icon-toggle {
+  position: relative;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: inline-block;
+}
+
+.icon-toggle i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.6rem;
+  transition: opacity 0.3s ease;
+}
+
+.icon-toggle .solid-heart,
+.icon-toggle .solid-user {
+  opacity: 0;
+}
+
+.icon-toggle:hover .solid-heart,
+.icon-toggle:hover .solid-user {
+  opacity: 1;
+}
+
+.icon-toggle:hover .regular-heart,
+.icon-toggle:hover .regular-user {
+  opacity: 0;
+}
+/* DROPDOWNS */
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .continent-menu,
+.continent-menu:hover {
+  display: flex;
+}
+
+.continent-menu {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100vw;
+  background-color: var(--primary-color);
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  z-index: 999;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.continent-menu:hover {
+  cursor: pointer;
+}
+
+.continent {
+  position: relative;
+  padding: 1rem;
+  text-align: left;
+}
+
+.continent > a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+/* COUNTRY MENU */
+.country-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: var(--primary-color);
+  list-style: none;
+  padding: 0.5rem 0rem;
+  min-width: 10px;
+  z-index: 1001;
+  border-radius: 0 0 5px 5px;
+}
+
+.continent:hover .country-menu,
+.country-menu:hover {
+  display: block;
+}
+
+.country-menu li a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0.4rem 1rem;
+  display: block;
+}
+
+.country-menu li:hover {
+  background-color: #eae3d2;
+}
