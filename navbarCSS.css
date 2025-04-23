@@ -42,7 +42,7 @@
   text-decoration: none;
   color: var(--text-color);
   font-weight: 700;
-  padding: 20px;
+  padding: 20px, 40px;
   font-size: 17px;
 }
 .nav-icons {
@@ -122,7 +122,7 @@
 }
 
 .continent > a {
-  font-weight: bold;
+  font-weight: 200;
   text-decoration: none;
   color: var(--text-color);
   display: block;
@@ -147,6 +147,7 @@
 }
 
 .country-menu li a {
+  font-weight: 200;
   text-decoration: none;
   color: var(--text-color);
   padding: 0.4rem 1rem;
