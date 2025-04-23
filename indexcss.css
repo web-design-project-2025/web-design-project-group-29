@@ -35,7 +35,33 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.nomad {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  max-width: 900px;
+  text-align: right;
+}
+.biglogo {
+  width: 100%;
+  height: auto;
+}
+.quote {
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin-top: 1rem;
+  margin-left: 40%;
+  margin-top: -2rem;
+  padding-right: 15%;
+  letter-spacing: 1px;
+}
 .search-bar {
   position: absolute;
   top: 80%;
@@ -65,7 +91,7 @@ main {
 
 /* INTRO */
 .intro {
-  background-color: var(--primary-color);
+  background-color: #f5f0e6;
   padding: 2rem;
   color: var(--text-color);
   max-width: 800px;
