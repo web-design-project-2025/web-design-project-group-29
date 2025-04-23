@@ -1,0 +1,77 @@
+/* recipe */
+.recipe-arrangement{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    }
+
+  .recipe-box{
+    width: 72%;
+    height: 80%;
+    background-color: ivory;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px #555 ;
+  }
+
+  .recipe-box-title{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  #star{
+    margin-top: 2%;
+    margin-right: -10%;
+  }
+
+
+  .recipe-box img{
+    object-fit: cover;
+    width: 124.5%;
+    height: 200px;
+    display: block;
+    margin-top: -16.5%;
+    margin-left: -12.3%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .recipes p{
+    margin-top: 2%;
+    margin-left: -7%;
+    font-size: 0.7rem;
+  }
+
+  .recipes h5{
+    margin-top: 2%;
+    margin-left: -7%;
+    font-size: 1rem;
+    /* display: flex; */
+  }
+
+
+
+  .clock-heart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  #heart{
+    transform: translateX(95%);
+    font-size: 1.8rem;
+    /* margin-top: 15%; */
+  }
+
+  #clock{
+    font-size: 1.2rem;
+    margin-left: -7%;
+  }
+
+  #difficulty{
+    font-size: 1.2rem;
+    margin-left: -7%;
+    font-weight: 100;
+  }
+  /* recipe */
