@@ -91,7 +91,7 @@ main {
 
 /* INTRO */
 .intro {
-  background-color: #f5f0e6;
+  background-color: var(--primary-color);
   padding: 2rem;
   color: var(--text-color);
   max-width: 800px;
