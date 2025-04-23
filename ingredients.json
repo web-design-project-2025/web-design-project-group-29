@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "sambosa",
+    "category": ["Snack", "Somalia"],
+    "ingredients": [
+      { "name": "Onions", "quantity": "2" },
+      { "name": "Rapeseed Oil", "quantity": "2 tbs" },
+      { "name": "Garlic", "quantity": "2 cloves" },
+      { "name": "Chili pepper", "quantity": "2 pieces" },
+      { "name": "Ground black pepper", "quantity": "5 tbs" },
+      { "name": "Xawaash (Somali spice mix)", "quantity": "1.5 tbs" },
+      { "name": "Broth", "quantity": "1 piece" },
+      { "name": "Minced meat", "quantity": "300g" },
+      { "name": "Fresh chopped coriander", "quantity": "1\u20132 dl" },
+      { "name": "Salt", "quantity": "3 tbs" },
+      { "name": "Water", "quantity": "2 dl" }
+    ]
+  }
+]
