@@ -1,3 +1,4 @@
+// help for the data loading from chatgpt https://chatgpt.com/share/680a3ced-1890-8005-bcfd-df294cf63496
 document.addEventListener ("DOMContentLoaded", () => {
     fetch('recipe-card.json')
     .then (response => response.json())
