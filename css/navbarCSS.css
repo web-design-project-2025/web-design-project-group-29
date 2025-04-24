@@ -13,11 +13,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 0rem;
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1000;
+  z-index: 1001;
 }
 .logo-img {
   height: 40px;
@@ -27,11 +27,13 @@
 .logo {
   display: flex;
   align-items: center;
+  left: 10%;
 }
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 0rem;
+  max-width: 70%;
 }
 
 .nav-links li {
@@ -49,6 +51,8 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  z-index: 20;
+  position: relative;
 }
 
 .nav-icons a {
@@ -71,6 +75,10 @@
   font-size: 1.6rem;
   transition: opacity 0.3s ease;
 }
+/* .profile-icon{
+  
+  left:50%;
+} */
 
 .icon-toggle .solid-heart,
 .icon-toggle .solid-user {
