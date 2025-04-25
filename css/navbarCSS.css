@@ -7,17 +7,24 @@
   --light-text: #606060;
   --border-color: #f1eeea;
 }
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f0e6;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
 
 .navbar {
   background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0rem;
+  padding: 1rem 2rem;
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1001;
+  z-index: 1000;
 }
 .logo-img {
   height: 40px;
@@ -27,13 +34,13 @@
 .logo {
   display: flex;
   align-items: center;
-  left: 10%;
+  
 }
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 0rem;
-  max-width: 70%;
+  gap: 2rem;
+  
 }
 
 .nav-links li {
@@ -51,8 +58,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  z-index: 20;
-  position: relative;
+  
 }
 
 .nav-icons a {

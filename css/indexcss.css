@@ -30,7 +30,7 @@ main {
   position: relative;
   width: 100%;
   padding: 25% 0;
-  background-image: url("homepage.jpg");
+  background-image: url("../img/homepage.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ main {
 
 /* INTRO */
 .intro {
-  background-color: var(--primary-color);
+  background-color: transparent;
   padding: 2rem;
   color: var(--text-color);
   max-width: 800px;
