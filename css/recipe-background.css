@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+.recipe-backdrop{
+    background-image: url("../img/nigeria-backdrop.jpeg");
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
