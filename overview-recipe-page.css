@@ -1,3 +1,12 @@
+/* backgorund image */
+.overview-recipe-background{
+  background-image: url('./img/ngeria-backdrop.jpeg');
+  padding: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* backgorund image */
+
 /* recipe */
 .recipe-arrangement {
   margin-top: 5%;

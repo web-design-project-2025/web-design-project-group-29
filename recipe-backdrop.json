@@ -1,0 +1,37 @@
+{
+    "nigeria" : [
+        {
+            "image" : "nigeria-backdrop.jpeg"
+        }
+    ],
+    "algeria":[
+        {
+            "image" : "algeria-background.jpeg"
+        } 
+    ],
+    "somalia":[
+        {
+            "image" : "somalia.jpg"
+        }
+    ],
+    "cuba":[
+        {
+            "image" : "cuba.jpg"
+        }
+    ],
+    "peru":[
+        {
+            "image" : "peru.jpeg"
+        }
+    ],
+    "japan":[
+        {
+            "image" : "japan.jpeg"
+        }
+    ],
+    "sweden":[
+        {
+            "image" : "sweden.jpeg"
+        }
+    ]
+}
