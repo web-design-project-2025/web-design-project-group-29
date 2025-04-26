@@ -1,0 +1,179 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Ceviche",
+        "titleImg": "sambusa-text.svg",
+        "titleAlt": "Handwriten text saying 'Sambusa'",
+        "category": ["Seafood", "Peruvian", "Lunch"],
+        "description": "A refreshing Peruvian dish of fresh raw fish cured in citrus juices, spiced with chili peppers, and served with sweet potato.",
+        "time": "30min (plus marinating)",
+        "difficulty": "Easy",
+        "rating": 4.9,
+        "image": "Sambusa.jpeg",
+        "imageAlt": " An colorful image of white fish with sweet potato and red onion toppings",
+        "ingredients": {
+          "Main": [
+            {
+              "name": "Fresh white fish (e.g., sea bass or tilapia)",
+              "quantity": "500 g"
+            },
+            { "name": "Medium sweet potato", "quantity": "1 pc" }
+          ],
+          "Marinade": [
+            { "name": "Red onion, thinly sliced", "quantity": "1 pc" },
+            {
+              "name": "Aji amarillo or habanero pepper, seeded and minced",
+              "quantity": "1 pc"
+            },
+            { "name": "Garlic cloves, minced", "quantity": "2 pc" },
+            { "name": "Fresh cilantro, chopped", "quantity": "2 tbsp" },
+            { "name": "Ground black pepper", "quantity": "1/2 tsp" },
+            { "name": "Salt", "quantity": "1 tsp" },
+            { "name": "Limes, juiced", "quantity": "9-12 pc" },
+            { "name": "Orange juice (optional)", "quantity": "1-2 tbsp" }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Couscous",
+        "category": ["Lunch", "Dinner", "Algeria"],
+        "description": "Algerian Couscous is a cherished traditional dish served at family gatherings and celebrations. With fluffy semolina, spiced broth, and tender meat and vegetables, it reflects Algeria's rich cultural heritage and hospitality.",
+        "time": "30min",
+        "difficulty": "Easy",
+        "rating": 4.5,
+        "ingredients": {
+          "Main": [
+            { "name": "Lamb or beef", "quantity": "500 g" },
+            { "name": "Olive oil", "quantity": "2 tbsp" },
+            { "name": "Onion", "quantity": "1 pc" },
+            { "name": "Peeled carrots", "quantity": "1 pc" },
+            { "name": "Potatoes", "quantity": "1 pc" },
+            { "name": "Canned chickpeas", "quantity": "1 can" },
+            { "name": "Broth", "quantity": "1 L" },
+            { "name": "Ground cumin", "quantity": "1 tbsp" },
+            { "name": "Paprika", "quantity": "1 tbsp" },
+            { "name": "Ground cinnamon", "quantity": "1/2 tbsp" },
+            { "name": "Salt", "quantity": "1 tsp" }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "Sambusa",
+        "category": ["Snack", "Somalia"],
+        "description": "Somali savory pastry filled with minced meat or vegetables and fried until crispy. Perfect as an appetizer or snack.",
+        "time": "1h 30min",
+        "difficulty": "Medium",
+        "rating": 5,
+        "ingredients": {
+          "Main": [
+            { "name": "Onions", "quantity": "2 pc" },
+            { "name": "Rapeseed oil", "quantity": "2 tbsp" },
+            { "name": "Garlic", "quantity": "2 cloves" },
+            { "name": "Chili pepper", "quantity": "2 pc" },
+            { "name": "Ground black pepper", "quantity": "1 tsp" },
+            { "name": "Xawaash (Somali spice mix)", "quantity": "1.5 tbsp" },
+            { "name": "Minced meat", "quantity": "300 g" },
+            { "name": "Fresh chopped coriander", "quantity": "1/4 cup" },
+            { "name": "Salt", "quantity": "1 tsp" },
+            { "name": "Water", "quantity": "50 ml" }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "Zobo (Hibiscus Drink)",
+        "category": ["Drinks", "Nigeria"],
+        "description": "Refreshing Nigerian hibiscus tea flavored with spices and citrus, served chilled.",
+        "time": "20min",
+        "difficulty": "Easy",
+        "rating": 5,
+        "ingredients": {
+          "Main": [
+            { "name": "Dried hibiscus petals", "quantity": "200 ml" },
+            { "name": "Water", "quantity": "800 ml" },
+            { "name": "Pineapple peel (optional)", "quantity": "100 ml" },
+            { "name": "Cloves (optional)", "quantity": "2-3 pc" },
+            { "name": "Ginger root", "quantity": "1 tbsp" },
+            { "name": "Black peppercorns", "quantity": "1 tsp" },
+            { "name": "Orange juice (optional)", "quantity": "100 ml" },
+            { "name": "Fresh mint leaves", "quantity": "2 tbsp" }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "Black Bean Soup",
+        "category": ["Soups", "Vegetarian", "Nigerian"],
+        "description": "Hearty and flavorful soup made with black beans, spices, and fresh garnishes.",
+        "time": "40min",
+        "difficulty": "Easy",
+        "rating": 4.5,
+        "ingredients": {
+          "Base": [
+            { "name": "Olive oil", "quantity": "2 tbsp" },
+            { "name": "Red onion, chopped", "quantity": "1 pc" },
+            { "name": "Jalapeño, minced", "quantity": "1 pc" },
+            { "name": "Garlic cloves, minced", "quantity": "2 pc" }
+          ],
+          "Main": [
+            { "name": "Black beans, drained", "quantity": "3 cans (15oz)" },
+            { "name": "Vegetable broth", "quantity": "3 cups" },
+            { "name": "Tomato paste", "quantity": "1 tbsp" },
+            { "name": "Ground cumin", "quantity": "1/2 tsp" }
+          ],
+          "Garnish": [
+            { "name": "Avocado slices", "quantity": "1 pc" },
+            { "name": "Fresh cilantro", "quantity": "2 tbsp" },
+            { "name": "Lime wedges", "quantity": "1 pc" }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "name": "Toshikoshi Soba",
+        "category": ["Japanese", "Dinner"],
+        "description": "Traditional Japanese buckwheat noodles eaten on New Year's Eve for good luck.",
+        "time": "30min",
+        "difficulty": "Medium",
+        "rating": 4.7,
+        "ingredients": {
+          "Broth": [
+            { "name": "Dashi stock", "quantity": "1.5 L" },
+            { "name": "Soy sauce", "quantity": "200 ml" },
+            { "name": "Mirin", "quantity": "100 ml" }
+          ],
+          "Noodles": [{ "name": "Soba noodles", "quantity": "200 g" }],
+          "Garnish": [
+            { "name": "Green onions", "quantity": "2 tbsp" },
+            { "name": "Tempura flakes", "quantity": "20 g" }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "name": "Kladkaka",
+        "category": ["Dessert", "Swedish"],
+        "description": "Classic Swedish sticky chocolate cake with rich, fudgy texture.",
+        "time": "50min",
+        "difficulty": "Easy",
+        "rating": 4.8,
+        "ingredients": {
+          "Batter": [
+            { "name": "Butter", "quantity": "100 g" },
+            { "name": "Sugar", "quantity": "225 g" },
+            { "name": "Eggs", "quantity": "2 pc" },
+            { "name": "Cocoa powder", "quantity": "3 tbsp" },
+            { "name": "Flour", "quantity": "95 g" }
+          ],
+          "Garnish": [
+            { "name": "Powdered sugar", "quantity": "to taste" },
+            { "name": "Whipped cream", "quantity": "to serve" }
+          ]
+        }
+      }
+    ]
+  }
+  
