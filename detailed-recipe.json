@@ -3,14 +3,14 @@
       {
         "id": 1,
         "name": "Ceviche",
-        "titleImg": "sambusa-text.svg",
-        "titleAlt": "Handwriten text saying 'Sambusa'",
+        "titleImg": "ceviche-text.svg",
+        "titleAlt": "Handwriten text saying 'Ceviche'",
         "category": ["Seafood", "Peruvian", "Lunch"],
         "description": "A refreshing Peruvian dish of fresh raw fish cured in citrus juices, spiced with chili peppers, and served with sweet potato.",
         "time": "30min (plus marinating)",
         "difficulty": "Easy",
         "rating": 4.9,
-        "image": "Sambusa.jpeg",
+        "image": "Ceviche.jpeg",
         "imageAlt": " An colorful image of white fish with sweet potato and red onion toppings",
         "ingredients": {
           "Main": [
@@ -38,11 +38,15 @@
       {
         "id": 2,
         "name": "Couscous",
+        "titleImg": "sambusa.svg",
+        "titleAlt": "Handwriten text saying 'CousCous'",
         "category": ["Lunch", "Dinner", "Algeria"],
         "description": "Algerian Couscous is a cherished traditional dish served at family gatherings and celebrations. With fluffy semolina, spiced broth, and tender meat and vegetables, it reflects Algeria's rich cultural heritage and hospitality.",
         "time": "30min",
         "difficulty": "Easy",
         "rating": 4.5,
+        "image": "Ceviche.jpeg",
+        "imageAlt": " A colorful algerian couscous dish with vegetables and meat",
         "ingredients": {
           "Main": [
             { "name": "Lamb or beef", "quantity": "500 g" },
@@ -62,11 +66,15 @@
       {
         "id": 3,
         "name": "Sambusa",
+        "titleImg": "sambusa.svg",
+        "titleAlt": "Handwriten text saying 'Ceviche'",
         "category": ["Snack", "Somalia"],
         "description": "Somali savory pastry filled with minced meat or vegetables and fried until crispy. Perfect as an appetizer or snack.",
         "time": "1h 30min",
         "difficulty": "Medium",
         "rating": 5,
+        "image": "sambusa-img.jpeg",
+        "imageAlt": " sambusa a savory pastry filled with meat or vegitables and spices",
         "ingredients": {
           "Main": [
             { "name": "Onions", "quantity": "2 pc" },
@@ -85,11 +93,15 @@
       {
         "id": 4,
         "name": "Zobo (Hibiscus Drink)",
+        "titleImg": "sambusa.svg",
+        "titleAlt": "Handwriten text saying 'Zobo'",
         "category": ["Drinks", "Nigeria"],
         "description": "Refreshing Nigerian hibiscus tea flavored with spices and citrus, served chilled.",
         "time": "20min",
         "difficulty": "Easy",
         "rating": 5,
+        "image": "Ceviche.jpeg",
+        "imageAlt": " A colorful purple drink made of hibiscus petals",
         "ingredients": {
           "Main": [
             { "name": "Dried hibiscus petals", "quantity": "200 ml" },
@@ -106,11 +118,15 @@
       {
         "id": 5,
         "name": "Black Bean Soup",
+        "titleImg": "sambusa.svg",
+        "titleAlt": "Handwriten text saying 'Black Bean Soup'",
         "category": ["Soups", "Vegetarian", "Nigerian"],
         "description": "Hearty and flavorful soup made with black beans, spices, and fresh garnishes.",
         "time": "40min",
         "difficulty": "Easy",
         "rating": 4.5,
+        "image": "Ceviche.jpeg",
+        "imageAlt": " A bowl of black bean soup with garnishes",
         "ingredients": {
           "Base": [
             { "name": "Olive oil", "quantity": "2 tbsp" },
@@ -134,11 +150,15 @@
       {
         "id": 6,
         "name": "Toshikoshi Soba",
+        "titleImg": "sambusa.svg",
+        "titleAlt": "Handwriten text saying 'Toshikoshi Soba'",
         "category": ["Japanese", "Dinner"],
         "description": "Traditional Japanese buckwheat noodles eaten on New Year's Eve for good luck.",
         "time": "30min",
         "difficulty": "Medium",
         "rating": 4.7,
+        "image": "Ceviche.jpeg",
+        "imageAlt": " A bowl of noodles and broth with garnishes",
         "ingredients": {
           "Broth": [
             { "name": "Dashi stock", "quantity": "1.5 L" },
@@ -155,11 +175,15 @@
       {
         "id": 7,
         "name": "Kladkaka",
+        "titleImg": "ceviche-text.svg",
+        "titleAlt": "Handwriten text saying 'Klaskaka'",
         "category": ["Dessert", "Swedish"],
         "description": "Classic Swedish sticky chocolate cake with rich, fudgy texture.",
         "time": "50min",
         "difficulty": "Easy",
         "rating": 4.8,
+        "image": "Ceviche.jpeg",
+        "imageAlt": " A round goey chocklate cake, topped with fruits and powdered sugar ",
         "ingredients": {
           "Batter": [
             { "name": "Butter", "quantity": "100 g" },
