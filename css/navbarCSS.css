@@ -7,6 +7,11 @@
   --light-text: #606060;
   --border-color: #f1eeea;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Segoe UI", sans-serif;
   background-color: #f5f0e6;
