@@ -45,15 +45,20 @@ function createRecipeElement(recipe) {
   textBox.appendChild(description);
 
   // Difficulty level container
+
+  const iconContainer = document.createElement("div");
+  iconContainer.classList.add("icon-container");
+
   const difficultyContainer = document.createElement("div");
   difficultyContainer.classList.add("difficulty-container");
 
   // Difficulty level icon
   const difficultyIcon = document.createElement("img");
   difficultyIcon.classList.add("difficulty-icon");
-  difficultyIcon.src = "signal-solid.svg";
-  difficultyIcon.alt = recipe.difficulty; /*`${recipe.difficulty}`*/
+  difficultyIcon.src = "img/signal-solid.svg";
+  difficultyIcon.alt = recipe.difficulty;
   difficultyContainer.appendChild(difficultyIcon);
+  iconContainer.appendChild(difficultyContainer);
 
   //Difficulty level text
   const difficultyText = document.createElement("span");
@@ -61,6 +66,27 @@ function createRecipeElement(recipe) {
   difficultyText.innerText = recipe.difficulty;
   difficultyContainer.appendChild(difficultyText);
   textBox.appendChild(difficultyContainer);
+
+  // time container
+  const timeContainer = document.createElement("div");
+  timeContainer.classList.add("time-container");
+
+// time icon
+  const timeIcon = document.createElement("img");
+  timeIcon.classList.add("time-icon");
+  timeIcon.src = "img/clock.svg";
+  timeIcon.alt = recipe.time;
+  timeContainer.appendChild(timeIcon);
+  iconContainer.appendChild(timeContainer);
+
+  // time text
+  const timeText = document.createElement("span");
+  timeText.classList.add("time-text");
+  timeText.innerText = recipe.time; 
+  iconContainer.appendChild(timeText);
+
+
+
 
   // Recipe image container
   const recipeImageContainer = document.createElement("div");

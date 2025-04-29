@@ -3,14 +3,14 @@
       {
         "id": 1,
         "name": "Ceviche",
-        "titleImg": "ceviche-text.svg",
+        "titleImg": "img/ceviche-text.svg",
         "titleAlt": "Handwriten text saying 'Ceviche'",
         "category": ["Seafood", "Peruvian", "Lunch"],
         "description": "A refreshing Peruvian dish of fresh raw fish cured in citrus juices, spiced with chili peppers, and served with sweet potato.",
-        "time": "30min (plus marinating)",
+        "time": "30min",
         "difficulty": "Easy",
         "rating": 4.9,
-        "image": "Ceviche.jpeg",
+        "image": "img/Ceviche.jpeg",
         "imageAlt": " An colorful image of white fish with sweet potato and red onion toppings",
         "ingredients": {
           "Main": [
@@ -38,14 +38,14 @@
       {
         "id": 2,
         "name": "Couscous",
-        "titleImg": "sambusa.svg",
+        "titleImg": "sambusa.svg", 
         "titleAlt": "Handwriten text saying 'CousCous'",
         "category": ["Lunch", "Dinner", "Algeria"],
         "description": "Algerian Couscous is a cherished traditional dish served at family gatherings and celebrations. With fluffy semolina, spiced broth, and tender meat and vegetables, it reflects Algeria's rich cultural heritage and hospitality.",
         "time": "30min",
         "difficulty": "Easy",
         "rating": 4.5,
-        "image": "Ceviche.jpeg",
+        "image": "img/couscous.jpeg",
         "imageAlt": " A colorful algerian couscous dish with vegetables and meat",
         "ingredients": {
           "Main": [
@@ -66,14 +66,14 @@
       {
         "id": 3,
         "name": "Sambusa",
-        "titleImg": "sambusa.svg",
-        "titleAlt": "Handwriten text saying 'Ceviche'",
+        "titleImg": "img/sambusa.svg",
+        "titleAlt": "Handwriten text saying 'Sambusa'",
         "category": ["Snack", "Somalia"],
         "description": "Somali savory pastry filled with minced meat or vegetables and fried until crispy. Perfect as an appetizer or snack.",
         "time": "1h 30min",
         "difficulty": "Medium",
         "rating": 5,
-        "image": "sambusa-img.jpeg",
+        "image": "img/sambusa-img.jpeg",
         "imageAlt": " sambusa a savory pastry filled with meat or vegitables and spices",
         "ingredients": {
           "Main": [
@@ -100,7 +100,7 @@
         "time": "20min",
         "difficulty": "Easy",
         "rating": 5,
-        "image": "Ceviche.jpeg",
+        "image": "img/zobo.jpeg",
         "imageAlt": " A colorful purple drink made of hibiscus petals",
         "ingredients": {
           "Main": [
@@ -125,7 +125,7 @@
         "time": "40min",
         "difficulty": "Easy",
         "rating": 4.5,
-        "image": "Ceviche.jpeg",
+        "image": "img/black-bean-soup.jpeg",
         "imageAlt": " A bowl of black bean soup with garnishes",
         "ingredients": {
           "Base": [
@@ -157,7 +157,7 @@
         "time": "30min",
         "difficulty": "Medium",
         "rating": 4.7,
-        "image": "Ceviche.jpeg",
+        "image": "img/toshikoshi.jpeg",
         "imageAlt": " A bowl of noodles and broth with garnishes",
         "ingredients": {
           "Broth": [
@@ -182,7 +182,7 @@
         "time": "50min",
         "difficulty": "Easy",
         "rating": 4.8,
-        "image": "Ceviche.jpeg",
+        "image": "img/mudcake.jpeg",
         "imageAlt": " A round goey chocklate cake, topped with fruits and powdered sugar ",
         "ingredients": {
           "Batter": [

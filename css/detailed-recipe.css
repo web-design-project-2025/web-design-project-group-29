@@ -6,3 +6,87 @@
     --light-text: #606060;
     --border-color: #F1EEEA;
   }
+
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+  }
+  /* Recipe Container */
+  .recipe-container {
+    margin: 2rem;
+    margin-right: 0%;
+    font-size: 20px;
+    background-color: aquamarine;
+  }
+  
+  /* Hero Section */
+  .recipe-hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .recipe-title-image {
+    width: 15rem;
+  }
+
+  .recipe-image-container{
+    width: 2+0%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    padding-right: 1rem;
+  }
+
+  .icon-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Difficulty */
+  .difficulty-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  .difficulty-icon {
+    width: 5%;
+    margin-right: 8px;
+  }
+
+  .time-icon{
+    width: 5%;
+  }
+  .main-container {
+  }
+  .ingredients-container {
+    background: #f8f8f8;
+    padding: 1rem;
+  }
+  
+  /* Ingredients */
+  .ingredients-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Instructions */
+  .instruction-box {
+    background: #f8f8f8;
+    padding: 1rem;
+  }
+  
+  /* Tip */
+  .tip {
+    background: #fff8e1;
+    padding: 1rem;
+  }
+  
