@@ -1,3 +1,8 @@
+/* roots */
+:root{
+  --colorful-text: #6e2e15;
+}
+/* roots */
 /* recipe */
 .recipe-arrangement {
   margin-top: 5%;
@@ -26,6 +31,7 @@
 #star {
   margin-top: 2%;
   margin-right: -10%;
+ color: var(--colorful-text);
 }
 
 .recipe-box img {
@@ -59,12 +65,15 @@
 #heart {
   transform: translateX(95%);
   font-size: 1.8rem;
+  color: var(--colorful-text);
+  cursor: pointer;
   /* margin-top: 15%; */
 }
 
 #clock {
   font-size: 1.2rem;
   margin-left: -7%;
+  color: var(--colorful-text);
 }
 
 #difficulty {

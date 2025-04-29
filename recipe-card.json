@@ -17,7 +17,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "efo-riro.jpg"
         },
 
         {
@@ -27,7 +27,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "moi-moi.jpeg"
         },
         {
             "name" :"Akara (Fried Bean Cake)",
@@ -36,7 +36,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "akara.jpg"
         },
         {
             "name" :"OHA Stew (Hibiscus Drink)",
@@ -45,7 +45,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "oha-soup.jpg"
         },
         {
             "name" :"OKRA SOUP AND STEW (Hibiscus Drink)",
@@ -54,16 +54,16 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "okra.jpeg"
         },
         {
-            "name" :"Asun (Assorted Peppered Goat Meat)",
+            "name" :"SUYA (Spiced cow kebas)",
             "rating" : 5,
-            "description" :"A popular Yoruba dish featuring grilled or roasted goat meat seasoned with a spicy pepper sauce.",
+            "description" :"A popular Hausa dish featuring grilled or roasted cow meat seasoned with a spicy pepper powder.",
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "suya.jpg"
         },
         {
             "name" : "Fried Palm Oil Stew",
@@ -72,7 +72,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "palm-oil-stew.jpeg"
         },
         {
             "name" :"JOLLOF RICE AND CHICKEN WITH PLANTAIN",
@@ -81,7 +81,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "jollof.jpeg"
         }
     ],
     "algeria":[
@@ -101,7 +101,7 @@
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "lham-lui.jpeg"
         },
         {
             "name" :"MHALBI",
@@ -110,7 +110,7 @@
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "mhalbi.jpg"
         },
         {
             "name" :"RECHTA",
@@ -119,7 +119,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "rechta.jpeg"
         },
         {
             "name" :"BAKLAWA",
@@ -128,7 +128,7 @@
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "baklawa.jpeg"
         },
         {
             "name" :"HMISS",
@@ -146,7 +146,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "shaku-shaku.jpg"
         },
         {
             "name" :"BAGHRIR",
@@ -155,7 +155,7 @@
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "bhagir.jpeg"
         },
         {
             "name" :"CHAKCHOUKA",
@@ -164,7 +164,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "chakchouka.jpeg"
         }
     ],
     "somalia":[
@@ -175,7 +175,7 @@
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "HARD",
-            "image" : "couscous.jpeg"
+            "image" : "sambusas.jpeg"
         },
         {
             "name" :"Bariis iyo hilib",
@@ -184,7 +184,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "bariis-iyo-hilib.jpg"
         },
         {
             "name" :"Rooti Farmaajo",
@@ -193,7 +193,7 @@
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "rooti-farmaggio.jpg"
         },
         {
             "name" :"Sabaayad",
@@ -202,7 +202,7 @@
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "Sabaayad.jpg"
         },
         {
             "name" :"Fuul",
@@ -211,7 +211,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "fuul.jpg"
         },
         {
             "name" :"Bariis iyo Digag",
@@ -220,7 +220,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "bariis-iyo-digag.jpg"
         },
         {
             "name" :"Shaah Somali",
@@ -229,7 +229,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "somali-tea.jpeg"
         },
         {
             "name" :"Burr",
@@ -247,7 +247,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "Suqaar.jpg"
         }
     ],
     "cuba":[
@@ -258,7 +258,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "couscous.jpeg"
+            "image" : "arooz-con-pollo.jpeg"
         },
         {
             "name" :"CHEESY BEEF EMPANADAS ",
@@ -267,7 +267,7 @@
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "cheesy-beef-empandas.jpeg"
         },
         {
             "name" :"ARROZ CON GANDULES",
@@ -276,7 +276,7 @@
             "time" :"1h 30",
             "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "arroz-con-gandules.jpeg"
         },
         {
             "name" :"CLASSIC MOJITO",
@@ -285,7 +285,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "mojito.jpeg"
         },
         {
             "name" :"BLACK BEAN SOUP",
@@ -294,7 +294,7 @@
             "time" :"1h 30",
             "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "black-bean-soup.jpeg"
         },
         {
             "name" :"CUBAN SANDWICH",
@@ -303,7 +303,7 @@
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "cuban-sandwich.jpeg"
         },
         {
             "name" :"ROPA VIEJA",
@@ -312,7 +312,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "ropa-vieja.jpg"
         },
         {
             "name" :"MOJO SHRIMP",
@@ -321,7 +321,7 @@
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "mojo-shrimp.jpeg"
         },
         {
             "name" :"BAGHSTRAWBERRY DAIQUIRIRIR",
@@ -330,7 +330,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "daquiri.jpeg"
         }
     ],
     "peru":[
@@ -341,7 +341,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "EASY",
-            "image" : "couscous.jpeg"
+            "image" : "ceviche.jpeg"
         },
         {
             "name" :"LOMO SALTADO",
@@ -350,7 +350,7 @@
             "time" :"1h 30",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "lomo-saltado.jpg"
         },
         {
             "name" :"PERUVIAN ARROZ CON POLLO ",
@@ -359,7 +359,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "peruvian-polo.jpg"
         },
         {
             "name" :"PISCO SOUR",
@@ -368,7 +368,7 @@
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "pisco-sour.jpg"
         },
         {
             "name" :"SOLTERITO",
@@ -377,7 +377,7 @@
             "time" :"15 mins",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "solterito.jpg"
         },
         {
             "name" :"PICARONES",
@@ -386,7 +386,7 @@
             "time" :"30 mins",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "picarones.jpeg"
         },
         {
             "name" :"FISH ESCABECHE",
@@ -395,7 +395,7 @@
             "time" :"40 mins",
             "category" :"lunch",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "fish-escababe.avif"
         },
         {
             "name" :"CHUPE DE CAMARONES ",
@@ -404,7 +404,7 @@
             "time" :"1h ",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "shrimp.jpg"
         },
         {
             "name" :"CHICHA MORADA ",
@@ -413,7 +413,7 @@
             "time" :"1h",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "chicha-morada.jpeg"
         }
     ],
     "japan":[
@@ -424,7 +424,7 @@
             "time" :"2h - 3h",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "couscous.jpeg"
+            "image" : "toshikoshi-soba.jpg"
         },
         {
             "name" :"Maguro Nigiri (まぐろ握り)",
@@ -433,7 +433,7 @@
             "time" :"30 mins",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "maguro-nigiri.jpg"
         },
         {
             "name" :"Sushi Moriawase (寿司盛り合わせ)",
@@ -442,7 +442,7 @@
             "time" :"1h 30 - 2h",
             "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "sushi-moriawase.jpg"
         },
         {
             "name" :"Tonkatsu (豚カツ)",
@@ -451,7 +451,7 @@
             "time" :"45 mins",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "tonkatsu.jpg"
         },
         {
             "name" :"Tataki (たたき)",
@@ -460,7 +460,7 @@
             "time" :"30 mins - 40 mins",
             "category" :"dinner",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "tataki.jpg"
         },
         {
             "name" :"Chirashi Don (ちらし丼)",
@@ -469,7 +469,7 @@
             "time" :"45 mins",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "chirashi-don.jpg"
         },
         {
             "name" :"Aburi Sake Nigiri (炙りサーモン握り)",
@@ -478,7 +478,7 @@
             "time" :"30 mins",
             "category" :"snack",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "nigiri.jpg"
         },
         {
             "name" :"Okonomiyaki (お好み焼き)",
@@ -487,7 +487,7 @@
             "time" :"45 mins - 60 mins",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "okonomiyaki.jpg"
         },
         {
             "name" :"Kaiseki Ryōri (懐石料理)",
@@ -496,7 +496,7 @@
             "time" :"3h - 4h",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "kaiseki.jpg"
         }
     ],
     "sweden":[
@@ -516,7 +516,7 @@
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "mashed-potatoes.jpeg"
         },
         {
             "name" :"WAFFLES WITH WIPPED CREAM",
@@ -525,7 +525,7 @@
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "waffles.jpeg"
         },
         {
             "name" :"SPINACH SOUP ",
@@ -534,7 +534,7 @@
             "time" :"1h",
             "category" :"dinner",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "spinach-soup.jpeg"
         },
         {
             "name" :"OVEN-BAKED CHICKEN THIGHS ",
@@ -543,7 +543,7 @@
             "time" :"2h",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "oven-thigh.jpeg"
         },
         {
             "name" :"ROASTED PORK",
@@ -552,7 +552,7 @@
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "roasted-pork.jpeg"
         },
         {
             "name" :"BLUEBERRY SMOOTHIE",
@@ -561,7 +561,7 @@
             "time" :"30 mins",
             "category" :"drink",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "blueberry-smoothie.jpeg"
         },
         {
             "name" :"SMÖRGÅSTÅRTA",
@@ -570,7 +570,7 @@
             "time" :"1h 30",
             "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "shrimp-cake.jpeg"
         },
         {
             "name" :"OVEN-BAKED SALMON",
@@ -579,7 +579,7 @@
             "time" :"50 mins",
             "category" :"dinner",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "baked-salmon.jpeg"
         }
     ]
 }
