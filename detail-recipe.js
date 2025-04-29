@@ -1,0 +1,158 @@
+let recipes = [];
+let instructions = [];
+const contentElement = document.getElementById("content");
+
+// Fetch Json data
+async function loadData() {
+  const recipeResponse = await fetch("detailed-recipe.json");
+  const recipesJSON = await recipeResponse.json();
+  recipes = recipesJSON.recipes;
+
+  const instructionsResponse = await fetch("instructions.json");
+  const instructionsJSON = await instructionsResponse.json();
+  instructions = instructionsJSON.instructions;
+
+  renderContent();
+}
+function getRecipeById(id) {
+  return recipes.find((recipe) => recipe.id === id);
+}
+
+// Main container for recipes
+function createRecipeElement(recipe) {
+  const recipeElement = document.createElement("div");
+  recipeElement.classList.add("recipe-container");
+
+  // Recipe hero section
+  const hero = document.createElement("div");
+  hero.classList.add("recipe-hero");
+
+  // recipe title container
+  const textBox = document.createElement("div");
+  textBox.classList.add("title-container");
+
+  // Recipe tile
+  const titleImage = document.createElement("img");
+  titleImage.src = recipe.titleImg;
+  titleImage.alt = recipe.titleAlt || recipe.name;
+  titleImage.classList.add("recipe-title-image");
+  textBox.appendChild(titleImage);
+
+  // Recipe description
+  const description = document.createElement("p");
+  description.innerText = recipe.description;
+  description.classList.add("recipe-description");
+  textBox.appendChild(description);
+
+  // Difficulty level container
+  const difficultyContainer = document.createElement("div");
+  difficultyContainer.classList.add("difficulty-container");
+
+  // Difficulty level icon
+  const difficultyIcon = document.createElement("img");
+  difficultyIcon.classList.add("difficulty-icon");
+  difficultyIcon.src = "signal-solid.svg";
+  difficultyIcon.alt = recipe.difficulty; /*`${recipe.difficulty}`*/
+  difficultyContainer.appendChild(difficultyIcon);
+
+  //Difficulty level text
+  const difficultyText = document.createElement("span");
+  difficultyText.classList.add("difficulty-text");
+  difficultyText.innerText = recipe.difficulty;
+  difficultyContainer.appendChild(difficultyText);
+  textBox.appendChild(difficultyContainer);
+
+  // Recipe image container
+  const recipeImageContainer = document.createElement("div");
+  recipeImageContainer.classList.add("recipe-image-container");
+
+  // Recipe image
+  const image = document.createElement("img");
+  image.src = recipe.image;
+  image.alt = recipe.imageAlt;
+  image.classList.add("recipe-image");
+  recipeImageContainer.appendChild(image);
+
+  hero.appendChild(textBox);
+  hero.appendChild(image);
+  recipeElement.appendChild(hero);
+
+   // Main recipe container
+   const mainContainer = document.createElement("div");
+   mainContainer.classList.add("main-container");
+   // Ingredients
+ 
+   // ingredient container
+   const ingredientsSection = document.createElement("div");
+   ingredientsSection.classList.add("ingredients-container");
+ 
+   const ingredientsList = document.createElement("ul");
+   ingredientsList.classList.add("ingredients-list");
+ 
+   for (let section in recipe.ingredients) {
+     const sectionTitle = document.createElement("h3");
+     sectionTitle.innerText = section;
+     ingredientsList.appendChild(sectionTitle);
+ 
+     for (let item of recipe.ingredients[section]) {
+       const listItem = document.createElement("li");
+       listItem.innerText = `${item.name} - ${item.quantity}`;
+       ingredientsList.appendChild(listItem);
+     }
+ 
+     ingredientsSection.appendChild(ingredientsList);
+     mainContainer.appendChild(ingredientsSection);
+     recipeElement.appendChild(ingredientsSection);
+   }
+ 
+   //Instructions
+   const instructionsSection = document.createElement("div");
+   instructionsSection.classList.add("instructions");
+ 
+   const howToImage = document.createElement("img");
+   howToImage.src = "howto.svg";
+   howToImage.alt = recipe.titleAlt || recipe.name;
+   howToImage.classList.add("how-to-image");
+   instructionsSection.appendChild(howToImage);
+ 
+   recipeElement.appendChild(instructionsSection);
+ 
+   const instructionbox = document.createElement("div");
+   instructionbox.classList.add("instruction-box");
+ 
+   const instructionList = document.createElement("ol");
+   instructions.forEach((step) => {
+     const listItem = document.createElement("li");
+     listItem.innerText = step;
+     instructionList.appendChild(listItem);
+   });
+   instructionsSection.appendChild(instructionList);
+   instructionbox.appendChild(instructionList);
+   instructionsSection.appendChild(instructionbox);
+   mainContainer.appendChild(instructionsSection);
+   recipeElement.appendChild(instructionsSection);
+ 
+   const tipSection = document.createElement("div");
+   tipSection.classList.add("tip");
+   tipSection.innerText = "Tip: " + recipe.tip;
+   instructionsSection.appendChild(tipSection);
+ 
+   return recipeElement;
+}
+
+function renderContent() {
+  contentElement.innerHTML = "";
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const id = parseInt(urlParams.get("id")) || 1;
+
+  const recipe = getRecipeById(id);
+  if (recipe) {
+    const recipeElement = createRecipeElement(recipe);
+    contentElement.appendChild(recipeElement);
+  } else {
+    contentElement.innerHTML = "<p>Recipe not found.</p>";
+  }
+}
+
+loadData();
