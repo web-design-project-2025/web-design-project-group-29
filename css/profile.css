@@ -10,7 +10,7 @@ body {
 }
 
 .banner {
-  background-image: url("../img/header-food.jpeg");
+  background-image: url("../img/homepage.jpg");
   padding: 20%;
   padding-top: 0px;
   background-size: cover;
@@ -35,15 +35,13 @@ body {
 .profile-navigation {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
-  position: relative;
-  flex-wrap: wrap;
+  gap: 70%;
 }
-/* .profile-actions {
+.profile-actions {
   padding: 1.5rem 2rem;
   max-width: 800px;
   margin: 0 auto;
-} */
+}
 
 .recent-btn {
   background-color: #b66534;
