@@ -119,11 +119,24 @@ function createRecipeElement(recipe) {
      const sectionTitle = document.createElement("h3");
      sectionTitle.innerText = section;
      ingredientsList.appendChild(sectionTitle);
+
  
      for (let item of recipe.ingredients[section]) {
-       const listItem = document.createElement("li");
-       listItem.innerText = `${item.name} - ${item.quantity}`;
-       ingredientsList.appendChild(listItem);
+      const listItem = document.createElement("li");
+      listItem.classList.add("list-item");
+
+      
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.classList.add("checkbox-input");
+      
+      const label = document.createElement("label");
+      label.innerText = `${item.name} - ${item.quantity}`;
+      label.appendChild(checkbox);
+
+      listItem.appendChild(checkbox);
+      listItem.appendChild(label);
+      ingredientsList.appendChild(listItem);
      }
  
      ingredientsSection.appendChild(ingredientsList);
@@ -135,9 +148,10 @@ function createRecipeElement(recipe) {
    const instructionsSection = document.createElement("div");
    instructionsSection.classList.add("instructions");
  
+   // how to text img
    const howToImage = document.createElement("img");
-   howToImage.src = "howto.svg";
-   howToImage.alt = recipe.titleAlt || recipe.name;
+   howToImage.src = "img/howto.svg";
+   howToImage.alt = "'How to' writtten in handwriting";
    howToImage.classList.add("how-to-image");
    instructionsSection.appendChild(howToImage);
  
@@ -149,6 +163,7 @@ function createRecipeElement(recipe) {
    const instructionList = document.createElement("ol");
    instructions.forEach((step) => {
      const listItem = document.createElement("li");
+     console.log(instructions);
      listItem.innerText = step;
      instructionList.appendChild(listItem);
    });
@@ -164,12 +179,15 @@ function createRecipeElement(recipe) {
    instructionsSection.appendChild(tipSection);
  
    return recipeElement;
+   
 }
+
+
 
 function renderContent() {
   contentElement.innerHTML = "";
 
-  const urlParams = new URLSearchParams(window.location.search);
+  const urlParams = new URLSearchParams(document.location.search);
   const id = parseInt(urlParams.get("id")) || 1;
 
   const recipe = getRecipeById(id);

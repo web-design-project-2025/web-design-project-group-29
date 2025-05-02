@@ -14,14 +14,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fafafa;
+    background-color: var(--primary-color);
   }
   /* Recipe Container */
   .recipe-container {
     margin: 2rem;
     margin-right: 0%;
     font-size: 20px;
-    background-color: aquamarine;
+    background-color: var(--);
   }
   
   /* Hero Section */
@@ -66,12 +66,20 @@
     width: 5%;
   }
   .main-container {
+    padding: 0%;
   }
-  .ingredients-container {
+  .ingredients-list {
+    background: var(--primary-color);
+    padding: rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0,0.5);
+    width: 50%;
+  }
+  /* .ingredients-container {
     background: #f8f8f8;
     padding: 1rem;
   }
-  
+   */
   /* Ingredients */
   .ingredients-list {
     list-style-type: none;
