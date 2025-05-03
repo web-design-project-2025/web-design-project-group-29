@@ -91,6 +91,7 @@
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr ;
+    margin-left: -5%;
   }
   .recipe-box {
     width: 90%;
