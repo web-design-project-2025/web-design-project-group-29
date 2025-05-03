@@ -1,7 +1,7 @@
 {
     "nigeria" : [
         {
-            "name" :"Zobo (Hibiscus Drink)",
+            "name" :"Zobo ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -11,7 +11,7 @@
         },
 
         {
-            "name" :"EFO RIRO (Kale Soup)",
+            "name" :"EFO RIRO",
             "rating" : 4,
             "description" :"A rich stew from the Yoruba people, primarily consisting of spinach cooked with peppers, onions, and spices, often accompanied by meat or fish.",
             "time" :"1h 30",
@@ -30,7 +30,7 @@
             "image" : "moi-moi.jpeg"
         },
         {
-            "name" :"Akara (Fried Bean Cake)",
+            "name" :"Akara ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -39,7 +39,7 @@
             "image" : "akara.jpg"
         },
         {
-            "name" :"OHA Stew ",
+            "name" :"Oha Stew ",
             "rating" : 5,
             "description" :"​Oha Soup, also known as Ofe Oha or Ora Soup, is a traditional Igbo dish from southeastern Nigeria. ​",
             "time" :"1h 30",
@@ -48,7 +48,7 @@
             "image" : "oha-soup.jpg"
         },
         {
-            "name" :"OKRA SOUP AND STEW ",
+            "name" :"Okra and Stew",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -57,7 +57,7 @@
             "image" : "okra.jpeg"
         },
         {
-            "name" :"SUYA (Spiced cow kebas)",
+            "name" :"Suya",
             "rating" : 5,
             "description" :"A popular Hausa dish featuring grilled or roasted cow meat seasoned with a spicy pepper powder.",
             "time" :"1h 30",
@@ -66,7 +66,7 @@
             "image" : "suya.jpg"
         },
         {
-            "name" : "Fried Palm Oil Stew",
+            "name" : "Palm Oil Stew",
             "rating" : 5,
             "description" :"A spicy stew made by frying a blend of tomatoes, peppers, and onions in palm oil. ​",
             "time" :"1h 30",
