@@ -21,7 +21,7 @@
         },
 
         {
-            "name" :"Moi Moi Steamed Bean Pudding)",
+            "name" :"Moi Moi",
             "rating" : 5,
             "description" :"A savory steamed pudding made from blended black-eyed peas.",
             "time" :"1h 30",
@@ -39,7 +39,7 @@
             "image" : "akara.jpg"
         },
         {
-            "name" :"OHA Stew (Hibiscus Drink)",
+            "name" :"OHA Stew ",
             "rating" : 5,
             "description" :"​Oha Soup, also known as Ofe Oha or Ora Soup, is a traditional Igbo dish from southeastern Nigeria. ​",
             "time" :"1h 30",
@@ -48,7 +48,7 @@
             "image" : "oha-soup.jpg"
         },
         {
-            "name" :"OKRA SOUP AND STEW (Hibiscus Drink)",
+            "name" :"OKRA SOUP AND STEW ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -75,7 +75,7 @@
             "image" : "palm-oil-stew.jpeg"
         },
         {
-            "name" :"JOLLOF RICE AND CHICKEN WITH PLANTAIN",
+            "name" :"JOLLOF RICE ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -427,7 +427,7 @@
             "image" : "toshikoshi-soba.jpg"
         },
         {
-            "name" :"Maguro Nigiri (まぐろ握り)",
+            "name" :"Maguro Nigiri",
             "rating" : 5,
             "description" :"Hand-formed sushi with vinegared rice and raw tuna slices.",
             "time" :"30 mins",
@@ -436,7 +436,7 @@
             "image" : "maguro-nigiri.jpg"
         },
         {
-            "name" :"Sushi Moriawase (寿司盛り合わせ)",
+            "name" :"Sushi Moriawase",
             "rating" : 5,
             "description" :"Assorted sushi (nigiri, maki, sashimi), served with soy, ginger, wasabi.",
             "time" :"1h 30 - 2h",
@@ -445,7 +445,7 @@
             "image" : "sushi-moriawase.jpg"
         },
         {
-            "name" :"Tonkatsu (豚カツ)",
+            "name" :"Tonkatsu ",
             "rating" : 5,
             "description" :"Deep-fried breaded pork cutlet with sauce and cabbage.",
             "time" :"45 mins",
@@ -454,7 +454,7 @@
             "image" : "tonkatsu.jpg"
         },
         {
-            "name" :"Tataki (たたき)",
+            "name" :"Tataki ",
             "rating" : 5,
             "description" :"Lightly seared meat or fish, sliced thin and served with ponzu.",
             "time" :"30 mins - 40 mins",
@@ -463,7 +463,7 @@
             "image" : "tataki.jpg"
         },
         {
-            "name" :"Chirashi Don (ちらし丼)",
+            "name" :"Chirashi Don",
             "rating" : 5,
             "description" :"Sushi rice bowl topped with assorted raw fish and veggies.",
             "time" :"45 mins",
@@ -472,7 +472,7 @@
             "image" : "chirashi-don.jpg"
         },
         {
-            "name" :"Aburi Sake Nigiri (炙りサーモン握り)",
+            "name" :"Aburi Sake Nigiri ",
             "rating" : 5,
             "description" :"Flame-seared salmon on sushi rice, often with mayo or herbs.",
             "time" :"30 mins",
@@ -481,7 +481,7 @@
             "image" : "nigiri.jpg"
         },
         {
-            "name" :"Okonomiyaki (お好み焼き)",
+            "name" :"Okonomiyaki ",
             "rating" : 5,
             "description" :"A savory cabbage pancake with toppings like pork, seafood, mayo, and okonomiyaki sauce.",
             "time" :"45 mins - 60 mins",
@@ -490,7 +490,7 @@
             "image" : "okonomiyaki.jpg"
         },
         {
-            "name" :"Kaiseki Ryōri (懐石料理)",
+            "name" :"Kaiseki Ryōri ",
             "rating" : 5,
             "description" :"Refined multi-course seasonal meal with artistic presentation.",
             "time" :"3h - 4h",
