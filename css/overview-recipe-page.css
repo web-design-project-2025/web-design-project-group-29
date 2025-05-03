@@ -76,11 +76,13 @@
   color: var(--colorful-text);
 }
 
-#difficulty {
+#signal {
   font-size: 1.2rem;
   margin-left: -7%;
-  font-weight: 100;
+  color: var(--colorful-text);
 }
+
+
 /* recipe */
 
 /* media-query */
@@ -108,6 +110,24 @@
       color: var(--colorful-text);
       cursor: pointer;
       /* margin-top: 15%; */
+    }
+
+    #heart {
+     display: none;
+    }
+
+    #star {
+      margin-top: 2%;
+      font-size: 1.2rem;
+     color: var(--colorful-text);
+
+    }
+
+    .recipes h5 {
+      margin-top: 2%;
+      margin-left: -7%;
+      font-size: 1.5rem;
+      /* display: flex; */
     }
 }
 /* media-query */

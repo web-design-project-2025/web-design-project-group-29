@@ -22,12 +22,11 @@ document.addEventListener ("DOMContentLoaded", () => {
                         </div>
                       </div>
                       <div class="recipe-box-content">
-                       
                         <div class="clock-heart">
                           <i id="clock" class="far fa-clock"> : ${recipe.time}</i>
-                          <i id="heart" class="far fa-heart"></i>
+                            <i id="clock" class="fas fa-signal"> : ${recipe.difficulty}</i>
                         </div>
-                        <i id="clock" class="fas fa-signal"> : ${recipe.difficulty}</i>
+                      
                       </div>
                     </div>
                   </section>
