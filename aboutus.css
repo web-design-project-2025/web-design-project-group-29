@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+}
+.banner {
+    background-image: url("img/homepage.jpg");
+    height: 300px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1 {
+    color: white;
+    font-size: 5rem;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 20px;
+    gap: 40px;
+}
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    animation: slideIn 1s ease forwards;
+    opacity: 0; /* Start hidden for animation */
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+.team-member h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 400px;
+}
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.purpose {
+    margin: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purpose-container {
+    background-color: #f5f0e6;
+    padding: 20px;
+    border-radius: 15px;
+    /* box-shadow: 0 8px 16px rgba(0,0,0,); */
+    max-width: 900px;
+    text-align: center;
+}
+
+.purpose-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #b66534;
+}
+.purpose-container p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+@media (min-width: 768px) {
+    .about-us {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+footer {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 6.3rem;
+  }
+  
+  .footer-left {
+    font-weight: bold;
+  }
+  
+  .footer-right a {
+    margin-left: 1rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+  }
