@@ -11,26 +11,26 @@ document.addEventListener ("DOMContentLoaded", () => {
             const recipes = recipesByCountry [country];
 
             recipes.forEach(recipe => {
-                const recipeHTML = `
-                  <section class="recipes">
-                    <div class="recipe-box">
-                      <img src="./img/${recipe.image}" alt="${recipe.name}">
-                      <div class="recipe-box-title">
-                        <h5>${recipe.name}</h5>
-                        <div id="star">
-                          ${'<i class="fa-solid fa-star"></i>'.repeat(recipe.rating)}  
-                        </div>
-                      </div>
-                      <div class="recipe-box-content">
-                        <div class="clock-heart">
-                          <i id="clock" class="far fa-clock"> : ${recipe.time}</i>
-                            <i id="clock" class="fas fa-signal"> : ${recipe.difficulty}</i>
-                        </div>
-                      
-                      </div>
+              const recipeHTML = `
+              <section class="recipes">
+                <div class="recipe-box">
+                  <img src="./img/${recipe.image}" alt="${recipe.name}">
+                  <div class="recipe-box-title">
+                    <h5>${recipe.name}</h5>
+                    <div id="star">
+                      ${'<i class="fa-solid fa-star"></i>'.repeat(recipe.rating)}  
                     </div>
-                  </section>
-                `;
+                  </div>
+                  <div class="recipe-box-content">
+                    <div class="clock-heart">
+                      <i id="clock" class="far fa-clock"> :  <h6>${recipe.time}</h6></i>
+                        <i id="clock" class="fas fa-signal"> : <h6>${recipe.difficulty}</h6></i>
+                    </div>
+                  
+                  </div>
+                </div>
+              </section>
+            `;
                 container.innerHTML += recipeHTML;
               });              
         } else {
