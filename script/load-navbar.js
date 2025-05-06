@@ -1,0 +1,50 @@
+// creating the reusable function that will load our navbar
+function loadNavigation() {
+  // html file that will hold our navbar
+  const navContainer = document.createElement("header");
+  navContainer.id = "navbar-container";
+
+  // getting the html file for the navbar
+  fetch("navbar.html")
+    .then((response) => response.text()) // so the HTML is used as text
+    .then((html) => {
+      // putting the navbar HTML inside the empty countainer
+      navContainer.innerHTML = html;
+
+      // Insert it at the top of the body
+      document.body.prepend(navContainer);
+
+      // calling the funtion for the dropdown
+      initDropdowns();
+    })
+    //debugger
+    .catch((error) => console.error("Error loading navbar:", error));
+}
+
+function initDropdowns() {
+  // Continent dropdown
+  const dropdowns = document.querySelectorAll(".dropdown"); // calling every item in the class .dropdown
+  dropdowns.forEach((dropdown) => {
+    // managing the hovering
+    dropdown.addEventListener("mouseenter", () => {
+      dropdown.querySelector(".continent-menu").style.display = "flex";
+    });
+    dropdown.addEventListener("mouseleave", () => {
+      dropdown.querySelector(".continent-menu").style.display = "none";
+    });
+  });
+
+  // doing the same for Country menus
+  const continents = document.querySelectorAll(".continent");
+  continents.forEach((continent) => {
+    continent.addEventListener("mouseenter", () => {
+      continent.querySelector(".country-menu").style.display = "block";
+    });
+    continent.addEventListener("mouseleave", () => {
+      continent.querySelector(".country-menu").style.display = "none";
+    });
+  });
+}
+
+// making sur the JS in not run before the DOM is fully loaded so navbar appears fully
+document.addEventListener("DOMContentLoaded", loadNavigation);
