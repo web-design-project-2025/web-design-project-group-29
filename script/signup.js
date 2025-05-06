@@ -17,6 +17,5 @@ form.addEventListener('submit', (e) => {
     users.push(user);
     localStorage.setItem('users',JSON.stringify(users));
 
-    alert ('Account created');
-    form.reset();
+   window.location.href= '/profile';
 });
