@@ -1,10 +1,13 @@
-function loadProfile() {
+ function loadProfile() {
     const userProfile = JSON.parse(localStorage.getItem('userProfile'));
-    if(userProfile) {
-        document.getElementById('name').textContent = userProfile.name;
-    }else{
-        alert('oops your account is 404')
-        window.location.href = '/create-account'
+  
+    if (userProfile) {
+      document.getElementById('name').textContent = userProfile.name;
+      document.getElementById('surname').textContent = userProfile.surname;
+    } else {
+      alert("Oops! No user profile found.");
+      window.location.href = 'signup.html'; // Or your account creation page
     }
-}
-loadProfile();
+  }
+  document.addEventListener("DOMContentLoaded", loadProfile);
+  
