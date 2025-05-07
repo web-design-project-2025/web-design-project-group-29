@@ -17,10 +17,12 @@ body{
     height: 100vh;
 }
 .register-container{
+    background: rgb(231, 231, 231);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    border-radius: 1rem;
 }
 .register-box h1{
 text-align: center;
@@ -28,7 +30,6 @@ margin-bottom: 1.062rem;
 }
 
 .register-box  {
-background: rgb(231, 231, 231);
 padding: 4.5rem;
 border-radius: 2rem;
 width: 22rem;
