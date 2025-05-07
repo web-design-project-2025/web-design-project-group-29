@@ -29,10 +29,10 @@ margin-bottom: 1.062rem;
 
 .register-box  {
 background: rgb(231, 231, 231);
-padding: 2.5rem;
+padding: 4.5rem;
 border-radius: 2rem;
-width: 20rem;
-height: 80%;
+width: 22rem;
+height: 95%;
 box-sizing: border-box;
 }
 
@@ -61,6 +61,7 @@ padding: 0.625rem;
 border:none;
 background-color: var(--secondary-color);
 font-size: 1rem;
+font-weight: 700;
 cursor: pointer;
 transition: background 0.3s;
 }

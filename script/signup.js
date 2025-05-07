@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const user = {
         name: form.name.value,
+        surname: form.surname.value,
         email: form.email.value,
         password: form.password.value
       };
@@ -22,8 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
       users.push(user);
       localStorage.setItem('users', JSON.stringify(users));
-  
-      window.location.href = '../profile.html';
+      localStorage.setItem('userProfile', JSON.stringify(user)); // Set active profile
+      window.location.href = 'http://127.0.0.1:5500/profile.html';
+      
     });
   });
   
