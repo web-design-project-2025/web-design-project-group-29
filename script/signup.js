@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     users.push(user);
     localStorage.setItem('users', JSON.stringify(users));
     localStorage.setItem('userProfile', JSON.stringify(user)); // Set active profile
-    window.location.href = 'http://127.0.0.1:5500/profile.html';
+    window.location.href = 'profile.html';
     
   });
 });
