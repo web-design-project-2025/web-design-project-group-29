@@ -51,6 +51,9 @@
 }
 
 .recipes h5 {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   margin-top: 2%;
   margin-left: -7%;
   font-size: 1.4rem;
@@ -61,6 +64,15 @@
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
+}
+#clock h6{
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+#clock {
+  display: flex;
 }
 #heart {
   transform: translateX(95%);

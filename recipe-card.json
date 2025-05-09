@@ -1,7 +1,7 @@
 {
     "nigeria" : [
         {
-            "name" :"Zobo (Hibiscus Drink)",
+            "name" :"Zobo ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -11,7 +11,7 @@
         },
 
         {
-            "name" :"EFO RIRO (Kale Soup)",
+            "name" :"Efo Riro",
             "rating" : 4,
             "description" :"A rich stew from the Yoruba people, primarily consisting of spinach cooked with peppers, onions, and spices, often accompanied by meat or fish.",
             "time" :"1h 30",
@@ -30,7 +30,7 @@
             "image" : "moi-moi.jpeg"
         },
         {
-            "name" :"Akara (Fried Bean Cake)",
+            "name" :"Akara ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -39,7 +39,7 @@
             "image" : "akara.jpg"
         },
         {
-            "name" :"OHA Stew ",
+            "name" :"Oha Stew ",
             "rating" : 5,
             "description" :"​Oha Soup, also known as Ofe Oha or Ora Soup, is a traditional Igbo dish from southeastern Nigeria. ​",
             "time" :"1h 30",
@@ -48,7 +48,7 @@
             "image" : "oha-soup.jpg"
         },
         {
-            "name" :"OKRA SOUP AND STEW ",
+            "name" :"Okra and Stew",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -57,7 +57,7 @@
             "image" : "okra.jpeg"
         },
         {
-            "name" :"SUYA (Spiced cow kebas)",
+            "name" :"Suya",
             "rating" : 5,
             "description" :"A popular Hausa dish featuring grilled or roasted cow meat seasoned with a spicy pepper powder.",
             "time" :"1h 30",
@@ -66,7 +66,7 @@
             "image" : "suya.jpg"
         },
         {
-            "name" : "Fried Palm Oil Stew",
+            "name" : "Palm Oil Stew",
             "rating" : 5,
             "description" :"A spicy stew made by frying a blend of tomatoes, peppers, and onions in palm oil. ​",
             "time" :"1h 30",
@@ -75,7 +75,7 @@
             "image" : "palm-oil-stew.jpeg"
         },
         {
-            "name" :"JOLLOF RICE ",
+            "name" :"Jollof Rice ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
@@ -95,7 +95,7 @@
             "image" : "couscous.jpeg"
         },
         {
-            "name" :"LHAM HLOU ",
+            "name" :"Lham Hlou ",
             "rating" : 5,
             "description" :"A sweet and fragrant Algerian dish made with tender meat, prunes, and cinnamon—traditionally served during Ramadan.",
             "time" :"1h 30",
@@ -104,7 +104,7 @@
             "image" : "lham-lui.jpeg"
         },
         {
-            "name" :"MHALBI",
+            "name" :"Mhalbi",
             "rating" : 5,
             "description" :"A silky Algerian rice pudding delicately flavored with orange blossom water, often enjoyed during Eid and family gatherings.",
             "time" :"1h 30",
@@ -113,7 +113,7 @@
             "image" : "mhalbi.jpg"
         },
         {
-            "name" :"RECHTA",
+            "name" :"Rechta",
             "rating" : 5,
             "description" :"A traditional Algerian dish of handmade noodles served with chicken and a light white sauce, often prepared for celebrations.",
             "time" :"1h 30",
@@ -122,7 +122,7 @@
             "image" : "rechta.jpeg"
         },
         {
-            "name" :"BAKLAWA",
+            "name" :"Baklawa",
             "rating" : 5,
             "description" :"A rich and flaky Algerian pastry made with layers of nuts and honey, often served during weddings and festive occasions.",
             "time" :"1h 30",
@@ -131,7 +131,7 @@
             "image" : "baklawa.jpeg"
         },
         {
-            "name" :"HMISS",
+            "name" :"Hmiss",
             "rating" : 5,
             "description" :"A spicy Algerian pepper and tomato salad, grilled and mixed with olive oil—served as a starter or side dish, especially in summer.",
             "time" :"1h 30",
@@ -140,7 +140,7 @@
             "image" : "zobo.jpg"
         },
         {
-            "name" :"CHAKHCHOUKHA",
+            "name" :"Chakhchoukha",
             "rating" : 5,
             "description" :"A hearty Algerian dish made with flatbread soaked in a rich meat and vegetable sauce, especially loved in eastern regions like Biskra.",
             "time" :"1h 30",
@@ -149,7 +149,7 @@
             "image" : "shaku-shaku.jpg"
         },
         {
-            "name" :"BAGHRIR",
+            "name" :"Baghrir",
             "rating" : 5,
             "description" :"Soft and spongy Algerian pancakes full of tiny holes, soaked in butter and hone, often enjoyed for breakfast or with afternoon tea.",
             "time" :"1h 30",
@@ -158,7 +158,7 @@
             "image" : "bhagir.jpeg"
         },
         {
-            "name" :"CHAKCHOUKA",
+            "name" :"ChakCchoUuka",
             "rating" : 5,
             "description" :"A flavorful Algerian dish made with sautéed tomatoes, peppers, and eggs, perfect for a comforting meal any time of day.",
             "time" :"1h 30",
@@ -261,7 +261,7 @@
             "image" : "arooz-con-pollo.jpeg"
         },
         {
-            "name" :"CHEESY BEEF EMPANADAS ",
+            "name" :"Cheesy Beef Empandas ",
             "rating" : 5,
             "description" :"This filling, inspired by a secret recipe, is tasty as is but can be elevated with red wine ",
             "time" :"1h 30",
@@ -270,7 +270,7 @@
             "image" : "cheesy-beef-empandas.jpeg"
         },
         {
-            "name" :"ARROZ CON GANDULES",
+            "name" :"Arrpz Con Gandules",
             "rating" : 5,
             "description" :"A Cuban staple of rice, pork, pigeon peas, tomato paste, achiote, and sofrito, often enjoyed with pernil, yuca fries, and coquito.​",
             "time" :"1h 30",
@@ -279,7 +279,7 @@
             "image" : "arroz-con-gandules.jpeg"
         },
         {
-            "name" :"CLASSIC MOJITO",
+            "name" :"Classic Mojito",
             "rating" : 5,
             "description" :"A Cuban cocktail made with sugar cane, lime, mint, rum, and soda water, offering refreshing beach vibes",
             "time" :"1h 30",
@@ -288,7 +288,7 @@
             "image" : "mojito.jpeg"
         },
         {
-            "name" :"BLACK BEAN SOUP",
+            "name" :"Black Bean Soup",
             "rating" : 5,
             "description" :"A rich, creamy soup with deep purple-black color, spiced with onions, jalapeños, cumin, and chili powder.",
             "time" :"1h 30",
@@ -297,7 +297,7 @@
             "image" : "black-bean-soup.jpeg"
         },
         {
-            "name" :"CUBAN SANDWICH",
+            "name" :"Cuban Sandwich",
             "rating" : 5,
             "description" :"A Cuban  sandwich with slow-roasted citrus-marinated pork, ham, Swiss, pickles, and mustard, all pressed to perfection.",
             "time" :"1h 30",
@@ -306,7 +306,7 @@
             "image" : "cuban-sandwich.jpeg"
         },
         {
-            "name" :"ROPA VIEJA",
+            "name" :"Ropa vieja",
             "rating" : 5,
             "description" :"Cuba's national dish, this beef stew features shredded flank steak in a flavorful tomato-onion-pepper sauce.",
             "time" :"1h 30",
@@ -315,7 +315,7 @@
             "image" : "ropa-vieja.jpg"
         },
         {
-            "name" :"MOJO SHRIMP",
+            "name" :"Mojo Shrimp",
             "rating" : 5,
             "description" :"A citrus-garlic marinade common in Cuban cuisine, this tangy blend of orange and lime juice enhances the flavor.",
             "time" :"1h 30",
@@ -324,7 +324,7 @@
             "image" : "mojo-shrimp.jpeg"
         },
         {
-            "name" :"BAGHSTRAWBERRY DAIQUIRIRIR",
+            "name" :"Strawberry Daquiri",
             "rating" : 5,
             "description" :"A smooth, frosty cocktail made from a blend of fresh and frozen strawberries, perfect for refreshing daiquiri lovers.",
             "time" :"1h 30",
@@ -335,7 +335,7 @@
     ],
     "peru":[
         {
-            "name" :"CEVICHE",
+            "name" :"Ceviche",
             "rating" : 3,
             "description" :"Raw fish (often sea bass or flounder) marinated in lime juice with onions, chili peppers, and cilantro.",
             "time" :"1h 30",
@@ -344,7 +344,7 @@
             "image" : "ceviche.jpeg"
         },
         {
-            "name" :"LOMO SALTADO",
+            "name" :"Lomo Saltado",
             "rating" : 5,
             "description" :"Stir-fried beef with onions, tomatoes, soy sauce, and french fries, served with rice.",
             "time" :"1h 30",
@@ -353,7 +353,7 @@
             "image" : "lomo-saltado.jpg"
         },
         {
-            "name" :"PERUVIAN ARROZ CON POLLO ",
+            "name" :"Peruvian Arroz Con Pollo ",
             "rating" : 4,
             "description" :"Green rice with chicken, cilantro, and vegetables.",
             "time" :"1h 30",
@@ -362,7 +362,7 @@
             "image" : "peruvian-polo.jpg"
         },
         {
-            "name" :"PISCO SOUR",
+            "name" :"Pisco Sour",
             "rating" : 5,
             "description" :"The national drink of Peru, made with pisco (a type of brandy), lime juice, egg white, sugar, and bitters.",
             "time" :"1h 30",
@@ -371,7 +371,7 @@
             "image" : "pisco-sour.jpg"
         },
         {
-            "name" :"SOLTERITO",
+            "name" :"Solterito",
             "rating" : 5,
             "description" :"A fresh, colorful salad made with lima beans, corn, onions, tomatoes, and fresh herbs, often served as a side dish.",
             "time" :"15 mins",
@@ -380,7 +380,7 @@
             "image" : "solterito.jpg"
         },
         {
-            "name" :"PICARONES",
+            "name" :"Picarones",
             "rating" : 5,
             "description" :"Peruvian doughnuts made from sweet potato and squash, fried and served with a syrup made from molasses.",
             "time" :"30 mins",
@@ -389,7 +389,7 @@
             "image" : "picarones.jpeg"
         },
         {
-            "name" :"FISH ESCABECHE",
+            "name" :"Fish Escabeche",
             "rating" : 5,
             "description" :"Fish Escabeche features fish marinated in vinegar, garlic, onions, and spices, offering a tangy, savory flavor..",
             "time" :"40 mins",
@@ -398,7 +398,7 @@
             "image" : "fish-escababe.avif"
         },
         {
-            "name" :"CHUPE DE CAMARONES ",
+            "name" :"Chupe De Camarones ",
             "rating" : 5,
             "description" :"Shrimp chowder with potatoes, corn, and cheese.",
             "time" :"1h ",
@@ -407,7 +407,7 @@
             "image" : "shrimp.jpg"
         },
         {
-            "name" :"CHICHA MORADA ",
+            "name" :"Chicha Morada ",
             "rating" : 5,
             "description" :"Sweet drink made from purple corn and spices.",
             "time" :"1h",
@@ -418,7 +418,7 @@
     ],
     "japan":[
         {
-            "name" :"TOSHIKOSHI SOBA",
+            "name" :"Toshikoshi Soba",
             "rating" : 5,
             "description" :"Toshikoshi Soba is a simple buckwheat noodle soup with light broth and toppings like green onions or tempura.",
             "time" :"2h - 3h",
@@ -510,7 +510,7 @@
             "image" : "mudcake.jpeg"
         },
         {
-            "name" :"MASHED POTATOES & MEATBALLS",
+            "name" :"Mshed Potates & Meatballs",
             "rating" : 3,
             "description" :"Homemade meatballs are always a hit. Serve them with creamy sauce, mashed potatoes.",
             "time" :"1h 30",
@@ -519,7 +519,7 @@
             "image" : "mashed-potatoes.jpeg"
         },
         {
-            "name" :"WAFFLES WITH WIPPED CREAM",
+            "name" :"Waffles & Whipped Cream",
             "rating" : 4,
             "description" :"Making your own waffle batter is super easy! This basic recipe creates the crispiest waffles, ",
             "time" :"1h 30",
@@ -528,7 +528,7 @@
             "image" : "waffles.jpeg"
         },
         {
-            "name" :"SPINACH SOUP ",
+            "name" :"Spinach Soup",
             "rating" : 3,
             "description" :"Classic spinach soup, traditionally served with a boiled egg.",
             "time" :"1h",
@@ -537,7 +537,7 @@
             "image" : "spinach-soup.jpeg"
         },
         {
-            "name" :"OVEN-BAKED CHICKEN THIGHS ",
+            "name" :"Oven baked Chicken Thighs",
             "rating" : 5,
             "description" :"Juicy chicken thighs baked with a creamy sun-dried tomato sauce.",
             "time" :"2h",
@@ -546,7 +546,7 @@
             "image" : "oven-thigh.jpeg"
         },
         {
-            "name" :"ROASTED PORK",
+            "name" :"Roasted Pork",
             "rating" : 5,
             "description" :"Roast pork tenderloin for juicy, flavorful meat. Serve with creamy sauce, thyme, mushrooms, garlic.",
             "time" :"1h 30",
@@ -555,7 +555,7 @@
             "image" : "roasted-pork.jpeg"
         },
         {
-            "name" :"BLUEBERRY SMOOTHIE",
+            "name" :"Blueberry Smoothie",
             "rating" : 5,
             "description" :"A filling and tasty milk drink with a lovely color. Blend banana, milk, mild quark.",
             "time" :"30 mins",
@@ -564,7 +564,7 @@
             "image" : "blueberry-smoothie.jpeg"
         },
         {
-            "name" :"SMÖRGÅSTÅRTA",
+            "name" :"Smorgstarta",
             "rating" : 4,
             "description" :"A sandwich cake with salmon, shrimp, and boiled eggs – truly delicious! Perfect for holidays and summer celebrations.",
             "time" :"1h 30",
@@ -573,7 +573,7 @@
             "image" : "shrimp-cake.jpeg"
         },
         {
-            "name" :"OVEN-BAKED SALMON",
+            "name" :"Oven Baked Salmon",
             "rating" : 5,
             "description" :"Oven-baked salmon is perfect for serving a crowd. Serve with boiled potatoes, sour cream sauce with roe and herbs, and a salad.",
             "time" :"50 mins",
