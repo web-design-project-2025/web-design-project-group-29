@@ -1,0 +1,93 @@
+
+:root {
+    --primary-color: #fffdfa;
+    --secondary-color: #b6cae5;
+    --hover-color: #83afe8;
+    --colorful-text: #6e2e15;
+    --text-color: #4a4a4a;
+    --light-text: #606060;
+    --border-color: #f1eeea;
+  }
+body{
+    font-family: "acumin-pro", sans-serif;
+    background: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register-container{
+    background: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 75vh;
+    border-radius: 1rem;
+}
+.register-box h1{
+text-align: center;
+margin-bottom: 1.062rem;
+}
+
+.register-box  {
+padding: 4.5rem;
+border-radius: 2rem;
+width: 22rem;
+height: 95%;
+box-sizing: border-box;
+}
+
+.input-group{
+margin-bottom: 10%;
+margin-left: -10%;
+
+}
+
+.input-group label{
+display: block;
+margin-bottom: 2%;
+
+}
+
+.input-group input{
+width:100%;
+padding: 5%;
+border: 3px solid #0000;
+border-radius: 0.7rem;
+}
+
+button{
+width: 100%;
+padding: 0.625rem;
+border:none;
+background-color: var(--secondary-color);
+font-size: 1rem;
+font-weight: 700;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+button:hover{
+background: var(--hover-color);
+}
+
+.login-prompt {
+margin-top: 1.0625rem;
+text-align: center;
+
+}
+
+.login-prompt p {
+color: var(--light-text);
+
+}
+
+.login-prompt a {
+    text-decoration: none;
+    color: var(--hover-color);
+}
+
+.login-prompt a:hover{
+    text-decoration: underline;
+}
