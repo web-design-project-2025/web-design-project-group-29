@@ -59,7 +59,4 @@ function loadFooter() {
 }
 
 // making sur the JS in not run before the DOM is fully loaded so navbar appears fully
-document.addEventListener("DOMContentLoaded", () => {
-  loadNavigation(); 
-  loadFooter();     
-});
+document.addEventListener("DOMContentLoaded", loadNavigation);
