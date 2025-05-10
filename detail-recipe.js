@@ -137,52 +137,94 @@ function createRecipeElement(recipe,) {
      }
    }
    ingredientsSection.appendChild(ingredientsList);
-   mainContainer.appendChild(ingredientsSection);
-   recipeElement.appendChild(mainContainer);
-   recipeElement.appendChild(ingredientsSection);
+   leftContainer.appendChild(ingredientsSection);
  
    //Instructions lower right section
-   const lowerRight = document.createElement("div");
-   lowerRight.classList.add("instructions-right");
+   const rightContainer = document.createElement("div");
+   rightContainer.classList.add("instructions-right");
  
    // how to text img
    const howToImage = document.createElement("img");
    howToImage.src = "img/howto.svg";
    howToImage.alt = "'How to' writtten in handwriting";
    howToImage.classList.add("how-to-image");
-   lowerRight.appendChild(howToImage);
+   rightContainer.appendChild(howToImage);
 
- 
+  // INSSTRUCTIONS 
+  const instructionsContainer = document.createElement("div");
+  instructionsContainer.classList.add("instructions-container");
+
    const instructionsSection = document.createElement("div");
    instructionsSection.classList.add("instructions");
 
    //finding instruction by id
- 
+   const instructionData = instructions.find(inst => inst.id === recipe.id);
 
+   if (Array.isArray(instructionData.steps) && instructionData.steps.length > 0) {
+      const instructionList = document.createElement("ol");
+      instructionList.classList.add("instructions-list");
+      
+      instructionData.steps.forEach(step => {
+        const listItem = document.createElement("li");
+        listItem.innerText = step;
+        instructionList.appendChild(listItem);
+      });
+      instructionsContainer.appendChild(instructionList);
 
+    } else if (Array.isArray(instructionData.sections) && instructionData.sections.length > 0) {
+      instructionData.sections.forEach(section => {
+        const sectionTitle = document.createElement("h4");
+        sectionTitle.innerText = section.name;
+        instructionsContainer.appendChild(sectionTitle);
 
+        const sectionList = document.createElement("ol");
+        sectionList.classList.add("instructions-list");
+        
+        if (Array.isArray(section.steps) && section.steps.length > 0) {
+        section.steps.forEach(step => {
+          const item = document.createElement("li");
+          item.innerText = step;
+          sectionList.appendChild(item);
+        });
+      }
+        instructionsContainer.appendChild(sectionList);
+      });
+    
+  } else  {
+    const noInstructions = document.createElement("p");
+    noInstructions.innerText = "No instructions available for this recipe.";
+    instructionsContainer.appendChild(noInstructions);
+  }
 
-   
-     // Add tips if available on top level
-   
- 
-  //  const instructionList = document.createElement("ol");
-  //  instructions.forEach((step) => {
-  //    const listItem = document.createElement("li");
-  //    console.log(instructions);
-  //    listItem.innerText = step;
-  //    instructionList.appendChild(listItem);
-  //  });
-  //  instructionsSection.appendChild(instructionList);
-  //  instructionbox.appendChild(instructionList);
-  //  instructionsSection.appendChild(instructionsSection);
-  //  mainContainer.appendChild(instructionsSection);
-  //  recipeElement.appendChild(instructionsSection);
- 
-  //  const tipSection = document.createElement("div");
-  //  tipSection.classList.add("tip");
-  //  tipSection.innerText = "Tip: " + recipe.tip;
-  //  instructionsSection.appendChild(tipSection);
+  rightContainer.appendChild(instructionsContainer);
+
+  // Tips Section
+  if (recipe.tips) {
+    const tipsContainer = document.createElement("div");
+    tipsContainer.classList.add("tips-container");
+
+    const tipsTitle = document.createElement("h3");
+    tipsTitle.innerText = "Tips";
+    tipsContainer.appendChild(tipsTitle);
+
+    const tipsList = document.createElement("ul");
+    tipsList.classList.add("tips-list");
+
+    recipe.tips.forEach(tip => {
+      const tipItem = document.createElement("li");
+      tipItem.innerText = tip;
+      tipsList.appendChild(tipItem);
+    });
+
+    tipsContainer.appendChild(tipsList);
+    rightContainer.appendChild(tipsContainer);
+  }
+
+  // Append all sections
+  recipeElement.appendChild(heroLeft);
+  recipeElement.appendChild(heroRight);
+  recipeElement.appendChild(leftContainer);
+  recipeElement.appendChild(rightContainer);
  
    return recipeElement;
    
