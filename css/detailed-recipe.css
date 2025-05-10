@@ -81,7 +81,7 @@ html {
 .recipe-title-image{
   width: 100%;
   max-width: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 /* Description */
@@ -140,7 +140,7 @@ html {
 /* Ingredients Section */
 .ingredients-container {
   background: var(--primary-color);
-  padding: 20px;
+  padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.09);
   width: 100%;
@@ -169,14 +169,13 @@ html {
 
 /* Instructions Section */
 .how-to-image {
-  margin-top: 2rem;
+  margin-top: 10rem;
   margin-left: 2rem;
   width: 100px;
   margin-bottom: 12px;
 }
 
 .instructions {
-  background: #961111;
   margin: 20rem;
   border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
@@ -187,10 +186,12 @@ html {
 }
 
 .instructions-container{
-  margin-left: 2rem;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 .instructions-list {
-  margin-left: 2rem;
+  margin: 1rem;
 }
 
 .instructions ol {

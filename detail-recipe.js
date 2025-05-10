@@ -175,6 +175,7 @@ function createRecipeElement(recipe,) {
       instructionData.sections.forEach(section => {
         const sectionTitle = document.createElement("h4");
         sectionTitle.innerText = section.name;
+        sectionTitle.classList.add("section-name");
         instructionsContainer.appendChild(sectionTitle);
 
         const sectionList = document.createElement("ol");
