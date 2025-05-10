@@ -26,7 +26,8 @@
           ]
         },
         {
-          "tips": [
+          "name": "Tips",
+          "steps": [
             "Use only fresh sushi-grade fish",
             "Add crispy maize for texture contrast"
           ]

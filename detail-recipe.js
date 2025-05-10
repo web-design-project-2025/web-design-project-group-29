@@ -199,7 +199,8 @@ function createRecipeElement(recipe,) {
   rightContainer.appendChild(instructionsContainer);
 
   // Tips Section
-  if (recipe.tips) {
+
+  if (recipe.tips && recipe.tips.length > 0) {
     const tipsContainer = document.createElement("div");
     tipsContainer.classList.add("tips-container");
 
