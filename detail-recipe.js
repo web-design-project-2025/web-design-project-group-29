@@ -19,32 +19,33 @@ function getRecipeById(id) {
 }
 
 // Main container for recipes
-function createRecipeElement(recipe) {
+function createRecipeElement(recipe,) {
   const recipeElement = document.createElement("div");
-  recipeElement.classList.add("recipe-container");
+  recipeElement.classList.add("recipe-grid");
 
   // Recipe hero section
-  const hero = document.createElement("div");
-  hero.classList.add("recipe-hero");
+  const heroLeft = document.createElement("div");
+  heroLeft.classList.add("recipe-hero-left"); 
 
-  // recipe title container
-  const textBox = document.createElement("div");
-  textBox.classList.add("title-container");
+  // // recipe title container
+  // const textBox = document.createElement("div");
+  // textBox.classList.add("title-container");
 
   // Recipe tile
   const titleImage = document.createElement("img");
   titleImage.src = recipe.titleImg;
   titleImage.alt = recipe.titleAlt || recipe.name;
   titleImage.classList.add("recipe-title-image");
-  textBox.appendChild(titleImage);
+  heroLeft.appendChild(titleImage);
+  // textBox.appendChild(titleImage);
 
   // Recipe description
   const description = document.createElement("p");
   description.innerText = recipe.description;
   description.classList.add("recipe-description");
-  textBox.appendChild(description);
+  heroLeft.appendChild(description);
 
-  // Difficulty level container
+  // icon  container
 
   const iconContainer = document.createElement("div");
   iconContainer.classList.add("icon-container");
@@ -58,14 +59,14 @@ function createRecipeElement(recipe) {
   difficultyIcon.src = "img/signal-solid.svg";
   difficultyIcon.alt = recipe.difficulty;
   difficultyContainer.appendChild(difficultyIcon);
-  iconContainer.appendChild(difficultyContainer);
+ 
 
   //Difficulty level text
   const difficultyText = document.createElement("span");
   difficultyText.classList.add("difficulty-text");
   difficultyText.innerText = recipe.difficulty;
   difficultyContainer.appendChild(difficultyText);
-  textBox.appendChild(difficultyContainer);
+  iconContainer.appendChild(difficultyContainer);
 
   // time container
   const timeContainer = document.createElement("div");
@@ -77,37 +78,33 @@ function createRecipeElement(recipe) {
   timeIcon.src = "img/clock.svg";
   timeIcon.alt = recipe.time;
   timeContainer.appendChild(timeIcon);
-  iconContainer.appendChild(timeContainer);
-
+ 
   // time text
   const timeText = document.createElement("span");
   timeText.classList.add("time-text");
   timeText.innerText = recipe.time; 
-  iconContainer.appendChild(timeText);
+  timeContainer.appendChild(timeText);
+  iconContainer.appendChild(timeContainer);
+
+  heroLeft.appendChild(iconContainer);
 
 
-
-
-  // Recipe image container
-  const recipeImageContainer = document.createElement("div");
-  recipeImageContainer.classList.add("recipe-image-container");
+  // Recipe image container (upper right side)
+  const heroRight = document.createElement("div");
+  heroRight.classList.add("recipe-image-container");
 
   // Recipe image
-  const image = document.createElement("img");
-  image.src = recipe.image;
-  image.alt = recipe.imageAlt;
-  image.classList.add("recipe-image");
-  recipeImageContainer.appendChild(image);
+  const recipeImage = document.createElement("img");
+  recipeImage.src = recipe.image;
+  recipeImage.alt = recipe.imageAlt;
+  recipeImage.classList.add("recipe-image");
+  heroRight.appendChild(recipeImage);
 
-  hero.appendChild(textBox);
-  hero.appendChild(image);
-  recipeElement.appendChild(hero);
-
-   // Main recipe container
-   const mainContainer = document.createElement("div");
-   mainContainer.classList.add("main-container");
-   // Ingredients
- 
+// INGREDIENTS SECTION
+   // left recipe container
+   const leftContainer = document.createElement("div");
+   leftContainer.classList.add("left-container");
+   
    // ingredient container
    const ingredientsSection = document.createElement("div");
    ingredientsSection.classList.add("ingredients-container");
@@ -117,6 +114,7 @@ function createRecipeElement(recipe) {
  
    for (let section in recipe.ingredients) {
      const sectionTitle = document.createElement("h3");
+     sectionTitle.classList.add("section-title");
      sectionTitle.innerText = section;
      ingredientsList.appendChild(sectionTitle);
 
@@ -125,58 +123,66 @@ function createRecipeElement(recipe) {
       const listItem = document.createElement("li");
       listItem.classList.add("list-item");
 
-      
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       checkbox.classList.add("checkbox-input");
       
       const label = document.createElement("label");
       label.innerText = `${item.name} - ${item.quantity}`;
-      label.appendChild(checkbox);
+      label.classList.add("ingredient-label");
+      label.prepend(checkbox);
 
-      listItem.appendChild(checkbox);
       listItem.appendChild(label);
       ingredientsList.appendChild(listItem);
      }
- 
-     ingredientsSection.appendChild(ingredientsList);
-     mainContainer.appendChild(ingredientsSection);
-     recipeElement.appendChild(ingredientsSection);
    }
+   ingredientsSection.appendChild(ingredientsList);
+   mainContainer.appendChild(ingredientsSection);
+   recipeElement.appendChild(mainContainer);
+   recipeElement.appendChild(ingredientsSection);
  
-   //Instructions
-   const instructionsSection = document.createElement("div");
-   instructionsSection.classList.add("instructions");
+   //Instructions lower right section
+   const lowerRight = document.createElement("div");
+   lowerRight.classList.add("instructions-right");
  
    // how to text img
    const howToImage = document.createElement("img");
    howToImage.src = "img/howto.svg";
    howToImage.alt = "'How to' writtten in handwriting";
    howToImage.classList.add("how-to-image");
-   instructionsSection.appendChild(howToImage);
+   lowerRight.appendChild(howToImage);
+
  
-   recipeElement.appendChild(instructionsSection);
+   const instructionsSection = document.createElement("div");
+   instructionsSection.classList.add("instructions");
+
+   //finding instruction by id
  
-   const instructionbox = document.createElement("div");
-   instructionbox.classList.add("instruction-box");
+
+
+
+
+   
+     // Add tips if available on top level
+   
  
-   const instructionList = document.createElement("ol");
-   instructions.forEach((step) => {
-     const listItem = document.createElement("li");
-     console.log(instructions);
-     listItem.innerText = step;
-     instructionList.appendChild(listItem);
-   });
-   instructionsSection.appendChild(instructionList);
-   instructionbox.appendChild(instructionList);
-   instructionsSection.appendChild(instructionbox);
-   mainContainer.appendChild(instructionsSection);
-   recipeElement.appendChild(instructionsSection);
+  //  const instructionList = document.createElement("ol");
+  //  instructions.forEach((step) => {
+  //    const listItem = document.createElement("li");
+  //    console.log(instructions);
+  //    listItem.innerText = step;
+  //    instructionList.appendChild(listItem);
+  //  });
+  //  instructionsSection.appendChild(instructionList);
+  //  instructionbox.appendChild(instructionList);
+  //  instructionsSection.appendChild(instructionsSection);
+  //  mainContainer.appendChild(instructionsSection);
+  //  recipeElement.appendChild(instructionsSection);
  
-   const tipSection = document.createElement("div");
-   tipSection.classList.add("tip");
-   tipSection.innerText = "Tip: " + recipe.tip;
-   instructionsSection.appendChild(tipSection);
+  //  const tipSection = document.createElement("div");
+  //  tipSection.classList.add("tip");
+  //  tipSection.innerText = "Tip: " + recipe.tip;
+  //  instructionsSection.appendChild(tipSection);
  
    return recipeElement;
    
@@ -198,5 +204,6 @@ function renderContent() {
     contentElement.innerHTML = "<p>Recipe not found.</p>";
   }
 }
+
 
 loadData();
