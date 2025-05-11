@@ -1,0 +1,226 @@
+{
+  "instructions": [
+    {
+      "id": 1,
+      "name": "Ceviche",
+      "sections": [
+        {
+          "name": "Preparation:",
+          "steps": [
+            "Cube the fish fillets and refrigerate.",
+            "Peel and boil sweet potato until tender, then cube."
+          ]
+        },
+        {
+          "name": "Marinade:",
+          "steps": [
+            "Finely chop garlic, cilantro, habanero pepper, and red onion. Mix with salt, pepper, and lime juice."
+          ]
+        },
+        {
+          "name": "Assembly:",
+          "steps": [
+            "Add fish to marinade, ensuring full coverage. Refrigerate 45-60 minutes.",
+            "Add sweet potato cubes, maize, and remaining onion/cilantro for garnish.",
+            "Serve immediately with crispy maize topping."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use only fresh sushi-grade fish",
+            "Add crispy maize for texture contrast"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Couscous",
+      "sections": [
+        {
+          "name": "Stew:",
+          "steps": [
+            "In large pot, heat oil. Sear meat until browned.",
+            "Add onions and sauté until soft.",
+            "Stir in tomato paste and spices.",
+            "Pour in water and bring to boil.",
+            "Add carrots and potatoes. Simmer 30 mins.",
+            "Cover and simmer 15 mins. Season with salt/pepper.",
+            "Add zucchini and chickpeas. Cook 15-20 mins until tender."
+          ]
+        },
+        {
+          "name": "Couscous",
+          "steps": [
+            "Mix couscous with salt and olive oil.",
+            "Add water and fluff with fork. Let sit 10 mins.",
+            "Steam 15-20 mins in couscoussier/steamer.",
+            "Repeat fluffing and steaming for fluffy grains."
+          ]
+        },
+        {
+          "name": "Assembly:",
+          "steps": [
+            "Plate couscous on large dish.",
+            "Top with meat and vegetables.",
+            "Pour broth over everything to serve."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": []
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Sambusa",
+      "sections": [
+        {
+          "name": "Filling Preparation:",
+          "steps": [
+            "Heat oil in pan. Sauté onions until golden.",
+            "Add garlic and spices. Cook 2 minutes.",
+            "Brown minced meat. Season with salt/pepper.",
+            "Mix in chopped coriander."
+          ]
+        },
+        {
+          "name": "Assembly & Cooking:",
+          "steps": [
+            "Fill wrappers, fold into triangles.",
+            "Deep fry until golden brown.",
+            "Drain on paper towels and serve warm."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": []
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "Zobo Drink",
+      "sections": [
+        {
+          "name": "Preparation:",
+          "steps": [
+            "Rinse hibiscus petals thoroughly.",
+            "Combine petals, ginger, cloves, pepper, pineapple peel, cinnamon and water in pot. Boil then simmer 10-15 mins.",
+            "Cool to room temperature."
+          ]
+        },
+        {
+          "name": "Straining & Serving:",
+          "steps": [
+            "Strain through fine-mesh sieve, pressing to extract juice.",
+            "Mix in pineapple and orange juice.",
+            "Chill or serve over ice.",
+            "Garnish with fruit slices."
+          ]
+        },
+        {
+          "tips": [
+            "Adjust sweetness with honey if preferred",
+            "Garnish with orange/pineapple chunks"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": "Black Bean Soup",
+      "sections": [
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat oil in pot. Cook onions until soft (5 mins).",
+            "Add jalapeños and garlic. Cook 2 mins until fragrant.",
+            "Stir in tomato paste and spices. Cook 1 min.",
+            "Add beans and broth. Bring to boil then simmer 15-20 mins.",
+            "Remove bay leaf. Blend to desired consistency."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": "Serve with sour cream, avocado, and cilantro."
+        }
+      ]
+    },
+
+    {
+      "name": "Tips",
+      "steps": []
+    },
+
+    {
+      "id": 6,
+      "name": "Toshikoshi Soba",
+      "sections": [
+        {
+          "name": "Broth",
+          "steps": "Heat dashi stock. Add mirin, sugar and soy sauce to make soup base"
+        },
+        {
+          "name": "Noodles",
+          "steps": [
+            "Boil water in separate pan. Add soba noodles, cook 8 mins",
+            "Drain and rinse noodles in cold water"
+          ]
+        },
+        {
+          "name": "Assembly:",
+          "steps": [
+            "Slice spring onions and prepare garnishes",
+            "Reheat stock and pour into bowls",
+            "Add noodles and garnish with onions/tempura flakes"
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": []
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "name": "Kladkaka",
+      "sections": [
+        {
+          "name": "Preparation:",
+          "steps": [
+            "Preheat oven to 175°C (160°C fan)",
+            "Grease a 24cm springform pan"
+          ]
+        },
+        {
+          "name": "Batter:",
+          "steps": [
+            "Melt butter in saucepan. Remove from heat",
+            "Mix in sugar and eggs thoroughly",
+            "Add flour, cocoa powder, and vanilla. Combine well"
+          ]
+        },
+        {
+          "name": "Baking:",
+          "steps": [
+            "Pour batter into prepared pan",
+            "Bake for 15 minutes until firm on top but gooey inside",
+            "Cool before dusting with powdered sugar"
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": ["Serve with whipped cream or berries."]
+        }
+      ]
+    }
+  ]
+}
