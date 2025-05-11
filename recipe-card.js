@@ -9,6 +9,44 @@ document.addEventListener ("DOMContentLoaded", () => {
 
         if (country && recipesByCountry [country]){
             const recipes = recipesByCountry [country];
+            let currentRecipes = recipes;
+              
+            // Display all recipes initially
+            displayRecipes(recipes, container);
+            
+            // Set up filter buttons
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Update active button styling
+                    filterButtons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    // Get which category to filter by
+                    const category = btn.getAttribute('data-category');
+
+                    // Filter the recipes - show all if "all" is selected
+                    const filtered = category === "all"
+                        ? currentRecipes
+                        : currentRecipes.filter(recipe => recipe.category === category);
+
+                    // Display the filtered recipes
+                    displayRecipes(filtered, container);
+                });
+            });
+        } else {
+            // Show message if no recipes found for this country
+            container.innerHTML = "<p>No recipes found for this country<p>";
+        }
+    })
+    .catch(error => console.error("Error fetching recipes:", error));
+});
+
+// This reusable function displays recipes in the container
+// It prevents us from repeating the same HTML generation code
+function displayRecipes(recipes, container) {
+// Clear the container first
+container.innerHTML = "";
 
             recipes.forEach(recipe => {
               const recipeHTML = `
@@ -33,9 +71,4 @@ document.addEventListener ("DOMContentLoaded", () => {
             `;
                 container.innerHTML += recipeHTML;
               });              
-        } else {
-            container.innerHTML = "<p>No recipes found for this country<p>";
-        }
-    })
-    .catch (error => console.error("Error fetching recipes:", error))
-})
+        } 
