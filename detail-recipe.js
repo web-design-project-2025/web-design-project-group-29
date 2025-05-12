@@ -104,13 +104,59 @@ function createRecipeElement(recipe,) {
    // left recipe container
    const leftContainer = document.createElement("div");
    leftContainer.classList.add("left-container");
+
+   const ingredientsTitle = document.createElement("h2");
+   ingredientsTitle.classList.add("ingredients-title");
+   ingredientsTitle.innerText = "INGREDIENTS";
+   leftContainer.appendChild(ingredientsTitle);
    
+   //Portion control
+   let portionCount = 4; // default
+  
+   const portionControl = document.createElement("div");
+   portionControl.classList.add("portion-control");
+ 
+   const minusBtn = document.createElement("button");
+   minusBtn.innerText = "-";
+   minusBtn.classList.add("portion-btn");
+ 
+   const portionLabel = document.createElement("span");
+   portionLabel.innerText = `${portionCount} Portions`;
+   portionLabel.classList.add("portion-label");
+ 
+   const plusBtn = document.createElement("button");
+   plusBtn.innerText = "+";
+   plusBtn.classList.add("portion-btn");
+ 
+   portionControl.appendChild(minusBtn);
+   portionControl.appendChild(portionLabel);
+   portionControl.appendChild(plusBtn);
+   leftContainer.appendChild(portionControl);
+ 
    // ingredient container
    const ingredientsSection = document.createElement("div");
    ingredientsSection.classList.add("ingredients-container");
  
-   
- 
+   const ingredientsList = document.createElement("ul");
+   ingredientsList.classList.add("ingredients-list");
+
+   ingredientsSection.appendChild(ingredientsList);
+   leftContainer.appendChild(ingredientsSection);
+   //
+   function safeEvaluateQuantity(expression) {
+    const cleaned = expression
+    .replace("½", "0.5")
+    .replace("¼", "0.25")
+    .replace("¾", "0.75");
+    try {
+      return Function(`"use strict"; return (${cleaned})`)();
+    } catch {
+      return NotaNumber;
+  }
+  }
+  function updateIngredients(){
+    ingredientsList.innerHTML = "";
+
    for (let section in recipe.ingredients) {
     // ingredient containers
     const ingBox = document.createElement("div");
@@ -135,18 +181,45 @@ function createRecipeElement(recipe,) {
       checkbox.classList.add("checkbox-input");
       
       const label = document.createElement("label");
-      label.innerText = `${item.name} - ${item.quantity}`;
       label.classList.add("ingredient-label");
-      label.prepend(checkbox);
+       //help from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+       let quantity = item.quantity;
+       const match = quantity.match(/^([\d.\/½¼¾]+)(.*)$/);
 
+       if (match) {
+         const baseValue = safeEvaluateQuantity(match[1]);
+         if (!isNaN(baseValue)) {
+           const scaled = baseValue * (portionCount / 4);
+           quantity = scaled.toFixed(2).replace(/\.00$/, "") + match[2];
+         }
+       }
+
+
+      label.innerText = `${item.name} - ${quantity}`;
+      label.prepend(checkbox);
       listItem.appendChild(label);
       ingredientsList.appendChild(listItem);
      }
-
-     ingBox.appendChild(ingredientsList);
-     ingredientsSection.appendChild(ingBox);
-     
    }
+ }
+ updateIngredients();
+
+//buttons logic
+minusBtn.onclick = () => {
+  if (portionCount > 1) {
+    portionCount--;
+    portionLabel.innerText = `${portionCount} Portions`;
+    updateIngredients();
+  }
+};
+
+plusBtn.onclick = () => {
+  portionCount++;
+  portionLabel.innerText = `${portionCount} Portions`;
+  updateIngredients();
+};
+
+
   
    leftContainer.appendChild(ingredientsSection);
  
