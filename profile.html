@@ -11,6 +11,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/overview-recipe-page.css" />
     <title>Profile</title>
   </head>
   <body>
@@ -23,20 +24,25 @@
         <h2 id="surname">Saige</h2>
         <p>Jönköping, Sweden.</p>
         <em>“Vegan home cook. Obsessed with noodles.”</em>
-
         <div class="profile-navigation">
-                <button  id="profile-actions" class="recent-btn">Recent</button>
-                <div class="search-bar">
-                  <input id="search-bar" type="text" placeholder="Search recipes..." />
-                  <i class="fas fa-search"></i>
-                </div>     
-        </div>
-        <section class="recent-recipes">
+          <button  id="profile-actions" class="recent-btn">Recent</button>
+          <div class="search-bar">
+            <input id="search-bar" type="text" placeholder="Search recipes..." />
+            <i class="fas fa-search"></i>
+          </div>     
+  </div>
+<section id="recentRecipesContainer" class="recipe-arrangement">
+  <!-- Recently clicked recipes will appear here -->
+</section>
+
+       
+        <section >
           <div id="recent-recipes">
           </div>
         </section>
         <script src="script/load-navbar.js"></script>
         <script src="script/profile.js"></script>
+        <script src="recipe-card.js"></script>
         <script src="script/profile-api.js"></script>
 
   </body>
