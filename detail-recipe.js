@@ -137,6 +137,7 @@ function createRecipeElement(recipe,) {
    const ingredientsSection = document.createElement("div");
    ingredientsSection.classList.add("ingredients-container");
  
+
    const ingredientsList = document.createElement("ul");
    ingredientsList.classList.add("ingredients-list");
 
@@ -156,6 +157,7 @@ function createRecipeElement(recipe,) {
   }
   function updateIngredients(){
     ingredientsList.innerHTML = "";
+
 
    for (let section in recipe.ingredients) {
     // ingredient containers
@@ -201,6 +203,11 @@ function createRecipeElement(recipe,) {
       ingredientsList.appendChild(listItem);
      }
    }
+
+  
+   leftContainer.appendChild(ingredientsSection);
+ 
+
  }
  updateIngredients();
 
