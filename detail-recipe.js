@@ -137,6 +137,7 @@ function createRecipeElement(recipe,) {
    const ingredientsSection = document.createElement("div");
    ingredientsSection.classList.add("ingredients-container");
  
+
    const ingredientsList = document.createElement("ul");
    ingredientsList.classList.add("ingredients-list");
 
@@ -157,13 +158,22 @@ function createRecipeElement(recipe,) {
   function updateIngredients(){
     ingredientsList.innerHTML = "";
 
+
    for (let section in recipe.ingredients) {
+    // ingredient containers
+    const ingBox = document.createElement("div");
+    ingBox.classList.add("ingredient-box");
+
+    // Overview title
      const sectionTitle = document.createElement("h3");
      sectionTitle.classList.add("section-title");
      sectionTitle.innerText = section;
-     ingredientsList.appendChild(sectionTitle);
+     ingBox.appendChild(sectionTitle);
 
- 
+     const ingredientsList = document.createElement("ul");
+     ingredientsList.classList.add("ingredients-list");
+
+     // ingredient list
      for (let item of recipe.ingredients[section]) {
       const listItem = document.createElement("li");
       listItem.classList.add("list-item");
@@ -192,7 +202,16 @@ function createRecipeElement(recipe,) {
       listItem.appendChild(label);
       ingredientsList.appendChild(listItem);
      }
+
+     ingBox.appendChild(ingredientsList);
+     ingredientsSection.appendChild(ingBox);
+     
    }
+
+  
+   leftContainer.appendChild(ingredientsSection);
+ 
+
  }
  updateIngredients();
 
