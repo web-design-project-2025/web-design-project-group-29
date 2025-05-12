@@ -177,15 +177,10 @@ html {
 
 /* Ingredients Section */
 
-
-.ingredient-box {
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 20px;
-
 .ingredients-container {
-
   background: var(--primary-color);
+  padding: 2rem;
+  border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.09);
   width: 100%;
   max-width: 400px;
@@ -203,23 +198,6 @@ html {
   margin: 0;
 }
 
-.checkbox-input{
-  appearance: none;
-  width: 1rem;
-  height: 1rem;
-  border: 2px solid var(--text-color);
-  border-radius: 80%; 
-  
-}
-
-.checkbox-input:checked {
-  background-color: var(--text-color); 
-}
-
-.ingredient-label{
-  display: flex;
-  align-items: center;
-}
 .ingredients-list li {
   display: flex;
   justify-content: space-between;
