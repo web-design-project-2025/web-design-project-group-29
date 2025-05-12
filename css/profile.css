@@ -91,3 +91,33 @@ body {
     font-size: 16px;
     color: #a73535;
   }
+  .profile-recipe-card{
+    width: 85%;
+  height: 80%;
+  background-color: ivory;
+  padding: 7%;
+  margin-top: 10%;
+  margin-left: 7.5%;
+  /* padding-bottom: 10%; */
+  border-radius: 20px;
+  box-shadow: 0px 6px 10px #555;
+  }
+  .recipe-box-title{
+    display: flex;
+  justify-content: space-between;
+  }
+  .profile-recipe-card img{
+    object-fit: cover;
+    width: 119.8%;
+    height: 200px;
+    display: block;
+    margin-top: -16.5%;
+    margin-left: -9.8%;
+    border-radius: 20px 20px 0 0;
+  }
+  .recipe-arrangement {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
