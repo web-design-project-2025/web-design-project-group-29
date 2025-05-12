@@ -197,7 +197,502 @@
             { "name": "Whipped cream", "quantity": "to serve" }
           ]
         }
-      }
+      }, {
+        "id": 10,
+        "name": "Akara (Bean Cake)",
+        "titleImg": "img/akara-text.svg",
+        "titleAlt": "Handwritten text saying 'Akara (Bean Cake)'",
+        "category": ["African", "Nigerian", "Street Food", "Vegan", "Breakfast"],
+        "description": "A popular West African fritter made from peeled black-eyed peas, blended with onions and spices, then deep-fried to golden perfection. Crispy on the outside and soft on the inside.",
+        "time": "45min",
+        "difficulty": "Medium",
+        "rating": 4.7,
+        "image": "img/akara.jpg",
+        "imageAlt": "A plate of golden brown Akara balls served with a spicy dipping sauce",
+        "ingredients": {
+          "Main": [
+            {
+              "name": "Black-eyed peas (peeled)",
+              "quantity": "2 cups"
+            },
+            {
+              "name": "Onion, chopped",
+              "quantity": "1 medium"
+            },
+            {
+              "name": "Scotch bonnet or chili pepper",
+              "quantity": "1-2 pcs"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tsp"
+            },
+            {
+              "name": "Vegetable oil (for frying)",
+              "quantity": "as needed"
+            }
+          ],
+          "Optional Additions": [
+            {
+              "name": "Crayfish (ground)",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Bell pepper, chopped",
+              "quantity": "1 small"
+            },
+            {
+              "name": "Seasoning cube",
+              "quantity": "1 pc"
+            }
+          ]
+        }
+      }, 
+      {
+        "id": 20,
+        "name": "Arooz Con Pollo",
+        "ingredients": {
+          "Main": [
+            { "name": "Chicken thighs or drumsticks", "quantity": "6–8 pieces" },
+            { "name": "Long-grain rice", "quantity": "2 cups" },
+            { "name": "Chicken stock", "quantity": "4 cups" },
+            { "name": "Onion, chopped", "quantity": "1 medium" },
+            { "name": "Garlic cloves, minced", "quantity": "3" },
+            { "name": "Bell pepper, chopped", "quantity": "1 large (red or green)" },
+            { "name": "Tomatoes, diced", "quantity": "2 medium" },
+            { "name": "Peas", "quantity": "1 cup (frozen or fresh)" },
+            { "name": "Cilantro, chopped", "quantity": "2 tbsp" },
+            { "name": "Vegetable oil", "quantity": "3 tbsp" }
+          ],
+          "Seasoning": [
+            { "name": "Salt", "quantity": "to taste" },
+            { "name": "Black pepper", "quantity": "1 tsp" },
+            { "name": "Cumin", "quantity": "1 tsp" },
+            { "name": "Turmeric or achiote (for color)", "quantity": "1 tsp" },
+            { "name": "Bay leaf", "quantity": "1 pc" }
+          ]
+        }
+      }, 
+      {
+        "id": 101,
+        "name": "Arroz con Gandules",
+        "ingredients": {
+          "Main": [
+            { "name": "Medium-grain rice", "quantity": "2 cups" },
+            { "name": "Green pigeon peas (gandules), drained", "quantity": "1 can (15 oz)" },
+            { "name": "Water", "quantity": "2 cups" },
+            { "name": "Tomato sauce", "quantity": "1/2 cup" },
+            { "name": "Salchichón (Spanish sausage), diced", "quantity": "1 cup" },
+            { "name": "Pitted green olives", "quantity": "3–4 pcs" }
+          ],
+          "Seasoning": [
+            { "name": "Olive oil", "quantity": "2 tbsp" },
+            { "name": "Garlic cloves, minced", "quantity": "2 pcs" },
+            { "name": "White onion, chopped", "quantity": "1/2 pc" },
+            { "name": "Red onion, chopped", "quantity": "1/2 pc" },
+            { "name": "Red bell pepper, chopped", "quantity": "1/2 pc" },
+            { "name": "Green bell pepper, chopped", "quantity": "1/2 pc" },
+            { "name": "Sofrito", "quantity": "2 tsp" },
+            { "name": "Adobo seasoning", "quantity": "1 tsp" },
+            { "name": "Sazón seasoning", "quantity": "1 tsp" },
+            { "name": "Dried oregano", "quantity": "1 tsp" },
+            { "name": "Culantro leaves", "quantity": "5–7 pcs" }
+          ]
+        }}, {
+          "id": 103,
+          "name": "Baghrir (Algerian Pancakes)",
+          "ingredients": {
+            "Main": [
+              { "name": "Fine semolina", "quantity": "1 cup" },
+              { "name": "All-purpose flour", "quantity": "1/4 cup" },
+              { "name": "Warm water", "quantity": "2 cups" },
+              { "name": "Dry yeast", "quantity": "1 tsp" },
+              { "name": "Baking powder", "quantity": "1 tsp" },
+              { "name": "Salt", "quantity": "1/4 tsp" },
+              { "name": "Sugar", "quantity": "1 tbsp" }
+            ],
+            "Toppings": [
+              { "name": "Butter, melted", "quantity": "as needed" },
+              { "name": "Honey or syrup", "quantity": "as needed" }
+            ]
+          }
+        }, {
+          "id": 104,
+          "name": "Baklawa (Algerian)",
+          "ingredients": {
+            "Main": [
+              { "name": "Phyllo dough sheets", "quantity": "500 g" },
+              { "name": "Unsalted butter, melted", "quantity": "200 g" },
+              { "name": "Almonds, finely chopped", "quantity": "400 g" },
+              { "name": "Sugar", "quantity": "100 g" },
+              { "name": "Ground cinnamon", "quantity": "1 tsp" },
+              { "name": "Orange blossom water", "quantity": "2 tbsp" }
+            ],
+            "Syrup": [
+              { "name": "Sugar", "quantity": "250 g" },
+              { "name": "Water", "quantity": "200 ml" },
+              { "name": "Lemon juice", "quantity": "1 tbsp" },
+              { "name": "Orange blossom water", "quantity": "1 tbsp" }
+            ]
+          }
+        }, {
+          "id": 105,
+          "name": "Bariis iyo Digaag",
+          "ingredients": {
+            "Main": [
+              { "name": "Basmati rice", "quantity": "2 cups" },
+              { "name": "Chicken (legs or thighs)", "quantity": "4–6 pieces" },
+              { "name": "Carrots, diced", "quantity": "2 medium" },
+              { "name": "Red bell pepper, chopped", "quantity": "1 medium" },
+              { "name": "Tomato, grated or blended", "quantity": "1 large" },
+              { "name": "Red onion, chopped", "quantity": "1 medium" },
+              { "name": "Garlic cloves, minced", "quantity": "3 pcs" },
+              { "name": "Water or chicken stock", "quantity": "4 cups" },
+              { "name": "Vegetable oil", "quantity": "3 tbsp" }
+            ],
+            "Seasoning": [
+              { "name": "Cumin", "quantity": "1 tsp" },
+              { "name": "Cardamom powder", "quantity": "1/2 tsp" },
+              { "name": "Cinnamon stick", "quantity": "1 pc" },
+              { "name": "Cloves", "quantity": "4 pcs" },
+              { "name": "Black pepper", "quantity": "1/2 tsp" },
+              { "name": "Salt", "quantity": "to taste" },
+              { "name": "Bouillon cube (optional)", "quantity": "1 pc" }
+            ]
+          }
+        }, {
+          "id": 106,
+          "name": "Bariis iyo Hilib",
+          "ingredients": {
+            "Main": [
+              { "name": "Basmati rice", "quantity": "2 cups" },
+              { "name": "Beef or lamb, cubed", "quantity": "500 g" },
+              { "name": "Red onion, chopped", "quantity": "1 large" },
+              { "name": "Garlic cloves, minced", "quantity": "3 pcs" },
+              { "name": "Tomato, grated or blended", "quantity": "1 medium" },
+              { "name": "Carrots, sliced", "quantity": "2 medium" },
+              { "name": "Raisins (optional)", "quantity": "1/4 cup" },
+              { "name": "Vegetable oil", "quantity": "3 tbsp" },
+              { "name": "Water or beef stock", "quantity": "4 cups" }
+            ],
+            "Seasoning": [
+              { "name": "Cumin powder", "quantity": "1 tsp" },
+              { "name": "Cardamom powder", "quantity": "1/2 tsp" },
+              { "name": "Cinnamon stick", "quantity": "1 pc" },
+              { "name": "Cloves", "quantity": "3–4 pcs" },
+              { "name": "Salt", "quantity": "to taste" },
+              { "name": "Black pepper", "quantity": "1/2 tsp" },
+              { "name": "Bouillon cube (optional)", "quantity": "1 pc" }
+            ]
+          }
+        }, 
+         {
+          "id": 108,
+          "name": "Blueberry Smoothie",
+          "ingredients": {
+            "Main": [
+              { "name": "Fresh or frozen blueberries", "quantity": "1 cup" },
+              { "name": "Banana", "quantity": "1 medium" },
+              { "name": "Milk (dairy or plant-based)", "quantity": "1 cup" },
+              { "name": "Plain yogurt or quark", "quantity": "1/2 cup" },
+              { "name": "Honey or maple syrup (optional)", "quantity": "1–2 tsp" }
+            ],
+            "Add-ins (Optional)": [
+              { "name": "Chia seeds", "quantity": "1 tsp" },
+              { "name": "Vanilla extract", "quantity": "1/4 tsp" },
+              { "name": "Ice cubes", "quantity": "a few (if using fresh berries)" }
+            ]
+          }
+        }, {
+          "id": 109,
+          "name": "Buur",
+          "ingredients": {
+            "Main": [
+              { "name": "All-purpose flour", "quantity": "2 cups" },
+              { "name": "Sugar", "quantity": "1/4 cup" },
+              { "name": "Dry yeast", "quantity": "1 tsp" },
+              { "name": "Warm water", "quantity": "3/4 cup" },
+              { "name": "Salt", "quantity": "1/4 tsp" },
+              { "name": "Vegetable oil (for deep frying)", "quantity": "as needed" }
+            ],
+            "Syrup Coating (Optional but traditional)": [
+              { "name": "Sugar", "quantity": "1/2 cup" },
+              { "name": "Water", "quantity": "1/4 cup" },
+              { "name": "Cardamom pods (crushed)", "quantity": "2 pcs" },
+              { "name": "Lemon juice", "quantity": "1 tsp" }
+            ]
+          }
+        }, {
+          "id": 110,
+          "name": "Chakchouka (Algerian)",
+          "ingredients": {
+            "Main": [
+              { "name": "Tomatoes, chopped", "quantity": "4 medium" },
+              { "name": "Red bell peppers, sliced", "quantity": "2 large" },
+              { "name": "Onion, chopped", "quantity": "1 large" },
+              { "name": "Garlic cloves, minced", "quantity": "3 pcs" },
+              { "name": "Eggs", "quantity": "4 pcs" },
+              { "name": "Olive oil", "quantity": "3 tbsp" }
+            ],
+            "Seasoning": [
+              { "name": "Ground cumin", "quantity": "1 tsp" },
+              { "name": "Paprika", "quantity": "1 tsp" },
+              { "name": "Salt", "quantity": "to taste" },
+              { "name": "Black pepper", "quantity": "to taste" },
+              { "name": "Chili flakes (optional)", "quantity": "1/2 tsp" },
+              { "name": "Fresh parsley or cilantro, chopped", "quantity": "for garnish" }
+            ]
+          }
+        }, {
+          "id": 111,
+          "name": "Chakhchoukha (Algerian)",
+          "ingredients": {
+            "Main": [
+              { "name": "Lamb or beef, bone-in chunks", "quantity": "500 g" },
+              { "name": "Chakhchoukha flatbread (Rougag), torn into pieces", "quantity": "4 sheets" },
+              { "name": "Tomatoes, grated or blended", "quantity": "3 medium" },
+              { "name": "Onion, finely chopped", "quantity": "1 large" },
+              { "name": "Chickpeas (soaked or canned)", "quantity": "1 cup" },
+              { "name": "Garlic cloves, minced", "quantity": "3 pcs" },
+              { "name": "Water", "quantity": "4–5 cups" },
+              { "name": "Vegetable oil or ghee", "quantity": "3 tbsp" }
+            ],
+            "Seasoning": [
+              { "name": "Paprika", "quantity": "2 tsp" },
+              { "name": "Ground coriander", "quantity": "1 tsp" },
+              { "name": "Cumin", "quantity": "1 tsp" },
+              { "name": "Cinnamon stick", "quantity": "1 pc" },
+              { "name": "Harissa (optional)", "quantity": "1 tsp" },
+              { "name": "Salt", "quantity": "to taste" },
+              { "name": "Black pepper", "quantity": "to taste" },
+              { "name": "Fresh parsley or coriander", "quantity": "for garnish" }
+            ]
+          }
+        }, {
+          "id": 112,
+          "name": "Chawanmushi",
+          "ingredients": {
+            "Main": [
+              { "name": "Eggs", "quantity": "2 large" },
+              { "name": "Dashi stock", "quantity": "1 1/2 cups" },
+              { "name": "Soy sauce", "quantity": "1 tsp" },
+              { "name": "Mirin", "quantity": "1 tsp" },
+              { "name": "Salt", "quantity": "1/4 tsp" }
+            ],
+            "Fillings (Optional but Traditional)": [
+              { "name": "Cooked shrimp (peeled)", "quantity": "4 pcs" },
+              { "name": "Shiitake mushrooms (sliced)", "quantity": "2 pcs" },
+              { "name": "Kamaboko (fish cake), sliced", "quantity": "4 slices" },
+              { "name": "Ginkgo nuts or edamame", "quantity": "4 pcs" }
+            ]
+          }
+        }, {
+          "id": 113,
+          "name": "Cheesy Beef Empanadas",
+          "ingredients": {
+            "Main": [
+              { "name": "Ground beef", "quantity": "400 g" },
+              { "name": "Onion, finely chopped", "quantity": "1 medium" },
+              { "name": "Garlic cloves, minced", "quantity": "2 pcs" },
+              { "name": "Red bell pepper, finely chopped", "quantity": "1 small" },
+              { "name": "Tomato paste", "quantity": "1 tbsp" },
+              { "name": "Shredded cheese (cheddar or mozzarella)", "quantity": "1 cup" },
+              { "name": "Empanada dough discs or pie crust", "quantity": "10–12 pcs" },
+              { "name": "Olive oil", "quantity": "2 tbsp" },
+              { "name": "Egg (for egg wash)", "quantity": "1, beaten" }
+            ],
+            "Seasoning": [
+              { "name": "Paprika", "quantity": "1 tsp" },
+              { "name": "Cumin", "quantity": "1/2 tsp" },
+              { "name": "Salt", "quantity": "to taste" },
+              { "name": "Black pepper", "quantity": "to taste" },
+              { "name": "Chili flakes (optional)", "quantity": "1/4 tsp" }
+            ]
+          }
+        }, {
+          "id": 114,
+          "name": "Chicken Teriyaki",
+          "ingredients": {
+            "Main": [
+              { "name": "Boneless chicken thighs (or breasts)", "quantity": "500 g" },
+              { "name": "Vegetable oil", "quantity": "1 tbsp" },
+              { "name": "Cooked rice", "quantity": "for serving" },
+              { "name": "Sesame seeds", "quantity": "for garnish" },
+              { "name": "Green onions, sliced", "quantity": "for garnish" }
+            ],
+            "Teriyaki Sauce": [
+              { "name": "Soy sauce", "quantity": "1/4 cup" },
+              { "name": "Mirin", "quantity": "1/4 cup" },
+              { "name": "Sugar", "quantity": "2 tbsp" },
+              { "name": "Garlic, minced", "quantity": "2 cloves" },
+              { "name": "Ginger, grated", "quantity": "1 tsp" },
+              { "name": "Cornstarch (optional, for thickening)", "quantity": "1 tsp mixed with 1 tbsp water" }
+            ]
+          }
+        }, {
+          "id": 201,
+          "name": "Cuban Sandwich",
+          "ingredients": {
+            "Main": [
+              { "name": "Cuban bread", "quantity": "1 loaf" },
+              { "name": "Yellow mustard", "quantity": "2 tbsp" },
+              { "name": "Swiss cheese", "quantity": "4 slices" },
+              { "name": "Dill pickles, sliced", "quantity": "1/2 cup" },
+              { "name": "Roast pork, sliced", "quantity": "1/2 lb" },
+              { "name": "Ham, sliced", "quantity": "1/2 lb" },
+              { "name": "Butter", "quantity": "2 tbsp" }
+            ]
+          }
+        }, {
+          "id": 202,
+          "name": "Efo Riro",
+          "ingredients": {
+            "Main": [
+              { "name": "Spinach, chopped", "quantity": "8 cups" },
+              { "name": "Cooked meat (goat meat or any preferred)", "quantity": "12 oz" },
+              { "name": "Mushrooms", "quantity": "2 cups" },
+              { "name": "Palm oil", "quantity": "1/2 cup" },
+              { "name": "Roma tomatoes", "quantity": "2 pcs" },
+              { "name": "Red bell pepper", "quantity": "1 pc" },
+              { "name": "Habanero pepper", "quantity": "1 pc" },
+              { "name": "Onion", "quantity": "1 pc" },
+              { "name": "Water or stock", "quantity": "1/4 cup" },
+              { "name": "Bouillon powder", "quantity": "2 tsp" },
+              { "name": "Cayenne pepper", "quantity": "2 tsp" },
+              { "name": "Black pepper", "quantity": "1 tsp" },
+              { "name": "Ground crayfish", "quantity": "2 tsp" },
+              { "name": "Salt", "quantity": "1 tsp or to taste" }
+            ]
+          }
+        }, {
+          "id": 203,
+          "name": "Fried Palm Oil Stew",
+          "ingredients": {
+            "Main": [
+              { "name": "Red bell peppers (Tatashe)", "quantity": "6 pcs" },
+              { "name": "Assorted meats (boiled and fried)", "quantity": "500 g" },
+              { "name": "Boiled eggs (optional)", "quantity": "4-6 pcs" },
+              { "name": "Palm oil", "quantity": "1.5 cups" },
+              { "name": "Onions", "quantity": "2 large pcs" },
+              { "name": "Tomatoes", "quantity": "2 pcs" },
+              { "name": "Crayfish", "quantity": "2 tbsp" },
+              { "name": "Seasoning cubes", "quantity": "2 pcs" },
+              { "name": "Salt", "quantity": "to taste" }
+            ]
+          }
+        }, {
+          "id": 204,
+          "name": "Fuul",
+          "ingredients": {
+            "Main": [
+              { "name": "Fava beans (canned or cooked)", "quantity": "3 cups" },
+              { "name": "Garlic cloves", "quantity": "3 pcs" },
+              { "name": "Cumin seeds", "quantity": "1 tsp" },
+              { "name": "Salt", "quantity": "to taste" },
+              { "name": "Tahini", "quantity": "3 tbsp" },
+              { "name": "Lemon juice", "quantity": "2-3 tbsp" },
+              { "name": "Olive oil", "quantity": "for drizzling" }
+            ]
+          }
+        }, {
+          "id": 205,
+          "name": "Gluten-Free Mudcake",
+          "ingredients": {
+            "Main": [
+              { "name": "Gluten-free flour", "quantity": "330 g" },
+              { "name": "Cocoa powder", "quantity": "60 g" },
+              { "name": "Baking powder", "quantity": "1 tsp" },
+              { "name": "Xanthan gum", "quantity": "1 tsp" },
+              { "name": "Milk", "quantity": "440 ml" },
+              { "name": "Salted butter, cubed", "quantity": "330 g" },
+              { "name": "Dark chocolate (50-70% cocoa), chopped", "quantity": "200 g" },
+              { "name": "Instant coffee powder (optional)", "quantity": "1 tsp" },
+              { "name": "Caster sugar", "quantity": "450 g" }
+              ]
+              }
+            }, {
+              "id": 206,
+              "name": "Hmiss",
+              "ingredients": {
+                "Main": [
+                  { "name": "Green bell peppers", "quantity": "3 large" },
+                  { "name": "Tomatoes", "quantity": "2 medium" },
+                  { "name": "Garlic cloves", "quantity": "2 pcs" },
+                  { "name": "Olive oil", "quantity": "3 tbsp" }
+                ],
+                "Seasoning": [
+                  { "name": "Salt", "quantity": "to taste" },
+                  { "name": "Black pepper", "quantity": "to taste" },
+                  { "name": "Chili flakes (optional)", "quantity": "1/4 tsp" }
+                ]
+              }
+            }, {
+              "id": 207,
+              "name": "Jollof Rice and Chicken with Plantain",
+              "ingredients": {
+                "Main": [
+                  { "name": "Long-grain parboiled rice", "quantity": "2 cups" },
+                  { "name": "Whole chicken (cut into parts)", "quantity": "1 kg" },
+                  { "name": "Ripe plantains", "quantity": "2 pcs" },
+                  { "name": "Tomatoes (blended)", "quantity": "4 medium" },
+                  { "name": "Red bell peppers", "quantity": "2 pcs" },
+                  { "name": "Onions", "quantity": "2 pcs" },
+                  { "name": "Garlic cloves", "quantity": "3 pcs" },
+                  { "name": "Tomato paste", "quantity": "2 tbsp" },
+                  { "name": "Vegetable oil", "quantity": "1/2 cup" },
+                  { "name": "Chicken stock", "quantity": "2 cups" }
+                ],
+                "Seasoning": [
+                  { "name": "Thyme", "quantity": "1 tsp" },
+                  { "name": "Curry powder", "quantity": "1 tsp" },
+                  { "name": "Bay leaf", "quantity": "1 pc" },
+                  { "name": "Salt", "quantity": "to taste" },
+                  { "name": "Bouillon cubes", "quantity": "2 pcs" },
+                  { "name": "Black pepper", "quantity": "1/2 tsp" }
+                ]
+              }
+            }, {
+              "id": 208,
+              "name": "Katsudon (カツ丼)",
+              "ingredients": {
+                "Main": [
+                  { "name": "Pork cutlets (tonkatsu)", "quantity": "2 pcs" },
+                  { "name": "Cooked white rice", "quantity": "2 bowls" },
+                  { "name": "Eggs", "quantity": "2 pcs" },
+                  { "name": "Onion, thinly sliced", "quantity": "1 medium" },
+                  { "name": "Flour", "quantity": "1/2 cup" },
+                  { "name": "Panko breadcrumbs", "quantity": "1 cup" },
+                  { "name": "Egg (for breading)", "quantity": "1 pc, beaten" },
+                  { "name": "Vegetable oil (for frying)", "quantity": "as needed" }
+                ],
+                "Sauce": [
+                  { "name": "Dashi stock", "quantity": "1 cup" },
+                  { "name": "Soy sauce", "quantity": "2 tbsp" },
+                  { "name": "Mirin", "quantity": "2 tbsp" },
+                  { "name": "Sugar", "quantity": "1 tbsp" }
+                ]
+              }
+            }, {
+              "id": 209,
+              "name": "Lham Hlou",
+              "ingredients": {
+                "Main": [
+                  { "name": "Lamb (bone-in, cut into chunks)", "quantity": "500 g" },
+                  { "name": "Prunes (pitted)", "quantity": "200 g" },
+                  { "name": "Blanched almonds", "quantity": "1/2 cup" },
+                  { "name": "Sugar", "quantity": "3 tbsp" },
+                  { "name": "Cinnamon stick", "quantity": "1 pc" },
+                  { "name": "Onion, finely chopped", "quantity": "1 small" },
+                  { "name": "Orange blossom water", "quantity": "1 tbsp" },
+                  { "name": "Butter or smen (fermented butter)", "quantity": "2 tbsp" },
+                  { "name": "Water", "quantity": "2 cups" }
+                ],
+                "Seasoning": [
+                  { "name": "Salt", "quantity": "to taste" },
+                  { "name": "Ground cinnamon", "quantity": "1 tsp (for garnish)" }
+                ]
+              }
+            }
     ]
-  }
+    }
   
