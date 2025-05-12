@@ -6,4 +6,262 @@
     --light-text: #606060;
     --border-color: #F1EEEA;
   }
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--primary-color);
+  color: #333;
+}
+
+/* recipe hero container */
+.recipe-grid {  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: auto auto; */
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Hero-left */
+.recipe-hero-left { 
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.recipe-image-container {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding: 30px;
+  box-sizing: border-box;
+}
+/* ingredients section*/
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--border-color);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.left-container {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.right-container {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* Recipe Title SVG */
+.recipe-title-image{
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 2rem;
+}
+
+/* Description */
+.recipe-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Difficulty */
+
+.icon-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+.difficulty-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.time-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.difficulty-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.time-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* Image */
+.recipe-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+}
+/*ingredients title */
+.ingredients-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+ /*portion control*/
+ .portion-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  padding: 8px 16px;
+  gap: 12px;
+  margin-bottom: 24px;
+  /* margin-top: 60px; */
+  width: 100%;
+  max-width: 170px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.portion-control button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: 20px;
+  font-size: 24px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
   
+}
+
+.portion-control span {
+  font-weight: bold;
+}
+
+/* Ingredients Section */
+
+
+.ingredient-box {
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+
+.ingredients-container {
+
+  background: var(--primary-color);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.09);
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.ingredients-container h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checkbox-input{
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--text-color);
+  border-radius: 80%; 
+  
+}
+
+.checkbox-input:checked {
+  background-color: var(--text-color); 
+}
+
+.ingredient-label{
+  display: flex;
+  align-items: center;
+}
+.ingredients-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+/* Instructions Section */
+.how-to-image {
+  margin-top: 10rem;
+  margin-left: 2rem;
+  width: 100px;
+  margin-bottom: 12px;
+}
+
+.instructions {
+  margin: 20rem;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.instructions-container{
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.instructions-list {
+  margin: 1rem;
+}
+
+.instructions ol {
+  margin-left: 20rem;
+  margin: 0;
+}
+
+.instructions li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+}

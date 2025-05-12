@@ -1,13 +1,7 @@
 
 body {
     background-color: #fbf9f5;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    /* padding-top: 80px; */
+    font-family: sans-serif; 
   }
   
   .banner {
