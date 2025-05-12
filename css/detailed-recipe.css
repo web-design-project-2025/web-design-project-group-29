@@ -39,6 +39,35 @@ html {
   box-sizing: border-box;
 }
 
+.category-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.category-item{
+  background-color: #f0f0f0;     /* light background */
+  color: #333;                   /* dark text */
+  padding: 4px 12px;             /* horizontal spacing for pill shape */
+  border-radius: 999px;          /* full pill */
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.star-container {
+  display: flex;
+  gap: 4px;
+  margin: 8px 0;
+  font-size: 1.5rem;
+  color: var(--colorful-text);
+}
+
+
 .recipe-image-container {
   grid-column: 2;
   grid-row: 1;
@@ -177,9 +206,11 @@ html {
 
 /* Ingredients Section */
 
-.ingredients-container {
+.ingredient-box {
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 20px;
   background: var(--primary-color);
-  padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.09);
   width: 100%;
@@ -196,6 +227,7 @@ html {
   list-style: none;
   padding: 0;
   margin: 0;
+  
 }
 
 .ingredients-list li {
@@ -204,13 +236,32 @@ html {
   padding: 8px 0;
   border-bottom: 1px solid #eee;
   font-size: 15px;
+  text-align: match-parent;
+}
+
+
+.checkbox-input{
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--text-color);
+  border-radius: 80%; 
+
+}
+.checkbox-input:checked {
+  background-color: var(--text-color); 
+}
+
+.ingredient-label{
+  display: flex;
+  align-items: center;
 }
 
 /* Instructions Section */
 .how-to-image {
   margin-top: 10rem;
   margin-left: 2rem;
-  width: 100px;
+  width: 130px;
   margin-bottom: 12px;
 }
 
@@ -219,7 +270,7 @@ html {
   border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   text-align: left;
   margin-top: 20px;
 }

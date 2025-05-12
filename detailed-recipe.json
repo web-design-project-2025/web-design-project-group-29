@@ -5,7 +5,7 @@
         "name": "Ceviche",
         "titleImg": "img/ceviche-text.svg",
         "titleAlt": "Handwriten text saying 'Ceviche'",
-        "category": ["Seafood", "Peruvian", "Lunch"],
+        "category": [ "Peruvian", "Lunch"],
         "description": "A refreshing Peruvian dish of fresh raw fish cured in citrus juices, spiced with chili peppers, and served with sweet potato.",
         "time": "30min",
         "difficulty": "Easy",
