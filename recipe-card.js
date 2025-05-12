@@ -29,10 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
             <div class="recipe-box-content">
               <div class="clock-heart">
-                <i class="far fa-clock"> : ${recipe.time}</i>
-                <i class="far fa-heart"></i>
-              </div>
-              <i class="fas fa-signal"> : ${recipe.difficulty}</i>
+                <i  id = "clock"class="far fa-clock"> : <h6>${recipe.time}</h6></i>
+              <i  id = "clock" class="fas fa-signal"> : <h6>${recipe.difficulty}</h6></i>
             </div>
           `;
 

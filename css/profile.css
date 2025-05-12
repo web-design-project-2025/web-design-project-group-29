@@ -87,20 +87,51 @@ body {
   }
   .profile-recipe-card{
     width: 85%;
-  height: 80%;
-  background-color: ivory;
-  padding: 7%;
-  margin-top: 10%;
-  margin-left: 7.5%;
-  /* padding-bottom: 10%; */
-  border-radius: 20px;
-  box-shadow: 0px 6px 10px #555;
+    height: 80%;
+    background-color: ivory;
+    padding: 7%;
+    margin-top: 10%;
+    margin-left: 7.5%;
+    /* padding-bottom: 10%; */
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px #555;
   }
-  .recipe-box-title{
+  .recipe-box-title {
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
   }
-  .profile-recipe-card img{
+
+  .recipe-box-title h5{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 2%;
+    margin-left: -7%;
+    font-size: 1.4rem;
+  }
+  .recipe-box {
+    width: 85%;
+    height: 80%;
+    background-color: ivory;
+    padding: 7%;
+    margin-top: 10%;
+    margin-left: 7.5%;
+    /* padding-bottom: 10%; */
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px #555;
+  }
+  .recipes h5 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 2%;
+    margin-left: -7%;
+    font-size: 1.4rem;
+    /* display: flex; */
+  }
+  #recipe-box-img {
     object-fit: cover;
     width: 119.8%;
     height: 200px;
@@ -114,4 +145,40 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .clock-heart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  #clock h6{
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+  #clock {
+    display: flex;
+  }
+  #heart {
+  
+    display: none;
+    transform: translateX(95%);
+    font-size: 2.3rem;
+    color: var(--colorful-text);
+    cursor: pointer;
+    /* margin-top: 15%; */
+  }
+  
+  #clock {
+    font-size: 1.2rem;
+    margin-left: -7%;
+    color: var(--colorful-text);
+  }
+  
+  #difficulty {
+    font-size: 1.2rem;
+    margin-left: -7%;
+    font-weight: 100;
   }

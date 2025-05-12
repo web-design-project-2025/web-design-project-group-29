@@ -20,11 +20,19 @@ function loadProfile() {
   if (userProfile.recentRecipes && userProfile.recentRecipes.length > 0) {
     userProfile.recentRecipes.forEach(recipe => {
       const recipeHTML = `
-        <div class="profile-recipe-card">
-          <img src="./img/${recipe.image}" alt="${recipe.name}">
-          <h4>${recipe.name}</h4>
-          <p>${recipe.time} • ${recipe.difficulty}</p>
-        </div>
+        <div class="recipe-box">
+            <img src="./img/${recipe.image}" id="recipe-box-img" alt="${recipe.name}">
+          <div class="recipe-box-title">
+          <h5>${recipe.name}</h5>
+          <div id="star">
+          ${'<i class="fa-solid fa-star"></i>'.repeat(recipe.rating)}
+         </div>
+            </div>
+            <div class="recipe-box-content">
+          <div class="clock-heart">
+                <i  id = "clock"class="far fa-clock"> : <h6>${recipe.time}</h6></i>
+              <i  id = "clock" class="fas fa-signal"> : <h6>${recipe.difficulty}</h6></i>
+            </div>
       `;
       container.innerHTML += recipeHTML;
     });
