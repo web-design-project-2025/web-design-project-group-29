@@ -45,6 +45,21 @@ function initDropdowns() {
     });
   });
 }
+function loadFooter() {
+  const footerContainer = document.createElement("div");
+  footerContainer.id = "footer-container";
+
+  fetch("footer.html")
+    .then((response) => response.text())
+    .then((html) => {
+      footerContainer.innerHTML = html;
+      document.body.appendChild(footerContainer); // adds at the end
+    })
+    .catch((error) => console.error("Error loading footer:", error));
+}
 
 // making sur the JS in not run before the DOM is fully loaded so navbar appears fully
-document.addEventListener("DOMContentLoaded", loadNavigation);
+document.addEventListener("DOMContentLoaded", () => {
+  loadNavigation(); 
+  loadFooter();     
+});

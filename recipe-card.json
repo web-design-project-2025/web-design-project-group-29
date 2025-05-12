@@ -15,7 +15,7 @@
             "rating" : 4,
             "description" :"A rich stew from the Yoruba people, primarily consisting of spinach cooked with peppers, onions, and spices, often accompanied by meat or fish.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"dinner",
             "difficulty" : "HARD",
             "image" : "efo-riro.jpg"
         },
@@ -25,7 +25,7 @@
             "rating" : 5,
             "description" :"A savory steamed pudding made from blended black-eyed peas.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"dessert",
             "difficulty" : "HARD",
             "image" : "moi-moi.jpeg"
         },
@@ -43,7 +43,7 @@
             "rating" : 5,
             "description" :"​Oha Soup, also known as Ofe Oha or Ora Soup, is a traditional Igbo dish from southeastern Nigeria. ​",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"dinner",
             "difficulty" : "HARD",
             "image" : "oha-soup.jpg"
         },
@@ -52,7 +52,7 @@
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" : "dinner",
             "difficulty" : "HARD",
             "image" : "okra.jpeg"
         },
@@ -61,7 +61,7 @@
             "rating" : 5,
             "description" :"A popular Hausa dish featuring grilled or roasted cow meat seasoned with a spicy pepper powder.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"lunch",
             "difficulty" : "HARD",
             "image" : "suya.jpg"
         },
@@ -70,7 +70,7 @@
             "rating" : 5,
             "description" :"A spicy stew made by frying a blend of tomatoes, peppers, and onions in palm oil. ​",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"lunch",
             "difficulty" : "HARD",
             "image" : "palm-oil-stew.jpeg"
         },
@@ -79,7 +79,7 @@
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"lunch",
             "difficulty" : "HARD",
             "image" : "jollof.jpeg"
         }
@@ -90,7 +90,7 @@
             "rating" : 5,
             "description" :"Algerian couscous is a traditional dish of steamed semolina topped with spiced meat, vegetables, and chickpeas.",
             "time" :"1h 30",
-            "category" :"dinner",
+            "category" :"lunch",
             "difficulty" : "HARD",
             "image" : "couscous.jpeg"
         },
@@ -135,7 +135,7 @@
             "rating" : 5,
             "description" :"A spicy Algerian pepper and tomato salad, grilled and mixed with olive oil—served as a starter or side dish, especially in summer.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"snack",
             "difficulty" : "HARD",
             "image" : "zobo.jpg"
         },
@@ -162,7 +162,7 @@
             "rating" : 5,
             "description" :"A flavorful Algerian dish made with sautéed tomatoes, peppers, and eggs, perfect for a comforting meal any time of day.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"lunch",
             "difficulty" : "HARD",
             "image" : "chakchouka.jpeg"
         }
