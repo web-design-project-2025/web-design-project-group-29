@@ -3,6 +3,7 @@
   --colorful-text: #6e2e15;
 }
 /* roots */
+
 /* recipe */
 .recipe-arrangement {
   margin-top: 5%;
@@ -18,7 +19,6 @@
   padding: 7%;
   margin-top: 10%;
   margin-left: 7.5%;
-  /* padding-bottom: 10%; */
   border-radius: 20px;
   box-shadow: 0px 6px 10px #555;
 }
@@ -30,7 +30,6 @@
 
 #star {
   margin-top: 2%;
-  /* margin-right: %; */
  color: var(--colorful-text);
 }
 
@@ -57,7 +56,6 @@
   margin-top: 2%;
   margin-left: -7%;
   font-size: 1.4rem;
-  /* display: flex; */
 }
 
 .clock-heart {
@@ -81,7 +79,6 @@
   font-size: 2.3rem;
   color: var(--colorful-text);
   cursor: pointer;
-  /* margin-top: 15%; */
 }
 
 #clock {
