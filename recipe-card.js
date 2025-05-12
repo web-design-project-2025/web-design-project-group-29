@@ -51,6 +51,7 @@ container.innerHTML = "";
             recipes.forEach(recipe => {
               const recipeHTML = `
               <section class="recipes">
+              <a href="sambusa.html?id=${recipe.id}" class="recipe-box-link">
                 <div class="recipe-box">
                   <img src="./img/${recipe.image}" alt="${recipe.name}">
                   <div class="recipe-box-title">
@@ -64,9 +65,10 @@ container.innerHTML = "";
                       <i id="clock" class="far fa-clock"> :  <h6>${recipe.time}</h6></i>
                         <i id="clock" class="fas fa-signal"> : <h6>${recipe.difficulty}</h6></i>
                     </div>
-                  
+                   </div>
                   </div>
                 </div>
+                </a>
               </section>
             `;
                 container.innerHTML += recipeHTML;

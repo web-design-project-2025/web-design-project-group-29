@@ -120,3 +120,8 @@
   background-color: var(--colorful-text);
   color: white;
 }
+.recipe-box-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
