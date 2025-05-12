@@ -18,8 +18,9 @@
     <section class="banner"></section>
      <!-- Picture of the user  -->
      <section class="profile">
-        <img src="img/profile-girl.jpeg" alt="Profile picture of a girl" class="profile-pic">
-        <h2>Imani Saige</h2>
+      <img id="avatarImage" src="" alt="Profile picture" class="profile-pic">
+        <h2 id="name">Imani</h2>
+        <h2 id="surname">Saige</h2>
         <p>Jönköping, Sweden.</p>
         <em>“Vegan home cook. Obsessed with noodles.”</em>
 
@@ -28,8 +29,16 @@
                 <div class="search-bar">
                   <input id="search-bar" type="text" placeholder="Search recipes..." />
                   <i class="fas fa-search"></i>
-                </div>      
+                </div>     
         </div>
-        <script src="/script/load-navbar.js"></script>
+        <section class="recent-recipes">
+          <div id="recent-recipes">
+          </div>
+        </section>
+        <script src="script/load-navbar.js"></script>
+        <script src="script/profile.js"></script>
+        <script src="script/profile-api.js"></script>
+
   </body>
 </html>
+

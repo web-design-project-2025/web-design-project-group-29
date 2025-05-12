@@ -1,237 +1,264 @@
 {
     "nigeria" : [
         {
-            "name" :"Zobo (Hibiscus Drink)",
+            "id": 4,
+            "name" :"Zobo ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
             "image" : "zobo.jpg"
+            
         },
 
         {
-            "name" :"EFO RIRO (Kale Soup)",
+            "id": 4,
+            "name" :"Efo Riro",
             "rating" : 4,
             "description" :"A rich stew from the Yoruba people, primarily consisting of spinach cooked with peppers, onions, and spices, often accompanied by meat or fish.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "efo-riro.jpg"
         },
 
         {
-            "name" :"Moi Moi Steamed Bean Pudding)",
+            "id": 4,
+            "name" :"Moi Moi",
             "rating" : 5,
             "description" :"A savory steamed pudding made from blended black-eyed peas.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "moi-moi.jpeg"
         },
         {
-            "name" :"Akara (Fried Bean Cake)",
+            "id": 4,
+            "name" :"Akara ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "akara.jpg"
         },
         {
-            "name" :"OHA Stew (Hibiscus Drink)",
+            "id": 4,
+            "name" :"Oha Stew ",
             "rating" : 5,
             "description" :"​Oha Soup, also known as Ofe Oha or Ora Soup, is a traditional Igbo dish from southeastern Nigeria. ​",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "oha-soup.jpg"
         },
         {
-            "name" :"OKRA SOUP AND STEW (Hibiscus Drink)",
+            "id": 4,
+            "name" :"Okra and Stew",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" : "dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "okra.jpeg"
         },
         {
-            "name" :"Asun (Assorted Peppered Goat Meat)",
+            "id": 4,
+            "name" :"Suya",
             "rating" : 5,
-            "description" :"A popular Yoruba dish featuring grilled or roasted goat meat seasoned with a spicy pepper sauce.",
+            "description" :"A popular Hausa dish featuring grilled or roasted cow meat seasoned with a spicy pepper powder.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "suya.jpg"
         },
         {
-            "name" : "Fried Palm Oil Stew",
+            "id": 4,
+            "name" : "Palm Oil Stew",
             "rating" : 5,
             "description" :"A spicy stew made by frying a blend of tomatoes, peppers, and onions in palm oil. ​",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "palm-oil-stew.jpeg"
         },
         {
-            "name" :"JOLLOF RICE AND CHICKEN WITH PLANTAIN",
+            "id": 4,
+            "name" :"Jollof Rice ",
             "rating" : 5,
             "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "jollof.jpeg"
         }
     ],
     "algeria":[
         {
+            "id": 2,
             "name" :"Couscous",
             "rating" : 5,
             "description" :"Algerian couscous is a traditional dish of steamed semolina topped with spiced meat, vegetables, and chickpeas.",
             "time" :"1h 30",
-            "category" :"dinner",
+            "category" :"lunch",
             "difficulty" : "HARD",
             "image" : "couscous.jpeg"
         },
         {
-            "name" :"LHAM HLOU ",
+            "id": 2,
+            "name" :"Lham Hlou ",
             "rating" : 5,
             "description" :"A sweet and fragrant Algerian dish made with tender meat, prunes, and cinnamon—traditionally served during Ramadan.",
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "lham-lui.jpeg"
         },
         {
-            "name" :"MHALBI",
+            "id": 2,
+            "name" :"Mhalbi",
             "rating" : 5,
             "description" :"A silky Algerian rice pudding delicately flavored with orange blossom water, often enjoyed during Eid and family gatherings.",
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "mhalbi.jpg"
         },
         {
-            "name" :"RECHTA",
+            "id": 2,
+            "name" :"Rechta",
             "rating" : 5,
             "description" :"A traditional Algerian dish of handmade noodles served with chicken and a light white sauce, often prepared for celebrations.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "rechta.jpeg"
         },
         {
-            "name" :"BAKLAWA",
+            "id": 2,
+            "name" :"Baklawa",
             "rating" : 5,
             "description" :"A rich and flaky Algerian pastry made with layers of nuts and honey, often served during weddings and festive occasions.",
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "baklawa.jpeg"
         },
         {
-            "name" :"HMISS",
+            "id": 2,
+            "name" :"Hmiss",
             "rating" : 5,
             "description" :"A spicy Algerian pepper and tomato salad, grilled and mixed with olive oil—served as a starter or side dish, especially in summer.",
-            "time" :"1h 30",
-            "category" :"drink",
-            "difficulty" : "HARD",
-            "image" : "zobo.jpg"
-        },
-        {
-            "name" :"CHAKHCHOUKHA",
-            "rating" : 5,
-            "description" :"A hearty Algerian dish made with flatbread soaked in a rich meat and vegetable sauce, especially loved in eastern regions like Biskra.",
-            "time" :"1h 30",
-            "category" :"dinner",
-            "difficulty" : "HARD",
-            "image" : "zobo.jpg"
-        },
-        {
-            "name" :"BAGHRIR",
-            "rating" : 5,
-            "description" :"Soft and spongy Algerian pancakes full of tiny holes, soaked in butter and hone, often enjoyed for breakfast or with afternoon tea.",
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "HARD",
             "image" : "zobo.jpg"
         },
         {
-            "name" :"CHAKCHOUKA",
+            "id": 2,
+            "name" :"Chakhchoukha",
+            "rating" : 5,
+            "description" :"A hearty Algerian dish made with flatbread soaked in a rich meat and vegetable sauce, especially loved in eastern regions like Biskra.",
+            "time" :"1h 30",
+            "category" :"dinner",
+            "difficulty" : "HARD",
+            "image" : "shaku-shaku.jpg"
+        },
+        {
+            "id": 2,
+            "name" :"Baghrir",
+            "rating" : 5,
+            "description" :"Soft and spongy Algerian pancakes full of tiny holes, soaked in butter and hone, often enjoyed for breakfast or with afternoon tea.",
+            "time" :"1h 30",
+            "category" :"snack",
+            "difficulty" : "HARD",
+            "image" : "bhagir.jpeg"
+        },
+        {
+            "id": 2,
+            "name" :"Chakchouka",
             "rating" : 5,
             "description" :"A flavorful Algerian dish made with sautéed tomatoes, peppers, and eggs, perfect for a comforting meal any time of day.",
             "time" :"1h 30",
-            "category" :"drink",
+            "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "chakchouka.jpeg"
         }
     ],
     "somalia":[
         {
+            "id": 3,
             "name" :"Sambusas",
             "rating" : 5,
             "description" :"Crispy triangular pastries filled with spiced meat or vegetables, popular during Ramadan.",
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "HARD",
-            "image" : "couscous.jpeg"
+            "image" : "sambusas.jpeg"
         },
         {
+            "id": 3,
             "name" :"Bariis iyo hilib",
             "rating" : 5,
             "description" :"Spiced Somali rice served with meat, often lamb or goat, cooked with raisins and vegetables.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "bariis-iyo-hilib.jpg"
         },
         {
+            "id": 3,
             "name" :"Rooti Farmaajo",
             "rating" : 5,
             "description" :"Somali cheesy bread or waffles, often eaten as a snack or breakfast with tea.",
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "rooti-farmaggio.jpg"
         },
         {
+            "id": 3,
             "name" :"Sabaayad",
             "rating" : 5,
             "description" :"Somali flatbread similar to paratha, soft and flaky, usually served with honey or stew.",
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "Sabaayad.jpg"
         },
         {
+            "id": 3,
             "name" :"Fuul",
             "rating" : 5,
             "description" :"Mashed fava beans cooked with spices, often topped with olive oil and served with bread..",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "fuul.jpg"
         },
         {
+            "id": 3,
             "name" :"Bariis iyo Digag",
             "rating" : 5,
             "description" :"Somali rice served with chicken, seasoned with spices like cardamom, cumin, and cloves.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "bariis-iyo-digag.jpg"
         },
         {
+            "id": 3,
             "name" :"Shaah Somali",
             "rating" : 5,
             "description" :"Sweet spiced Somali tea made with black tea, cardamom, cinnamon, and cloves",
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "somali-tea.jpeg"
         },
         {
+            "id": 3,
             "name" :"Burr",
             "rating" : 5,
             "description" :"Deep-fried sweet dough balls, soaked in sugar syrup—similar to gulab jamun.",
@@ -241,266 +268,295 @@
             "image" : "zobo.jpg"
         },
         {
+            "id": 3,
             "name" :"Suqaar",
             "rating" : 5,
             "description" :"Stir-fried diced meat (usually beef or goat) with vegetables, served with flatbread or rice.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "Suqaar.jpg"
         }
     ],
     "cuba":[
         {
+            "id": 3,
             "name" :"Arooz Con Pollo",
             "rating" : 5,
             "description" :"A traditional Latin American and Spanish dish meaning rice with chicken.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "couscous.jpeg"
+            "image" : "arooz-con-pollo.jpeg"
         },
         {
-            "name" :"CHEESY BEEF EMPANADAS ",
+            "id": 5,
+            "name" :"Cheesy Beef Empandas ",
             "rating" : 5,
             "description" :"This filling, inspired by a secret recipe, is tasty as is but can be elevated with red wine ",
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "cheesy-beef-empandas.jpeg"
         },
         {
-            "name" :"ARROZ CON GANDULES",
+            "id": 5,
+            "name" :"Arrpz Con Gandules",
             "rating" : 5,
             "description" :"A Cuban staple of rice, pork, pigeon peas, tomato paste, achiote, and sofrito, often enjoyed with pernil, yuca fries, and coquito.​",
             "time" :"1h 30",
             "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "arroz-con-gandules.jpeg"
         },
         {
-            "name" :"CLASSIC MOJITO",
+            "id": 5,
+            "name" :"Classic Mojito",
             "rating" : 5,
             "description" :"A Cuban cocktail made with sugar cane, lime, mint, rum, and soda water, offering refreshing beach vibes",
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "mojito.jpeg"
         },
         {
-            "name" :"BLACK BEAN SOUP",
+            "id": 5,
+            "name" :"Black Bean Soup",
             "rating" : 5,
             "description" :"A rich, creamy soup with deep purple-black color, spiced with onions, jalapeños, cumin, and chili powder.",
             "time" :"1h 30",
             "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "black-bean-soup.jpeg"
         },
         {
-            "name" :"CUBAN SANDWICH",
+            "id": 5,
+            "name" :"Cuban Sandwich",
             "rating" : 5,
             "description" :"A Cuban  sandwich with slow-roasted citrus-marinated pork, ham, Swiss, pickles, and mustard, all pressed to perfection.",
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "cuban-sandwich.jpeg"
         },
         {
-            "name" :"ROPA VIEJA",
+            "id": 5,
+            "name" :"Ropa vieja",
             "rating" : 5,
             "description" :"Cuba's national dish, this beef stew features shredded flank steak in a flavorful tomato-onion-pepper sauce.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "ropa-vieja.jpg"
         },
         {
-            "name" :"MOJO SHRIMP",
+            "id": 5,
+            "name" :"Mojo Shrimp",
             "rating" : 5,
             "description" :"A citrus-garlic marinade common in Cuban cuisine, this tangy blend of orange and lime juice enhances the flavor.",
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "mojo-shrimp.jpeg"
         },
         {
-            "name" :"BAGHSTRAWBERRY DAIQUIRIRIR",
+            "id": 5,
+            "name" :"Strawberry Daquiri",
             "rating" : 5,
             "description" :"A smooth, frosty cocktail made from a blend of fresh and frozen strawberries, perfect for refreshing daiquiri lovers.",
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "daquiri.jpeg"
         }
     ],
     "peru":[
         {
-            "name" :"CEVICHE",
+            "id": 1,
+            "name" :"Ceviche",
             "rating" : 3,
             "description" :"Raw fish (often sea bass or flounder) marinated in lime juice with onions, chili peppers, and cilantro.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "EASY",
-            "image" : "couscous.jpeg"
+            "image" : "ceviche.jpeg"
         },
         {
-            "name" :"LOMO SALTADO",
+            "id": 1,
+            "name" :"Lomo Saltado",
             "rating" : 5,
             "description" :"Stir-fried beef with onions, tomatoes, soy sauce, and french fries, served with rice.",
             "time" :"1h 30",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "lomo-saltado.jpg"
         },
         {
-            "name" :"PERUVIAN ARROZ CON POLLO ",
+            "id": 1,
+            "name" :"Peruvian Arroz Con Pollo ",
             "rating" : 4,
             "description" :"Green rice with chicken, cilantro, and vegetables.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "peruvian-polo.jpg"
         },
         {
-            "name" :"PISCO SOUR",
+            "id": 1,
+            "name" :"Pisco Sour",
             "rating" : 5,
             "description" :"The national drink of Peru, made with pisco (a type of brandy), lime juice, egg white, sugar, and bitters.",
             "time" :"1h 30",
             "category" :"drink",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "pisco-sour.jpg"
         },
         {
-            "name" :"SOLTERITO",
+            "id": 1,
+            "name" :"Solterito",
             "rating" : 5,
             "description" :"A fresh, colorful salad made with lima beans, corn, onions, tomatoes, and fresh herbs, often served as a side dish.",
             "time" :"15 mins",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "solterito.jpg"
         },
         {
-            "name" :"PICARONES",
+            "id": 1,
+            "name" :"Picarones",
             "rating" : 5,
             "description" :"Peruvian doughnuts made from sweet potato and squash, fried and served with a syrup made from molasses.",
             "time" :"30 mins",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "picarones.jpeg"
         },
         {
-            "name" :"FISH ESCABECHE",
+            "id": 1,
+            "name" :"Fish Escabeche",
             "rating" : 5,
             "description" :"Fish Escabeche features fish marinated in vinegar, garlic, onions, and spices, offering a tangy, savory flavor..",
             "time" :"40 mins",
             "category" :"lunch",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "fish-escababe.avif"
         },
         {
-            "name" :"CHUPE DE CAMARONES ",
+            "id": 1,
+            "name" :"Chupe De Camarones ",
             "rating" : 5,
             "description" :"Shrimp chowder with potatoes, corn, and cheese.",
             "time" :"1h ",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "shrimp.jpg"
         },
         {
-            "name" :"CHICHA MORADA ",
+            "id": 1,
+            "name" :"Chicha Morada ",
             "rating" : 5,
             "description" :"Sweet drink made from purple corn and spices.",
             "time" :"1h",
             "category" :"drink",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "chicha-morada.jpeg"
         }
     ],
     "japan":[
         {
-            "name" :"TOSHIKOSHI SOBA",
+            "id": 6,
+            "name" :"Toshikoshi Soba",
             "rating" : 5,
             "description" :"Toshikoshi Soba is a simple buckwheat noodle soup with light broth and toppings like green onions or tempura.",
             "time" :"2h - 3h",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "couscous.jpeg"
+            "image" : "toshikoshi-soba.jpg"
         },
         {
-            "name" :"Maguro Nigiri (まぐろ握り)",
+            "id": 6,
+            "name" :"Maguro Nigiri",
             "rating" : 5,
             "description" :"Hand-formed sushi with vinegared rice and raw tuna slices.",
             "time" :"30 mins",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "maguro-nigiri.jpg"
         },
         {
-            "name" :"Sushi Moriawase (寿司盛り合わせ)",
+            "id": 6,
+            "name" :"Sushi Moriawase",
             "rating" : 5,
             "description" :"Assorted sushi (nigiri, maki, sashimi), served with soy, ginger, wasabi.",
             "time" :"1h 30 - 2h",
             "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "sushi-moriawase.jpg"
         },
         {
-            "name" :"Tonkatsu (豚カツ)",
+            "id": 6,
+            "name" :"Tonkatsu ",
             "rating" : 5,
             "description" :"Deep-fried breaded pork cutlet with sauce and cabbage.",
             "time" :"45 mins",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "tonkatsu.jpg"
         },
         {
-            "name" :"Tataki (たたき)",
+            "id": 6,
+            "name" :"Tataki ",
             "rating" : 5,
             "description" :"Lightly seared meat or fish, sliced thin and served with ponzu.",
             "time" :"30 mins - 40 mins",
             "category" :"dinner",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "tataki.jpg"
         },
         {
-            "name" :"Chirashi Don (ちらし丼)",
+            "id": 6,
+            "name" :"Chirashi Don",
             "rating" : 5,
             "description" :"Sushi rice bowl topped with assorted raw fish and veggies.",
             "time" :"45 mins",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "chirashi-don.jpg"
         },
         {
-            "name" :"Aburi Sake Nigiri (炙りサーモン握り)",
+            "id": 6,
+            "name" :"Aburi Sake Nigiri ",
             "rating" : 5,
             "description" :"Flame-seared salmon on sushi rice, often with mayo or herbs.",
             "time" :"30 mins",
             "category" :"snack",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "nigiri.jpg"
         },
         {
-            "name" :"Okonomiyaki (お好み焼き)",
+            "id": 6,
+            "name" :"Okonomiyaki ",
             "rating" : 5,
             "description" :"A savory cabbage pancake with toppings like pork, seafood, mayo, and okonomiyaki sauce.",
             "time" :"45 mins - 60 mins",
             "category" :"lunch",
             "difficulty" : "MEDIUM",
-            "image" : "zobo.jpg"
+            "image" : "okonomiyaki.jpg"
         },
         {
-            "name" :"Kaiseki Ryōri (懐石料理)",
+            "id": 6,
+            "name" :"Kaiseki Ryōri ",
             "rating" : 5,
             "description" :"Refined multi-course seasonal meal with artistic presentation.",
             "time" :"3h - 4h",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "kaiseki.jpg"
         }
     ],
     "sweden":[
         {
+            "id": 7,
             "name" :"Gluten Free Mudcake",
             "rating" : 5,
             "description" :"Gluten-free sticky chocolate cake, where the choice of flour adds its own unique flavor",
@@ -510,76 +566,84 @@
             "image" : "mudcake.jpeg"
         },
         {
-            "name" :"MASHED POTATOES & MEATBALLS",
+            "id": 7,
+            "name" :"Mshed Potates & Meatballs",
             "rating" : 3,
             "description" :"Homemade meatballs are always a hit. Serve them with creamy sauce, mashed potatoes.",
             "time" :"1h 30",
-            "category" :"dessert",
+            "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "mashed-potatoes.jpeg"
         },
         {
-            "name" :"WAFFLES WITH WIPPED CREAM",
+            "id": 7,
+            "name" :"Waffles & Whipped Cream",
             "rating" : 4,
             "description" :"Making your own waffle batter is super easy! This basic recipe creates the crispiest waffles, ",
             "time" :"1h 30",
             "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "waffles.jpeg"
         },
         {
-            "name" :"SPINACH SOUP ",
+            "id": 7,
+            "name" :"Spinach Soup",
             "rating" : 3,
             "description" :"Classic spinach soup, traditionally served with a boiled egg.",
             "time" :"1h",
-            "category" :"dinner",
+            "category" :"lunch",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "spinach-soup.jpeg"
         },
         {
-            "name" :"OVEN-BAKED CHICKEN THIGHS ",
+            "id": 7,
+            "name" :"Oven baked Chicken Thighs",
             "rating" : 5,
             "description" :"Juicy chicken thighs baked with a creamy sun-dried tomato sauce.",
             "time" :"2h",
-            "category" :"dinner",
+            "category" :"lunch",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "oven-thigh.jpeg"
         },
         {
-            "name" :"ROASTED PORK",
+            "id": 7,
+            "name" :"Roasted Pork",
             "rating" : 5,
             "description" :"Roast pork tenderloin for juicy, flavorful meat. Serve with creamy sauce, thyme, mushrooms, garlic.",
             "time" :"1h 30",
             "category" :"dinner",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "roasted-pork.jpeg"
         },
         {
-            "name" :"BLUEBERRY SMOOTHIE",
+            "id": 7,
+            "name" :"Blueberry Smoothie",
             "rating" : 5,
             "description" :"A filling and tasty milk drink with a lovely color. Blend banana, milk, mild quark.",
             "time" :"30 mins",
             "category" :"drink",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "blueberry-smoothie.jpeg"
         },
         {
-            "name" :"SMÖRGÅSTÅRTA",
+            "id": 7,
+            "name" :"Smorgstarta",
             "rating" : 4,
             "description" :"A sandwich cake with salmon, shrimp, and boiled eggs – truly delicious! Perfect for holidays and summer celebrations.",
             "time" :"1h 30",
-            "category" :"lunch",
+            "category" :"dessert",
             "difficulty" : "HARD",
-            "image" : "zobo.jpg"
+            "image" : "shrimp-cake.jpeg"
         },
         {
-            "name" :"OVEN-BAKED SALMON",
+            "id": 7,
+            "name" :"Oven Baked Salmon",
             "rating" : 5,
             "description" :"Oven-baked salmon is perfect for serving a crowd. Serve with boiled potatoes, sour cream sauce with roe and herbs, and a salad.",
             "time" :"50 mins",
             "category" :"dinner",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "baked-salmon.jpeg"
         }
     ]
 }
