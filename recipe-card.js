@@ -53,7 +53,6 @@ container.innerHTML = "";
               <section class="recipes">
               <a href="sambusa.html?id=${recipe.id}" class="recipe-box-link">
                 <div class="recipe-box">
-                
                   <img src="./img/${recipe.image}" alt="${recipe.name}">
                   <div class="recipe-box-title">
                     <h5>${recipe.name}</h5>
