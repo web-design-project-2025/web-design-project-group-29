@@ -11,6 +11,7 @@
   }
   
 /* roots */
+
 /* recipe */
 .recipe-arrangement {
   margin-top: 5%;
@@ -26,7 +27,6 @@
   padding: 7%;
   margin-top: 10%;
   margin-left: 7.5%;
-  /* padding-bottom: 10%; */
   border-radius: 20px;
   box-shadow: 0px 6px 10px #555;
 }
@@ -38,7 +38,6 @@
 
 #star {
   margin-top: 3%;
-  /* margin-right: %; */
  color: var(--star-color);
 }
 
@@ -59,13 +58,12 @@
 }
 
 .recipes h5 {
-  font-family: "acumin-pro", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 700;
   font-style: normal;
   margin-top: 2%;
   margin-left: -5%;
   font-size: 1.4rem;
-  /* display: flex; */
 }
 
 .clock-heart {
@@ -87,11 +85,12 @@
   display: flex;
 }
 #heart {
+
+  display: none;
   transform: translateX(95%);
   font-size: 2.3rem;
   color: var(--colorful-text);
   cursor: pointer;
-  /* margin-top: 15%; */
 }
 
 #clock {
@@ -105,4 +104,35 @@
   margin-left: -7%;
   font-weight: 100;
 }
-/* recipe */
+/* filters */
+.filter-buttons-container {
+  display: flex;
+  justify-content: flex-start; 
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 3rem auto 1.5rem 5%; 
+  padding: 1rem;
+  max-width: 90%;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.4rem;
+  border: 2px solid var(--colorful-text);
+  background-color: transparent;
+  color: var(--colorful-text);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: var(--colorful-text);
+  color: white;
+}
+.recipe-box-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
