@@ -1,7 +1,15 @@
 /* roots */
-:root{
-  --colorful-text: #6e2e15;
-}
+:root {
+    --primary-color: #FFFDFA;
+    --secondary-color: #B6CAE5;
+    --colorful-text: #6E2E15;
+    --text-color: #4A4A4A;
+    --light-text: #606060;
+    --border-color: #F1EEEA;
+    --star-color : #F68F40;
+    --darker-blue:#6f98c4;
+  }
+  
 /* roots */
 
 /* recipe */
@@ -15,7 +23,7 @@
 .recipe-box {
   width: 85%;
   height: 80%;
-  background-color: ivory;
+  background-color: white;
   padding: 7%;
   margin-top: 10%;
   margin-left: 7.5%;
@@ -29,8 +37,9 @@
 }
 
 #star {
-  margin-top: 2%;
- color: var(--colorful-text);
+  margin-top: 3%;
+  /* margin-right: %; */
+ color: var(--star-color);
 }
 
 .recipe-box img {
@@ -54,7 +63,7 @@
   font-weight: 700;
   font-style: normal;
   margin-top: 2%;
-  margin-left: -7%;
+  margin-left: -5%;
   font-size: 1.4rem;
 }
 
@@ -62,11 +71,15 @@
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
+    margin-left: 2%;
+
 }
 #clock h6{
   font-family: "acumin-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
+    text-transform: lowercase;
+
   font-size: 1.2rem;
 }
 #clock {
