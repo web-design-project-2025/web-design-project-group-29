@@ -40,21 +40,6 @@ function createRecipeElement(recipe,) {
   // textBox.appendChild(titleImage);
 
   // category section
-
-  if (Array.isArray(recipe.category)&& recipe.category.length > 0){
-    const categoryContainer = document.createElement("div");
-    categoryContainer.classList.add("category-container");
-
-    recipe.category.forEach((category) => {
-      const categoryItem = document.createElement("span");
-      categoryItem.classList.add("category-item");
-      categoryItem.innerText = category;
-      categoryContainer.appendChild(categoryItem);
-    });
-
-    heroLeft.appendChild(categoryContainer);
-  }
-  
   
 
 
@@ -83,15 +68,33 @@ for (let i = 1; i <= totalStars; i++) {
   starContainer.appendChild(starIcon);
 }
 
+
+
 heroLeft.appendChild(starContainer);
 
 
+if (Array.isArray(recipe.category)&& recipe.category.length > 0){
+  const categoryContainer = document.createElement("div");
+  categoryContainer.classList.add("category-container");
+
+  recipe.category.forEach((category) => {
+    const categoryItem = document.createElement("span");
+    categoryItem.classList.add("category-item");
+    categoryItem.innerText = category;
+    categoryContainer.appendChild(categoryItem);
+  });
+
+  heroLeft.appendChild(categoryContainer);
+}
 
   // Recipe description
   const description = document.createElement("p");
   description.innerText = recipe.description;
   description.classList.add("recipe-description");
   heroLeft.appendChild(description);
+
+
+  
 
   // icon  container
 
@@ -102,10 +105,9 @@ heroLeft.appendChild(starContainer);
   difficultyContainer.classList.add("difficulty-container");
 
   // Difficulty level icon
-  const difficultyIcon = document.createElement("img");
-  difficultyIcon.classList.add("difficulty-icon");
-  difficultyIcon.src = "img/signal-solid.svg";
-  difficultyIcon.alt = recipe.difficulty;
+  const difficultyIcon = document.createElement("i");
+  difficultyIcon.classList.add("fas", "fa-signal", "difficulty-icon");
+ 
   difficultyContainer.appendChild(difficultyIcon);
  
 
@@ -121,10 +123,8 @@ heroLeft.appendChild(starContainer);
   timeContainer.classList.add("time-container");
 
 // time icon
-  const timeIcon = document.createElement("img");
-  timeIcon.classList.add("time-icon");
-  timeIcon.src = "img/clock.svg";
-  timeIcon.alt = recipe.time;
+  const timeIcon = document.createElement("i");
+  timeIcon.classList.add("far", "fa-clock", "time-icon");
   timeContainer.appendChild(timeIcon);
  
   // time text

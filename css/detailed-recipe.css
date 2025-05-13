@@ -5,6 +5,7 @@
     --text-color: #4A4A4A;
     --light-text: #606060;
     --border-color: #F1EEEA;
+    --starcolor: #F68F40;
   }
 
 body,
@@ -22,7 +23,6 @@ html {
 .recipe-grid {  
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: auto auto; */
   width: 100vw;
   height: 100vh;
 }
@@ -39,22 +39,25 @@ html {
   box-sizing: border-box;
 }
 
+.recipe-image-container{}
+
 .category-container {
-  margin-top: 10px;
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  padding-bottom: 1rem;
 }
 
 .category-item{
-  background-color: #f0f0f0;     /* light background */
-  color: #333;                   /* dark text */
-  padding: 4px 12px;             /* horizontal spacing for pill shape */
-  border-radius: 999px;          /* full pill */
+  background-color: transparent;
+  border: 2px solid var(--colorful-text);
+  border-radius: 999px;
+  padding: 4px 10px;
   font-size: 0.85rem;
-  font-weight: 500;
-  white-space: nowrap;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: var(--colorful-text);
+  font-weight: 500 ;
+
 }
 
 
@@ -64,7 +67,7 @@ html {
   gap: 4px;
   margin: 8px 0;
   font-size: 1.5rem;
-  color: var(--colorful-text);
+  color: var(--starcolor);
 }
 
 
@@ -110,7 +113,7 @@ html {
 .recipe-title-image{
   width: 100%;
   max-width: 200px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* Description */
@@ -124,15 +127,16 @@ html {
 /* Difficulty */
 
 .icon-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  
 }
 .difficulty-container {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 14px;
+  gap:5px;
+  font-size: 1rem;
   color: #666;
   margin-top: 10px;
 }
@@ -140,22 +144,33 @@ html {
 .time-container {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 14px;
+  gap: 5px;
+  font-size: 1rem;
   color: #666;
   margin-top: 10px;
 }
 
-.difficulty-icon {
-  width: 25px;
-  height: 25px;
-}
 
 .time-icon {
-  width: 25px;
-  height: 25px;
+  color: var(--colorful-text);
 }
 
+.time-icon{
+  color: var(--colorful-text);
+  
+}
+
+.difficulty-icon{
+  color: var(--colorful-text);
+}
+
+.time-text {
+  color: var(--colorful-text);
+}
+
+.difficulty-text {
+  color: var(--colorful-text);
+}
 /* Image */
 .recipe-image {
   width: 100%;
@@ -163,6 +178,7 @@ html {
   object-fit: cover;
   border-radius: 0;
   display: block;
+  
 }
 /*ingredients title */
 .ingredients-title {
