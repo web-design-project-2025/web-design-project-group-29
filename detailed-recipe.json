@@ -393,62 +393,129 @@
     },
     
     {
-      "id": 8,
-      "name": "Fried Palm Oil Stew",
-      "titleImg": "img/ceviche-text.svg",
-      "titleAlt": "Handwriten text saying 'Ceviche'",
+      "id": 7,
+      "name": "Nigerian Suya",
+      "titleImg": "img/suya-text.svg",
+      "titleAlt": "Handwritten text saying 'Suya'",
       "category": [
-        "Seafood",
-        "Peruvian",
-        "Lunch"
+        "Meat",
+        "Nigerian",
+        "Dinner"
       ],
-      "description": "A refreshing Peruvian dish of fresh raw fish cured in citrus juices, spiced with chili peppers, and served with sweet potato.",
-      "time": "30min",
-      "difficulty": "Easy",
-      "rating": 4.9,
-      "image": "img/palm-oil-stew.jpeg",
-      "imageAlt": " An colorful image of white fish with sweet potato and red onion toppings",
+      "description": "A popular spicy Nigerian street food made with skewered and grilled beef, seasoned with a unique blend of ground peanuts and spices.",
+      "time": "45min",
+      "difficulty": "Medium",
+      "rating": 4.8,
+      "image": "img/nigerian-suya.jpeg",
+      "imageAlt": "Grilled beef skewers covered in suya spice, served with onions and tomatoes",
       "ingredients": {
         "Main": [
           {
-            "name": "Red bell peppers (Tatashe)",
-            "quantity": "6 pcs"
-          },
-          {
-            "name": "Assorted meats (boiled and fried)",
+            "name": "Beef (thinly sliced)",
             "quantity": "500 g"
           },
           {
-            "name": "Boiled eggs (optional)",
-            "quantity": "4-6 pcs"
+            "name": "Ground roasted peanuts (without skin)",
+            "quantity": "1/2 cup"
           },
           {
-            "name": "Palm oil",
-            "quantity": "1.5 cups"
+            "name": "Cayenne pepper or chili powder",
+            "quantity": "1 tbsp"
           },
           {
-            "name": "Onions",
-            "quantity": "2 large pcs"
+            "name": "Paprika",
+            "quantity": "1 tbsp"
           },
           {
-            "name": "Tomatoes",
-            "quantity": "2 pcs"
+            "name": "Garlic powder",
+            "quantity": "1 tsp"
           },
           {
-            "name": "Crayfish",
-            "quantity": "2 tbsp"
-          },
-          {
-            "name": "Seasoning cubes",
-            "quantity": "2 pcs"
+            "name": "Onion powder",
+            "quantity": "1 tsp"
           },
           {
             "name": "Salt",
             "quantity": "to taste"
+          },
+          {
+            "name": "Vegetable oil",
+            "quantity": "2 tbsp"
+          },
+          {
+            "name": "Bouillon seasoning (Maggi or Knorr)",
+            "quantity": "1 cube"
+          },
+          {
+            "name": "Wooden skewers",
+            "quantity": "as needed"
+          },
+          {
+            "name": "Sliced onions (for garnish)",
+            "quantity": "1 medium"
+          },
+          {
+            "name": "Tomato slices (for serving)",
+            "quantity": "1 medium"
           }
         ]
-      }
-    },
+      }},{
+        "id": 8,
+        "name": "Fried Palm Oil Stew",
+        "titleImg": "img/ceviche-text.svg",
+        "titleAlt": "Handwriten text saying 'Ceviche'",
+        "category": [
+          "Seafood",
+          "Peruvian",
+          "Lunch"
+        ],
+        "description": "A refreshing Peruvian dish of fresh raw fish cured in citrus juices, spiced with chili peppers, and served with sweet potato.",
+        "time": "30min",
+        "difficulty": "Easy",
+        "rating": 4.9,
+        "image": "img/palm-oil-stew.jpeg",
+        "imageAlt": " An colorful image of white fish with sweet potato and red onion toppings",
+        "ingredients": {
+          "Main": [
+            {
+              "name": "Red bell peppers (Tatashe)",
+              "quantity": "6 pcs"
+            },
+            {
+              "name": "Assorted meats (boiled and fried)",
+              "quantity": "500 g"
+            },
+            {
+              "name": "Boiled eggs (optional)",
+              "quantity": "4-6 pcs"
+            },
+            {
+              "name": "Palm oil",
+              "quantity": "1.5 cups"
+            },
+            {
+              "name": "Onions",
+              "quantity": "2 large pcs"
+            },
+            {
+              "name": "Tomatoes",
+              "quantity": "2 pcs"
+            },
+            {
+              "name": "Crayfish",
+              "quantity": "2 tbsp"
+            },
+            {
+              "name": "Seasoning cubes",
+              "quantity": "2 pcs"
+            },
+            {
+              "name": "Salt",
+              "quantity": "to taste"
+            }
+          ]
+        }
+      },
     {
       "id": 9,
       "name": "Jollof Rice and Chicken with Plantain",
