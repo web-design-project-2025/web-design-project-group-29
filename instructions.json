@@ -2,41 +2,311 @@
   "instructions": [
     {
       "id": 1,
-      "name": "Ceviche",
+      "name": "Zobo Drink",
       "sections": [
         {
           "name": "Preparation:",
           "steps": [
-            "Cube the fish fillets and refrigerate.",
-            "Peel and boil sweet potato until tender, then cube."
+            "Rinse hibiscus petals thoroughly.",
+            "Combine petals, ginger, cloves, pepper, pineapple peel, cinnamon and water in pot. Boil then simmer 10-15 mins.",
+            "Cool to room temperature."
           ]
         },
         {
-          "name": "Marinade:",
+          "name": "Straining & Serving:",
           "steps": [
-            "Finely chop garlic, cilantro, habanero pepper, and red onion. Mix with salt, pepper, and lime juice."
+            "Strain through fine-mesh sieve, pressing to extract juice.",
+            "Mix in pineapple and orange juice.",
+            "Chill or serve over ice.",
+            "Garnish with fruit slices."
           ]
         },
         {
-          "name": "Assembly:",
+          "tips": [
+            "Adjust sweetness with honey if preferred",
+            "Garnish with orange/pineapple chunks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Efo Riro",
+      "sections": [
+        {
+          "name": "Preparation",
           "steps": [
-            "Add fish to marinade, ensuring full coverage. Refrigerate 45-60 minutes.",
-            "Add sweet potato cubes, maize, and remaining onion/cilantro for garnish.",
-            "Serve immediately with crispy maize topping."
+            "Blend the tomatoes, red bell pepper, habanero pepper, and onion into a smooth paste.",
+            "Chop the spinach and set aside."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat palm oil in a pot over medium heat.",
+            "Add the blended pepper mixture and cook until the oil rises to the top.",
+            "Add the cooked meat and mushrooms to the pot.",
+            "Season with bouillon powder, cayenne pepper, black pepper, ground crayfish, and salt.",
+            "Add water or stock as needed and simmer for 10 minutes.",
+            "Stir in the chopped spinach and cook for an additional 5 minutes."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot with rice, pounded yam, or any preferred side."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Moi Moi (Steamed Bean Pudding)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Rinse peeled beans thoroughly.",
+            "Blend beans, red bell peppers, scotch bonnets, onion, and water into a smooth thick batter.",
+            "Pour the mixture into a bowl and add salt, seasoning cubes, crayfish, and vegetable oil. Mix well.",
+            "Stir in any desired fillings such as sliced eggs or sardines."
+          ]
+        },
+        {
+          "name": "Steaming",
+          "steps": [
+            "Grease containers or use moi moi leaves/foil wrappers.",
+            "Pour the batter into molds, filling 3/4 full to allow room to rise.",
+            "Steam in a large pot with a rack or foil at the bottom and water below the level of the containers.",
+            "Cover and steam for 45–60 minutes, checking occasionally to refill water if needed.",
+            "Check doneness with a skewer—it should come out clean."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Let cool slightly before removing from molds.",
+            "Serve warm with pap, rice, or custard."
           ]
         },
         {
           "name": "Tips",
           "steps": [
-            "Use only fresh sushi-grade fish",
-            "Add crispy maize for texture contrast"
+            "Consistency should be thick but pourable—not watery.",
+            "Blend in batches if using a small blender to ensure smoothness.",
+            "Steam on medium heat to avoid burning the bottom of the pot."
           ]
         }
       ]
     },
-
     {
-      "id": 2,
+      "id": 4,
+      "name": "Akara",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Soak peeled black-eyed peas in water for a few hours or overnight.",
+            "Drain and blend the beans with chopped onions and chili peppers to form a smooth, thick batter.",
+            "Add salt and any optional spices or ingredients (e.g., ground crayfish, seasoning cubes)."
+          ]
+        },
+        {
+          "name": "Frying",
+          "steps": [
+            "Heat vegetable oil in a deep pan over medium heat.",
+            "Scoop the batter using a spoon or hand and drop it gently into the hot oil.",
+            "Fry in batches until golden brown, turning occasionally for even cooking (about 4–5 minutes per batch).",
+            "Remove and drain on paper towels."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot as a snack, breakfast item, or side dish.",
+            "Commonly enjoyed with pap (fermented corn pudding) or bread."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Ensure the batter is thick so the akara holds its shape in oil.",
+            "Do not overcrowd the pan to maintain oil temperature and even frying.",
+            "For extra fluffiness, beat the batter lightly before frying."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Oha Stew",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Wash and season the goat meat and stockfish with salt and seasoning cubes.",
+            "Boil until tender, adding water as needed.",
+            "Peel, boil, and pound the cocoyam until smooth.",
+            "Shred the Oha leaves by hand to prevent discoloration."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Add palm oil to the cooked meat and stockfish.",
+            "Introduce the pounded cocoyam to thicken the soup.",
+            "Add ground crayfish and adjust seasoning.",
+            "Stir and allow to cook for 10 minutes.",
+            "Add the shredded Oha leaves and simmer for 5 minutes."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot with pounded yam, fufu, or rice."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Do not overcook the Oha leaves to retain their green color.",
+            "Adjust the thickness of the soup by varying the amount of cocoyam."
+          ]
+        }
+      ]
+    },
+    
+    {
+      "id": 6,
+      "name": "Okra Soup and Stew",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Clean and boil assorted meats with salt, onions, and seasoning cubes until tender. Set stock aside.",
+            "Chop or grate okra finely.",
+            "Blend tomatoes, red bell peppers, and scotch bonnet into a smooth purée."
+          ]
+        },
+        {
+          "name": "Making the Stew Base",
+          "steps": [
+            "Heat palm oil in a pot and sauté chopped onions.",
+            "Add the blended tomato mixture and cook until thick and the oil separates (10–15 minutes).",
+            "Add crayfish, stockfish, and cooked meat into the stew base. Stir well and simmer."
+          ]
+        },
+        {
+          "name": "Cooking the Okra",
+          "steps": [
+            "Add chopped okra into the pot and stir.",
+            "Pour in some of the reserved meat stock or water to loosen if needed.",
+            "Simmer on low heat for about 5–7 minutes until the okra is tender and slightly stretchy.",
+            "Adjust seasoning to taste."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot with fufu, pounded yam, or rice.",
+            "Garnish with sliced peppers or more crayfish if desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Do not overcook okra to preserve its slimy/stretchy texture.",
+            "Add a pinch of baking soda or potash if you want more slime.",
+            "You can skip tomatoes entirely for a greener, simpler okra soup."
+          ]
+        }
+      ]
+    },
+   
+    {
+      "id": 8,
+      "name": "Fried Palm Oil Stew",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Blend the red bell peppers, tomatoes, and one onion into a smooth paste.",
+            "Slice the remaining onion and set aside."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat palm oil in a pot until it becomes clear (bleached).",
+            "Add the sliced onions and fry until translucent.",
+            "Pour in the blended pepper mixture and cook until the oil rises to the top.",
+            "Add the assorted meats and stir well.",
+            "Season with crayfish, seasoning cubes, and salt.",
+            "Add the boiled eggs if using and simmer for 10 minutes."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot with rice, yam, or any preferred side."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Jollof Rice and Chicken with Plantain",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Blend tomatoes, red bell peppers, one onion, and garlic into a smooth mixture.",
+            "Rinse the rice and set aside.",
+            "Peel and slice plantains into rounds."
+          ]
+        },
+        {
+          "name": "Cooking the Chicken",
+          "steps": [
+            "Season chicken with salt, pepper, curry, thyme, and bouillon. Boil until tender and reserve the stock.",
+            "Fry or grill the cooked chicken pieces until golden brown. Set aside."
+          ]
+        },
+        {
+          "name": "Making the Jollof Base",
+          "steps": [
+            "In a pot, heat oil and sauté sliced onions. Add tomato paste and fry for 2 minutes.",
+            "Add blended pepper mixture and cook until oil begins to separate (about 10–15 minutes).",
+            "Stir in seasonings, chicken stock, and bring to a boil.",
+            "Add rice and bay leaf. Reduce heat and simmer until rice is cooked and liquid is absorbed."
+          ]
+        },
+        {
+          "name": "Frying the Plantains",
+          "steps": [
+            "Heat oil in a pan and fry sliced plantains until golden brown on both sides.",
+            "Drain on paper towels."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve the Jollof rice with fried chicken and plantains on the side.",
+            "Optionally garnish with fresh vegetables or herbs."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use parboiled rice to avoid sogginess.",
+            "Cook over low heat for better flavor absorption.",
+            "For extra heat, add Scotch bonnet to the blend."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
       "name": "Couscous",
       "sections": [
         {
@@ -74,9 +344,339 @@
         }
       ]
     },
-
     {
-      "id": 3,
+      "id": 11,
+      "name": "Lham Hlou",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Rinse the prunes and soak in warm water if they are very dry.",
+            "Peel blanched almonds and optionally toast them for garnish.",
+            "Chop the onion finely."
+          ]
+        },
+        {
+          "name": "Cooking the Meat",
+          "steps": [
+            "In a large pot, melt butter and sauté onions until soft.",
+            "Add lamb pieces, cinnamon stick, and salt. Brown meat on all sides.",
+            "Add water, bring to a boil, then lower heat and simmer covered for 45 minutes or until meat is tender."
+          ]
+        },
+        {
+          "name": "Adding the Sweetness",
+          "steps": [
+            "Add prunes and sugar to the pot and continue cooking uncovered.",
+            "Simmer gently until prunes soften and the sauce thickens slightly (about 15–20 minutes).",
+            "Add orange blossom water in the last 2 minutes of cooking."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Transfer lamb and prunes to a serving dish.",
+            "Garnish with toasted almonds and a sprinkle of ground cinnamon.",
+            "Serve warm as a festive main dish."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use smen (fermented butter) for deeper traditional flavor.",
+            "You can add dried apricots or raisins for variation.",
+            "Adjust sugar based on the sweetness of your prunes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Mhalbi",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "In a pot, whisk together rice flour and cold milk until smooth and fully dissolved.",
+            "Add sugar and mix well."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Place the pot over medium heat and cook while continuously stirring.",
+            "As the mixture heats, it will begin to thicken (about 10–15 minutes).",
+            "Once thickened, add orange blossom water and stir well.",
+            "Simmer for another 2–3 minutes, then remove from heat."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Pour into individual serving bowls or cups.",
+            "Allow to cool slightly, then refrigerate for at least 1–2 hours.",
+            "Before serving, garnish with cinnamon and nuts if desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use a whisk throughout cooking to prevent lumps.",
+            "Adjust sugar and orange blossom water to taste.",
+            "For richer texture, you can replace part of the milk with cream."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Rechta",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Soak chickpeas overnight or use canned and rinse thoroughly.",
+            "Peel and chop vegetables into large chunks.",
+            "Season chicken pieces with salt and black pepper."
+          ]
+        },
+        {
+          "name": "Cooking the Sauce",
+          "steps": [
+            "In a large pot, heat oil or smen and sauté chopped onions until translucent.",
+            "Add chicken and brown lightly on all sides.",
+            "Add chickpeas, turnips, cinnamon stick, and enough water to cover.",
+            "Simmer over medium heat for 30–40 minutes, adding zucchini or carrots halfway through.",
+            "Season to taste with additional salt or pepper."
+          ]
+        },
+        {
+          "name": "Steaming the Noodles",
+          "steps": [
+            "Place rechta noodles in a steamer and steam for about 20 minutes.",
+            "Remove and toss with a little oil to loosen, then steam again for another 15–20 minutes.",
+            "Repeat until noodles are soft and fully cooked."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Place steamed rechta in a large serving dish.",
+            "Arrange chicken and vegetables on top.",
+            "Pour the white sauce over the noodles and sprinkle with ground cinnamon.",
+            "Serve hot with extra sauce on the side."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Steam noodles in batches to avoid clumping.",
+            "You can replace turnips with potatoes if preferred.",
+            "Add a few tablespoons of sauce while mixing noodles to enhance flavor."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Baklawa (Algerian)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "In a bowl, mix chopped almonds with sugar, cinnamon, and orange blossom water.",
+            "Grease a large baking dish with butter.",
+            "Layer half of the phyllo sheets into the dish, brushing each sheet with melted butter."
+          ]
+        },
+        {
+          "name": "Assembly and Baking",
+          "steps": [
+            "Spread the almond mixture evenly over the phyllo.",
+            "Cover with remaining phyllo sheets, continuing to brush each with melted butter.",
+            "Using a sharp knife, cut into diamond or square shapes.",
+            "Bake at 180°C (350°F) for about 40–45 minutes or until golden brown."
+          ]
+        },
+        {
+          "name": "Syrup",
+          "steps": [
+            "While baklawa is baking, prepare the syrup: combine sugar, water, and lemon juice in a saucepan.",
+            "Boil for 10–12 minutes until slightly thickened. Add orange blossom water at the end.",
+            "Once baklawa is out of the oven, immediately pour hot syrup over it.",
+            "Let it cool completely to absorb the syrup before serving."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use a damp towel to cover unused phyllo sheets while working to prevent drying.",
+            "You can substitute almonds with walnuts or pistachios if preferred.",
+            "The baklawa tastes even better the next day after the flavors meld."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Hmiss",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Grill the bell peppers over an open flame or in an oven until the skins are charred.",
+            "Place them in a bowl and cover to steam for 10 minutes, then peel off the skins and chop the flesh.",
+            "Grate or finely chop the tomatoes and mince the garlic."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat olive oil in a pan over medium heat.",
+            "Add the chopped peppers, tomatoes, and garlic.",
+            "Cook uncovered for 15–20 minutes, stirring occasionally, until most of the moisture has evaporated and the mixture thickens.",
+            "Season with salt, black pepper, and chili flakes (if using)."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve warm or at room temperature.",
+            "Traditionally served with crusty bread, flatbread, or as a side to grilled meats."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "You can add roasted chili peppers for a spicier version.",
+            "Make in advance—the flavor improves after resting.",
+            "Drizzle with extra olive oil before serving for a richer taste."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Chakhchoukha (Algerian)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Tear the rougag (flatbread) into small bite-sized pieces and set aside.",
+            "Chop onions and prepare garlic and spices.",
+            "If using dried chickpeas, soak overnight and boil until soft."
+          ]
+        },
+        {
+          "name": "Cooking the Stew",
+          "steps": [
+            "Heat oil or ghee in a large pot.",
+            "Add chopped onions and garlic and sauté until translucent.",
+            "Add meat and brown on all sides.",
+            "Stir in tomatoes, paprika, cumin, coriander, and harissa.",
+            "Add chickpeas and pour in enough water to cover everything.",
+            "Add cinnamon stick, salt, and pepper.",
+            "Simmer for 45–60 minutes, until meat is tender and sauce thickens slightly."
+          ]
+        },
+        {
+          "name": "Combining and Serving",
+          "steps": [
+            "Place torn flatbread into a large dish or serving plate.",
+            "Ladle the hot stew over the bread gradually, allowing it to soak.",
+            "Mix gently and let sit for a few minutes to absorb flavors.",
+            "Garnish with chopped fresh herbs before serving."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "You can prepare and freeze the rougag ahead of time.",
+            "For a richer dish, drizzle a little melted butter over the bread before serving.",
+            "Traditionally served during celebrations like Mawlid or Eid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Baghrir (Algerian Pancakes)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "In a blender, combine semolina, flour, warm water, yeast, baking powder, salt, and sugar.",
+            "Blend until smooth and bubbly.",
+            "Cover the batter and let it rest for 30–45 minutes in a warm place until slightly risen."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat a non-stick pan over medium heat (do not grease).",
+            "Pour a ladle of batter into the pan and spread gently.",
+            "Cook until bubbles form and the surface sets; do not flip.",
+            "Remove once the top is dry and full of holes. Repeat with remaining batter."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve warm, drizzled with melted butter and honey.",
+            "Can be served with jam or amlou (almond-argan spread) for variation."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Ensure the batter is thin but not watery for proper bubbling.",
+            "Do not cook on high heat; gentle cooking allows holes to form evenly.",
+            "If holes don’t form, let the batter rest longer or add a bit more warm water."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Chakchouka (Algerian)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Chop the tomatoes and slice the bell peppers and onion.",
+            "Mince the garlic cloves and prepare the seasoning."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat olive oil in a large skillet over medium heat.",
+            "Add onions and bell peppers, sauté until softened (about 5–7 minutes).",
+            "Stir in garlic and cook for another minute.",
+            "Add chopped tomatoes, cumin, paprika, salt, and pepper.",
+            "Simmer for 10–15 minutes until the tomatoes break down and form a thick sauce."
+          ]
+        },
+        {
+          "name": "Eggs and Finishing",
+          "steps": [
+            "Make small wells in the sauce and crack an egg into each well.",
+            "Cover the pan and cook for 5–7 minutes or until the eggs are just set.",
+            "Garnish with fresh parsley or cilantro before serving."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use ripe, juicy tomatoes for a richer flavor.",
+            "You can add cooked potatoes or merguez sausage for variation.",
+            "Serve with warm bread or flatbread to scoop up the sauce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
       "name": "Sambusa",
       "sections": [
         {
@@ -102,39 +702,462 @@
         }
       ]
     },
-
     {
-      "id": 4,
-      "name": "Zobo Drink",
+      "id": 20,
+      "name": "Bariis iyo Hilib",
       "sections": [
         {
-          "name": "Preparation:",
+          "name": "Preparation",
           "steps": [
-            "Rinse hibiscus petals thoroughly.",
-            "Combine petals, ginger, cloves, pepper, pineapple peel, cinnamon and water in pot. Boil then simmer 10-15 mins.",
-            "Cool to room temperature."
+            "Rinse the rice and soak for 20 minutes, then drain.",
+            "Cut meat into bite-sized cubes and season with salt and pepper.",
+            "Chop all vegetables and prepare spices."
           ]
         },
         {
-          "name": "Straining & Serving:",
+          "name": "Cooking Meat and Base",
           "steps": [
-            "Strain through fine-mesh sieve, pressing to extract juice.",
-            "Mix in pineapple and orange juice.",
-            "Chill or serve over ice.",
-            "Garnish with fruit slices."
+            "Heat oil in a pot and sauté onions until translucent.",
+            "Add garlic, cinnamon stick, cloves, and cumin. Stir for 1–2 minutes.",
+            "Add the meat and sear until browned.",
+            "Mix in tomato and cook for 5–7 minutes until sauce reduces.",
+            "Pour in water or stock, cover, and simmer until meat is tender (30–40 minutes)."
           ]
         },
         {
-          "tips": [
-            "Adjust sweetness with honey if preferred",
-            "Garnish with orange/pineapple chunks"
+          "name": "Cooking the Rice",
+          "steps": [
+            "Add carrots and raisins (if using) to the pot.",
+            "Stir in drained rice and bring to a boil.",
+            "Reduce heat to low, cover, and simmer for 15–20 minutes or until rice is cooked and water is absorbed."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Fluff rice gently and serve with tender meat on top or mixed in.",
+            "Optional: garnish with fried onions or banana slices (traditional Somali accompaniment)."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "For more flavor, sear meat on high heat before simmering.",
+            "You can add whole green cardamom pods for aroma.",
+            "Serve with Somali chutney or salad for a full meal."
           ]
         }
       ]
     },
-
     {
-      "id": 5,
+      "id": 21,
+      "name": "Rooti Farmaajo",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "In a mixing bowl, combine flour, baking powder, sugar, salt, and optional cardamom.",
+            "In another bowl, whisk together eggs, milk, melted butter, and vanilla extract (if using)."
+          ]
+        },
+        {
+          "name": "Mixing",
+          "steps": [
+            "Gradually add the wet ingredients to the dry ingredients, stirring to form a smooth batter.",
+            "Fold in the grated cheese."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Preheat a waffle iron or lightly greased nonstick skillet over medium heat.",
+            "Pour or scoop the batter into the waffle iron or skillet.",
+            "Cook until golden brown and cooked through — about 4–5 minutes per side if using a pan, or as per waffle iron instructions."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve warm with Somali shaah (tea), honey, or extra cheese on top.",
+            "Can be eaten for breakfast, brunch, or as a sweet-savory snack."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use sharp cheddar for a bolder flavor.",
+            "To make it sweeter, increase sugar and serve with syrup or jam.",
+            "Best enjoyed fresh but can be reheated in a toaster."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Sabaayad",
+      "sections": [
+        {
+          "name": "Making the Dough",
+          "steps": [
+            "In a large bowl, mix flour, salt, and sugar (if using).",
+            "Gradually add warm water while kneading to form a soft, elastic dough.",
+            "Knead for 8–10 minutes, then cover and let rest for 30 minutes."
+          ]
+        },
+        {
+          "name": "Shaping the Flatbreads",
+          "steps": [
+            "Divide dough into equal portions and roll each into a ball.",
+            "Roll out each ball into a thin circle, brush with oil or butter.",
+            "Roll into a log, coil into a spiral, and flatten again into a disc for extra flakiness."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat a skillet or griddle over medium heat.",
+            "Place a rolled sabaayad on the skillet and cook for 1–2 minutes per side, brushing with oil until golden and lightly browned.",
+            "Repeat with remaining dough."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve warm with stew, tea, or drizzle with honey for a sweet version.",
+            "Can be stored in foil or a towel to keep warm and soft."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Resting the dough improves elasticity and texture.",
+            "Oil between folds helps create layers and flakiness.",
+            "Use a cast iron pan for even cooking and color."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Fuul",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "If using canned fava beans, drain and rinse them.",
+            "Mince the garlic cloves."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "In a saucepan, add the fava beans and a bit of water. Simmer until heated through.",
+            "Mash the beans slightly to achieve a chunky consistency.",
+            "In a separate bowl, mix minced garlic, cumin seeds, salt, tahini, and lemon juice to create a sauce.",
+            "Stir the sauce into the beans and mix well."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Drizzle olive oil over the top.",
+            "Serve warm with pita bread or flatbread."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Bariis iyo Digaag",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Rinse rice in cold water until water runs clear. Soak for 20 minutes and drain.",
+            "Season chicken with salt and pepper. Set aside.",
+            "Dice vegetables and prepare spices."
+          ]
+        },
+        {
+          "name": "Cooking Chicken and Base",
+          "steps": [
+            "In a large pot, heat oil and sauté onions until soft.",
+            "Add garlic, spices, and grated tomato. Cook for 3–4 minutes.",
+            "Add chicken pieces and cook until lightly browned on all sides.",
+            "Add carrots and bell pepper, stir and cook for 2 more minutes.",
+            "Pour in water or stock and bring to a boil. Let chicken simmer for 15–20 minutes."
+          ]
+        },
+        {
+          "name": "Cooking the Rice",
+          "steps": [
+            "Remove chicken and set aside. Add soaked rice to the broth.",
+            "Stir once, reduce heat to low, cover, and cook for 15–20 minutes until rice is fluffy.",
+            "Reheat chicken by pan-frying or grilling for extra flavor if desired."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Fluff rice with a fork and serve with the chicken on top.",
+            "Can be garnished with raisins, fried onions, or banana on the side (Somali tradition)."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Add a dash of turmeric or saffron to rice water for color.",
+            "Grill the chicken after boiling for a smoky, crispy layer.",
+            "Use fresh spices for the best aroma and flavor."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Shaah Somali",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Lightly crush the cardamom pods, cloves, and peppercorns using a mortar and pestle.",
+            "In a saucepan, combine water, milk, sugar, and all the spices.",
+            "Bring the mixture to a boil over medium heat."
+          ]
+        },
+        {
+          "name": "Brewing",
+          "steps": [
+            "Add the black tea to the boiling mixture.",
+            "Reduce heat and let it simmer for 5–10 minutes, allowing the flavors to infuse.",
+            "Strain the tea into cups to remove the spices and tea leaves."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot, optionally accompanied by Somali snacks like sambusas or biscuits.",
+            "Adjust sweetness by adding more sugar if desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "For a lighter tea, reduce the simmering time.",
+            "You can substitute whole milk with evaporated milk or powdered milk (e.g., Nido) for a richer flavor.",
+            "Experiment with spice quantities to suit your taste preferences."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Suqaar",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Dice the meat and vegetables into small, uniform cubes.",
+            "Mince the garlic and chop the onions."
+          ]
+        },
+        {
+          "name": "Cooking the Meat",
+          "steps": [
+            "In a skillet, heat oil over medium heat.",
+            "Add the diced meat and cook until browned on all sides.",
+            "Add garlic and onions, sauté until fragrant and onions are translucent."
+          ]
+        },
+        {
+          "name": "Adding Vegetables",
+          "steps": [
+            "Add carrots, bell peppers, and tomatoes to the pan.",
+            "Season with cumin, turmeric, salt, and pepper.",
+            "Pour in a little water or broth, cover, and simmer until vegetables are soft and meat is tender (about 10–15 minutes)."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot with Somali flatbread (sabaayad), rice, or pasta.",
+            "Garnish with fresh cilantro if desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use boneless meat for quick cooking.",
+            "For more spice, add green chili or Somali xawaash seasoning.",
+            "Leftovers make a great filling for wraps or sandwiches."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Arooz Con Pollo",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Season the chicken with salt, pepper, and cumin.",
+            "Heat oil in a large pot or deep skillet and brown the chicken on both sides. Remove and set aside."
+          ]
+        },
+        {
+          "name": "Base Cooking",
+          "steps": [
+            "In the same pot, sauté onion, garlic, and bell pepper until soft.",
+            "Add diced tomatoes, turmeric (or achiote), and bay leaf. Cook for 2–3 minutes."
+          ]
+        },
+        {
+          "name": "Rice and Simmering",
+          "steps": [
+            "Add the rice and stir to coat it in the sofrito mixture.",
+            "Return the browned chicken to the pot, then pour in the chicken stock.",
+            "Add peas and bring everything to a boil.",
+            "Lower the heat, cover, and simmer for 25–30 minutes or until the rice is cooked and liquid absorbed."
+          ]
+        },
+        {
+          "name": "Finishing Touch",
+          "steps": [
+            "Garnish with chopped cilantro.",
+            "Let rest covered for 5 minutes before serving."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "For extra flavor, marinate the chicken in spices ahead of time.",
+            "Use saffron or annatto oil for authentic color.",
+            "Add carrots or olives for regional variations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Cheesy Beef Empanadas",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Heat olive oil in a skillet over medium heat.",
+            "Sauté onion and garlic until soft, about 3–4 minutes.",
+            "Add bell pepper and cook for another 2 minutes.",
+            "Add ground beef and cook until browned, breaking up with a spatula.",
+            "Stir in tomato paste and seasonings; simmer for 5–7 minutes until mixture is thick and well combined.",
+            "Remove from heat and let cool, then mix in shredded cheese."
+          ]
+        },
+        {
+          "name": "Assembly",
+          "steps": [
+            "Preheat oven to 200°C (390°F).",
+            "Place a spoonful of filling in the center of each empanada disc.",
+            "Fold in half to form a half-moon shape and press edges to seal with a fork.",
+            "Brush tops with beaten egg for a golden finish."
+          ]
+        },
+        {
+          "name": "Baking",
+          "steps": [
+            "Place empanadas on a baking tray lined with parchment paper.",
+            "Bake for 20–25 minutes or until golden brown and crispy."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Let the filling cool before sealing to avoid soggy dough.",
+            "You can freeze unbaked empanadas and bake directly from frozen (add 5 extra minutes).",
+            "Experiment with different cheese blends for unique flavors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Arroz Con Gandules",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Dice the salchichón, onions, and bell peppers.",
+            "Mince the garlic cloves.",
+            "Rinse the rice until the water runs clear."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat olive oil in a large pot over medium heat.",
+            "Sauté garlic, onions, and bell peppers until softened.",
+            "Add sofrito, tomato sauce, salchichón, and seasonings. Cook for 2–3 minutes.",
+            "Stir in pigeon peas and olives.",
+            "Add rice and mix well to coat with the sauce.",
+            "Pour in water and bring to a boil.",
+            "Reduce heat to low, cover, and simmer for 25–30 minutes or until rice is tender."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Fluff the rice with a fork.",
+            "Garnish with additional culantro leaves if desired.",
+            "Serve hot as a main dish."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "For added flavor, use chicken broth instead of water.",
+            "Adjust seasoning to taste, especially if using salted broth."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Classic Mojito",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Place mint leaves and sugar in a sturdy glass.",
+            "Use a muddler or spoon to gently bruise the mint leaves to release their flavor."
+          ]
+        },
+        {
+          "name": "Mixing",
+          "steps": [
+            "Add fresh lime juice and white rum to the glass.",
+            "Fill the glass with ice cubes.",
+            "Top with soda water and stir gently to combine."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Garnish with a lime wedge and a sprig of mint.",
+            "Serve immediately with a straw."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Do not shred or tear the mint; gently muddle to avoid bitterness.",
+            "Adjust sugar and lime juice to match your taste.",
+            "Use crushed ice for a frostier drink."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
       "name": "Black Bean Soup",
       "sections": [
         {
@@ -153,44 +1176,991 @@
         }
       ]
     },
-
     {
-      "name": "Tips",
-      "steps": []
-    },
-
-    {
-      "id": 6,
-      "name": "Toshikoshi Soba",
+      "id": 33,
+      "name": "Cuban Sandwich",
       "sections": [
         {
-          "name": "Broth",
-          "steps": "Heat dashi stock. Add mirin, sugar and soy sauce to make soup base"
+          "name": "Preparation",
+          "steps": [
+            "Slice the Cuban bread lengthwise.",
+            "Spread mustard on both halves of the bread."
+          ]
         },
         {
-          "name": "Noodles",
+          "name": "Assembly",
           "steps": [
-            "Boil water in separate pan. Add soba noodles, cook 8 mins",
-            "Drain and rinse noodles in cold water"
+            "Layer the bottom half with Swiss cheese, pickles, roast pork, and ham.",
+            "Place the top half of the bread over the fillings."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Butter the outside of the sandwich.",
+            "Place the sandwich on a hot grill or panini press.",
+            "Press down and cook until the bread is crispy and the cheese has melted."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Remove from heat, slice diagonally, and serve hot."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Ropa Vieja",
+      "sections": [
+        {
+          "name": "Cooking the Beef",
+          "steps": [
+            "Season flank steak with salt and pepper.",
+            "In a large pot, heat 1 tbsp olive oil and sear beef on both sides until browned.",
+            "Add half of the sliced onions, bay leaf, and beef broth. Cover and simmer for 2 hours or until the beef is very tender.",
+            "Remove beef, let cool slightly, then shred with two forks."
+          ]
+        },
+        {
+          "name": "Making the Sauce",
+          "steps": [
+            "In the same pot, heat remaining olive oil.",
+            "Sauté the rest of the onions, garlic, and bell peppers until soft.",
+            "Add cumin, paprika, oregano, and stir for 1–2 minutes.",
+            "Pour in crushed tomatoes and simmer for 5 minutes."
+          ]
+        },
+        {
+          "name": "Combining",
+          "steps": [
+            "Return shredded beef to the pot and stir into the sauce.",
+            "Simmer uncovered for 10–15 minutes until flavors meld and sauce thickens.",
+            "Adjust salt and pepper to taste."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot with white rice, black beans, or fried plantains.",
+            "Garnish with fresh parsley or lime wedges if desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Best made a day ahead—flavors improve overnight.",
+            "Can be made in a pressure cooker or slow cooker for convenience.",
+            "Add olives or capers for a tangy twist."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Mojo Shrimp",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "In a bowl, whisk together olive oil, garlic, orange juice, lime juice, cumin, salt, pepper, and red pepper flakes.",
+            "Add shrimp to the marinade and toss to coat.",
+            "Let it marinate for 15–30 minutes in the refrigerator."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat a skillet or grill pan over medium-high heat.",
+            "Add shrimp (shaking off excess marinade) and cook for 2–3 minutes per side, or until pink and opaque.",
+            "Do not overcook to avoid rubbery texture."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Transfer shrimp to a serving plate.",
+            "Drizzle with leftover (cooked) marinade if desired.",
+            "Garnish with chopped cilantro or parsley.",
+            "Serve with rice, plantains, or as a taco filling."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use freshly squeezed citrus juices for the best flavor.",
+            "Shrimp cook quickly, so monitor closely to avoid overcooking.",
+            "Marinate only briefly to prevent the citrus from breaking down the shrimp texture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Strawberry Daiquiri",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Wash and hull fresh strawberries if not using pre-frozen.",
+            "Squeeze fresh limes for juice."
+          ]
+        },
+        {
+          "name": "Blending",
+          "steps": [
+            "In a blender, combine strawberries, rum, lime juice, simple syrup, and ice.",
+            "Blend on high until smooth and slushy.",
+            "Taste and adjust sweetness by adding more syrup if needed."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Pour into chilled cocktail glasses.",
+            "Garnish with a strawberry or lime wedge on the rim.",
+            "Serve immediately while cold and slushy."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use fresh strawberries and freeze them in advance for the best texture.",
+            "For a non-alcoholic version, skip the rum and add lemon-lime soda or water.",
+            "Adjust ice depending on desired thickness."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Ceviche",
+      "sections": [
+        {
+          "name": "Preparation:",
+          "steps": [
+            "Cube the fish fillets and refrigerate.",
+            "Peel and boil sweet potato until tender, then cube."
+          ]
+        },
+        {
+          "name": "Marinade:",
+          "steps": [
+            "Finely chop garlic, cilantro, habanero pepper, and red onion. Mix with salt, pepper, and lime juice."
           ]
         },
         {
           "name": "Assembly:",
           "steps": [
-            "Slice spring onions and prepare garnishes",
-            "Reheat stock and pour into bowls",
-            "Add noodles and garnish with onions/tempura flakes"
+            "Add fish to marinade, ensuring full coverage. Refrigerate 45-60 minutes.",
+            "Add sweet potato cubes, maize, and remaining onion/cilantro for garnish.",
+            "Serve immediately with crispy maize topping."
           ]
         },
         {
           "name": "Tips",
-          "steps": []
+          "steps": [
+            "Use only fresh sushi-grade fish",
+            "Add crispy maize for texture contrast"
+          ]
         }
       ]
     },
-
     {
-      "id": 7,
+      "id": 38,
+      "name": "Lomo Saltado",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Slice beef into thin strips and season with salt and pepper.",
+            "Cut onion and tomatoes into wedges. Mince garlic.",
+            "Fry or bake French fries until crispy and set aside."
+          ]
+        },
+        {
+          "name": "Cooking the Stir-Fry",
+          "steps": [
+            "Heat oil in a wok or skillet over high heat.",
+            "Add beef and sear quickly until browned. Remove and set aside.",
+            "Add garlic and onions to the pan, stir-fry until slightly softened.",
+            "Add tomatoes and cook briefly (they should stay a bit firm)."
+          ]
+        },
+        {
+          "name": "Combining",
+          "steps": [
+            "Return beef to the pan. Add soy sauce and vinegar.",
+            "Stir-fry everything together for 1–2 minutes.",
+            "Gently fold in the French fries and mix briefly."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot over a bed of white rice.",
+            "Garnish with chopped cilantro."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Work quickly over high heat to retain the crispness of veggies.",
+            "Use fresh hand-cut fries for best texture and flavor.",
+            "A splash of beef stock can be added if you want more sauce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Peruvian Arroz con Pollo",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Blend cilantro, spinach (if using), and 1/2 cup chicken stock until smooth. Set aside.",
+            "Season chicken with salt and pepper.",
+            "Chop onion, garlic, bell pepper, and carrot."
+          ]
+        },
+        {
+          "name": "Cooking the Chicken",
+          "steps": [
+            "Heat oil in a large pot over medium-high heat.",
+            "Brown chicken on both sides (about 3–4 minutes per side), then remove and set aside."
+          ]
+        },
+        {
+          "name": "Making the Rice Base",
+          "steps": [
+            "In the same pot, sauté onions, garlic, and bell pepper until soft.",
+            "Stir in the cilantro-spinach purée and cook for 3–5 minutes.",
+            "Add rice and toast lightly for 1–2 minutes while stirring."
+          ]
+        },
+        {
+          "name": "Simmering",
+          "steps": [
+            "Return chicken to the pot and add diced carrots and enough stock to cover the rice (about 3–4 cups).",
+            "Cover and cook on low heat for 20–25 minutes, or until rice is done and liquid is absorbed.",
+            "Add green peas during the last 5 minutes of cooking."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Fluff the rice gently and serve with chicken on top.",
+            "Optionally garnish with lime wedges or fresh cilantro."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use fresh cilantro for best flavor and bright green color.",
+            "Avoid stirring the rice too often while simmering to prevent mushiness.",
+            "Can be made with boneless chicken for easier serving."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Pisco Sour",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Crack and separate the egg white from the yolk (use only the white).",
+            "Prepare all other ingredients and measure them into a cocktail shaker."
+          ]
+        },
+        {
+          "name": "Shaking",
+          "steps": [
+            "Add pisco, lime juice, simple syrup, and egg white into the shaker (no ice).",
+            "Dry shake vigorously for 10–15 seconds to emulsify the egg white.",
+            "Add ice and shake again for another 15 seconds until chilled."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Strain into a chilled coupe or small cocktail glass.",
+            "Let foam rise to the top, then add a few drops of Angostura bitters.",
+            "Optionally drag a toothpick through the bitters for a marbled effect."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use fresh lime juice for the best flavor.",
+            "The dry shake is essential to achieving a thick, creamy foam.",
+            "Egg white is traditional but can be substituted with aquafaba for a vegan version."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Solterito",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Cook the lima beans and corn until tender. Let cool.",
+            "Dice tomatoes, potato, and cheese. Thinly slice onion and chop herbs.",
+            "Combine all salad ingredients in a large bowl."
+          ]
+        },
+        {
+          "name": "Dressing",
+          "steps": [
+            "In a small bowl, whisk together olive oil, lime juice (or vinegar), salt, and pepper.",
+            "Taste and adjust seasoning to your preference."
+          ]
+        },
+        {
+          "name": "Assembly",
+          "steps": [
+            "Pour the dressing over the salad mixture.",
+            "Toss gently to combine and evenly coat.",
+            "Let sit for 10–15 minutes to allow flavors to develop."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve chilled or at room temperature as a side dish or light lunch.",
+            "Optionally garnish with extra herbs or crumbled cheese on top."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use fresh Andean cheese if available for authenticity.",
+            "Add a pinch of aji amarillo for a spicy kick.",
+            "Make ahead and store in the fridge—flavor improves over time."
+          ]
+        }
+      ]
+    },  {
+      "id": 46,
+      "name": "Toshikoshi Soba",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Prepare the dashi stock, then add soy sauce and mirin to create the soup base.",
+            "Bring the broth to a simmer and adjust seasoning to taste."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Cook soba noodles according to package instructions.",
+            "Drain and rinse noodles under cold water to remove starch."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Place cooked noodles into bowls and pour hot broth over them.",
+            "Top with sliced green onions and tempura flakes.",
+            "Serve immediately for best taste and texture."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use fresh dashi for the best flavor.",
+            "Rinse noodles well to prevent a sticky texture.",
+            "Can be enjoyed hot or cold depending on the season."
+          ]
+        }
+      ]
+    },{
+      "id": 47,
+      "name": "Maguro Nigiri",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Cook sushi rice and season with rice vinegar, sugar, and salt.",
+            "Slice tuna into even, thin pieces."
+          ]
+        },
+        {
+          "name": "Forming Nigiri",
+          "steps": [
+            "Wet hands with water and shape a small ball of sushi rice.",
+            "Place a dab of wasabi on the tuna slice (optional) and press onto the rice ball."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Arrange nigiri on a plate.",
+            "Serve with soy sauce and pickled ginger."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use sushi-grade tuna for safety and freshness.",
+            "Do not overwork the rice; keep it light and airy.",
+            "Keep hands slightly moist to prevent sticking."
+          ]
+        }
+      ]
+    }, {
+      "id": 48,
+      "name": "Sushi Moriawase",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Cook sushi rice and season with vinegar mixture.",
+            "Slice vegetables and fish into bite-sized pieces.",
+            "Prepare a clean surface and tools for assembling sushi."
+          ]
+        },
+        {
+          "name": "Assembly",
+          "steps": [
+            "Make nigiri by shaping rice and topping with fish.",
+            "Make maki rolls by layering rice, filling, and rolling in nori.",
+            "Cut rolls with a sharp, wet knife."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Arrange assorted sushi on a plate.",
+            "Serve with soy sauce, wasabi, and pickled ginger."
+          ]
+        }
+      ]
+    },{
+      "id": 49,
+      "name": "Tonkatsu",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Season pork with salt and pepper.",
+            "Coat each piece in flour, dip in egg, then cover with panko."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat oil to 170–180°C in a deep pan.",
+            "Fry pork until golden brown and cooked through (about 5 mins each side).",
+            "Drain on paper towels."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Slice Tonkatsu into strips.",
+            "Serve with shredded cabbage and Tonkatsu sauce."
+          ]
+        }
+      ]
+    },{
+      "id": 50,
+      "name": "Tataki",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Season meat or fish with salt.",
+            "Sear briefly on all sides over high heat.",
+            "Plunge into ice water to stop cooking.",
+            "Pat dry and slice thinly."
+          ]
+        },
+        {
+          "name": "Sauce",
+          "steps": [
+            "Combine soy sauce, vinegar, citrus, and grated ginger.",
+            "Mix well."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Arrange slices on a plate.",
+            "Top with garlic and green onions.",
+            "Drizzle with sauce."
+          ]
+        }
+      ]
+    },  {
+      "id": 51,
+      "name": "Chirashi Don",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Prepare and season sushi rice.",
+            "Slice vegetables and sashimi into small pieces."
+          ]
+        },
+        {
+          "name": "Assembly",
+          "steps": [
+            "Spoon rice into bowls.",
+            "Top with sashimi, vegetables, and nori.",
+            "Sprinkle with sesame seeds."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve with soy sauce, wasabi, and pickled ginger on the side."
+          ]
+        }
+      ]
+    }, {
+      "id": 52,
+      "name": "Aburi Sake Nigiri",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Shape seasoned sushi rice into small mounds.",
+            "Top each with a slice of salmon."
+          ]
+        },
+        {
+          "name": "Searing",
+          "steps": [
+            "Lightly sear the salmon using a kitchen torch until the edges are browned.",
+            "Brush with soy sauce and a dot of mayo."
+          ]
+        },
+        {
+          "name": "Garnish",
+          "steps": [
+            "Top with chopped chives or lemon zest.",
+            "Serve immediately."
+          ]
+        }
+      ]
+    }, {
+      "id": 53,
+      "name": "Okonomiyaki",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Mix flour, dashi, and eggs to form batter.",
+            "Add shredded cabbage and green onions."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat oil in a pan.",
+            "Pour in batter and top with bacon or seafood.",
+            "Cook until golden on both sides (about 5 mins per side)."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Drizzle with okonomiyaki sauce and mayo.",
+            "Sprinkle with bonito flakes and aonori.",
+            "Serve hot."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Kaiseki Ryōri",
+      "sections": [
+        {
+          "name": "Overview",
+          "steps": [
+            "Kaiseki is a multi-course meal focusing on balance, seasonality, and presentation."
+          ]
+        },
+        {
+          "name": "Course Preparation",
+          "steps": [
+            "Appetizer: Blanch vegetables and toss in sesame dressing.",
+            "Soup: Simmer dashi and add tofu and herbs.",
+            "Sashimi: Slice fish and arrange beautifully.",
+            "Grilled: Season and grill fish or meat.",
+            "Dessert: Plate seasonal fruit with syrup or jelly."
+          ]
+        },
+        {
+          "name": "Presentation",
+          "steps": [
+            "Serve each course in beautiful, individual dishes.",
+            "Garnish with fresh herbs and seasonal elements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Gluten-Free Mudcake",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Preheat the oven to 160°C (320°F).",
+            "Grease and line a round cake tin with parchment paper.",
+            "In a bowl, sift together gluten-free flour, cocoa powder, baking powder, and xanthan gum."
+          ]
+        },
+        {
+          "name": "Melting and Mixing",
+          "steps": [
+            "In a saucepan, combine milk, butter, chopped chocolate, and coffee powder (if using).",
+            "Heat gently over low heat, stirring until melted and smooth.",
+            "Remove from heat and stir in the sugar until dissolved.",
+            "Let the mixture cool slightly, then gradually add it to the flour mixture, mixing until combined."
+          ]
+        },
+        {
+          "name": "Baking",
+          "steps": [
+            "Pour the batter into the prepared cake tin.",
+            "Bake for 60–70 minutes, or until a skewer inserted comes out with moist crumbs (not wet batter).",
+            "Let the cake cool in the tin for 15 minutes, then transfer to a wire rack to cool completely."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve as-is or dust with cocoa powder or powdered sugar.",
+            "Pairs well with whipped cream or fresh berries."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Don’t overbake — the center should remain slightly fudgy.",
+            "Ensure your gluten-free flour blend contains starches for moisture.",
+            "Store in an airtight container for up to 3 days or refrigerate for longer shelf life."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Mashed Potatoes & Meatballs",
+      "sections": [
+        {
+          "name": "Making the Mashed Potatoes",
+          "steps": [
+            "Boil potatoes in salted water until soft (about 15–20 minutes).",
+            "Drain and mash with butter, milk, salt, and white pepper until smooth and creamy.",
+            "Keep warm until ready to serve."
+          ]
+        },
+        {
+          "name": "Making the Meatballs",
+          "steps": [
+            "Soak breadcrumbs in milk for a few minutes.",
+            "In a bowl, mix ground meat, soaked breadcrumbs, grated onion, egg, salt, and pepper.",
+            "Form into small meatballs.",
+            "Heat butter or oil in a skillet and fry meatballs until browned and cooked through (8–10 minutes)."
+          ]
+        },
+        {
+          "name": "Optional Gravy",
+          "steps": [
+            "In the same pan, melt butter and stir in flour to make a roux.",
+            "Gradually whisk in stock and soy sauce. Simmer until thickened.",
+            "Season with salt and pepper."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve meatballs with a generous scoop of mashed potatoes.",
+            "Top with gravy and optional lingonberry jam or pickled cucumbers for a Swedish twist."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Chill meatballs for 10–15 minutes before frying to help them hold shape.",
+            "Use cream instead of milk for extra creamy mash.",
+            "You can bake meatballs in the oven at 200°C for a healthier version."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Waffles with Whipped Cream",
+      "sections": [
+        {
+          "name": "Making the Waffle Batter",
+          "steps": [
+            "In a large bowl, whisk together flour, baking powder, sugar, and salt.",
+            "In a separate bowl, beat eggs and mix with milk, melted butter, and vanilla.",
+            "Pour wet ingredients into dry and stir until just combined. Do not overmix."
+          ]
+        },
+        {
+          "name": "Cooking the Waffles",
+          "steps": [
+            "Preheat waffle iron and lightly grease if necessary.",
+            "Pour batter into waffle iron and cook according to the manufacturer’s instructions until golden and crisp.",
+            "Repeat with remaining batter and keep waffles warm in the oven if desired."
+          ]
+        },
+        {
+          "name": "Whipping the Cream",
+          "steps": [
+            "In a cold bowl, beat heavy cream, powdered sugar, and vanilla extract until soft peaks form.",
+            "Chill until ready to serve."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve warm waffles topped with a generous dollop of whipped cream.",
+            "Add fresh berries, syrup, or honey as desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Do not overmix the batter; a few lumps are fine.",
+            "Chill the bowl and beaters before whipping the cream for better results.",
+            "Waffles freeze well—just reheat in a toaster or oven."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Spinach Soup",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Wash spinach thoroughly and set aside.",
+            "Chop onion and garlic. Peel and dice the potato if using."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "In a pot, heat olive oil or butter over medium heat.",
+            "Sauté onion and garlic until translucent.",
+            "Add the potato (if using) and broth. Bring to a boil, then simmer until potato is tender.",
+            "Add spinach and cook for 2–3 minutes until wilted."
+          ]
+        },
+        {
+          "name": "Blending",
+          "steps": [
+            "Remove from heat and let cool slightly.",
+            "Use an immersion blender or standard blender to puree the soup until smooth.",
+            "Return to pot and stir in cream or milk if desired.",
+            "Season with salt, pepper, and nutmeg."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot with a halved boiled egg on top or croutons.",
+            "Drizzle extra cream or olive oil if desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Add more broth for a lighter consistency, or less for a thicker texture.",
+            "You can use frozen spinach if fresh is unavailable.",
+            "For a dairy-free version, skip the cream or use a plant-based alternative."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Oven-Baked Chicken Thighs",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Preheat the oven to 200°C (400°F).",
+            "Pat the chicken thighs dry with paper towels.",
+            "In a bowl, mix olive oil, lemon juice, garlic, paprika, thyme, salt, and pepper."
+          ]
+        },
+        {
+          "name": "Marinating",
+          "steps": [
+            "Rub the spice mixture all over the chicken thighs.",
+            "Let marinate for at least 15 minutes (or refrigerate for 1–2 hours for deeper flavor)."
+          ]
+        },
+        {
+          "name": "Baking",
+          "steps": [
+            "Place the thighs skin-side up in a baking dish or sheet pan.",
+            "Bake uncovered for 35–40 minutes, or until internal temperature reaches 75°C (165°F) and skin is golden and crisp.",
+            "For crispier skin, broil for the last 2–3 minutes, watching carefully."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Let rest for 5 minutes before serving.",
+            "Garnish with fresh parsley and serve with roasted vegetables or mashed potatoes."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Dry skin leads to better crisping — don’t skip the paper towel step.",
+            "Use a meat thermometer to ensure doneness without overcooking.",
+            "Customize seasoning with your favorite spice blends or add a honey glaze."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Roasted Pork",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Preheat oven to 200°C (400°F).",
+            "Pat pork dry with paper towels.",
+            "In a bowl, mix garlic, olive oil, herbs, salt, pepper, paprika, and lemon juice or vinegar if using."
+          ]
+        },
+        {
+          "name": "Marinating",
+          "steps": [
+            "Rub the spice mixture all over the pork.",
+            "Let marinate at room temperature for 30 minutes or in the fridge for a few hours."
+          ]
+        },
+        {
+          "name": "Roasting",
+          "steps": [
+            "Place pork in a roasting pan or baking dish.",
+            "Roast uncovered for 45–60 minutes or until internal temperature reaches 70–75°C (160–170°F).",
+            "Let rest for 10 minutes before slicing."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Slice the pork and serve with roasted vegetables or mashed potatoes.",
+            "Drizzle with pan juices for added flavor."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use a meat thermometer to avoid overcooking.",
+            "Marinating overnight intensifies flavor.",
+            "Tent with foil during resting to keep the meat juicy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Blueberry Smoothie",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Peel the banana and measure out the blueberries, milk, and yogurt.",
+            "If using ice, prepare a few cubes to chill the smoothie."
+          ]
+        },
+        {
+          "name": "Blending",
+          "steps": [
+            "Add blueberries, banana, milk, yogurt, and sweetener (if using) to a blender.",
+            "Blend on high speed until smooth and creamy.",
+            "Add ice and blend again if a thicker, colder texture is desired."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Pour smoothie into glasses.",
+            "Optionally garnish with a few whole blueberries or a sprinkle of chia seeds.",
+            "Serve immediately for the best flavor and texture."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use frozen banana or blueberries for a creamier, frostier smoothie.",
+            "Adjust milk for a thinner or thicker consistency.",
+            "Add a handful of spinach or oats for extra nutrition."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Smörgåstårta",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Trim crusts off sandwich bread slices.",
+            "In separate bowls, mix the egg filling and shrimp filling using cream cheese, mayo, and seasonings as needed.",
+            "Combine additional sour cream or cream cheese with a bit of mayo to create the outer ‘frosting’ of the cake."
+          ]
+        },
+        {
+          "name": "Layering",
+          "steps": [
+            "Lay out the first layer of bread on a platter.",
+            "Spread Filling 1 evenly, then place another bread layer.",
+            "Spread Filling 2, and top with the final bread layer.",
+            "Cover the entire surface and sides with the ‘frosting’ mixture."
+          ]
+        },
+        {
+          "name": "Decorating",
+          "steps": [
+            "Garnish with cucumber slices, boiled eggs, cherry tomatoes, shrimp, salmon, and herbs.",
+            "Refrigerate for at least 1 hour before serving to allow flavors to set."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Slice like a cake and serve chilled.",
+            "Pair with a light salad or sparkling beverage."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Prepare the day before for even better flavor.",
+            "Use a springform pan for more structured layers.",
+            "Customize fillings with roast beef, cheese, or vegetables."
+          ]
+        }
+      ]
+    }, {
+      "id": 63,
       "name": "Kladkaka",
       "sections": [
         {
@@ -218,9 +2188,518 @@
         },
         {
           "name": "Tips",
-          "steps": ["Serve with whipped cream or berries."]
+          "steps": [
+            "Serve with whipped cream or berries."
+          ]
         }
       ]
+    },
+    {
+      "id": 101,
+      "name": "Arooz Con Pollo",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Season the chicken with salt, pepper, and cumin.",
+            "Heat oil in a large pot or deep skillet and brown the chicken on both sides. Remove and set aside."
+          ]
+        },
+        {
+          "name": "Base Cooking",
+          "steps": [
+            "In the same pot, sauté onion, garlic, and bell pepper until soft.",
+            "Add diced tomatoes, turmeric (or achiote), and bay leaf. Cook for 2–3 minutes."
+          ]
+        },
+        {
+          "name": "Rice and Simmering",
+          "steps": [
+            "Add the rice and stir to coat it in the sofrito mixture.",
+            "Return the browned chicken to the pot, then pour in the chicken stock.",
+            "Add peas and bring everything to a boil.",
+            "Lower the heat, cover, and simmer for 25–30 minutes or until the rice is cooked and liquid absorbed."
+          ]
+        },
+        {
+          "name": "Finishing Touch",
+          "steps": [
+            "Garnish with chopped cilantro.",
+            "Let rest covered for 5 minutes before serving."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "For extra flavor, marinate the chicken in spices ahead of time.",
+            "Use saffron or annatto oil for authentic color.",
+            "Add carrots or olives for regional variations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Buur",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "In a bowl, combine flour, sugar, yeast, and salt.",
+            "Gradually add warm water and mix to form a thick, sticky batter.",
+            "Cover and let the batter rise in a warm place for 1 hour until doubled in size."
+          ]
+        },
+        {
+          "name": "Frying",
+          "steps": [
+            "Heat oil in a deep pan over medium heat.",
+            "Scoop small amounts of the dough using your hand or a spoon and drop into hot oil.",
+            "Fry until golden brown on all sides, turning occasionally.",
+            "Remove and drain on paper towels."
+          ]
+        },
+        {
+          "name": "Optional Syrup Coating",
+          "steps": [
+            "In a saucepan, combine sugar, water, cardamom, and lemon juice.",
+            "Boil until slightly thickened into a light syrup.",
+            "Dip fried dough balls into the syrup briefly to coat.",
+            "Remove and cool slightly before serving."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Do not overcrowd the pan; fry in small batches.",
+            "If you want crispier Buur, fry slightly longer at medium heat.",
+            "You can skip the syrup and sprinkle with powdered sugar instead."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Chawanmushi",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Crack eggs into a bowl and beat gently to avoid bubbles.",
+            "In another bowl, mix dashi stock, soy sauce, mirin, and salt.",
+            "Strain the beaten eggs into the dashi mixture through a fine sieve for smooth texture.",
+            "Place fillings (shrimp, mushrooms, fish cake, etc.) at the bottom of small heatproof cups or bowls."
+          ]
+        },
+        {
+          "name": "Steaming",
+          "steps": [
+            "Pour egg mixture gently over the fillings, leaving a little room at the top.",
+            "Cover each cup with a lid or foil to prevent water from dripping into them.",
+            "Steam over low heat for 12–15 minutes, or until custard is just set and jiggles slightly when shaken."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve warm as an appetizer or side dish.",
+            "Garnish with fresh herbs or yuzu peel if desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use low heat to prevent bubbles and achieve a silky texture.",
+            "You can make vegetarian by omitting shrimp and using tofu and vegetables.",
+            "Straining the egg mixture is key to a smooth custard."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Chicken Teriyaki",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "In a small bowl, mix soy sauce, mirin, sugar, garlic, and ginger to make the teriyaki sauce.",
+            "Slice green onions and prepare sesame seeds for garnish."
+          ]
+        },
+        {
+          "name": "Cooking the Chicken",
+          "steps": [
+            "Heat vegetable oil in a pan over medium heat.",
+            "Place chicken thighs skin-side down (if using skin-on) and cook for 5–6 minutes per side until browned and cooked through.",
+            "Remove chicken and let it rest for a few minutes, then slice."
+          ]
+        },
+        {
+          "name": "Making the Sauce",
+          "steps": [
+            "Pour teriyaki sauce mixture into the same pan and bring to a simmer.",
+            "If using cornstarch slurry, add it now and stir until sauce thickens slightly.",
+            "Return sliced chicken to the pan and coat with the sauce."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve chicken over a bed of steamed rice.",
+            "Drizzle with extra sauce and garnish with sesame seeds and green onions."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "For a smoky flavor, grill the chicken instead of pan-frying.",
+            "Use thighs for juicier results, but breasts can be used for a leaner option.",
+            "You can prepare extra sauce and keep it refrigerated for quick meals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "name": "Katsudon (カツ丼)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Pound pork cutlets to even thickness.",
+            "Dredge in flour, dip in beaten egg, and coat with panko breadcrumbs.",
+            "Slice the onion and beat the serving eggs separately."
+          ]
+        },
+        {
+          "name": "Frying the Pork Cutlet",
+          "steps": [
+            "Heat oil in a frying pan over medium heat.",
+            "Fry breaded cutlets until golden brown and cooked through (about 4–5 minutes per side).",
+            "Drain on paper towels and slice into strips."
+          ]
+        },
+        {
+          "name": "Making the Sauce",
+          "steps": [
+            "In another pan, combine dashi, soy sauce, mirin, and sugar.",
+            "Add sliced onions and simmer until tender."
+          ]
+        },
+        {
+          "name": "Simmering with Egg",
+          "steps": [
+            "Place the cutlet slices on top of the simmering onion sauce.",
+            "Pour beaten egg over the top, cover, and cook until egg is just set (1–2 minutes)."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Spoon cooked rice into serving bowls.",
+            "Gently transfer pork, egg, and sauce mixture over the rice.",
+            "Serve hot, optionally topped with green onions or nori strips."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Do not overcook the egg—leave it slightly runny for authentic texture.",
+            "Use fresh dashi stock for best flavor.",
+            "Tonkatsu can be made ahead and reheated briefly before simmering."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "name": "Miso Soup (味噌汁)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Soak dried wakame seaweed in water for 5–10 minutes until rehydrated, then drain.",
+            "Cut tofu into small cubes and slice green onions thinly."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Bring dashi stock to a gentle simmer over medium heat.",
+            "Lower the heat and add tofu and wakame to the pot.",
+            "Place miso paste in a small bowl, add a few tablespoons of hot dashi, and whisk until smooth.",
+            "Stir the dissolved miso back into the pot. Do not boil after adding miso."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Ladle soup into bowls.",
+            "Top with sliced green onions.",
+            "Serve warm immediately."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Never boil the soup after adding miso, as it ruins the flavor and probiotics.",
+            "Use kombu or shiitake dashi for a vegetarian version.",
+            "Add seasonal vegetables or mushrooms for extra depth."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "name": "Okonomiyaki (お好み焼き)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "In a large bowl, mix flour and water (or dashi) to form a smooth batter.",
+            "Beat in the eggs.",
+            "Add shredded cabbage, green onions, and tenkasu to the batter and mix well."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat oil in a non-stick skillet over medium heat.",
+            "Pour a ladle of batter mixture into the pan and shape into a thick round pancake.",
+            "Lay a few slices of pork belly or bacon on top.",
+            "Cook for about 5 minutes until the bottom is golden brown.",
+            "Flip carefully and cook the other side for another 5 minutes until fully cooked through."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Transfer to a plate and drizzle with okonomiyaki sauce and mayonnaise.",
+            "Sprinkle with bonito flakes and aonori.",
+            "Serve hot."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Do not overmix the batter to keep it fluffy.",
+            "Use dashi stock instead of water for richer flavor.",
+            "Add shrimp, cheese, or mochi for different okonomiyaki variations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "name": "Onigiri (おにぎり)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Rinse the rice thoroughly until water runs clear. Cook the rice with the appropriate amount of water.",
+            "Once cooked, allow rice to cool slightly until warm but not hot to touch.",
+            "Prepare your desired fillings (e.g. flake salmon, mix tuna with mayo, or pit umeboshi)."
+          ]
+        },
+        {
+          "name": "Forming Onigiri",
+          "steps": [
+            "Wet hands with water and rub a pinch of salt onto your palms to season the rice.",
+            "Scoop about 1/2 cup of rice into your hands and press a small indent in the center.",
+            "Place a spoonful of filling into the indent, then cover with more rice.",
+            "Shape gently into a triangle or ball, pressing lightly but firmly.",
+            "Wrap the bottom with a strip of nori."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve immediately or wrap tightly in plastic wrap for lunch or picnics.",
+            "Can be eaten warm or at room temperature."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Do not overfill or press too hard — this keeps the onigiri tender.",
+            "Use freshly cooked, warm rice — cold rice won’t stick properly.",
+            "For crispy seaweed, wrap nori just before eating."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "name": "Oven-Baked Salmon",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Preheat oven to 200°C (400°F).",
+            "Line a baking sheet with parchment paper or foil.",
+            "In a small bowl, mix olive oil, lemon juice, garlic, Dijon mustard (if using), salt, pepper, and dill."
+          ]
+        },
+        {
+          "name": "Marinating",
+          "steps": [
+            "Place salmon fillets on the prepared tray.",
+            "Brush or spoon the mixture evenly over the top of the fillets.",
+            "Let sit for 10–15 minutes at room temperature."
+          ]
+        },
+        {
+          "name": "Baking",
+          "steps": [
+            "Bake in the preheated oven for 12–15 minutes, depending on thickness.",
+            "Salmon is done when it flakes easily with a fork and is opaque throughout."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Garnish with lemon slices and fresh herbs if desired.",
+            "Serve with steamed vegetables, rice, or a fresh salad."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Don’t overbake—salmon dries out quickly.",
+            "For a crispy top, broil for the last 1–2 minutes.",
+            "Use parchment for easy cleanup and to prevent sticking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "name": "Sukiyaki (すき焼き)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Cut all vegetables and tofu into bite-sized pieces.",
+            "Prepare shirataki noodles by rinsing and briefly boiling to remove odor.",
+            "Mix all broth ingredients (warishita) in a bowl."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat a large shallow pot or pan and grease with oil or beef fat.",
+            "Add a few slices of beef and lightly sear.",
+            "Pour in some of the warishita broth, then add vegetables, tofu, and noodles in sections.",
+            "Simmer gently, adding more broth as needed.",
+            "Continue adding ingredients and cooking as you eat (tabletop hotpot style is traditional)."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve directly from the pot into small bowls.",
+            "Dip cooked items into raw beaten egg (optional) before eating.",
+            "Pair with steamed rice if desired."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use high-quality, thinly sliced beef for best texture.",
+            "Do not overboil—sukiyaki is meant to simmer gently.",
+            "If raw egg is not preferred, enjoy without or use a pasteurized option."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "name": "Tonkatsu (豚カツ)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Pound pork to about 1/2-inch thickness if necessary.",
+            "Season both sides with salt and pepper.",
+            "Prepare three bowls: one with flour, one with beaten eggs, and one with panko breadcrumbs."
+          ]
+        },
+        {
+          "name": "Breading",
+          "steps": [
+            "Dredge each pork cutlet in flour, then dip in beaten egg, and coat thoroughly with panko.",
+            "Press panko onto the meat to ensure an even coating."
+          ]
+        },
+        {
+          "name": "Frying",
+          "steps": [
+            "Heat vegetable oil in a deep pan to 170–180°C (340–355°F).",
+            "Fry the breaded pork cutlets one or two at a time for 5–6 minutes, flipping once, until golden brown and cooked through.",
+            "Transfer to a wire rack or paper towel to drain excess oil."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Slice tonkatsu into strips for easy eating.",
+            "Serve with shredded cabbage, tonkatsu sauce, lemon wedges, and steamed rice."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use fresh panko for maximum crispiness.",
+            "Do not overcrowd the frying pan to maintain oil temperature.",
+            "Tonkatsu sauce can be store-bought or homemade by mixing Worcestershire sauce, ketchup, and soy sauce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "name": "Yakisoba (焼きそば)",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Prepare and slice all vegetables and meat.",
+            "If using pre-cooked noodles, loosen them with warm water and drain.",
+            "Mix all sauce ingredients together in a small bowl."
+          ]
+        },
+        {
+          "name": "Cooking",
+          "steps": [
+            "Heat oil in a large skillet or wok over medium-high heat.",
+            "Add meat and cook until no longer pink, then add onions and carrots.",
+            "Add cabbage and cook until just wilted.",
+            "Add the noodles and pour sauce over everything.",
+            "Stir-fry until well mixed and heated through, about 3–5 minutes."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Transfer to serving plates.",
+            "Garnish with aonori, pickled ginger, and bonito flakes if desired.",
+            "Serve immediately while hot."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Use a wide pan to avoid overcrowding and steaming the noodles.",
+            "Customize with shrimp, beef, or tofu as protein options.",
+            "Adjust sweetness or saltiness by tweaking the sauce ratio."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tips",
+      "steps": []
     }
   ]
 }
