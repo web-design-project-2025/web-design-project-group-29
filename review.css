@@ -7,6 +7,7 @@
     --text-color: #4a4a4a;
     --light-text: #606060;
     --border-color: #f1eeea;
+    --starcolor: #f68f40;
   }
   body {
     font-family: Arial, sans-serif;
@@ -99,7 +100,7 @@
   
   .star-rating span.hover,
   .star-rating span.selected {
-    color: #6e2e15;
+    color: var(--starcolor);
   }
 
   .star-rating span {
@@ -109,7 +110,7 @@
   }
   .star-rating span.selected,
   .stars span.selected {
-    color: var(--colorful-text);
+    color:#f68f40;
   }
   
   .review {
