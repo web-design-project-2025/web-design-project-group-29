@@ -11,6 +11,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/live-search.css" />
     <link rel="stylesheet" href="css/overview-recipe-page.css" />
     <title>Profile</title>
   </head>
@@ -27,9 +28,11 @@
         <div class="profile-navigation">
           <button  id="profile-actions" class="recent-btn">Recent</button>
           <div class="search-bar">
-            <input id="search-bar" type="text" placeholder="Search recipes..." />
+            <input id="liveSearch" type="text" placeholder="Search recipes..." />
             <i class="fas fa-search"></i>
+             <ul id="suggestions" class="suggestions"></ul>
           </div>     
+         
   </div>
 <section id="recentRecipesContainer" class="recipe-arrangement">
   <!-- Recently clicked recipes will appear here -->
@@ -44,6 +47,7 @@
         <script src="script/profile.js"></script>
         <script src="recipe-card.js"></script>
         <script src="script/profile-api.js"></script>
+        <script src="script/live-search.js"></script>
 
   </body>
 </html>
