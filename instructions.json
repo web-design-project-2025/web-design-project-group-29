@@ -175,35 +175,7 @@
         }
       ]
     },
-    {
-      "id": 6,
-      "name": "Toshikoshi Soba",
-      "sections": [
-        {
-          "name": "Broth",
-          "steps": "Heat dashi stock. Add mirin, sugar and soy sauce to make soup base"
-        },
-        {
-          "name": "Noodles",
-          "steps": [
-            "Boil water in separate pan. Add soba noodles, cook 8 mins",
-            "Drain and rinse noodles in cold water"
-          ]
-        },
-        {
-          "name": "Assembly:",
-          "steps": [
-            "Slice spring onions and prepare garnishes",
-            "Reheat stock and pour into bowls",
-            "Add noodles and garnish with onions/tempura flakes"
-          ]
-        },
-        {
-          "name": "Tips",
-          "steps": []
-        }
-      ]
-    },
+    
     {
       "id": 6,
       "name": "Okra Soup and Stew",
