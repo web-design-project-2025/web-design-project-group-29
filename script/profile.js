@@ -20,6 +20,8 @@ function loadProfile() {
   if (userProfile.recentRecipes && userProfile.recentRecipes.length > 0) {
     userProfile.recentRecipes.forEach(recipe => {
       const recipeHTML = `
+                    <a href="sambusa.html?id=${recipe.id}" class="recipe-box-link">
+
         <div class="recipe-box">
             <img src="./img/${recipe.image}" id="recipe-box-img" alt="${recipe.name}">
           <div class="recipe-box-title">
