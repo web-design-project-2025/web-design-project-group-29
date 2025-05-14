@@ -15,6 +15,7 @@
 /* recipe */
 .recipe-arrangement {
   margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -62,7 +63,7 @@
   font-weight: 700;
   font-style: normal;
   margin-top: 2%;
-  margin-left: -5%;
+  margin-left: -3%;
   font-size: 1.4rem;
 }
 
@@ -131,8 +132,70 @@
   background-color: var(--colorful-text);
   color: white;
 }
+/* roots */
+:root {
+    --primary-color: #FFFDFA;
+    --secondary-color: #B6CAE5;
+    --colorful-text: #6E2E15;
+    --text-color: #4A4A4A;
+    --light-text: #606060;
+    --border-color: #F1EEEA;
+    --star-color : #F68F40;
+    --darker-blue:#6f98c4;
+  }
+  
+/* roots */
+.suggestions{
+    position: absolute;
+    list-style: none;
+    background-color:var(--primary-color);
+    border: 1px  var(--text-color);
+    width: 100%;
+    max-height: 10rem;
+    overflow-y: auto;
+    /* border: 1px solid #000; */
+     /* z-index: 2; */
+    margin-top: 12rem;
+    margin-left: -1rem;
+    padding: 0;
+    border-radius: 1.2rem;
+}
+
+.suggestions li{
+   padding: 5%;
+   cursor: pointer;
+}
+.suggestions li:hover{
+  background-color: rgb(205, 205, 191);}
 .recipe-box-link {
   text-decoration: none;
   color: inherit;
   display: block;
+}
+
+.search-bar {
+  position: absolute;
+  top: 45.47rem;
+  right: 2rem;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #fff;
+  background: transparent;
+  flex: 1;
+}
+
+.search-bar i {
+  color: #ffffff;
 }

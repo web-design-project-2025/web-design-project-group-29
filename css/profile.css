@@ -1,4 +1,15 @@
 
+:root {
+    --primary-color: #FFFDFA;
+    --secondary-color: #B6CAE5;
+    --colorful-text: #6E2E15;
+    --text-color: #4A4A4A;
+    --light-text: #606060;
+    --border-color: #F1EEEA;
+    --star-color : #F68F40;
+    --darker-blue:#6f98c4;
+  }
+
 body {
     background-color: #fbf9f5;
     font-family: sans-serif; 
@@ -57,7 +68,7 @@ body {
     left: auto;
     position: relative;
     right: 0;
-    background: rgba(236, 236, 236, 0.85);
+    background: var(--);
     backdrop-filter: blur(8px);
     padding: 10px 20px;
     border-radius: 30px;
@@ -85,10 +96,11 @@ body {
     font-size: 16px;
     color: #a73535;
   }
+  
   .profile-recipe-card{
     width: 85%;
     height: 80%;
-    background-color: ivory;
+    background-color: var(--primary-color);
     padding: 7%;
     margin-top: 10%;
     margin-left: 7.5%;
@@ -113,7 +125,7 @@ body {
   .recipe-box {
     width: 85%;
     height: 80%;
-    background-color: ivory;
+    background-color: var(--primary-color);
     padding: 7%;
     margin-top: 10%;
     margin-left: 7.5%;
