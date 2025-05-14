@@ -89,3 +89,113 @@ color: var(--light-text);
 .login-prompt a:hover{
     text-decoration: underline;
 }
+
+body {
+    font-family: "acumin-pro", sans-serif;
+    background: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* changed from height to allow for scroll on small screens */
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .register-box {
+    background: rgb(231, 231, 231);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 100%;
+    max-width: 22rem;
+    box-sizing: border-box;
+  }
+  
+  .register-box h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #0000;
+    border-radius: 0.7rem;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.625rem;
+    border: none;
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: var(--hover-color);
+  }
+  
+  .login-prompt {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .login-prompt p {
+    color: var(--light-text);
+  }
+  
+  .login-prompt a {
+    text-decoration: none;
+    color: var(--hover-color);
+  }
+  
+  .login-prompt a:hover {
+    text-decoration: underline;
+  }
+  
+  /* iPad Air and up (medium screens) */
+  @media (min-width: 768px) {
+    .register-box {
+      padding: 3rem 4.5rem;
+      border-radius: 2rem;
+      height: auto;
+    }
+   
+  }
+  
+  /*iPhone SE and small screens (below 375px) */
+  @media (max-width: 375px) {
+    .register-box {
+      padding: 5.5rem;
+      height: 105%;
+      width: 90%;
+    }
+  
+    .input-group {
+      margin-bottom: 0.75rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  
