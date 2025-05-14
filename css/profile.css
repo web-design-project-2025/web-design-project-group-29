@@ -37,7 +37,11 @@ body {
     margin-top: -50px;
     border: 3px solid white;
   }
-  
+  .names{
+    display: flex;
+    gap: 0.5rem;
+   margin-left: 43.6%;  
+}
   .profile-navigation {
     display: flex;
     justify-content: space-between;
@@ -191,3 +195,129 @@ body {
     margin-left: -7%;
     font-weight: 100;
   }
+
+  /* Responsive styles */
+
+/* Medium devices (tablets, 1024px and down) */
+@media (max-width: 1024px) {
+  h2{
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  em{
+    font-weight: lighter;
+
+  }
+
+  p{
+    font-weight: medium;
+  }
+  .recipe-arrangement {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .profile-navigation {
+    gap: 20%;
+  }
+
+  .search-bar {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+/* iPhone SE (375px width) */
+@media (max-width: 375px) {
+
+  .banner {
+  padding: 25%;
+  }
+  .names{
+    display: flex;
+    gap: 0.2rem;
+   margin-left: 34.3%;  
+}
+
+em{
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+p{
+  font-weight: medium;
+  font-size: 0.9rem;
+  padding-top: 2%;
+}
+  .profile-navigation {
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .search-bar {
+    align-items: center;
+    width: 100%;
+    max-width: 240px;
+    padding: 3px 12px;
+  }
+
+  .search-bar input {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .profile-actions {
+    padding: 1rem;
+  }
+
+  .profile-recipe-card,
+  .recipe-box {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
+
+  #recipe-box-img {
+    width: 100%;
+    height: 180px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .recipe-box-title h5,
+  .recipes h5 {
+    font-size: 1.1rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .recipe-arrangement {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .clock-heart {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  #clock, #difficulty {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+  .recent-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}
