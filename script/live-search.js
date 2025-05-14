@@ -855,6 +855,7 @@ const searchInput = document.getElementById("liveSearch");
 const suggestionsList = document.getElementById("suggestions");
 
 searchInput.addEventListener("input", () => {
+    try{
     const input = searchInput.value.toLowerCase().trim();
     suggestionsList.innerHTML = "";
 
@@ -899,12 +900,17 @@ searchInput.addEventListener("input", () => {
 
         suggestionsList.appendChild(li);
     });
-});
+} catch (err) {
+        console.error("Search error:", err);
+        suggestionsList.innerHTML = "<li>Something went wrong. Please try again.</li>";
+    }
+    });
 
 searchInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
         const firstSuggestion = suggestionsList.querySelector("li");
         if (firstSuggestion) firstSuggestion.click();
     }
+   
 });
 
