@@ -37,16 +37,16 @@
             "id": 4,
             "name" :"Akara ",
             "rating" : 5,
-            "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
+            "description" :"A Akara is a type of fritter made from cowpeas or beans (black-eyed peas) by the Yoruba people of Nigeria, Benin and Togo. It is also known as Bean cake.",
             "time" :"1h 30",
             "category" :"drink",
-            "difficulty" : "HARD",
+            "difficulty" : "MEDIUM",
             "image" : "akara.jpg"
         },
         {
             "id": 5,
             "name" :"Oha Stew ",
-            "rating" : 5,
+            "rating" : 3,
             "description" :"​Oha Soup, also known as Ofe Oha or Ora Soup, is a traditional Igbo dish from southeastern Nigeria. ​",
             "time" :"1h 30",
             "category" :"dinner",
@@ -100,9 +100,9 @@
             "name" :"Couscous",
             "rating" : 5,
             "description" :"Algerian couscous is a traditional dish of steamed semolina topped with spiced meat, vegetables, and chickpeas.",
-            "time" :"1h 30",
+            "time" :"30min",
             "category" :"lunch",
-            "difficulty" : "HARD",
+            "difficulty" : "Easy",
             "image" : "couscous.jpeg"
         },
         {
@@ -644,15 +644,6 @@
             "category" :"dinner",
             "difficulty" : "EASY",
             "image" : "baked-salmon.jpeg"
-        },  {
-            "id": 63,
-            "name" :"Kladdkaka",
-            "rating" : 5,
-            "description": "A rich and gooey Swedish chocolate cake with a crisp crust and fudgy center, typically served with whipped cream or berries.",       
-             "time" :"50 mins",
-            "category" :"dessert",
-            "difficulty" : "EASY",
-            "image" : "kladdkaka.jpeg"
         }
     ],
     "recipes" : [
