@@ -1,4 +1,15 @@
 
+:root {
+    --primary-color: #FFFDFA;
+    --secondary-color: #B6CAE5;
+    --colorful-text: #6E2E15;
+    --text-color: #4A4A4A;
+    --light-text: #606060;
+    --border-color: #F1EEEA;
+    --star-color : #F68F40;
+    --darker-blue:#6f98c4;
+  }
+
 body {
     background-color: #fbf9f5;
     font-family: sans-serif; 
@@ -57,7 +68,7 @@ body {
     left: auto;
     position: relative;
     right: 0;
-    background: rgba(236, 236, 236, 0.85);
+    background: var(--);
     backdrop-filter: blur(8px);
     padding: 10px 20px;
     border-radius: 30px;
@@ -84,4 +95,98 @@ body {
   .search-btn i {
     font-size: 16px;
     color: #a73535;
+  }
+  
+  .profile-recipe-card{
+    width: 85%;
+    height: 80%;
+    background-color: var(--primary-color);
+    padding: 7%;
+    margin-top: 10%;
+    margin-left: 7.5%;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px #555;
+  }
+  .recipe-box-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recipe-box-title h5{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 2%;
+    margin-left: -7%;
+    font-size: 1.4rem;
+  }
+  .recipe-box {
+    width: 85%;
+    height: 80%;
+    background-color: var(--primary-color);
+    padding: 7%;
+    margin-top: 10%;
+    margin-left: 7.5%;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px #555;
+  }
+  .recipes h5 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 2%;
+    margin-left: -7%;
+    font-size: 1.4rem;
+  }
+  #recipe-box-img {
+    object-fit: cover;
+    width: 119.8%;
+    height: 200px;
+    display: block;
+    margin-top: -16.5%;
+    margin-left: -9.8%;
+    border-radius: 20px 20px 0 0;
+  }
+  .recipe-arrangement {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .clock-heart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  #clock h6{
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+  #clock {
+    display: flex;
+  }
+  #heart {
+  
+    display: none;
+    transform: translateX(95%);
+    font-size: 2.3rem;
+    color: var(--colorful-text);
+    cursor: pointer;
+  }
+  
+  #clock {
+    font-size: 1.2rem;
+    margin-left: -7%;
+    color: var(--colorful-text);
+  }
+  
+  #difficulty {
+    font-size: 1.2rem;
+    margin-left: -7%;
+    font-weight: 100;
   }
