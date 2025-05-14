@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
           recipeBox.setAttribute('data-recipe', JSON.stringify(recipe));
 
           recipeBox.innerHTML = `
+         
+              <a href="sambusa.html?id=${recipe.id}" class="recipe-box-link">
+               
             <img src="./img/${recipe.image}" id="recipe-box-img" alt="${recipe.name}">
             <div class="recipe-box-title">
               <h5>${recipe.name}</h5>
