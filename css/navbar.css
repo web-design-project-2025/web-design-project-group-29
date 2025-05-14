@@ -292,6 +292,36 @@ body {
 .expandable.open > .submenu {
   display: block;
 }
+.mobile-back-wrapper {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+.mobile-back-button {
+  display: none;
+  position: fixed;
+  top: 80px; 
+  left: 1rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(245, 240, 230, 0.7);
+  border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 999;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.mobile-back-button i {
+  font-size: 2.2rem; 
+}
+.mobile-back-button:hover {
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transform: scale(1.05);
+}
 /*RESPONSIVENESS*/
 @media (max-width: 768px) {
   .nav-links,
@@ -303,5 +333,9 @@ body {
   .hamburger {
     display: block;
   }
+  .mobile-back-button {
+    display: flex;
+  }
 }
+
 

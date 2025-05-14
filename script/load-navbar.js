@@ -50,7 +50,8 @@ function initMobileMenu() {
   const hamburger = document.getElementById("hamburger");
   const mobileMenu = document.getElementById("mobile-menu");
   const closeBtn = document.getElementById("close-menu");
-  
+  const backBtn = document.getElementById("mobile-back-button");
+
 
   // Open mobile menu
   hamburger.addEventListener("click", () => {
@@ -62,6 +63,12 @@ function initMobileMenu() {
     mobileMenu.classList.remove("active");
     hamburger.classList.remove("hidden");
   });
+  if (backBtn) {
+    //back logic  https://www.w3schools.com/jsref/met_his_back.asp
+    backBtn.addEventListener("click", () => {
+      window.history.back(); 
+    });
+  }
   // SUBMENU OPEN
   const mobileDropdowns = mobileMenu.querySelectorAll(".mobile-dropdown > a");
   mobileDropdowns.forEach(link => {
