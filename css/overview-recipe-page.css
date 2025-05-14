@@ -39,7 +39,6 @@
 
 #star {
   margin-top: 3%;
-  /* margin-right: %; */
  color: var(--star-color);
 }
 
@@ -64,7 +63,7 @@
   font-weight: 700;
   font-style: normal;
   margin-top: 2%;
-  margin-left: -5%;
+  margin-left: -3%;
   font-size: 1.4rem;
 }
 
