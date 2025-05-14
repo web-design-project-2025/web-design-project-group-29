@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch('recipe-card.json')
-    .then(response => response.json())
+  fetch("recipe-card.json")
+    .then(res => res.json())
     .then(recipesByCountry => {
-      const params = new URLSearchParams(window.location.search);
-      const country = params.get("country") || "nigeria";
+      const country = new URLSearchParams(window.location.search).get("country") || "nigeria";
       const container = document.getElementById("recipeContainer");
 
       if (!container) {
@@ -11,15 +10,34 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      if (country && recipesByCountry[country]) {
-        const recipes = recipesByCountry[country];
+      const recipes = recipesByCountry[country];
 
-        recipes.forEach(recipe => {
-          const recipeBox = document.createElement('div');
-          recipeBox.classList.add('recipe-box');
-          recipeBox.setAttribute('data-recipe', JSON.stringify(recipe));
+      if (recipes) {
+        // Show all recipes initially
+        displayRecipes(recipes, container);
 
-          recipeBox.innerHTML = `
+        // Enable filter buttons
+        setupRecipeFilters(recipes, container, displayRecipes);
+      } else {
+        container.innerHTML = "<p>No recipes found for this country.</p>";
+      }
+    })
+    .catch(err => console.error("Error loading recipes:", err));
+});
+
+// Reusable recipe rendering function
+function displayRecipes(recipes, container) {
+  container.innerHTML = "";
+
+  recipes.forEach(recipe => {
+    const recipeSection = document.createElement("section");
+    recipeSection.classList.add("recipes");
+
+    const recipeBox = document.createElement("div");
+    recipeBox.classList.add("recipe-box");
+    recipeBox.setAttribute("data-recipe", JSON.stringify(recipe));
+
+    recipeBox.innerHTML = `
          
               <a href="sambusa.html?id=${recipe.id}" class="recipe-box-link">
                
@@ -37,48 +55,61 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           `;
 
-          // Add click listener to save this recipe to profile
-          recipeBox.addEventListener('click', () => {
-            const recipeData = JSON.parse(recipeBox.getAttribute('data-recipe'));
-            saveRecipeToProfile(recipeData);
-            console.log("Saved recipe to profile:", recipeData);
-          });
+    // Save recipe to profile when clicked
+    recipeBox.addEventListener("click", () => {
+      const recipeData = JSON.parse(recipeBox.getAttribute("data-recipe"));
+      saveRecipeToProfile(recipeData);
+      console.log("Saved recipe:", recipeData);
+    });
 
-          const recipeSection = document.createElement('section');
-          recipeSection.classList.add('recipes');
-          recipeSection.appendChild(recipeBox);
-          container.appendChild(recipeSection);
-        });
-      } else {
-        container.innerHTML = "<p>No recipes found for this country.</p>";
-      }
-    })
-    .catch(error => console.error("Error fetching recipes:", error));
-});
+    recipeSection.appendChild(recipeBox);
+    container.appendChild(recipeSection);
+  });
+}
 
+// Save clicked recipe to profile in localStorage
 function saveRecipeToProfile(recipe) {
-  let userProfile = JSON.parse(localStorage.getItem('userProfile'));
+  let userProfile = JSON.parse(localStorage.getItem("userProfile"));
 
   if (userProfile) {
     if (!userProfile.recentRecipes) {
       userProfile.recentRecipes = [];
     }
 
-    // Avoid duplicates
-    userProfile.recentRecipes = userProfile.recentRecipes.filter(
-      r => r.name !== recipe.name
-    );
+    // Remove duplicate if it already exists
+    userProfile.recentRecipes = userProfile.recentRecipes.filter(r => r.name !== recipe.name);
 
-    // Add to front
+    // Add to beginning of list
     userProfile.recentRecipes.unshift(recipe);
 
-    // Limit to 10
+    // Keep only latest 10
     if (userProfile.recentRecipes.length > 10) {
       userProfile.recentRecipes = userProfile.recentRecipes.slice(0, 10);
     }
 
-    localStorage.setItem('userProfile', JSON.stringify(userProfile));
+    localStorage.setItem("userProfile", JSON.stringify(userProfile));
   } else {
     alert("No user profile found. Please sign up or log in.");
   }
+}
+
+
+function setupRecipeFilters(recipes, container, displayFn) {
+  const filterButtons = document.querySelectorAll(".filter-buttons-container .filter-btn");
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      // Highlight selected filter
+      filterButtons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      const category = btn.getAttribute("data-category");
+
+      const filtered = category === "all"
+        ? recipes
+        : recipes.filter(recipe => recipe.category === category);
+
+      displayFn(filtered, container);
+    });
+  });
 }
