@@ -654,5 +654,89 @@
             "difficulty" : "EASY",
             "image" : "kladdkaka.jpeg"
         }
-    ]
+    ],
+    "recipes" : [
+    {
+        "name" :"Zobo (Hibiscus Drink)",
+        "rating" : 5,
+        "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
+        "time" :"1h 30",
+        "category" :"drink",
+        "difficulty" : "HARD",
+        "image" : "zobo.jpg"
+    },
+
+    {
+        "name" :"Couscous",
+        "rating" : 5,
+        "description" :"Algerian couscous is a traditional dish of steamed semolina topped with spiced meat, vegetables, and chickpeas.",
+        "time" :"1h 30",
+        "category" :"dinner",
+        "difficulty" : "HARD",
+        "image" : "couscous.jpeg"
+    },
+    {
+        "name" :"Sambusas",
+        "rating" : 5,
+        "description" :"Crispy triangular pastries filled with spiced meat or vegetables, popular during Ramadan.",
+        "time" :"1h 30",
+        "category" :"snack",
+        "difficulty" : "HARD",
+        "image" : "sambusas.jpeg"
+    },
+    {
+        "name" :"Arooz Con Pollo",
+        "rating" : 5,
+        "description" :"A traditional Latin American and Spanish dish meaning rice with chicken.",
+        "time" :"1h 30",
+        "category" :"dinner",
+        "difficulty" : "HARD",
+        "image" : "arooz-con-pollo.jpeg"
+    },
+    {
+        "name" :"CEVICHE",
+        "rating" : 3,
+        "description" :"Raw fish (often sea bass or flounder) marinated in lime juice with onions, chili peppers, and cilantro.",
+        "time" :"1h 30",
+        "category" :"dinner",
+        "difficulty" : "EASY",
+        "image" : "ceviche.jpeg"
+    },
+    {
+        "name" :"TOSHIKOSHI SOBA",
+        "rating" : 5,
+        "description" :"Toshikoshi Soba is a simple buckwheat noodle soup with light broth and toppings like green onions or tempura.",
+        "time" :"2h - 3h",
+        "category" :"dinner",
+        "difficulty" : "HARD",
+        "image" : "toshikoshi-soba.jpg"
+    },
+    {
+        "name" :"Gluten Free Mudcake",
+        "rating" : 5,
+        "description" :"Gluten-free sticky chocolate cake, where the choice of flour adds its own unique flavor",
+        "time" :"1h 30",
+        "category" :"dessert",
+        "difficulty" : "EASY",
+        "image" : "mudcake.jpeg"
+    },
+    {
+        "name" :"Bariis iyo hilib",
+        "rating" : 5,
+        "description" :"Spiced Somali rice served with meat, often lamb or goat, cooked with raisins and vegetables.",
+        "time" :"1h 30",
+        "category" :"dinner",
+        "difficulty" : "HARD",
+        "image" : "bariis-iyo-hilib.jpg"
+    },
+    {
+        "name" :"PERUVIAN ARROZ CON POLLO ",
+        "rating" : 4,
+        "description" :"Green rice with chicken, cilantro, and vegetables.",
+        "time" :"1h 30",
+        "category" :"dinner",
+        "difficulty" : "HARD",
+        "image" : "peruvian-polo.jpg"
+    }
+]
 }
