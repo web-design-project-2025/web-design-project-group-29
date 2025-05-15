@@ -110,6 +110,7 @@
   display: none;
 }
 
+
 /* filters */
 .filter-buttons-container {
   display: flex;
@@ -318,8 +319,8 @@
 }
 
 .search-bar {
-  /* position: absolute; */
-  top: 22rem;
+  position: absolute;
+  top: 38.5rem;
   right: 2.1rem;
   background: var(--primary-color);
   backdrop-filter: blur(8px);
