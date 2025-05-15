@@ -74,7 +74,8 @@ z-index: 10;
 display: flex;
 /* justify-content: flex-end; */
 margin-left: 4rem;
-margin-bottom: -7rem;
+margin-bottom: -10rem;
+margin-top: 7rem;
 }
 
 .quote5 {
@@ -123,6 +124,7 @@ margin-bottom: -3rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
         margin-bottom: -600px;
+        margin-top:5%;
 
 }
 .south-america{
