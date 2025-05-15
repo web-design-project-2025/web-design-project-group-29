@@ -176,7 +176,7 @@ body {
   }
   
   /* iPad Air and up (medium screens) */
-  @media (min-width: 768px) {
+  @media (min-width: 376px)  and (max-width: 2053px){
     .register-box {
       padding: 3.5rem;
       border-radius: 2rem;
