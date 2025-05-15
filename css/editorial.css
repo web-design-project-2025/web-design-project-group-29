@@ -25,6 +25,12 @@ body {
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
+.quote{
+ font-family: "patrick-hand-sc";
+font-weight: 400;
+font-style: normal;
+padding-right: -80rem;
+}
 
  .svg{
  width: 50%;
