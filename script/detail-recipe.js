@@ -94,7 +94,6 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
   heroLeft.appendChild(description);
 
 
-  
 
   // icon  container
 
@@ -225,9 +224,17 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       checkbox.classList.add("checkbox-input");
-      
+
       const label = document.createElement("label");
-      label.classList.add("ingredient-label");
+      label.classList.add("ingredient-label")
+      
+      const nameIng = document.createElement("span");
+      nameIng.classList.add("ingredient-name");
+      nameIng.innerText = item.name;
+
+      const quantityLabel = document.createElement("span");
+      quantityLabel.classList.add("ingredient-quantity");
+
 
        //help from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
        let quantity = item.quantity;
@@ -240,11 +247,13 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
            quantity = scaled.toFixed(2).replace(/\.00$/, "") + match[2];
          }
        }
+       quantityLabel.innerText = quantity;
 
 
-      label.innerText = `${item.name} ${quantity}`;
-      label.prepend(checkbox);
+      // label.innerText = `${item.name} ${quantity}`;
+      label.prepend(checkbox,nameIng);
       listItem.appendChild(label);
+      listItem.appendChild(quantityLabel);
       ingredientsList.appendChild(listItem);
      }
      ingBox.appendChild(ingredientsList); 
@@ -341,6 +350,7 @@ plusBtn.onclick = () => {
 
     const tipsList = document.createElement("ul");
     tipsList.classList.add("tips-list");
+
 
     recipe.tips.forEach(tip => {
       const tipItem = document.createElement("li");

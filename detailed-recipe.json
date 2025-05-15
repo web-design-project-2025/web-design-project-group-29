@@ -8,7 +8,7 @@
       "rating" : 5,
       "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
       "time" :"1h 30",
-      "category" : ["drink", "Nigeria"],
+      "category" : ["Drink", "Nigeria"],
       "difficulty" : "Hard",
       "image" : "img/zobo.jpg",
       "imageAlt": " A colorful purple drink made of hibiscus petals",

@@ -37,6 +37,7 @@ html {
   justify-content: flex-start;
   padding: 40px;
   box-sizing: border-box;
+  margin-left: 1rem;
 }
 
 /*category buttons*/
@@ -63,8 +64,10 @@ html {
   display: flex;
   gap: 4px;
   margin: 8px 0;
+  margin-top: -1rem;
   font-size: 1.5rem;
   color: var(--starcolor);
+  z-index: 100;
 }
 
 .recipe-image-container {
@@ -95,6 +98,7 @@ html {
   box-sizing: border-box;
 }
 
+
 .left-container {
   grid-column: 1;
   grid-row: 2;
@@ -108,7 +112,7 @@ html {
 /* Recipe Title SVG */
 .recipe-title-image{
   width: 100%;
-  z-index: 300;
+  margin: -1rem;
 
 }
 
@@ -227,7 +231,7 @@ html {
   border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.09);
   width: 100%;
-  max-width: 400px;
+
   text-align: left;
 }
 
@@ -240,7 +244,6 @@ html {
   list-style: none;
   padding: 0;
   margin: 0;
-  
 }
 
 .ingredients-list li {
@@ -252,13 +255,27 @@ html {
   text-align: match-parent;
 }
 
+.ingredient-label{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.ingredient-quantity{
+  margin-left: 10px;
+  color: var(--light-text);
+}
 
 .checkbox-input{
   appearance: none;
   width: 1rem;
   height: 1rem;
   border: 2px solid var(--text-color);
-  border-radius: 80%; 
+  border-radius: 80%;
+  flex-grow: 1;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  vertical-align: middle;
 
 }
 .checkbox-input:checked {
@@ -266,8 +283,9 @@ html {
 }
 
 .ingredient-label{
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  gap: 0.2rem;
 }
 
 /* Instructions Section */
@@ -279,7 +297,7 @@ html {
 }
 
 .instructions {
-  margin: 20rem;
+  margin: 20rem auto;
   border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
   width: 100%;
@@ -297,6 +315,16 @@ html {
   margin: 1rem;
 }
 
+.instructions-list li{
+  margin-bottom: 1rem;
+  line-height: 2;
+}
+
+.instructions-list li span{
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
 .instructions ol {
   margin-left: 20rem;
   margin: 0;
@@ -306,4 +334,15 @@ html {
   margin-bottom: 12px;
   font-size: 15px;
   line-height: 1.6;
+}
+
+@media screen and (max-width: 768px){
+  .recipe-grid{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+
 }

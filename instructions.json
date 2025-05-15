@@ -22,7 +22,8 @@
           ]
         },
         {
-          "tips": [
+         "name": "Tips",
+         "steps": [
             "Adjust sweetness with honey if preferred",
             "Garnish with orange/pineapple chunks"
           ]
@@ -52,7 +53,7 @@
           ]
         },
         {
-          "name": "Serving",
+          "name": "Tips",
           "steps": [
             "Serve hot with rice, pounded yam, or any preferred side."
           ]
