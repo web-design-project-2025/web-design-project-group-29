@@ -344,5 +344,16 @@ html {
     width: 100%;
   }
 
+  .recipe-image-container {
+    order: -1;
+    width: 100%;
+  }
+
+  .recipe-hero-left {
+    order: 0;
+    width: 100%
+  }
+
+
 
 }
