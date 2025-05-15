@@ -1,36 +1,31 @@
 /* navbar styling */
 :root {
-  --primary-color: #f5f0e6;
-  --secondary-color: #b6cae5;
-  --hover-color: #83afe8;
-  --colorful-text: #6e2e15;
-  --text-color: #4a4a4a;
+  --primary-color: #FFFDFA;
+  --secondary-color: #B6CAE5;
+  --colorful-text: #6E2E15;
+  --text-color: #4A4A4A;
   --light-text: #606060;
-  --border-color: #f1eeea;
+  --border-color: #F1EEEA;
+  --starcolor: #F68F40;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: "Segoe UI", sans-serif;
-  background-color: #f5f0e6;
-  color: #333;
-  display: flex;
-  flex-direction: column;
-}
+
 /*navbar*/
 .navbar {
+  position: sticky;
+  top: 0;
   background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  position: fixed;
   width: 100%;
-  top: 0;
   z-index: 1000;
+
 }
 .logo-img {
   height: 40px;
@@ -142,6 +137,7 @@ body {
   z-index: 999;
   padding: 1rem 2rem;
   transition: all 0.3s ease-in-out;
+  
 }
 
 .continent-menu:hover {
