@@ -12,6 +12,10 @@
   
 /* roots */
 
+body{
+  background-color: var(--primary-color);
+}
+
 /* recipe */
 .recipe-arrangement {
   margin-top: 5%;
