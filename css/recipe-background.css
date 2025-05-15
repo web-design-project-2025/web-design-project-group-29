@@ -7,3 +7,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* media-query */
+@media screen and (min-width:360px) and (max-width:430px){
+    .recipe-backdrop{
+        background-image: url("../img/nigeria-backdrop.jpeg");
+        padding: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 55%;
+    }
+  }
+  /* media-query */

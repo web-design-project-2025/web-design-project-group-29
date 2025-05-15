@@ -30,8 +30,13 @@
         }
     ],
     "sweden":[
-        {
-            "image" : "sweden.jpeg"
-        }
-    ]
+    {
+        "image" : "sweden.jpeg"
+    }
+],
+    "recipes":[
+    {
+        "image" : "homepage.jpg"
+    }
+]
 }
