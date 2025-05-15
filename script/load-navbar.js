@@ -16,6 +16,7 @@ function loadNavigation() {
 
       // calling the funtion for the dropdown
       initDropdowns();
+      initMobileMenu();
     })
     //debugger
     .catch((error) => console.error("Error loading navbar:", error));
@@ -45,6 +46,49 @@ function initDropdowns() {
     });
   });
 }
+function initMobileMenu() {
+  const hamburger = document.getElementById("hamburger");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const closeBtn = document.getElementById("close-menu");
+  
+
+  // Open mobile menu
+  hamburger.addEventListener("click", () => {
+    mobileMenu.classList.add("active");
+    hamburger.classList.add("hidden");
+  });
+  
+  closeBtn.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+    hamburger.classList.remove("hidden");
+  });
+  // SUBMENU OPEN
+  const mobileDropdowns = mobileMenu.querySelectorAll(".mobile-dropdown > a");
+  mobileDropdowns.forEach(link => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const parentLi = link.parentElement;
+      parentLi.classList.toggle("active");
+    });
+  });
+  
+}
+
+function loadFooter() {
+  const footerContainer = document.createElement("div");
+  footerContainer.id = "footer-container";
+
+  fetch("footer.html")
+    .then((response) => response.text())
+    .then((html) => {
+      footerContainer.innerHTML = html;
+      document.body.appendChild(footerContainer); // adds at the end
+    })
+    .catch((error) => console.error("Error loading footer:", error));
+}
 
 // making sur the JS in not run before the DOM is fully loaded so navbar appears fully
-document.addEventListener("DOMContentLoaded", loadNavigation);
+document.addEventListener("DOMContentLoaded", () => {
+  loadNavigation(); 
+  loadFooter();     
+});
