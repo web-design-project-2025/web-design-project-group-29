@@ -326,7 +326,7 @@
             "description" :"A rich, creamy soup with deep purple-black color, spiced with onions, jalapeños, cumin, and chili powder.",
             "time" :"1h 30",
             "category" :"lunch",
-            "difficulty" : "HARD",
+            "difficulty" : "Hard",
             "image" : "black-bean-soup.jpeg"
         },
         {
@@ -336,7 +336,7 @@
             "description" :"A Cuban  sandwich with slow-roasted citrus-marinated pork, ham, Swiss, pickles, and mustard, all pressed to perfection.",
             "time" :"1h 30",
             "category" :"snack",
-            "difficulty" : "EASY",
+            "difficulty" : "Easy",
             "image" : "cuban-sandwich.jpeg"
         },
         {
@@ -345,8 +345,8 @@
             "rating" : 5,
             "description" :"Cuba's national dish, this beef stew features shredded flank steak in a flavorful tomato-onion-pepper sauce.",
             "time" :"1h 30",
-            "category" :"dinner",
-            "difficulty" : "MEDIUM",
+            "category" :"Dinner",
+            "difficulty" : "Medium",
             "image" : "ropa-vieja.jpg"
         },
         {
@@ -356,7 +356,7 @@
             "description" :"A citrus-garlic marinade common in Cuban cuisine, this tangy blend of orange and lime juice enhances the flavor.",
             "time" :"1h 30",
             "category" :"snack",
-            "difficulty" : "EASY",
+            "difficulty" : "Easy",
             "image" : "mojo-shrimp.jpeg"
         },
         {
@@ -366,7 +366,7 @@
             "description" :"A smooth, frosty cocktail made from a blend of fresh and frozen strawberries, perfect for refreshing daiquiri lovers.",
             "time" :"1h 30",
             "category" :"drink",
-            "difficulty" : "MEDIUM",
+            "difficulty" : "Medium",
             "image" : "daquiri.jpeg"
         }
     ],
