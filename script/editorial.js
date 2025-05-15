@@ -1,4 +1,4 @@
-const showUp = document.querySelectorAll(".text,.svg");
+const showUp = document.querySelectorAll(".text,.svg, .quote1, .quote2, .quote3, .quote4, .quote5");
 
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach(entry => {
@@ -8,7 +8,7 @@ const observer = new IntersectionObserver((entries)=>{
         }
     });
 },{
-    threshold: 0.7
+    threshold: 0.4
 });
 
 showUp.forEach(el => observer.observe(el));
