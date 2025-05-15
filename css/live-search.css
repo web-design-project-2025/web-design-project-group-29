@@ -1,13 +1,28 @@
+/* roots */
+:root {
+    --primary-color: #FFFDFA;
+    --secondary-color: #B6CAE5;
+    --colorful-text: #6E2E15;
+    --text-color: #4A4A4A;
+    --light-text: #606060;
+    --border-color: #F1EEEA;
+    --star-color : #F68F40;
+    --darker-blue:#6f98c4;
+  }
+  
+/* roots */
 .suggestions{
     position: absolute;
     list-style: none;
-    background-color: ivory;
+    background-color:var(--primary-color);
+    border: 1px  var(--text-color);
     width: 100%;
     max-height: 10rem;
     overflow-y: auto;
     /* border: 1px solid #000; */
-     z-index: 10;
-    margin-top: 13rem;
+     /* z-index: 2; */
+    margin-top: 12rem;
+    margin-left: -1rem;
     padding: 0;
     border-radius: 1.2rem;
 }

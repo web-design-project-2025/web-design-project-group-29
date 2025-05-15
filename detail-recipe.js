@@ -39,11 +39,62 @@ function createRecipeElement(recipe,) {
   heroLeft.appendChild(titleImage);
   // textBox.appendChild(titleImage);
 
+  // category section
+  
+
+
+  // Star rating 
+
+  // STAR RATING https://chatgpt.com/share/68221f75-7734-8013-abc7-c79bc6177543
+const starContainer = document.createElement("div");
+starContainer.classList.add("star-container");
+
+const ratingValue = recipe.rating || 0;
+const fullStar = Math.floor(ratingValue);
+const halfStar = ratingValue % 1 >= 0.25 && ratingValue % 1 < 0.75;
+const totalStars = 5;
+
+for (let i = 1; i <= totalStars; i++) {
+  const starIcon = document.createElement("i");
+
+  if (i <= fullStar) {
+    starIcon.className = "fa-solid fa-star"; 
+  } else if (i === fullStar + 1 && halfStar) {
+    starIcon.className = "fa-solid fa-star-half-stroke"; 
+  } else {
+    starIcon.className = "fa-regular fa-star"; 
+  }
+
+  starContainer.appendChild(starIcon);
+}
+
+
+
+heroLeft.appendChild(starContainer);
+
+
+if (Array.isArray(recipe.category)&& recipe.category.length > 0){
+  const categoryContainer = document.createElement("div");
+  categoryContainer.classList.add("category-container");
+
+  recipe.category.forEach((category) => {
+    const categoryItem = document.createElement("span");
+    categoryItem.classList.add("category-item");
+    categoryItem.innerText = category;
+    categoryContainer.appendChild(categoryItem);
+  });
+
+  heroLeft.appendChild(categoryContainer);
+}
+
   // Recipe description
   const description = document.createElement("p");
   description.innerText = recipe.description;
   description.classList.add("recipe-description");
   heroLeft.appendChild(description);
+
+
+  
 
   // icon  container
 
@@ -54,10 +105,9 @@ function createRecipeElement(recipe,) {
   difficultyContainer.classList.add("difficulty-container");
 
   // Difficulty level icon
-  const difficultyIcon = document.createElement("img");
-  difficultyIcon.classList.add("difficulty-icon");
-  difficultyIcon.src = "img/signal-solid.svg";
-  difficultyIcon.alt = recipe.difficulty;
+  const difficultyIcon = document.createElement("i");
+  difficultyIcon.classList.add("fas", "fa-signal", "difficulty-icon");
+ 
   difficultyContainer.appendChild(difficultyIcon);
  
 
@@ -73,10 +123,8 @@ function createRecipeElement(recipe,) {
   timeContainer.classList.add("time-container");
 
 // time icon
-  const timeIcon = document.createElement("img");
-  timeIcon.classList.add("time-icon");
-  timeIcon.src = "img/clock.svg";
-  timeIcon.alt = recipe.time;
+  const timeIcon = document.createElement("i");
+  timeIcon.classList.add("far", "fa-clock", "time-icon");
   timeContainer.appendChild(timeIcon);
  
   // time text
@@ -134,13 +182,14 @@ function createRecipeElement(recipe,) {
    leftContainer.appendChild(portionControl);
  
    // ingredient container
+
    const ingredientsSection = document.createElement("div");
    ingredientsSection.classList.add("ingredients-container");
  
-   const ingredientsList = document.createElement("ul");
-   ingredientsList.classList.add("ingredients-list");
+  //  const ingredientsList = document.createElement("ul");
+  //  ingredientsList.classList.add("ingredients-list");
 
-   ingredientsSection.appendChild(ingredientsList);
+  //  ingredientsSection.appendChild(ingredientsList);
    leftContainer.appendChild(ingredientsSection);
    //
    function safeEvaluateQuantity(expression) {
@@ -155,15 +204,20 @@ function createRecipeElement(recipe,) {
   }
   }
   function updateIngredients(){
-    ingredientsList.innerHTML = "";
+    ingredientsSection.innerHTML = "";
 
    for (let section in recipe.ingredients) {
+    const ingBox = document.createElement("div");
+    ingBox.classList.add("ingredient-box");
+
      const sectionTitle = document.createElement("h3");
      sectionTitle.classList.add("section-title");
      sectionTitle.innerText = section;
-     ingredientsList.appendChild(sectionTitle);
+     ingBox.appendChild(sectionTitle);
 
- 
+     const ingredientsList = document.createElement("ul");
+     ingredientsList.classList.add("ingredients-list");
+     
      for (let item of recipe.ingredients[section]) {
       const listItem = document.createElement("li");
       listItem.classList.add("list-item");
@@ -174,6 +228,7 @@ function createRecipeElement(recipe,) {
       
       const label = document.createElement("label");
       label.classList.add("ingredient-label");
+
        //help from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
        let quantity = item.quantity;
        const match = quantity.match(/^([\d.\/½¼¾]+)(.*)$/);
@@ -187,11 +242,13 @@ function createRecipeElement(recipe,) {
        }
 
 
-      label.innerText = `${item.name} - ${quantity}`;
+      label.innerText = `${item.name} ${quantity}`;
       label.prepend(checkbox);
       listItem.appendChild(label);
       ingredientsList.appendChild(listItem);
      }
+     ingBox.appendChild(ingredientsList); 
+     ingredientsSection.appendChild(ingBox);
    }
  }
  updateIngredients();

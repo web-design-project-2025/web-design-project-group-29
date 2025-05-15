@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/overview-recipe-page.css">
     <link rel="stylesheet" href="css/recipe-background.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/index.css" />
+    <!-- <link rel="stylesheet" href="css/index.css" /> -->
 
 
     <title>Document</title>
@@ -23,12 +23,19 @@
     <button class="filter-btn" data-category="snack">Snack</button>
     <button class="filter-btn" data-category="drink">Drinks</button>
     <button class="filter-btn" data-category="dessert">Desserts</button>
+    
   </div>
+  <div class="search-bar">
+    <input id="liveSearch" type="text" placeholder="Search recipes..." />
+    <i class="fas fa-search"></i>
+     <ul id="suggestions" class="suggestions"></ul>
+  </div> 
     <div class="recipe-arrangement" id="recipeContainer">
   
     </div>
   <script src="recipe-card.js"></script>
   <script src="recipe-background.js"></script>
   <script src="script/load-navbar.js"></script>
+  <script src="script/live-search.js"></script>
 </body>
 </html>
