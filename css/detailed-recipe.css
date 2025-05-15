@@ -61,6 +61,7 @@ html {
 
 }
 
+/*Stars*/
 .star-container {
   display: flex;
   gap: 4px;
@@ -71,6 +72,7 @@ html {
   z-index: 100;
 }
 
+/*Image container*/ 
 .recipe-image-container {
   grid-column: 2;
   grid-row: 1;
@@ -78,6 +80,27 @@ html {
   overflow: hidden;
   box-sizing: border-box;
 }
+
+/*heart icon*/
+.favorite-icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 30px;
+  color: #ff5e5e;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+
+.favorite-icon:hover {
+  transform: scale(1.1);
+}
+
+.recipe-image-container {
+  position: relative;
+}
+
 
 .right-container {
   display: flex;
@@ -353,9 +376,11 @@ html {
 
   .recipe-hero-left {
     order: 0;
-    width: 100%
+  
   }
 
-
+  
 
 }
+
+
