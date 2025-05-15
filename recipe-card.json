@@ -265,7 +265,7 @@
             "time" :"1h 30",
             "category" :"snack",
             "difficulty" : "EASY",
-            "image" : "zobo.jpg"
+            "image" : "burr.png"
         },
         {
             "id": 27,
@@ -393,7 +393,7 @@
         },
         {
             "id": 39,
-            "name" :"Peruvian Arroz Con Pollo ",
+            "name" :"Peruvian Arroz",
             "rating" : 4,
             "description" :"Green rice with chicken, cilantro, and vegetables.",
             "time" :"1h 30",
@@ -685,7 +685,7 @@
         "image" : "arooz-con-pollo.jpeg"
     },
     {
-        "name" :"CEVICHE",
+        "name" :"Ceviche",
         "rating" : 3,
         "description" :"Raw fish (often sea bass or flounder) marinated in lime juice with onions, chili peppers, and cilantro.",
         "time" :"1h 30",
@@ -694,7 +694,7 @@
         "image" : "ceviche.jpeg"
     },
     {
-        "name" :"TOSHIKOSHI SOBA",
+        "name" :"Toshikoshi Soba",
         "rating" : 5,
         "description" :"Toshikoshi Soba is a simple buckwheat noodle soup with light broth and toppings like green onions or tempura.",
         "time" :"2h - 3h",
@@ -721,7 +721,7 @@
         "image" : "bariis-iyo-hilib.jpg"
     },
     {
-        "name" :"PERUVIAN ARROZ CON POLLO ",
+        "name" :"Peruvian Arroz",
         "rating" : 4,
         "description" :"Green rice with chicken, cilantro, and vegetables.",
         "time" :"1h 30",
