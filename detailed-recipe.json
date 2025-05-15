@@ -10,7 +10,7 @@
       "time" :"1h 30",
       "category" : ["drink", "Nigeria"],
       "difficulty" : "Hard",
-      "image" : "zobo.jpg",
+      "image" : "img/zobo.jpg",
       "imageAlt": " A colorful purple drink made of hibiscus petals",
       "ingredients": {
         "Main": [
