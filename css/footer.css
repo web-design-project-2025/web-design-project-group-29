@@ -1,23 +1,27 @@
-.footer {
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .page-content {
+    flex: 1;
+  }
+
+  .footer {
     background-color: #b6cae5;
     padding: 1rem;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: #333;
     box-sizing: border-box;
     width: 100%;
-    flex-direction: column;
+    
   }
   
-  body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #footer-container {
-    margin-top: auto;
-  }
   
   .footer-top {
     display: grid;
@@ -115,7 +119,7 @@
     padding: 1rem 1rem 0; 
     font-size: 0.75rem;
     border-top: 1px solid #ddd;
-    border-width: 130%;
+    
   }
   
   .footer-links a {
