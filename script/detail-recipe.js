@@ -167,7 +167,11 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
  heartIcon.classList.replace("fa-regular", "fa-solid");
  }
  localStorage.setItem("favorites", JSON.stringify(favorites));
- });
+ window.dispatchEvent(new StorageEvent("storage", {
+  key: "favorites",
+  newValue: JSON.stringify(favorites)
+})); 
+});
  
  heroRight.appendChild(heartIcon);
 

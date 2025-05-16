@@ -14,6 +14,11 @@ async function loadFavoritesData() {
 
   renderFavorites(favoriteRecipes);
 }
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") {
+    loadFavoritesData();
+  }
+});
 
 function renderFavorites(favoriteRecipes) {
   const container = document.getElementById("recipeContainer");
@@ -59,6 +64,11 @@ function renderFavorites(favoriteRecipes) {
 
 loadFavoritesData();
 
+window.addEventListener("storage", (event) => {
+  if (event.key === "favorites") {
+    loadFavoritesData(); // Refresh the list
+  }
+});
 
 
 
