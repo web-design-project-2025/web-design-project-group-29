@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+  try{
   fetch("recipe-card.json")
     .then(res => res.json())
     .then(recipesByCountry => {
+      try{
       const country = new URLSearchParams(window.location.search).get("country") || "nigeria";
       const container = document.getElementById("recipeContainer");
 
@@ -21,12 +23,24 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         container.innerHTML = "<p>No recipes found for this country.</p>";
       }
+    } catch (innerErr){
+      console.error("Error processing recipe data:",innerErr);
+    }
     })
-    .catch(err => console.error("Error loading recipes:", err));
+    .catch(err => {
+      console.error("Error loading recipes:", err);
+    const container = document.getElementById("recipeContainer");
+    if(container){
+      container.innerHTML = "<p> Failed to load recipes. Please try again later </p>";
+    }
 });
-
+  } catch (err){
+    console.error("Error initializing page:", err);
+  }
+});
 // Reusable recipe rendering function
 function displayRecipes(recipes, container) {
+  try{
   container.innerHTML = "";
 
   recipes.forEach(recipe => {
@@ -57,18 +71,26 @@ function displayRecipes(recipes, container) {
 
     // Save recipe to profile when clicked
     recipeBox.addEventListener("click", () => {
+      try{
       const recipeData = JSON.parse(recipeBox.getAttribute("data-recipe"));
       saveRecipeToProfile(recipeData);
       console.log("Saved recipe:", recipeData);
+      }catch (err){
+        console.error("Error saving recipe to profile:",err);
+      }
     });
 
     recipeSection.appendChild(recipeBox);
     container.appendChild(recipeSection);
   });
+} catch (err){
+  console.error("Error displaying recipes:",err);
+  container.innerHTML = "<p> Unable to display recipes</p>"
 }
-
+}
 // Save clicked recipe to profile in localStorage
 function saveRecipeToProfile(recipe) {
+  try{
   let userProfile = JSON.parse(localStorage.getItem("userProfile"));
 
   if (userProfile) {
@@ -91,14 +113,19 @@ function saveRecipeToProfile(recipe) {
   } else {
     alert("No user profile found. Please sign up or log in.");
   }
+} catch (err)
+ {
+  console.error("Error saving to localStorage:",err);
+  alert("Failed to save recipe, try again")
+ }
 }
-
-
 function setupRecipeFilters(recipes, container, displayFn) {
+  try{
   const filterButtons = document.querySelectorAll(".filter-buttons-container .filter-btn");
 
   filterButtons.forEach(btn => {
     btn.addEventListener("click", () => {
+      try{
       // Highlight selected filter
       filterButtons.forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
@@ -110,6 +137,12 @@ function setupRecipeFilters(recipes, container, displayFn) {
         : recipes.filter(recipe => recipe.category === category);
 
       displayFn(filtered, container);
+    } catch (err){
+      console.error("Error applying filters:", err);
+    }
     });
   });
+} catch (err){
+  console.error("Error setting up filters",err);
+}
 }

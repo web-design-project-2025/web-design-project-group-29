@@ -4,6 +4,7 @@ const contentElement = document.getElementById("content");
 
 // Fetch Json data
 async function loadData() {
+  try{
   const recipeResponse = await fetch("detailed-recipe.json");
   const recipesJSON = await recipeResponse.json();
   recipes = recipesJSON.recipes;
@@ -13,7 +14,13 @@ async function loadData() {
   instructions = instructionsJSON.instructions;
 
   renderContent();
+
+} catch (error){
+  console.error("Error loading data:", error);
+  contentElement.innerHTML = `<p style = "color: red;> Failed to load recipes. Please try again later. </p>`;
 }
+}
+
 function getRecipeById(id) {
   return recipes.find((recipe) => recipe.id === id);
 }
@@ -206,8 +213,6 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
 
    const ingredientsSection = document.createElement("div");
    ingredientsSection.classList.add("ingredients-container");
- 
-  
    leftContainer.appendChild(ingredientsSection);
    //portion control
    function safeEvaluateQuantity(expression) {
@@ -455,74 +460,93 @@ rightContainer.appendChild(reviewSection);
 }
 
 //https://chatgpt.com/share/6820c3e1-f89c-8007-893d-04d4c3774281
-function setupReviewForm(){
-const stars = document.querySelectorAll('#star-rating span');
-const ratingInput = document.getElementById('rating');
-const reviewForm = document.getElementById('review-form');
-const reviewsContainer = document.getElementById('reviews-container');
+function setupReviewForm() {
+  const stars = document.querySelectorAll('#star-rating span');
+  const ratingInput = document.getElementById('rating');
+  const reviewForm = document.getElementById('review-form');
+  const reviewsContainer = document.getElementById('reviews-container');
 
-// Star interactivity
-stars.forEach(star => {
-  star.addEventListener('mouseenter', () => {
-    const val = parseInt(star.dataset.value);
-    highlightStars(val);
-  });
+  const urlParams = new URLSearchParams(document.location.search);
+  const recipeId = urlParams.get("id");
 
-  star.addEventListener('mouseleave', () => {
-    highlightStars(parseInt(ratingInput.value));
-  });
+  // get the existing review previously stored in localstorge
+  const storedReviews = JSON.parse(localStorage.getItem("reviews")) || {};
+  const reviewsForThisRecipe = storedReviews[recipeId] || [];
+  reviewsForThisRecipe.forEach(review => displayReview(review));
 
-  star.addEventListener('click', () => {
-    const selected = parseInt(star.dataset.value);
-    ratingInput.value = selected;
-    highlightStars(selected);
-  });
-});
-
-function highlightStars(rating) {
+  // Stars rating logic
   stars.forEach(star => {
-    const val = parseInt(star.dataset.value);
-    star.classList.toggle('selected', val <= rating);
-    star.classList.toggle('hover', false); // clear hover effect
+    star.addEventListener('mouseenter', () => {
+      highlightStars(parseInt(star.dataset.value));
+    });
+
+    star.addEventListener('mouseleave', () => {
+      highlightStars(parseInt(ratingInput.value));
+    });
+
+    star.addEventListener('click', () => {
+      const selected = parseInt(star.dataset.value);
+      ratingInput.value = selected;
+      highlightStars(selected);
+    });
+  });
+
+  function highlightStars(rating) {
+    stars.forEach(star => {
+      const val = parseInt(star.dataset.value);
+      star.classList.toggle('selected', val <= rating);
+    });
+  }
+
+  function displayReview({ name, rating, comment }) {
+    const reviewDiv = document.createElement('div');
+    reviewDiv.classList.add('review');
+
+    let starsHTML = '';
+    for (let i = 1; i <= 5; i++) {
+      starsHTML += `<span class="${i <= rating ? 'selected' : ''}">★</span>`;
+    }
+
+    reviewDiv.innerHTML = `
+      <h3>${name}</h3>
+      <div class="stars">${starsHTML}</div>
+      <p>${comment}</p>
+    `;
+
+    reviewsContainer.appendChild(reviewDiv);
+  }
+
+  // Add form submission
+  reviewForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById('reviewer').value.trim();
+    const comment = document.getElementById('comment').value.trim();
+    const rating = parseInt(ratingInput.value);
+
+    if (!name || !comment || !rating) {
+      alert('Please complete all fields and select a rating.');
+      return;
+    }
+
+    const newReview = { name, rating, comment };
+    displayReview(newReview);
+
+    // Save to localStorage
+    const allReviews = JSON.parse(localStorage.getItem("reviews")) || {};
+    if (!allReviews[recipeId]) {
+      allReviews[recipeId] = []; //empty array if no review
+    }
+    //adding the new review to the array & local storage
+    allReviews[recipeId].push(newReview);
+    localStorage.setItem("reviews", JSON.stringify(allReviews));
+
+    // Reset form
+    reviewForm.reset();
+    ratingInput.value = 0;
+    highlightStars(0);
   });
 }
-
-// Add form submission handler to display reviews
-reviewForm.addEventListener('submit', function (e) {
-  e.preventDefault();
-
-  const name = document.getElementById('reviewer').value.trim();
-  const comment = document.getElementById('comment').value.trim();
-  const rating = parseInt(ratingInput.value);
-
-  if (!name || !comment || !rating) {
-    alert('Please complete all fields and select a rating.');
-    return;
-  }
-
-  // Create review display
-  const reviewDiv = document.createElement('div');
-  reviewDiv.classList.add('review');
-
-  // Create stars display
-  let starsHTML = '';
-  for (let i = 1; i <= 5; i++) {
-    starsHTML += `<span class="${i <= rating ? 'selected' : ''}">★</span>`;
-  }
-
-  reviewDiv.innerHTML = `
-    <h3>${name}</h3>
-    <div class="stars">${starsHTML}</div>
-    <p>${comment}</p>
-  `;
-
-  reviewsContainer.appendChild(reviewDiv);
-
-  // Clear form
-  reviewForm.reset();
-  ratingInput.value = 0;
-  highlightStars(0);
-});}
 
 
 
