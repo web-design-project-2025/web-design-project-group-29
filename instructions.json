@@ -1059,7 +1059,6 @@
     {
       "id": 28,
       "name": "Arooz Con Pollo",
-      "illustrations":"img/.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1365,7 +1364,7 @@
     {
       "id": 36,
       "name": "Strawberry Daiquiri",
-      "illustrations":"img/strawberry.svg",
+      "illustrations":"img/straberry.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1616,7 +1615,182 @@
           ]
         }
       ]
-    },  {
+    }, {
+      "id": 42,
+      "name": "Picarones",
+      "illustrations": "img/cinnamon.svg",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Dissolve the dry yeast in warm water and let it sit until foamy (about 10 minutes).",
+            "In a large bowl, mix the mashed sweet potato and pumpkin with the yeast mixture.",
+            "Gradually add flour and salt to form a sticky dough. Cover and let it rise until doubled in size (about 1 hour)."
+          ]
+        },
+        {
+          "name": "Syrup",
+          "steps": [
+            "In a saucepan, combine chancaca (or molasses), cinnamon, cloves, orange peel, and water.",
+            "Bring to a boil, then simmer until thickened to syrup consistency. Strain and set aside."
+          ]
+        },
+        {
+          "name": "Frying",
+          "steps": [
+            "Heat vegetable oil in a deep pan over medium heat.",
+            "With wet hands, shape the dough into rings and carefully drop into the hot oil.",
+            "Fry until golden and crispy, then drain on paper towels."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Drizzle the warm syrup over the hot picarones.",
+            "Serve immediately while crispy."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Wet hands frequently to shape the dough easily.",
+            "Use a piping bag if shaping by hand is too difficult.",
+            "Let the dough rise in a warm, draft-free spot."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Fish Escabeche",
+      "illustrations": "img/onion.svg",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Season fish fillets with salt and black pepper.",
+            "Coat fillets lightly with flour."
+          ]
+        },
+        {
+          "name": "Frying Fish",
+          "steps": [
+            "Heat vegetable oil in a pan and fry the fish until golden on both sides.",
+            "Remove and drain on paper towels."
+          ]
+        },
+        {
+          "name": "Making Escabeche Sauce",
+          "steps": [
+            "In a separate pan, heat olive oil and sauté garlic and onions until soft.",
+            "Add aji panca paste, vinegar, bay leaves, cumin, salt, and pepper.",
+            "Simmer for 10 minutes until the sauce is aromatic."
+          ]
+        },
+        {
+          "name": "Assembly",
+          "steps": [
+            "Place fried fish in a dish and cover with the hot escabeche sauce.",
+            "Let marinate for at least 15 minutes to absorb the flavors."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Garnish with hard-boiled eggs and chopped parsley or cilantro.",
+            "Serve warm or at room temperature with rice or boiled potatoes."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Let the dish rest before serving for deeper flavor.",
+            "Use a firm white fish like cod or tilapia.",
+            "Add chili slices if you prefer more heat."
+          ]
+        }
+      ]
+    },{
+      "id": 44,
+      "name": "Chupe de Camarones",
+      "illustrations": "img/onion.svg",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Sauté chopped onion, garlic, and aji amarillo paste in olive oil until fragrant.",
+            "Add chopped tomatoes and cook until soft."
+          ]
+        },
+        {
+          "name": "Building the Soup",
+          "steps": [
+            "Add shrimp (with shells), diced potatoes, corn rounds, pumpkin, and rice.",
+            "Pour in water or seafood stock and bring to a boil.",
+            "Simmer until vegetables are tender and rice is cooked."
+          ]
+        },
+        {
+          "name": "Finishing Touches",
+          "steps": [
+            "Lower the heat and add evaporated milk, cheese, and lightly beaten eggs.",
+            "Stir gently and cook until the eggs are set and soup is creamy."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve hot in bowls.",
+            "Garnish with chopped oregano or cilantro."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Shells add flavor—consider removing them before serving for ease.",
+            "Use fresh shrimp for the best taste.",
+            "Adjust spice level with more or less aji amarillo."
+          ]
+        }
+      ]
+    },{
+      "id": 45,
+      "name": "Chicha Morada",
+      "illustrations": "img/lemon.svg",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Place purple corn, cinnamon sticks, cloves, pineapple peel, chopped apple, and water in a pot.",
+            "Bring to a boil, then simmer for 45 minutes."
+          ]
+        },
+        {
+          "name": "Straining and Flavoring",
+          "steps": [
+            "Strain the liquid and discard solids.",
+            "Add sugar and lime juice to taste.",
+            "Let cool completely."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Serve cold over ice cubes.",
+            "Optionally, add small chunks of fruit for garnish."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "Adjust sweetness and acidity to taste.",
+            "Make in large batches—it stores well in the fridge.",
+            "Use fresh pineapple peel for better aroma."
+          ]
+        }
+      ]
+    },
+    {
       "id": 46,
       "name": "Toshikoshi Soba",
       "illustrations":"img/chopsticks.svg",
@@ -1982,7 +2156,7 @@
       ]
     },
     {
-      "id": 56,
+      "id": 57,
       "name": "Waffles with Whipped Cream",
       "illustrations":"img/strawberry.svg",
       "sections": [

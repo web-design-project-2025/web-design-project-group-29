@@ -1595,14 +1595,14 @@
     {
       "id": 27,
       "name": "Suqaar",
-      "titleImg": "img/suqaar.svg",
+      "titleImg": "img/suuqar.svg",
       "titleAlt": "Handwriten text saying 'suqaar'",
       "category": ["Somalia","Dessert"],
       "description": "Deep-fried sweet dough balls, soaked in sugar syrup—similar to gulab jamun.",
       "time": "30min",
       "difficulty": "Easy",
       "rating": 4.9,
-      "image": "img/Suqaar.jpeg",
+      "image": "img/Suqaar.jpg",
       "imageAlt": " A plate of Suqaar drizzled with syrup and garnished with nuts",
       "ingredients": {
         "Main": [
@@ -1954,7 +1954,7 @@
     {
       "id": 32,
       "name": "Black Bean Soup",
-      "titleImg": "black-bean-soup.svg",
+      "titleImg": "img/black-bean-soup.svg",
       "titleAlt": "Handwriten text saying 'Black Bean Soup'",
       "category": ["Cuban", "Lunch"],
       "description": "A rich, creamy soup with deep purple-black color, spiced with onions, jalapeños, cumin, and chili powder.",
@@ -2397,7 +2397,7 @@
       "time": "30min",
       "difficulty": "Easy",
       "rating": 4.9,
-      "image": "img/arroz-con-pollo.jpeg",
+      "image": "img/arooz-con-pollo.jpeg",
       "imageAlt": " A plate of Peruvian Arroz con Pollo with chicken and rice",
       "ingredients": {
         "Main": [
@@ -2469,7 +2469,7 @@
       "time": "30min",
       "difficulty": "Easy",
       "rating": 4.9,
-      "image": "img/pisco-sour.jpeg",
+      "image": "img/pisco-sour.jpg",
       "imageAlt": " A glass of Pisco Sour cocktail with a frothy top and bitters",
       "ingredients": {
         "Main": [
@@ -2513,7 +2513,7 @@
       "time": "30min",
       "difficulty": "Easy",
       "rating": 4.9,
-      "image": "img/solterito.jpeg",
+      "image": "img/solterito.jpg",
       "imageAlt": " A bowl of Solterito salad with vibrant colors",
       "ingredients": {
         "Main": [
