@@ -19,6 +19,15 @@ body {
     align-items: center;
     justify-content: center;
 }
+.overlay-svg{
+  position:absolute;
+  top: 20%;
+  right: 28%;
+  width: 40%;
+  height: auto;
+  /* display: none; */
+  pointer-events: none;
+}
 .banner h1 {
     color: white;
     font-size: 5rem;

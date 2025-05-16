@@ -43,7 +43,9 @@
 ],
     "recipes":[
     {
+        "svg" : "recipes.svg",
         "image" : "homepage.jpg"
+
     }
 ]
 }
