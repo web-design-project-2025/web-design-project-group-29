@@ -1,5 +1,6 @@
 // creating the reusable function that will load our navbar
 function loadNavigation() {
+  try{
   // html file that will hold our navbar
   const navContainer = document.createElement("header");
   navContainer.id = "navbar-container";
@@ -20,9 +21,13 @@ function loadNavigation() {
     })
     //debugger
     .catch((error) => console.error("Error loading navbar:", error));
+} catch (err){
+  console.error("Failed to load navigation:",err);
+}
 }
 
 function initDropdowns() {
+  try{
   // Continent dropdown
   const dropdowns = document.querySelectorAll(".dropdown"); // calling every item in the class .dropdown
   dropdowns.forEach((dropdown) => {
@@ -34,7 +39,10 @@ function initDropdowns() {
       dropdown.querySelector(".continent-menu").style.display = "none";
     });
   });
-
+  }catch(err){
+    console.error("Dropdown initialization failed:", err);
+  }
+}
   // doing the same for Country menus
   const continents = document.querySelectorAll(".continent");
   continents.forEach((continent) => {
@@ -45,8 +53,9 @@ function initDropdowns() {
       continent.querySelector(".country-menu").style.display = "none";
     });
   });
-}
+
 function initMobileMenu() {
+  try{
   const hamburger = document.getElementById("hamburger");
   const mobileMenu = document.getElementById("mobile-menu");
   const closeBtn = document.getElementById("close-menu");
@@ -79,9 +88,12 @@ function initMobileMenu() {
     });
   });
   
+} catch (err){
+  console.error("Mobile meu initializtion failed:", err);
 }
-
+}
 function loadFooter() {
+  try{
   const footerContainer = document.createElement("div");
   footerContainer.id = "footer-container";
 
@@ -92,6 +104,9 @@ function loadFooter() {
       document.body.appendChild(footerContainer); // adds at the end
     })
     .catch((error) => console.error("Error loading footer:", error));
+} catch (err){
+  console.error("Failed to load footer",err);
+}
 }
 function loadFooter() {
   const footerContainer = document.createElement("div");

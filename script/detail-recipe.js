@@ -4,6 +4,7 @@ const contentElement = document.getElementById("content");
 
 // Fetch Json data
 async function loadData() {
+  try{
   const recipeResponse = await fetch("detailed-recipe.json");
   const recipesJSON = await recipeResponse.json();
   recipes = recipesJSON.recipes;
@@ -13,7 +14,13 @@ async function loadData() {
   instructions = instructionsJSON.instructions;
 
   renderContent();
+
+} catch (error){
+  console.error("Error loading data:", error);
+  contentElement.innerHTML = `<p style = "color: red;> Failed to load recipes. Please try again later. </p>`;
 }
+}
+
 function getRecipeById(id) {
   return recipes.find((recipe) => recipe.id === id);
 }
@@ -206,8 +213,6 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
 
    const ingredientsSection = document.createElement("div");
    ingredientsSection.classList.add("ingredients-container");
- 
-  
    leftContainer.appendChild(ingredientsSection);
    //portion control
    function safeEvaluateQuantity(expression) {
