@@ -39,9 +39,6 @@ function createRecipeElement(recipe,) {
   heroLeft.appendChild(titleImage);
   // textBox.appendChild(titleImage);
 
-  // category section
-  
-
 
   // Star rating 
 
@@ -68,10 +65,8 @@ for (let i = 1; i <= totalStars; i++) {
   starContainer.appendChild(starIcon);
 }
 
-
-
 heroLeft.appendChild(starContainer);
-
+//  category section
 
 if (Array.isArray(recipe.category)&& recipe.category.length > 0){
   const categoryContainer = document.createElement("div");
@@ -146,6 +141,38 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
   recipeImage.alt = recipe.imageAlt;
   recipeImage.classList.add("recipe-image");
   heroRight.appendChild(recipeImage);
+
+//FAVOURITES 
+
+
+ // Heart icon 
+ const heartIcon = document.createElement("i");
+ heartIcon.classList.add("fa-heart", "fa-regular", "favorite-icon");
+ 
+ let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+ 
+ if (favorites.includes(recipe.id)) {
+ heartIcon.classList.replace("fa-regular", "fa-solid");
+ }
+ //adding to favorites by clicking the heart
+ heartIcon.addEventListener("click", () => {
+ favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+ 
+ if (favorites.includes(recipe.id)) {
+ favorites = favorites.filter(id => id !== recipe.id);
+ heartIcon.classList.replace("fa-solid", "fa-regular");
+ } else {
+
+ favorites.push(recipe.id);
+ heartIcon.classList.replace("fa-regular", "fa-solid");
+ }
+ localStorage.setItem("favorites", JSON.stringify(favorites));
+ });
+ 
+ heroRight.appendChild(heartIcon);
+
+
+
 
 // INGREDIENTS SECTION
    // left recipe container
@@ -283,11 +310,7 @@ plusBtn.onclick = () => {
    rightContainer.classList.add("instructions-right");
  
    // how to text img
-   const howToImage = document.createElement("img");
-   howToImage.src = "img/howto.svg";
-   howToImage.alt = "'How to' writtten in handwriting";
-   howToImage.classList.add("how-to-image");
-   rightContainer.appendChild(howToImage);
+  
 
   // INSSTRUCTIONS 
   const instructionsContainer = document.createElement("div");
@@ -298,6 +321,34 @@ plusBtn.onclick = () => {
 
    //finding instruction by id
    const instructionData = instructions.find(inst => inst.id === recipe.id);
+
+   // ingredient Illustrations 
+
+   if(instructionData.illustrations) {
+    const illustrationContainer = document.createElement("div");
+    illustrationContainer.classList.add("illustration-container");
+   
+    const illustration = document.createElement("img");
+    illustration.src = instructionData.illustrations;
+    illustration.classList.add("recipe-illustration");
+    illustrationContainer.appendChild(illustration);
+    rightContainer.appendChild(illustrationContainer);
+   }
+   //arrow
+   const arrowsvg = document.createElement("img");
+   arrowsvg.src = "img/arrow.svg";
+   arrowsvg.alt = "'illustration for an arrow";
+   arrowsvg.classList.add("arrowsvg");
+   rightContainer.appendChild(arrowsvg);
+   
+   const howToImage = document.createElement("img");
+   howToImage.src = "img/howto.svg";
+   howToImage.alt = "'How to' writtten in handwriting";
+   howToImage.classList.add("how-to-image");
+   rightContainer.appendChild(howToImage);
+ 
+   
+
 
    if (Array.isArray(instructionData.steps) && instructionData.steps.length > 0) {
       const instructionList = document.createElement("ol");
