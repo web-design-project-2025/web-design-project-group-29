@@ -326,6 +326,21 @@ plusBtn.onclick = () => {
    //finding instruction by id
    const instructionData = instructions.find(inst => inst.id === recipe.id);
 
+   // ingredient Illustrations 
+
+   if(instructionData.illustrations) {
+    const illustrationContainer = document.createElement("div");
+    illustrationContainer.classList.add("illustration-container");
+   
+    const illustration = document.createElement("img");
+    illustration.src = instructionData.illustrations;
+    illustration.classList.add("recipe-illustration");
+    illustrationContainer.appendChild(illustration);
+    rightContainer.appendChild(illustrationContainer);
+
+   }
+   
+
    if (Array.isArray(instructionData.steps) && instructionData.steps.length > 0) {
       const instructionList = document.createElement("ol");
       instructionList.classList.add("instructions-list");

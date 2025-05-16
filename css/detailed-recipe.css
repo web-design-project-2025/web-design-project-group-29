@@ -35,10 +35,11 @@ html {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 40px;
+  padding: 2rem;
   box-sizing: border-box;
   margin-left: 1rem;
   height: 60vh;
+  
 }
 
 /*category buttons*/
@@ -116,9 +117,8 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background-color: var(--border-color);
-  padding: 30px;
+  padding-top: 4rem;
   box-sizing: border-box;
 }
 
@@ -205,6 +205,10 @@ html {
   display: block;
   height: 60vh;
 }
+
+
+/* Ingredients Section */
+
 /*ingredients title */
 .ingredients-title {
   font-size: 20px;
@@ -245,11 +249,9 @@ html {
   font-weight: bold;
 }
 
-/* Ingredients Section */
-
 .ingredient-box {
   border-radius: 10px;
-  padding: 1rem;
+  padding: 2rem;
   margin-bottom: 20px;
   background: var(--primary-color);
   border-radius: 12px;
@@ -268,6 +270,7 @@ html {
   list-style: none;
   padding: 0;
   margin: 0;
+  line-height: 1.6;
 }
 
 .ingredients-list li {
@@ -275,14 +278,15 @@ html {
   justify-content: space-between;
   padding: 8px 0;
   border-bottom: 1px solid #eee;
-  font-size: 15px;
+  font-size: 17px;
   text-align: match-parent;
 }
+
 
 .ingredient-label{
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .ingredient-quantity{
@@ -309,15 +313,30 @@ html {
 .ingredient-label{
   display: inline-flex;
   align-items: center;
-  gap: 0.2rem;
+  gap: 0.6rem;
+  padding-right: 3rem;
 }
 
 /* Instructions Section */
 .how-to-image {
   margin-top: 10rem;
   margin-left: 2rem;
-  width: 130px;
-  margin-bottom: 12px;
+  width: 30%;
+  margin-bottom: 2.5rem;
+  
+}
+
+/*illustrations*/
+.illustration-container{
+  z-index: -1;
+  margin-top: -10rem;
+}
+
+.recipe-illustration{
+  display: flex;
+  width: 40%;
+  padding-left: 2rem;
+  z-index: -1;
 }
 
 .instructions {
@@ -328,17 +347,20 @@ html {
   max-width: 450px;
   text-align: left;
   margin-top: 20px;
+  
 }
 
 .instructions-container{
-  margin: 3rem;
+  margin: 6rem;
   justify-content: center;
   align-items: center;
 }
 .instructions-list {
   margin: 1rem;
 }
-
+.section-name{
+  font-size: larger;
+}
 .instructions-list li{
   margin-bottom: 1rem;
   line-height: 2;
@@ -377,6 +399,34 @@ html {
   .recipe-hero-left {
     order: 0;
   
+  }
+
+  .ingredient-box {
+    border-radius: 10px;
+    padding: 0.7rem;
+    margin-bottom: 20px;
+    background: var(--primary-color);
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.09);
+    width: 100%;
+  
+    text-align: left;
+  }
+
+  .checkbox-input{
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid var(--text-color);
+    border-radius: 80%;
+    flex-grow: 1;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+
+  .how-to-image {
+    width: 40%;
   }
 
   

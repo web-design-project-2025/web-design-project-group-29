@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Zobo Drink",
-      "illustrations":"img/hibiscus",
+      "illustrations":"img/hibiscus.svg",
       "sections": [
         {
           "name": "Preparation:",
@@ -34,7 +34,7 @@
     {
       "id": 2,
       "name": "Efo Riro",
-      "illustrations":"img/chilli",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -65,7 +65,7 @@
     {
       "id": 3,
       "name": "Moi Moi (Steamed Bean Pudding)",
-      "illustrations":"img/chilli",
+      "illustrations":"img/.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -231,7 +231,7 @@
     {
       "id": 8,
       "name": "Fried Palm Oil Stew",
-      "illustrations":"img/chilli",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -262,7 +262,7 @@
     {
       "id": 9,
       "name": "Jollof Rice and Chicken with Plantain",
-      "illustrations":"img/chilli",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1014,7 +1014,7 @@
     {
       "id": 28,
       "name": "Arooz Con Pollo",
-      "illustrations":"img/chilli",
+      "illustrations":"img/.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1100,7 +1100,7 @@
     {
       "id": 30,
       "name": "Arroz Con Gandules",
-      "illustrations":"img/chilli",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1674,7 +1674,7 @@
     },{
       "id": 49,
       "name": "Tonkatsu",
-      "illustrations":"img/chilli",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1786,7 +1786,7 @@
     }, {
       "id": 53,
       "name": "Okonomiyaki",
-      "illustrations":"img/chilli",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
