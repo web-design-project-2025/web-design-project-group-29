@@ -154,112 +154,25 @@ transform: translateY(0);
    margin-left: 11.8rem;
    margin-top: -30rem;
 }
-
-
-
-    .banner {
-      flex-direction: column;
-      padding: 5rem 1rem;
-      text-align: center;
-    }
+footer {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 6.3rem;
+  }
   
-    .banner h1 {
-      font-size: 2.5rem;
-      text-align: center;
-    }
+  .footer-left {
+    font-weight: bold;
+  }
   
-    .quote1,
-    .quote2,
-    .quote3,
-    .quote4,
-    .quote5 {
-      font-size: 1.4rem;
-      margin: 1rem auto;
-      text-align: center;
-      justify-content: center !important;
-      transform: rotate(0deg) !important;
-    }
-
-    .quote1{
-        margin-bottom: -25%;
-      }
-    .africa .svg{
-        margin-bottom: -25%;
-      }
-  
-
-    .quote4 {
-      transform: rotate(0deg) !important;
-    }
-  
-    .text {
-      font-size: 1.2rem;
-      margin-left: 5%;
-      margin-top: 20%;
-      padding-right: 0;
-      text-align: center;
-    }
-
-    .south-america .text{
-        margin-top: -20%;
-        margin-bottom: 9%;
-    }
-    .quote2{
-        margin-top: 10%;
-        margin-bottom: -19%;
-    }
-    .quote4{
-        margin-top: 30%;
-        margin-bottom: -19%;
-    }
-    .quote3{
-        margin-top: -25%;
-    }
-    
-    .europe .text{
-        margin-top: -20%;
-        /* margin-bottom: 9%; */
-    }
-  
-    .svg {
-      width: 80%;
-      margin: 2rem auto;
-    }
-  
-    .asia .svg {
-      width: 85%;
-      margin: 2rem auto;
-    }
-  
-    .biglogo {
-      width: 85%;
-      margin: 2rem auto;
-      margin-top: 2rem;
-    }
-  
-    .africa,
-    .asia,
-    .europe,
-    .north-america,
-    .south-america {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-      margin-bottom: 0;
-      margin-top: 2rem;
-    }
-  
-    footer {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 1rem;
-    }
-  
-    .footer-right a {
-      margin: 0 0.5rem;
-      font-size: 1rem;
-    }
-  /* phone responsivness */
+  .footer-right a {
+    margin-left: 1rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+  }
+/* phone responsivness */
 @media  (max-width: 430px) {
     .banner h1 {
       font-size: 2rem;
@@ -274,6 +187,7 @@ transform: translateY(0);
     .quote4,
     .quote5,
     .text {
+        order: 0;
       font-size: 1.2rem;
       margin: 1rem;
       transform: rotate(0deg) !important;
@@ -284,6 +198,7 @@ transform: translateY(0);
       margin-bottom: -25%;
     }
     .text {
+        order: 2;
       margin-left: 5%;
       margin-top: 20%;
       padding-right: 0;
@@ -315,10 +230,20 @@ transform: translateY(0);
     .europe,
     .north-america,
     .south-america {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
       margin-bottom: 0;
       margin-top: 2rem;
+    }
+    
+    .africa img,
+    .asia img,
+    .europe img,
+    .north-america img,
+    .south-america img{
+        order: 1;
     }
    
    
@@ -357,6 +282,7 @@ transform: translateY(0);
       margin-bottom: -25%;
     }
     .text {
+        order: 2;
       margin-left: 5%;
       margin-top: 20%;
       padding-right: 0;
@@ -383,16 +309,29 @@ transform: translateY(0);
     }
    
    
+ 
+   
     .africa,
     .asia,
     .europe,
     .north-america,
     .south-america {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
       margin-bottom: 0;
       margin-top: 2rem;
     }
+    
+    .africa img,
+    .asia img,
+    .europe img,
+    .north-america img,
+    .south-america img{
+        order: 1;
+    }
+   
    
    
     footer {
@@ -407,5 +346,179 @@ transform: translateY(0);
     }
    }
    /* iPad responsivness */
-   /* @media (min-width: 768px) and (max-width:900px) {}
-   */
+   @media (min-width: 768px) and (max-width:1400px) {
+    .banner h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 1rem;
+      }
+     
+     
+      .quote1,
+      .quote2,
+      .quote3,
+      .quote4,
+      .quote5,
+      .text {
+        font-size: 1.2rem;
+        margin: 1rem;
+        transform: rotate(0deg) !important;
+        text-align: center;
+        justify-content: center !important;
+      }
+      .quote1{
+        margin-bottom: -25%;
+      }
+
+      .quote2{
+        margin-top: 25%;
+        margin-bottom: -5%;
+      }
+
+      .quote3{
+        margin-top: 15%;
+        margin-bottom: -40%;
+        
+      }
+
+      .quote4{
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-left: 3.6%;
+      }
+
+      .text {
+        order: 2;
+        margin-left: 5%;
+        margin-top: 20%;
+        padding-right: 0;
+      }
+
+      .africa .text {
+       margin-top: 60%;
+      }
+
+      .north-america .text {
+       margin-top: -5%;
+       margin-bottom: 15%;
+      }
+
+      .south-america .text {
+        margin-left: 5%;
+        margin-top: -5%;
+        padding-right: 0;
+      }
+     
+     
+      /* .svg {
+        width: 90%;
+        margin: 0 auto;
+      }
+      */
+     
+      .asia .svg {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .africa .text {
+        margin: 0 auto;
+        margin-top: -10%;
+      }
+     
+      .asia .text {
+        margin: 0 auto;
+        margin-top: -10%;
+      }
+
+      .europe .text {
+        margin: 0 auto;
+        margin-top: -5%;
+      }
+     
+   
+     
+     
+      .biglogo {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: -5%;
+      }
+     
+
+     
+   
+   
+      .africa,
+      .asia,
+      .europe,
+      .north-america,
+      .south-america {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        margin-bottom: 0;
+        margin-top: 2rem;
+      }
+      
+      .africa img,
+      .asia img,
+      .europe img,
+      .north-america img,
+      .south-america img{
+          order: 1;
+      }
+      .africa img {
+        width: 50%;
+        max-width: 300px;
+        margin-top: 500%;
+        margin: 0 auto;
+        margin-bottom: 10%;
+
+      }
+      .africa  {
+       margin-top: 20%;
+
+      }
+      .asia img .svg{
+        width: 200%;
+        max-width: 900%;
+        margin: 0 auto;
+
+      }
+      .europe img {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 120%;
+
+      }
+      .north-america img {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+
+      }
+      .south-america img {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+
+      }
+      
+     
+     
+      footer {
+        flex-direction: column;
+        text-align: center;
+      }
+     
+     
+      .footer-right a {
+        margin-left: 0;
+        margin: 0 0.5rem;
+      }
+     
+   }
