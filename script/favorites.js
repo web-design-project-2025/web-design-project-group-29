@@ -2,6 +2,7 @@
 let recipes = [];
 
 async function loadFavoritesData() {
+  try{
   const response = await fetch("detailed-recipe.json");
   const json = await response.json();
   recipes = json.recipes;
@@ -13,6 +14,14 @@ async function loadFavoritesData() {
   );
 
   renderFavorites(favoriteRecipes);
+} catch(error){
+  console.error("Error loading faverites recipes:", error);
+  const container = document.getElementById("recipeContainer");
+  if(container){
+    container.innerHTML =
+    "<p style ='padding: 2rem; color:red;> Failed to load recipes . Plese try again later</p>";
+  }
+}
 }
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "visible") {

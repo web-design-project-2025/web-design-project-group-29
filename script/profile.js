@@ -1,5 +1,6 @@
 
 function loadProfile() {
+  try{
   const userProfile = JSON.parse(localStorage.getItem('userProfile'));
 
   if (!userProfile) {
@@ -12,7 +13,6 @@ function loadProfile() {
   document.getElementById('surname').textContent = userProfile.surname;
 
   const container = document.getElementById('recentRecipesContainer');
-
   if (!container) return;
 
   container.innerHTML = '';
@@ -41,8 +41,11 @@ function loadProfile() {
   } else {
     container.innerHTML = "<p>No recent recipes yet.</p>";
   }
+} catch (error){
+  console.error("Error loading profile:",error);
+  alert("Something went wrong. Please try again.")
 }
-
+}
 document.addEventListener("DOMContentLoaded", loadProfile);
 
 
