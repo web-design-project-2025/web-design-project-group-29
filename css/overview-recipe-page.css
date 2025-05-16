@@ -12,6 +12,10 @@
   
 /* roots */
 
+body{
+  background-color: var(--primary-color);
+}
+
 /* recipe */
 .recipe-arrangement {
   margin-top: 5%;
@@ -23,7 +27,7 @@
 
 .recipe-box {
   width: 85%;
-  height: 80%;
+  height: 85%;
   background-color: white;
   padding: 7%;
   margin-top: 5%;
