@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #FFFDFA;
-    --secondary-color: #B6CAE5;
-    --colorful-text: #6E2E15;
-    --text-color: #4A4A4A;
-    --light-text: #606060;
-    --border-color: #F1EEEA;
-    --starcolor: #F68F40;
-  }
+  --primary-color: #fffdfa;
+  --secondary-color: #b6cae5;
+  --colorful-text: #6e2e15;
+  --text-color: #4a4a4a;
+  --light-text: #606060;
+  --border-color: #f1eeea;
+  --starcolor: #f68f40;
+}
 
 body,
 html {
@@ -20,15 +20,14 @@ html {
 }
 
 /* recipe hero container */
-.recipe-grid {  
+.recipe-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100vw;
-  
 }
 
 /* Hero-left */
-.recipe-hero-left { 
+.recipe-hero-left {
   grid-column: 1;
   grid-row: 1;
   display: flex;
@@ -39,7 +38,6 @@ html {
   box-sizing: border-box;
   margin-left: 1rem;
   height: 60vh;
-  
 }
 
 /*category buttons*/
@@ -51,15 +49,14 @@ html {
   padding-bottom: 1rem;
 }
 
-.category-item{
+.category-item {
   background-color: transparent;
   border: 2px solid var(--colorful-text);
   border-radius: 999px;
   padding: 4px 10px;
   font-size: 0.85rem;
   color: var(--colorful-text);
-  font-weight: 500 ;
-
+  font-weight: 500;
 }
 
 /*Stars*/
@@ -73,7 +70,7 @@ html {
   z-index: 100;
 }
 
-/*Image container*/ 
+/*Image container*/
 .recipe-image-container {
   grid-column: 2;
   grid-row: 1;
@@ -102,7 +99,6 @@ html {
   position: relative;
 }
 
-
 .right-container {
   display: flex;
   flex-direction: column;
@@ -122,7 +118,6 @@ html {
   box-sizing: border-box;
 }
 
-
 .left-container {
   grid-column: 1;
   grid-row: 2;
@@ -134,12 +129,11 @@ html {
 }
 
 /* Recipe Title SVG */
-.recipe-title-image{
+.recipe-title-image {
   width: 100%;
   margin: -1rem;
   max-width: 500px;
   margin-bottom: 1rem;
-
 }
 
 /* Description */
@@ -152,16 +146,15 @@ html {
 
 /* icon container */
 
-.icon-container{
+.icon-container {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  
 }
 .difficulty-container {
   display: flex;
   align-items: center;
-  gap:5px;
+  gap: 5px;
   font-size: 1rem;
   color: #666;
   margin-top: 10px;
@@ -182,12 +175,11 @@ html {
   color: var(--colorful-text);
 }
 
-.time-icon{
+.time-icon {
   color: var(--colorful-text);
-  
 }
 
-.difficulty-icon{
+.difficulty-icon {
   color: var(--colorful-text);
 }
 
@@ -208,7 +200,6 @@ html {
   height: 60vh;
 }
 
-
 /* Ingredients Section */
 
 /*ingredients title */
@@ -220,8 +211,8 @@ html {
   text-align: center;
   text-transform: uppercase;
 }
- /*portion control*/
- .portion-control {
+/*portion control*/
+.portion-control {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,7 +235,6 @@ html {
   background-color: var(--primary-color);
   border-radius: 4px;
   cursor: pointer;
-  
 }
 
 .portion-control span {
@@ -284,19 +274,17 @@ html {
   text-align: match-parent;
 }
 
-
-.ingredient-label{
+.ingredient-label {
   display: flex;
   justify-content: space-between;
-
 }
 
-.ingredient-quantity{
+.ingredient-quantity {
   margin-left: 10px;
   color: var(--light-text);
 }
 
-.checkbox-input{
+.checkbox-input {
   appearance: none;
   width: 1rem;
   height: 1rem;
@@ -306,13 +294,12 @@ html {
   cursor: pointer;
   margin-right: 0.5rem;
   vertical-align: middle;
-
 }
 .checkbox-input:checked {
-  background-color: var(--text-color); 
+  background-color: var(--text-color);
 }
 
-.ingredient-label{
+.ingredient-label {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
@@ -327,7 +314,6 @@ html {
   margin-left: 1rem;
   width: 30%;
   margin-bottom: 2.5rem;
-  
 }
 .arrowsvg {
   position: relative;
@@ -337,22 +323,18 @@ html {
   margin-left: 2rem;
   width: 5%;
   margin-bottom: 2.5rem;
- 
 }
 /*illustrations*/
 .illustration-container {
   position: absolute;
-  top: 35rem; 
-  right: 2rem; 
-  width: 300px; 
+  top: 35rem;
+  right: 2rem;
+  width: 300px;
   height: 300px;
   z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
- 
- 
-  
 }
 
 .recipe-illustration {
@@ -362,9 +344,8 @@ html {
 }
 
 .ingridient-box h1 ul {
- font-size: 2.3rem;
+  font-size: 2.3rem;
 }
-
 
 .instructions {
   margin: 20rem auto;
@@ -374,10 +355,9 @@ html {
   max-width: 450px;
   text-align: left;
   margin-top: 20px;
-  
 }
 
-.instructions-container{
+.instructions-container {
   margin: 2rem;
   justify-content: center;
   align-items: center;
@@ -386,15 +366,15 @@ html {
 .instructions-list {
   margin: 1rem;
 }
-.section-name{
+.section-name {
   font-size: larger;
 }
-.instructions-list li{
+.instructions-list li {
   margin-bottom: 1rem;
   line-height: 2;
 }
 
-.instructions-list li span{
+.instructions-list li span {
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -410,9 +390,8 @@ html {
   line-height: 1.6;
 }
 
-
-@media screen and (max-width: 768px){
-  .recipe-grid{
+@media screen and (max-width: 768px) {
+  .recipe-grid {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -426,7 +405,6 @@ html {
 
   .recipe-hero-left {
     order: 0;
-  
   }
 
   .ingredient-box {
@@ -437,11 +415,11 @@ html {
     border-radius: 12px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.09);
     width: 100%;
-  
+
     text-align: left;
   }
 
-  .checkbox-input{
+  .checkbox-input {
     appearance: none;
     width: 2rem;
     height: 2rem;
@@ -459,27 +437,23 @@ html {
     margin: 2rem auto;
   }
   .how-to-image {
-    
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 40%;
   }
 
-  .arrowsvg{
-
+  .arrowsvg {
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 9%;
     position: relative;
     top: 0;
     bottom: 0;
-
   }
-  
 }
 /*ipad responsiveness*/
-@media screen and (max-width: 1024px){
-  .recipe-grid{
+@media screen and (max-width: 1024px) {
+  .recipe-grid {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -496,15 +470,14 @@ html {
 
   .recipe-hero-left {
     order: 0;
-  
   }
- 
-  .star-container i{
+
+  .star-container i {
     font-size: 2.3rem;
   }
-.category-item{
-  font-size: 1.37rem;
-}
+  .category-item {
+    font-size: 1.37rem;
+  }
   .difficulty-container {
     font-size: 2rem;
   }
@@ -512,7 +485,7 @@ html {
     font-size: 2rem;
   }
 
-  .recipe-description{
+  .recipe-description {
     font-size: 2rem;
   }
   .ingredient-box {
@@ -527,7 +500,7 @@ html {
     text-align: left;
   }
 
-  .checkbox-input{
+  .checkbox-input {
     appearance: none;
     width: 2rem;
     height: 2rem;
@@ -545,22 +518,17 @@ html {
     margin: 2rem auto;
   }
   .how-to-image {
-    
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 40%;
   }
 
-  .arrowsvg{
-
+  .arrowsvg {
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 9%;
     position: relative;
     top: 0;
     bottom: 0;
-
   }
-  
 }
- 

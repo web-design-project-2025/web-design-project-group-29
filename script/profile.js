@@ -1,25 +1,24 @@
-
 function loadProfile() {
-  try{
-  const userProfile = JSON.parse(localStorage.getItem('userProfile'));
+  try {
+    const userProfile = JSON.parse(localStorage.getItem("userProfile"));
 
-  if (!userProfile) {
-    alert("Oops! No user profile found.");
-    window.location.href = 'signup.html';
-    return;
-  }
+    if (!userProfile) {
+      alert("Oops! No user profile found.");
+      window.location.href = "signup.html";
+      return;
+    }
 
-  document.getElementById('name').textContent = userProfile.name;
-  document.getElementById('surname').textContent = userProfile.surname;
+    document.getElementById("name").textContent = userProfile.name;
+    document.getElementById("surname").textContent = userProfile.surname;
 
-  const container = document.getElementById('recentRecipesContainer');
-  if (!container) return;
+    const container = document.getElementById("recentRecipesContainer");
+    if (!container) return;
 
-  container.innerHTML = '';
+    container.innerHTML = "";
 
-  if (userProfile.recentRecipes && userProfile.recentRecipes.length > 0) {
-    userProfile.recentRecipes.forEach(recipe => {
-      const recipeHTML = `
+    if (userProfile.recentRecipes && userProfile.recentRecipes.length > 0) {
+      userProfile.recentRecipes.forEach((recipe) => {
+        const recipeHTML = `
                     <a href="sambusa.html?id=${recipe.id}" class="recipe-box-link">
 
         <div class="recipe-box">
@@ -36,17 +35,14 @@ function loadProfile() {
               <i  id = "clock" class="fas fa-signal"> : <h6>${recipe.difficulty}</h6></i>
             </div>
       `;
-      container.innerHTML += recipeHTML;
-    });
-  } else {
-    container.innerHTML = "<p>No recent recipes yet.</p>";
+        container.innerHTML += recipeHTML;
+      });
+    } else {
+      container.innerHTML = "<p>No recent recipes yet.</p>";
+    }
+  } catch (error) {
+    console.error("Error loading profile:", error);
+    alert("Something went wrong. Please try again.");
   }
-} catch (error){
-  console.error("Error loading profile:",error);
-  alert("Something went wrong. Please try again.")
-}
 }
 document.addEventListener("DOMContentLoaded", loadProfile);
-
-
-  

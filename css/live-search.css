@@ -1,35 +1,36 @@
 /* roots */
 :root {
-    --primary-color: #FFFDFA;
-    --secondary-color: #B6CAE5;
-    --colorful-text: #6E2E15;
-    --text-color: #4A4A4A;
-    --light-text: #606060;
-    --border-color: #F1EEEA;
-    --star-color : #F68F40;
-    --darker-blue:#6f98c4;
-  }
-  
-/* roots */
-.suggestions{
-    position: absolute;
-    list-style: none;
-    background-color:var(--primary-color);
-    border: 1px  var(--text-color);
-    width: 100%;
-    max-height: 10rem;
-    overflow-y: auto;
-    /* border: 1px solid #000; */
-     /* z-index: 2; */
-    margin-top: 12rem;
-    margin-left: -1rem;
-    padding: 0;
-    border-radius: 1.2rem;
+  --primary-color: #fffdfa;
+  --secondary-color: #b6cae5;
+  --colorful-text: #6e2e15;
+  --text-color: #4a4a4a;
+  --light-text: #606060;
+  --border-color: #f1eeea;
+  --star-color: #f68f40;
+  --darker-blue: #6f98c4;
 }
 
-.suggestions li{
-   padding: 5%;
-   cursor: pointer;
+/* roots */
+.suggestions {
+  position: absolute;
+  list-style: none;
+  background-color: var(--primary-color);
+  border: 1px var(--text-color);
+  width: 100%;
+  max-height: 10rem;
+  overflow-y: auto;
+  /* border: 1px solid #000; */
+  /* z-index: 2; */
+  margin-top: 12rem;
+  margin-left: -1rem;
+  padding: 0;
+  border-radius: 1.2rem;
 }
-.suggestions li:hover{
-  background-color: rgb(205, 205, 191);}
+
+.suggestions li {
+  padding: 5%;
+  cursor: pointer;
+}
+.suggestions li:hover {
+  background-color: rgb(205, 205, 191);
+}

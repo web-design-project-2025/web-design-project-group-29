@@ -1,5 +1,6 @@
 ﻿# web-design-project-group-29
- # 🌍 Nomad – A journey through authentic cuisine from around the world.
+
+# 🌍 Nomad – A journey through authentic cuisine from around the world.
 
 **Nomad** is a UX/UI-focused recipe website that showcases authentic cultural cuisines from around the world. Discover dishes from 5 continents, explore culinary diversity, and enjoy a user-friendly experience designed for food lovers and cultural explorers alike.
 
@@ -7,7 +8,7 @@
 
 ## Features
 
--  **Multi-Level Drop-Down Menu**  
+- **Multi-Level Drop-Down Menu**  
   Browse cuisines by continent, region, or country with an intuitive, tiered navigation system.
 
 - **Recipe Filtering**  
@@ -23,22 +24,22 @@
   Recipes are loaded dynamically using JSON files and rendered via JavaScript.
 
 - **Add to favorites**  
- Save favorite recipes
+  Save favorite recipes
 
--  **About Page** 
+- **About Page**
 - Editorial content with food stories and features
 
 - **Review section integrated into detailed recipes**
   Allowing users to read and write feedback on dishes
- 
-- **Recent Logic**  
- The most recently visited recipes are loaded dynamically using JSON files and rendered via JavaScript, they then show up on the profile page.
 
- **Detailed recipe page (when you press the recipe cards)**  
- View detailed recipe pages with step-by-step instructions
+- **Recent Logic**  
+  The most recently visited recipes are loaded dynamically using JSON files and rendered via JavaScript, they then show up on the profile page.
+
+  **Detailed recipe page (when you press the recipe cards)**  
+  View detailed recipe pages with step-by-step instructions
 
 - **Responsivness**  
- Responsive design for mobile, tablet, and desktop
+  Responsive design for mobile, tablet, and desktop
 
   ## Tech Stack
 
@@ -47,22 +48,25 @@
 - **JavaScript(JS)**
 - Public Avatar API
 
-
 1. **Navigation:**
+
    - Open the website in a browser.
    - Hover over the multi-level drop-down menu and navigate to a region then a country.
    - Click a category (a country: Japan, Algeria, Nigeria, Somalia, Sweden, Peru, Cuba) and ensure recipes update accordingly.
-   - You click on the specific recipe card that you like and it takes you to the detailed recipe page. 
+   - You click on the specific recipe card that you like and it takes you to the detailed recipe page.
 
 2. **Filtering:**
+
    - Use the filter options by category. All, dinner, lunch, snack, desserts, drinks.
    - Verify that only the relevant recipes are displayed.
 
 3. **Live Search:**
+
    - Type a letter in the search bar.
    - Confirm that recipes beginning with that letter appear in real time.
 
 4. **Profile Creation:**
+
    - Click the "Sign Up" button.
    - Enter your name, surname, email, password and confirm password.
    - Submit.
@@ -71,9 +75,8 @@
 5. **Dynamic Data Loading:**
    - Refresh the page.
    - Ensure all recipes still load correctly from the JSON files.'
-  
-  
-  nomad/
+
+nomad/
 ├── assets/
 │ └── images/ # All your image files
 │
@@ -125,9 +128,3 @@
 │ └── favorites.html # New saved recipes page
 │
 └── README.md # Project documentation
-
-
-  
-
-
-

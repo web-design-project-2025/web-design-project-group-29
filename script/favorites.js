@@ -1,27 +1,26 @@
-
 let recipes = [];
 
 async function loadFavoritesData() {
-  try{
-  const response = await fetch("detailed-recipe.json");
-  const json = await response.json();
-  recipes = json.recipes;
+  try {
+    const response = await fetch("detailed-recipe.json");
+    const json = await response.json();
+    recipes = json.recipes;
 
-  const favoriteIds = JSON.parse(localStorage.getItem("favorites")) || [];
+    const favoriteIds = JSON.parse(localStorage.getItem("favorites")) || [];
 
-  const favoriteRecipes = recipes.filter((recipe) =>
-    favoriteIds.includes(recipe.id)
-  );
+    const favoriteRecipes = recipes.filter((recipe) =>
+      favoriteIds.includes(recipe.id),
+    );
 
-  renderFavorites(favoriteRecipes);
-} catch(error){
-  console.error("Error loading faverites recipes:", error);
-  const container = document.getElementById("recipeContainer");
-  if(container){
-    container.innerHTML =
-    "<p style ='padding: 2rem; color:red;> Failed to load recipes . Plese try again later</p>";
+    renderFavorites(favoriteRecipes);
+  } catch (error) {
+    console.error("Error loading faverites recipes:", error);
+    const container = document.getElementById("recipeContainer");
+    if (container) {
+      container.innerHTML =
+        "<p style ='padding: 2rem; color:red;> Failed to load recipes . Plese try again later</p>";
+    }
   }
-}
 }
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "visible") {
@@ -39,9 +38,9 @@ function renderFavorites(favoriteRecipes) {
   }
 
   container.innerHTML = "";
-// Recipe cards on favorite page 
+  // Recipe cards on favorite page
   favoriteRecipes.forEach((recipe) => {
-        const recipeHTML = `
+    const recipeHTML = `
           <a href="sambusa.html?id=${recipe.id}" class="recipe-box-link">
             <div class="recipe-box">
               <img src="${recipe.image}" id="recipe-box-img" alt="${recipe.name}">
@@ -60,9 +59,8 @@ function renderFavorites(favoriteRecipes) {
             </div>
           </a>
         `;
-        container.innerHTML += recipeHTML;
-      });
-
+    container.innerHTML += recipeHTML;
+  });
 }
 
 loadFavoritesData();
@@ -72,7 +70,3 @@ window.addEventListener("storage", (event) => {
     loadFavoritesData(); // Refresh the list
   }
 });
-
-
-
-  

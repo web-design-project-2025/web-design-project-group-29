@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Zobo Drink",
-      "illustrations":"img/hibiscus.svg",
+      "illustrations": "img/hibiscus.svg",
       "sections": [
         {
           "name": "Preparation:",
@@ -23,8 +23,8 @@
           ]
         },
         {
-         "name": "Tips",
-         "steps": [
+          "name": "Tips",
+          "steps": [
             "Adjust sweetness with honey if preferred",
             "Garnish with orange/pineapple chunks"
           ]
@@ -34,7 +34,7 @@
     {
       "id": 2,
       "name": "Efo Riro",
-      "illustrations":"img/chilli.svg",
+      "illustrations": "img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -56,16 +56,14 @@
         },
         {
           "name": "Tips",
-          "steps": [
-            "Serve hot with rice, pounded yam, or any preferred side."
-          ]
+          "steps": ["Serve hot with rice, pounded yam, or any preferred side."]
         }
       ]
     },
     {
       "id": 3,
       "name": "Moi Moi (Steamed Bean Pudding)",
-      "illustrations":"img/onion.svg",
+      "illustrations": "img/onion.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -106,7 +104,7 @@
     {
       "id": 4,
       "name": "Akara",
-      "illustrations":"img/onion.svg",
+      "illustrations": "img/onion.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -167,9 +165,7 @@
         },
         {
           "name": "Serving",
-          "steps": [
-            "Serve hot with pounded yam, fufu, or rice."
-          ]
+          "steps": ["Serve hot with pounded yam, fufu, or rice."]
         },
         {
           "name": "Tips",
@@ -180,11 +176,11 @@
         }
       ]
     },
-    
+
     {
       "id": 6,
       "name": "Okra Soup and Stew",
-      "illustrations":"img/okra.svg",
+      "illustrations": "img/okra.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -280,7 +276,7 @@
     {
       "id": 8,
       "name": "Fried Palm Oil Stew",
-      "illustrations":"img/chilli.svg",
+      "illustrations": "img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -302,16 +298,14 @@
         },
         {
           "name": "Serving",
-          "steps": [
-            "Serve hot with rice, yam, or any preferred side."
-          ]
+          "steps": ["Serve hot with rice, yam, or any preferred side."]
         }
       ]
     },
     {
       "id": 9,
       "name": "Jollof Rice and Chicken with Plantain",
-      "illustrations":"img/chilli.svg",
+      "illustrations": "img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -364,7 +358,7 @@
     {
       "id": 10,
       "name": "Couscous",
-      "illustrations":"img/tomato.svg",
+      "illustrations": "img/tomato.svg",
       "sections": [
         {
           "name": "Stew:",
@@ -400,7 +394,7 @@
     {
       "id": 11,
       "name": "Lham Hlou",
-      "illustrations":"img/tomato.svg",
+      "illustrations": "img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -447,7 +441,7 @@
     {
       "id": 12,
       "name": "Mhalbi",
-      "illustrations":"img/cinnamon.svg",
+      "illustrations": "img/cinnamon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -535,7 +529,7 @@
     {
       "id": 14,
       "name": "Baklawa (Algerian)",
-      "illustrations":"img/cinnamon.svg",
+      "illustrations": "img/cinnamon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -576,7 +570,7 @@
     {
       "id": 15,
       "name": "Hmiss",
-      "illustrations":"img/tomato.svg",
+      "illustrations": "img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -615,7 +609,7 @@
     {
       "id": 16,
       "name": "Chakhchoukha (Algerian)",
-      "illustrations":"img/tomato.svg",
+      "illustrations": "img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -697,7 +691,7 @@
     {
       "id": 18,
       "name": "Chakchouka (Algerian)",
-      "illustrations":"img/tomato.svg",
+      "illustrations": "img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -899,7 +893,7 @@
     {
       "id": 23,
       "name": "Fuul",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -929,7 +923,7 @@
     {
       "id": 24,
       "name": "Bariis iyo Digaag",
-      "illustrations":"img/tomato.svg",
+      "illustrations": "img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -977,7 +971,7 @@
     {
       "id": 25,
       "name": "Shaah Somali",
-      "illustrations":"img/cinnamon.svg",
+      "illustrations": "img/cinnamon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1144,7 +1138,7 @@
     {
       "id": 30,
       "name": "Arroz Con Gandules",
-      "illustrations":"img/chilli.svg",
+      "illustrations": "img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1186,7 +1180,7 @@
     {
       "id": 31,
       "name": "Classic Mojito",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1268,9 +1262,7 @@
         },
         {
           "name": "Serving",
-          "steps": [
-            "Remove from heat, slice diagonally, and serve hot."
-          ]
+          "steps": ["Remove from heat, slice diagonally, and serve hot."]
         }
       ]
     },
@@ -1324,7 +1316,7 @@
     {
       "id": 35,
       "name": "Mojo Shrimp",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1364,7 +1356,7 @@
     {
       "id": 36,
       "name": "Strawberry Daiquiri",
-      "illustrations":"img/straberry.svg",
+      "illustrations": "img/straberry.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1402,7 +1394,7 @@
     {
       "id": 37,
       "name": "Ceviche",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation:",
@@ -1437,7 +1429,7 @@
     {
       "id": 38,
       "name": "Lomo Saltado",
-      "illustrations":"img/tomato.svg",
+      "illustrations": "img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1536,7 +1528,7 @@
     {
       "id": 40,
       "name": "Pisco Sour",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1574,7 +1566,7 @@
     {
       "id": 41,
       "name": "Solterito",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1615,7 +1607,8 @@
           ]
         }
       ]
-    }, {
+    },
+    {
       "id": 42,
       "name": "Picarones",
       "illustrations": "img/cinnamon.svg",
@@ -1710,7 +1703,8 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "id": 44,
       "name": "Chupe de Camarones",
       "illustrations": "img/onion.svg",
@@ -1753,7 +1747,8 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "id": 45,
       "name": "Chicha Morada",
       "illustrations": "img/lemon.svg",
@@ -1793,7 +1788,7 @@
     {
       "id": 46,
       "name": "Toshikoshi Soba",
-      "illustrations":"img/chopsticks.svg",
+      "illustrations": "img/chopsticks.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1826,7 +1821,8 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "id": 47,
       "name": "Maguro Nigiri",
       "sections": [
@@ -1860,10 +1856,11 @@
           ]
         }
       ]
-    }, {
+    },
+    {
       "id": 48,
       "name": "Sushi Moriawase",
-      "illustrations":"img/sushi.svg",
+      "illustrations": "img/sushi.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1889,10 +1886,11 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "id": 49,
       "name": "Tonkatsu",
-      "illustrations":"img/chilli.svg",
+      "illustrations": "img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1917,10 +1915,11 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "id": 50,
       "name": "Tataki",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1947,10 +1946,11 @@
           ]
         }
       ]
-    },  {
+    },
+    {
       "id": 51,
       "name": "Chirashi Don",
-      "illustrations":"img/chopsticks.svg",
+      "illustrations": "img/chopsticks.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1974,10 +1974,11 @@
           ]
         }
       ]
-    }, {
+    },
+    {
       "id": 52,
       "name": "Aburi Sake Nigiri",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2001,10 +2002,11 @@
           ]
         }
       ]
-    }, {
+    },
+    {
       "id": 53,
       "name": "Okonomiyaki",
-      "illustrations":"img/chilli.svg",
+      "illustrations": "img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2034,7 +2036,7 @@
     {
       "id": 54,
       "name": "Kaiseki Ryōri",
-      "illustrations":"img/chopsticks.svg",
+      "illustrations": "img/chopsticks.svg",
       "sections": [
         {
           "name": "Overview",
@@ -2064,7 +2066,7 @@
     {
       "id": 55,
       "name": "Gluten-Free Mudcake",
-      "illustrations":"img/strawberry.svg",
+      "illustrations": "img/strawberry.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2157,7 +2159,7 @@
     {
       "id": 57,
       "name": "Waffles with Whipped Cream",
-      "illustrations":"img/strawberry.svg",
+      "illustrations": "img/strawberry.svg",
       "sections": [
         {
           "name": "Making the Waffle Batter",
@@ -2248,7 +2250,7 @@
     {
       "id": 59,
       "name": "Oven-Baked Chicken Thighs",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2293,7 +2295,7 @@
     {
       "id": 60,
       "name": "Roasted Pork",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2375,7 +2377,7 @@
     {
       "id": 62,
       "name": "Smörgåstårta",
-      "illustrations":"img/tomato.svg",
+      "illustrations": "img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2417,11 +2419,11 @@
           ]
         }
       ]
-    }, 
+    },
     {
       "id": 63,
       "name": "Oven-Baked Salmon",
-      "illustrations":"img/lemon.svg",
+      "illustrations": "img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2463,6 +2465,5 @@
         }
       ]
     }
-  
   ]
 }
