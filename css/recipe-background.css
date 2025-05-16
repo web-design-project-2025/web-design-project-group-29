@@ -7,7 +7,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.overlay-svg{
+    position:absolute;
+    top: 20%;
+    right: 12%;
+    width: 80%;
+    height: auto;
+    /* display: none; */
+    pointer-events: none;
+}
 /* media-query */
 @media screen and (min-width:360px) and (max-width:430px){
     .recipe-backdrop{
@@ -16,6 +24,15 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 55%;
+    }
+    .overlay-svg{
+        position:absolute;
+        top: 30%;
+        right: 12%;
+        width: 80%;
+        height: auto;
+        /* display: none; */
+        pointer-events: none;
     }
   }
   /* media-query */
