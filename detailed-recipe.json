@@ -2646,7 +2646,7 @@
     {
         "id": 43,
         "name": "Fish Escabeche",
-        "titleImg": "img/fish-escabeche-title.svg",
+        "titleImg": "img/fish.svg",
         "titleAlt": "Handwritten text saying 'Fish Escabeche'",
         "category": [
           "Lunch",
@@ -2656,7 +2656,7 @@
         "time": "40 min",
         "difficulty": "Easy",
         "rating": 5,
-        "image": "img/fish-escabeche.avif",
+        "image": "img/fish-escababe.avif",
         "imageAlt": "Marinated fish topped with onions and herbs served on a plate",
         "ingredients": {
           "Fish": [
@@ -2882,7 +2882,7 @@
     {
     "id": 46,
     "name": "Toshikoshi Soba",
-    "titleImg": "", 
+    "titleImg": "img/toshikoshi.svg", 
     "titleAlt": "Handwritten text saying 'Toshikoshi Soba'",
     "category": [
       "Japanese",
