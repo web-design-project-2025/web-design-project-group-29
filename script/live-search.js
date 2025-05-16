@@ -4539,6 +4539,7 @@ searchInput.addEventListener("input", () => {
         ...recipeCards.map(r => ({ type: "recipe", name: r.name }))
     ];
 
+    // fixed the problem with https://www.blackbox.ai/chat/24PmGCl
 const unique = new Map();
 combinedResults.forEach(item => {
     const key = item.type === "detailed" ? `${item.name}-${item.id}` : item.name.toLowerCase(); // Use a unique key for detailed recipes
