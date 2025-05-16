@@ -193,7 +193,7 @@
   color: #ffffff;
 }
 /* media-query */
-@media screen and (min-width:360px) and (max-width:431px){
+@media screen and (min-width:340px) and (max-width:431px){
 
 
   .recipe-arrangement {
