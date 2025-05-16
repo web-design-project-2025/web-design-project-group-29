@@ -22,11 +22,23 @@
 - **Dynamic Recipe Loading**  
   Recipes are loaded dynamically using JSON files and rendered via JavaScript.
 
-  
+- **Add to favorites**  
+ Save favorite recipes
+
+-  **About Page** 
+- Editorial content with food stories and features
+
+- **Review section integrated into detailed recipes**
+  Allowing users to read and write feedback on dishes
+ 
 - **Recent Logic**  
  The most recently visited recipes are loaded dynamically using JSON files and rendered via JavaScript, they then show up on the profile page.
 
-  
+ **Detailed recipe page (when you press the recipe cards)**  
+ View detailed recipe pages with step-by-step instructions
+
+- **Responsivness**  
+ Responsive design for mobile, tablet, and desktop
 
   ## Tech Stack
 
@@ -58,51 +70,61 @@
 
 5. **Dynamic Data Loading:**
    - Refresh the page.
-   - Ensure all recipes still load correctly from the JSON files.
+   - Ensure all recipes still load correctly from the JSON files.'
   
-   nomad/
+  
+  nomad/
 ├── assets/
-│   └── images/                       # All your image files
+│ └── images/ # All your image files
 │
-├── css/                              # All CSS files
-│   ├── detail-recipe.css
-│   ├── footer.css
-│   ├── index.css
-│   ├── live-search.css
-│   ├── navbar.css
-│   ├── overview-recipe-page.css
-│   ├── profile.css
-│   ├── recipe-background.css
-│   └── signup.css
+├── css/ # All CSS stylesheets
+│ ├── detail-recipe.css
+│ ├── footer.css
+│ ├── index.css
+│ ├── live-search.css
+│ ├── navbar.css
+│ ├── overview-recipe-page.css
+│ ├── profile.css
+│ ├── recipe-background.css
+│ ├── review.css # Styles for review page
+│ ├── editorial.css # Styles for editorial page
+│ ├── favorites.css # Styles for favorites page
+│ └── signup.css
 │
-├── data/                             # JSON data files
-│   ├── detailed-recipe.json
-│   ├── instructions.json
-│   ├── recipe-backdrop.json
-│   └── recipe-card.json
+├── data/ # JSON data files
+│ ├── detailed-recipe.json
+│ ├── instructions.json
+│ ├── recipe-backdrop.json
+│ └── recipe-card.json
 │
-├── js/                               # JavaScript files
-│   ├── detailed-recipe.js
-│   ├── live-search.js
-│   ├── load-navbar.js
-│   ├── profile-api.js
-│   ├── profile.js
-│   ├── recipe-background.js
-│   ├── recipe-card.js
-│   └── signup.js
+├── js/ # JavaScript files
+│ ├── detailed-recipe.js
+│ ├── live-search.js
+│ ├── load-navbar.js
+│ ├── profile-api.js
+│ ├── profile.js
+│ ├── recipe-background.js
+│ ├── recipe-card.js
+│ ├── review.js # Logic for review page
+│ ├── editorial.js # Logic for editorial page
+│ ├── favorites.js # Logic for favorites page
+│ └── signup.js
 │
-├── components/                       # Reusable HTML parts
-│   ├── footer.html
-│   └── navbar.html
+├── components/ # Reusable HTML parts
+│ ├── footer.html
+│ └── navbar.html
 │
-├── pages/                            # Main HTML pages
-│   ├── index.html
-│   ├── overview-recipe-page.html
-│   ├── profile.html
-│   ├── sambusa.html
-│   └── signup.html
+├── pages/ # Main HTML pages
+│ ├── index.html
+│ ├── overview-recipe-page.html
+│ ├── profile.html
+│ ├── sambusa.html
+│ ├── signup.html
+│ ├── review.html # New review page
+│ ├── editorial.html # New editorial content page
+│ └── favorites.html # New saved recipes page
 │
-└── README.md                         # Your project documentation
+└── README.md # Project documentation
 
 
   
