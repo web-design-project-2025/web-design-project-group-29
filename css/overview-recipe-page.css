@@ -322,9 +322,9 @@ body{
   display: block;
 }
 
-.search-bar {
-  position: absolute;
-  top: 38.5rem;
+.search-bar { 
+  margin-left: 15%;
+  top: 10%;
   right: 2.1rem;
   background: var(--primary-color);
   backdrop-filter: blur(8px);
@@ -423,6 +423,7 @@ body{
   /* flex-wrap: wrap;S */
   gap: 1rem;
   margin: 3rem auto 1.5rem 3rem; 
+  margin-left: 15%;
   padding: 1rem;
   max-width: 90%;
 } 
@@ -472,10 +473,10 @@ body{
   display: block;
 }
 
-.search-bar {
-  /* position: absolute; */
-  top: 22rem;
-  right: 2.1rem;
+.search-bar { 
+  margin-left: 34%;
+  margin-top: -2%;
+  margin-bottom: -10%;
   background: var(--primary-color);
   backdrop-filter: blur(8px);
   padding: 0.7rem 1rem;
