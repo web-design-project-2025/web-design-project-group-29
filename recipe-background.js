@@ -7,11 +7,19 @@ document.addEventListener ("DOMContentLoaded", () => {
         const country = params.get("country") ;
         const container = document.getElementById("recipeBackground");
         const backgroundSection = document.getElementById ("recipeBackground")
+        const svg = document.getElementById ("countrySVG")
 
         if (country && recipesBckg [country]){
-            const BckgImg = recipesBckg [country][0].image;
+            const entry = recipesBckg [country][0];
+            const BckgImg = entry.image
             backgroundSection.style.backgroundImage = `url(img/${BckgImg})` 
 
+            if (entry.svg && svg){
+                svg.src = `img/${entry.svg}`;
+                svg.style.display = "block";
+            }else if (svg){
+                svg.style.display = "none"
+            }
         } else {
             container.innerHTML = "<p>No image found for this country<p>";
         }
