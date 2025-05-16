@@ -65,7 +65,7 @@
     {
       "id": 3,
       "name": "Moi Moi (Steamed Bean Pudding)",
-      "illustrations":"img/.svg",
+      "illustrations":"img/onion.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -106,6 +106,7 @@
     {
       "id": 4,
       "name": "Akara",
+      "illustrations":"img/onion.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -227,7 +228,55 @@
         }
       ]
     },
-   
+    {
+      "id": 7,
+      "name": "Nigerian Suya",
+      "illustrations": "img/chilli.svg",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Slice beef (or chicken, ram, or liver) into thin, even strips.",
+            "In a bowl, mix ground peanuts (or store-bought suya spice), cayenne pepper, paprika, ginger powder, garlic powder, onion powder, salt, and a little bouillon powder.",
+            "Add a small amount of vegetable oil to the spice mix to form a thick paste.",
+            "Coat the meat strips evenly with the spice paste and let marinate for at least 2 hours (or overnight for best flavor)."
+          ]
+        },
+        {
+          "name": "Skewering",
+          "steps": [
+            "Thread the marinated meat onto skewers (metal or soaked wooden skewers).",
+            "Leave a little space between pieces for even cooking."
+          ]
+        },
+        {
+          "name": "Grilling",
+          "steps": [
+            "Preheat a grill, oven, or stovetop grill pan to medium-high heat.",
+            "Place the skewered meat on the grill and cook for 3–5 minutes per side, turning occasionally.",
+            "Baste with a little oil or leftover marinade to keep the meat moist.",
+            "Cook until slightly charred and fully done (adjust time for chicken or liver)."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Sprinkle extra suya spice (yaji) on top for extra heat.",
+            "Serve hot with sliced onions, tomatoes, and cabbage (optional).",
+            "Pair with chilled beer or a soft drink."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "For extra smokiness, grill over charcoal instead of gas or electric heat.",
+            "If using wooden skewers, soak them in water for 30 minutes to prevent burning.",
+            "Adjust pepper quantity to control spiciness.",
+            "For a smoother spice blend, sieve the ground peanut mix before marinating."
+          ]
+        }
+      ]
+    },
     {
       "id": 8,
       "name": "Fried Palm Oil Stew",
@@ -345,10 +394,6 @@
             "Top with meat and vegetables.",
             "Pour broth over everything to serve."
           ]
-        },
-        {
-          "name": "Tips",
-          "steps": []
         }
       ]
     },

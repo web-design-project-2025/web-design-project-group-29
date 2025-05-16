@@ -310,11 +310,7 @@ plusBtn.onclick = () => {
    rightContainer.classList.add("instructions-right");
  
    // how to text img
-   const howToImage = document.createElement("img");
-   howToImage.src = "img/howto.svg";
-   howToImage.alt = "'How to' writtten in handwriting";
-   howToImage.classList.add("how-to-image");
-   rightContainer.appendChild(howToImage);
+  
 
   // INSSTRUCTIONS 
   const instructionsContainer = document.createElement("div");
@@ -337,9 +333,22 @@ plusBtn.onclick = () => {
     illustration.classList.add("recipe-illustration");
     illustrationContainer.appendChild(illustration);
     rightContainer.appendChild(illustrationContainer);
-
    }
+   //arrow
+   const arrowsvg = document.createElement("img");
+   arrowsvg.src = "img/arrow.svg";
+   arrowsvg.alt = "'illustration for an arrow";
+   arrowsvg.classList.add("arrowsvg");
+   rightContainer.appendChild(arrowsvg);
    
+   const howToImage = document.createElement("img");
+   howToImage.src = "img/howto.svg";
+   howToImage.alt = "'How to' writtten in handwriting";
+   howToImage.classList.add("how-to-image");
+   rightContainer.appendChild(howToImage);
+ 
+   
+
 
    if (Array.isArray(instructionData.steps) && instructionData.steps.length > 0) {
       const instructionList = document.createElement("ol");
