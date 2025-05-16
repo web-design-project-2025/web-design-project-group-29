@@ -1,50 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recipe Reviews</title>
-  <link rel="stylesheet" href="review.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Reviews</title>
+    <link rel="stylesheet" href="review.css" />
+  </head>
+  <body>
+    <section class="review-container">
+      <div id="review-box">
+        <h1>Leave a Review</h1>
+        <form id="review-form">
+          <div class="input-group">
+            <label for="reviewer">Name</label>
+            <input type="text" id="reviewer" name="reviewer" required />
+          </div>
 
-<section class="review-container">
-  <div id="review-box">
-    <h1>Leave a Review</h1>
-    <form id="review-form">
-      <div class="input-group">
-        <label for="reviewer">Name</label>
-        <input type="text" id="reviewer" name="reviewer" required />
-      </div>
+          <div class="input-group">
+            <label for="rating">Rating</label>
+            <div class="star-rating" id="star-rating">
+              <span data-value="5">★</span>
+              <span data-value="4">★</span>
+              <span data-value="3">★</span>
+              <span data-value="2">★</span>
+              <span data-value="1">★</span>
+            </div>
+            <input type="hidden" id="rating" name="rating" required />
+          </div>
 
-      <div class="input-group">
-        <label for="rating">Rating</label>
-        <div class="star-rating" id="star-rating">
-          <span data-value="5">★</span>
-          <span data-value="4">★</span>
-          <span data-value="3">★</span>
-          <span data-value="2">★</span>
-          <span data-value="1">★</span>
+          <div class="input-group">
+            <label for="comment">Review</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+          </div>
+          <button type="submit" id="submit">Submit Review</button>
+        </form>
+
+        <div class="review-display" id="review-display">
+          <h2>All Reviews</h2>
+          <div id="reviews-container"></div>
         </div>
-        <input type="hidden" id="rating" name="rating" required />
       </div>
-      
-      <div class="input-group">
-        <label for="comment">Review</label>
-        <textarea id="comment" name="comment" rows="4" required></textarea>
-      </div>
-      <button type="submit" id="submit">Submit Review</button>
-    </form>
+    </section>
 
-    <div class="review-display" id="review-display">
-      <h2>All Reviews</h2>
-      <div id="reviews-container"></div>
-    </div>
-  </div>
-</section>
-
-<script src="script/review.js"></script>
-</body>
+    <script src="script/review.js"></script>
+  </body>
 </html>
-
-
