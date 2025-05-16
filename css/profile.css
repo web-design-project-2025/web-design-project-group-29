@@ -229,6 +229,7 @@ body {
 
   .profile-navigation {
     gap: 20%;
+    margin-top: 8%;
   }
 
   .search-bar {
@@ -270,6 +271,7 @@ p{
     gap: 2rem;
     text-align: center;
     align-items: center;
+    margin-top: 10%;
   }
 
   .search-bar {
