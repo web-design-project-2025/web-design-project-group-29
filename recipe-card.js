@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetch("recipe-card.json")
-    .then(res => res.json())
-    .then(recipesByCountry => {
-      const country = new URLSearchParams(window.location.search).get("country") || "nigeria";
+    .then((res) => res.json())
+    .then((recipesByCountry) => {
+      const country =
+        new URLSearchParams(window.location.search).get("country") || "nigeria";
       const container = document.getElementById("recipeContainer");
 
       if (!container) {
@@ -22,14 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
         container.innerHTML = "<p>No recipes found for this country.</p>";
       }
     })
-    .catch(err => console.error("Error loading recipes:", err));
+    .catch((err) => console.error("Error loading recipes:", err));
 });
 
 // Reusable recipe rendering function
 function displayRecipes(recipes, container) {
   container.innerHTML = "";
 
-  recipes.forEach(recipe => {
+  recipes.forEach((recipe) => {
     const recipeSection = document.createElement("section");
     recipeSection.classList.add("recipes");
 
@@ -77,7 +78,9 @@ function saveRecipeToProfile(recipe) {
     }
 
     // Remove duplicate if it already exists
-    userProfile.recentRecipes = userProfile.recentRecipes.filter(r => r.name !== recipe.name);
+    userProfile.recentRecipes = userProfile.recentRecipes.filter(
+      (r) => r.name !== recipe.name,
+    );
 
     // Add to beginning of list
     userProfile.recentRecipes.unshift(recipe);
@@ -93,21 +96,23 @@ function saveRecipeToProfile(recipe) {
   }
 }
 
-
 function setupRecipeFilters(recipes, container, displayFn) {
-  const filterButtons = document.querySelectorAll(".filter-buttons-container .filter-btn");
+  const filterButtons = document.querySelectorAll(
+    ".filter-buttons-container .filter-btn",
+  );
 
-  filterButtons.forEach(btn => {
+  filterButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       // Highlight selected filter
-      filterButtons.forEach(b => b.classList.remove("active"));
+      filterButtons.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
 
       const category = btn.getAttribute("data-category");
 
-      const filtered = category === "all"
-        ? recipes
-        : recipes.filter(recipe => recipe.category === category);
+      const filtered =
+        category === "all"
+          ? recipes
+          : recipes.filter((recipe) => recipe.category === category);
 
       displayFn(filtered, container);
     });

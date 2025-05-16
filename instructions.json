@@ -22,8 +22,8 @@
           ]
         },
         {
-         "name": "Tips",
-         "steps": [
+          "name": "Tips",
+          "steps": [
             "Adjust sweetness with honey if preferred",
             "Garnish with orange/pineapple chunks"
           ]
@@ -54,9 +54,7 @@
         },
         {
           "name": "Tips",
-          "steps": [
-            "Serve hot with rice, pounded yam, or any preferred side."
-          ]
+          "steps": ["Serve hot with rice, pounded yam, or any preferred side."]
         }
       ]
     },
@@ -163,9 +161,7 @@
         },
         {
           "name": "Serving",
-          "steps": [
-            "Serve hot with pounded yam, fufu, or rice."
-          ]
+          "steps": ["Serve hot with pounded yam, fufu, or rice."]
         },
         {
           "name": "Tips",
@@ -176,7 +172,7 @@
         }
       ]
     },
-    
+
     {
       "id": 6,
       "name": "Okra Soup and Stew",
@@ -223,7 +219,7 @@
         }
       ]
     },
-   
+
     {
       "id": 8,
       "name": "Fried Palm Oil Stew",
@@ -248,9 +244,7 @@
         },
         {
           "name": "Serving",
-          "steps": [
-            "Serve hot with rice, yam, or any preferred side."
-          ]
+          "steps": ["Serve hot with rice, yam, or any preferred side."]
         }
       ]
     },
@@ -1205,9 +1199,7 @@
         },
         {
           "name": "Serving",
-          "steps": [
-            "Remove from heat, slice diagonally, and serve hot."
-          ]
+          "steps": ["Remove from heat, slice diagonally, and serve hot."]
         }
       ]
     },
@@ -1546,7 +1538,8 @@
           ]
         }
       ]
-    },  {
+    },
+    {
       "id": 46,
       "name": "Toshikoshi Soba",
       "sections": [
@@ -1581,7 +1574,8 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "id": 47,
       "name": "Maguro Nigiri",
       "sections": [
@@ -1615,7 +1609,8 @@
           ]
         }
       ]
-    }, {
+    },
+    {
       "id": 48,
       "name": "Sushi Moriawase",
       "sections": [
@@ -1643,7 +1638,8 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "id": 49,
       "name": "Tonkatsu",
       "sections": [
@@ -1670,7 +1666,8 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "id": 50,
       "name": "Tataki",
       "sections": [
@@ -1699,7 +1696,8 @@
           ]
         }
       ]
-    },  {
+    },
+    {
       "id": 51,
       "name": "Chirashi Don",
       "sections": [
@@ -1725,7 +1723,8 @@
           ]
         }
       ]
-    }, {
+    },
+    {
       "id": 52,
       "name": "Aburi Sake Nigiri",
       "sections": [
@@ -1751,7 +1750,8 @@
           ]
         }
       ]
-    }, {
+    },
+    {
       "id": 53,
       "name": "Okonomiyaki",
       "sections": [
@@ -2160,7 +2160,7 @@
           ]
         }
       ]
-    }, 
+    },
     {
       "id": 63,
       "name": "Oven-Baked Salmon",
@@ -2205,6 +2205,5 @@
         }
       ]
     }
-  
   ]
 }

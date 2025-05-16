@@ -2,15 +2,15 @@
   "recipes": [
     {
       "id": 1,
-      "name" :"Zobo ",
+      "name": "Zobo ",
       "titleImg": "img/zobo.svg",
       "titleAlt": "Handwriten text saying 'Zobo'",
-      "rating" : 5,
-      "description" :"A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
-      "time" :"1h 30",
-      "category" : ["Drink", "Nigeria"],
-      "difficulty" : "Hard",
-      "image" : "img/zobo.jpg",
+      "rating": 5,
+      "description": "A refreshing beverage made from dred hibiscus petals, boiled with spices and sweeteners.",
+      "time": "1h 30",
+      "category": ["Drink", "Nigeria"],
+      "difficulty": "Hard",
+      "image": "img/zobo.jpg",
       "imageAlt": " A colorful purple drink made of hibiscus petals",
       "ingredients": {
         "Main": [
@@ -51,14 +51,14 @@
     },
     {
       "id": 2,
-      "name" :"Efo Riro",
+      "name": "Efo Riro",
       "titleImg": "img/efo-riro.svg",
       "titleAlt": "Handwriten text saying 'Efo Riro'",
-      "rating" : 4,
-      "description" :"A rich stew from the Yoruba people, primarily consisting of spinach cooked with peppers, onions, and spices, often accompanied by meat or fish.",
-      "time" :"1h 30",
-      "category": [ "Dinner", "Nigerian"],
-      "difficulty" : "Hard",
+      "rating": 4,
+      "description": "A rich stew from the Yoruba people, primarily consisting of spinach cooked with peppers, onions, and spices, often accompanied by meat or fish.",
+      "time": "1h 30",
+      "category": ["Dinner", "Nigerian"],
+      "difficulty": "Hard",
       "image": "img/efo-riro.jpg",
       "imageAlt": " A vibrant green Efo Riro stew served with assorted meats and fish",
       "ingredients": {
@@ -123,16 +123,15 @@
       }
     },
     {
-
       "id": 3,
-      "name" :"Moi Moi",
+      "name": "Moi Moi",
       "titleImg": "img/moi-moi.svg",
       "titleAlt": "Handwriten text saying 'Moi Moi'",
-      "rating" : 5,
-      "description" :"A savory steamed pudding made from blended black-eyed peas.",
-      "time" :"1h 30",
-      "category" :["Dessert", "Nigerian"],
-      "difficulty" : "Hard",
+      "rating": 5,
+      "description": "A savory steamed pudding made from blended black-eyed peas.",
+      "time": "1h 30",
+      "category": ["Dessert", "Nigerian"],
+      "difficulty": "Hard",
       "image": "img/moi-moi.jpeg",
       "imageAlt": " A plate of Moi Moi served with sliced boiled eggs and a side of pepper sauce",
       "ingredients": {
@@ -189,20 +188,19 @@
       }
     },
     {
-
       "id": 4,
-      "name" :"Akara ",
+      "name": "Akara ",
       "titleImg": "img/akara.svg",
       "titleAlt": "Handwritten text saying 'Akara (Bean Cake)'",
-      "rating" : 5,
-      "description" :"Akara is a type of fritter made from cowpeas or beans (black-eyed peas) by the Yoruba people of Nigeria, Benin and Togo. It is also known as Bean cake.",
-      "time" :"1h 30",
-      "category" :["Snack", "Nigerian"],
-      "difficulty" : "Medium",
+      "rating": 5,
+      "description": "Akara is a type of fritter made from cowpeas or beans (black-eyed peas) by the Yoruba people of Nigeria, Benin and Togo. It is also known as Bean cake.",
+      "time": "1h 30",
+      "category": ["Snack", "Nigerian"],
+      "difficulty": "Medium",
       "image": "img/akara.jpg",
       "imageAlt": "A plate of golden brown Akara balls served with a spicy dipping sauce",
       "ingredients": {
-            "Main": [
+        "Main": [
           {
             "name": "Black-eyed peas (peeled)",
             "quantity": "2 cups"
@@ -242,14 +240,14 @@
     },
     {
       "id": 5,
-      "name" :"Oha Stew ",
+      "name": "Oha Stew ",
       "titleImg": "img/oha-stew.svg",
       "titleAlt": "Handwriten text saying 'oha-stew'",
-      "rating" : 3,
-      "description" :"​Oha Soup, also known as Ofe Oha or Ora Soup, is a traditional Igbo dish from southeastern Nigeria. ​",
-      "time" :"1h 30",
-      "category" :["Dinner", "Nigerian"],
-      "difficulty" : "Hard",
+      "rating": 3,
+      "description": "​Oha Soup, also known as Ofe Oha or Ora Soup, is a traditional Igbo dish from southeastern Nigeria. ​",
+      "time": "1h 30",
+      "category": ["Dinner", "Nigerian"],
+      "difficulty": "Hard",
       "image": "img/oha-soup.jpg",
       "imageAlt": " A bowl of Oha soup served with pounded yam",
       "ingredients": {
@@ -298,16 +296,15 @@
       }
     },
     {
-
       "id": 6,
-      "name" :"Okra and Stew",
+      "name": "Okra and Stew",
       "titleImg": "img/okra-soup.svg",
       "titleAlt": "Handwriten text saying 'okra-soup'",
-      "rating" : 5,
-      "description" :"Okra soup (African okro soup) is made with okra vegetables cooked in a delicious mixture of palm oil, shrimp, goat meat, fish.",
-      "time" :"1h 30",
-      "category" : ["Dinner", "Nigerian"],
-      "difficulty" : "Hard",
+      "rating": 5,
+      "description": "Okra soup (African okro soup) is made with okra vegetables cooked in a delicious mixture of palm oil, shrimp, goat meat, fish.",
+      "time": "1h 30",
+      "category": ["Dinner", "Nigerian"],
+      "difficulty": "Hard",
       "image": "img/okra.jpeg",
       "imageAlt": " A bowl of Okra soup served with pounded yam",
       "ingredients": {
@@ -371,12 +368,12 @@
     },
     {
       "id": 7,
-      "name" :"Suya",
-      "rating" : 5,
-      "description" :"A popular Hausa dish featuring grilled or roasted cow meat seasoned with a spicy pepper powder.",
-      "time" :"1h 30",
-      "category": ["Nigerian","Dinner"],
-      "difficulty" : "Hard",
+      "name": "Suya",
+      "rating": 5,
+      "description": "A popular Hausa dish featuring grilled or roasted cow meat seasoned with a spicy pepper powder.",
+      "time": "1h 30",
+      "category": ["Nigerian", "Dinner"],
+      "difficulty": "Hard",
       "titleImg": "img/suya.svg",
       "titleAlt": "Handwritten text saying 'Suya'",
       "image": "img/nigerian-suya.jpeg",
@@ -440,65 +437,65 @@
     },
     {
       "id": 8,
-      "name" : "Palm Oil Stew",
-      "rating" : 5,
-      "description" :"A spicy stew made by frying a blend of tomatoes, peppers, and onions in palm oil. ​",
-      "time" :"1h 30",
-      "difficulty" : "Hard",
+      "name": "Palm Oil Stew",
+      "rating": 5,
+      "description": "A spicy stew made by frying a blend of tomatoes, peppers, and onions in palm oil. ​",
+      "time": "1h 30",
+      "difficulty": "Hard",
       "titleImg": "img/fried-palm.svg",
       "titleAlt": "Handwriten text saying 'Palm Oil Stew'",
-      "category": ["Nigeria","Lunch"],
+      "category": ["Nigeria", "Lunch"],
       "image": "img/palm-oil-stew.jpeg",
       "imageAlt": "A bowl of palm oil stew with assorted meats and boiled eggs, served with rice",
       "ingredients": {
         "Main": [
-            {
-              "name": "Red bell peppers (Tatashe)",
-              "quantity": "6 pcs"
-            },
-            {
-              "name": "Assorted meats (boiled and fried)",
-              "quantity": "500 g"
-            },
-            {
-              "name": "Boiled eggs (optional)",
-              "quantity": "4-6 pcs"
-            },
-            {
-              "name": "Palm oil",
-              "quantity": "1.5 cups"
-            },
-            {
-              "name": "Onions",
-              "quantity": "2 large pcs"
-            },
-            {
-              "name": "Tomatoes",
-              "quantity": "2 pcs"
-            },
-            {
-              "name": "Crayfish",
-              "quantity": "2 tbsp"
-            }
-          ],
-          "Spices": [
-            {
-              "name": "Seasoning cubes",
-              "quantity": "2 pcs"
-            },
-            {
-              "name": "Salt",
-              "quantity": "to taste"
-            }
-          ]
-        }
-      },
+          {
+            "name": "Red bell peppers (Tatashe)",
+            "quantity": "6 pcs"
+          },
+          {
+            "name": "Assorted meats (boiled and fried)",
+            "quantity": "500 g"
+          },
+          {
+            "name": "Boiled eggs (optional)",
+            "quantity": "4-6 pcs"
+          },
+          {
+            "name": "Palm oil",
+            "quantity": "1.5 cups"
+          },
+          {
+            "name": "Onions",
+            "quantity": "2 large pcs"
+          },
+          {
+            "name": "Tomatoes",
+            "quantity": "2 pcs"
+          },
+          {
+            "name": "Crayfish",
+            "quantity": "2 tbsp"
+          }
+        ],
+        "Spices": [
+          {
+            "name": "Seasoning cubes",
+            "quantity": "2 pcs"
+          },
+          {
+            "name": "Salt",
+            "quantity": "to taste"
+          }
+        ]
+      }
+    },
     {
       "id": 9,
       "name": "Jollof Rice and Chicken with Plantain",
       "titleImg": "img/jollof-rice.svg",
       "titleAlt": "Handwriten text saying 'Jollof Rice'",
-      "category": ["Dinner","Nigeria", "Lunch"],
+      "category": ["Dinner", "Nigeria", "Lunch"],
       "description": " A popular West African dish made with rice, tomatoes, and spices, often served with fried plantains and chicken.",
       "difficulty": "Easy",
       "rating": 4.9,
@@ -577,14 +574,14 @@
     },
     {
       "id": 10,
-      "name" :"Couscous",
-      "rating" : 5,
-      "description" :"Algerian couscous is a traditional dish of steamed semolina topped with spiced meat, vegetables, and chickpeas.",
-      "time" :"1h 30min",
-      "difficulty" : "Easy",
+      "name": "Couscous",
+      "rating": 5,
+      "description": "Algerian couscous is a traditional dish of steamed semolina topped with spiced meat, vegetables, and chickpeas.",
+      "time": "1h 30min",
+      "difficulty": "Easy",
       "titleImg": "img/couscous.svg",
       "titleAlt": "Handwriten text saying 'CousCous'",
-      "category": ["Lunch","Dinner","Algeria"],
+      "category": ["Lunch", "Dinner", "Algeria"],
       "image": "img/couscous.jpeg",
       "imageAlt": " A colorful algerian couscous dish with vegetables and meat",
       "ingredients": {
@@ -618,7 +615,7 @@
             "quantity": "1 L"
           }
         ],
-          "Spices": [
+        "Spices": [
           {
             "name": "Ground cumin",
             "quantity": "1 tbsp"
@@ -639,14 +636,13 @@
       }
     },
     {
-
       "id": 11,
-      "name" :"Lham Hlou ",
-      "rating" : 5,
-      "description" :"A sweet and fragrant Algerian dish made with tender meat, prunes, and cinnamon—traditionally served during Ramadan.",
-      "time" :"1h 30",
-      "category" :[ "Algeria","Snack"],
-      "difficulty" : "Hard",
+      "name": "Lham Hlou ",
+      "rating": 5,
+      "description": "A sweet and fragrant Algerian dish made with tender meat, prunes, and cinnamon—traditionally served during Ramadan.",
+      "time": "1h 30",
+      "category": ["Algeria", "Snack"],
+      "difficulty": "Hard",
       "titleImg": "img/Lham.svg",
       "titleAlt": "Handwriten text saying 'Ceviche'",
       "image": "img/lham-lui.jpeg",
@@ -707,7 +703,7 @@
       "name": "Mhalbi",
       "titleImg": "img/mhalbi.svg",
       "titleAlt": "Handwriten text saying 'Mhalbi'",
-      "category": ["Dessert","Algeria"],
+      "category": ["Dessert", "Algeria"],
       "description": "A silky Algerian rice pudding delicately flavored with orange blossom water, often enjoyed during Eid and family gatherings.",
       "time": "30min",
       "difficulty": "Easy",
@@ -750,7 +746,7 @@
       "name": "Rechta",
       "titleImg": "img/rechta.svg",
       "titleAlt": "Handwriten text saying 'Rechta'",
-      "category": [ "Dinner", "Algeria"],
+      "category": ["Dinner", "Algeria"],
       "description": "A traditional Algerian dish of handmade noodles served with chicken and a light white sauce, often prepared for celebrations",
       "time": "30min",
       "difficulty": "Easy",
@@ -817,7 +813,7 @@
       "name": "Baklawa (Algerian)",
       "titleImg": "img/baklawa.svg",
       "titleAlt": "Handwriten text saying 'Baklawa'",
-      "category": [ "Dessert","Algeria"],
+      "category": ["Dessert", "Algeria"],
       "description": "A rich and flaky Algerian pastry made with layers of nuts and honey, often served during weddings and festive occasions.",
       "time": "30min",
       "difficulty": "Easy",
@@ -923,7 +919,7 @@
       "name": "Chakhchoukha (Algerian)",
       "titleImg": "img/chakhchoukha.svg",
       "titleAlt": "Handwriten text saying 'Chakhchoukha'",
-      "category": [ "Algeria", "Lunch"],
+      "category": ["Algeria", "Lunch"],
       "description": "A spicy Algerian pepper and tomato salad, grilled and mixed with olive oil—served as a starter or side dish, especially in summer",
       "time": "30min",
       "difficulty": "Easy",
@@ -1061,7 +1057,7 @@
       "name": "Chakchouka (Algerian)",
       "titleImg": "img/chakchouka.svg",
       "titleAlt": "Handwriten text saying 'Chakchouka'",
-      "category": ["Algeria","Lunch"],
+      "category": ["Algeria", "Lunch"],
       "description": "A flavorful Algerian dish made with sautéed tomatoes, peppers, and eggs, perfect for a comforting meal any time of day",
       "time": "30min",
       "difficulty": "Easy",
@@ -1128,7 +1124,7 @@
       "name": "Sambusa",
       "titleImg": "img/sambusa.svg",
       "titleAlt": "Handwriten text saying 'Sambusa'",
-      "category": ["Snack","Somalia"],
+      "category": ["Snack", "Somalia"],
       "description": "Somali savory pastry filled with minced meat or vegetables and fried until crispy. Perfect as an appetizer or snack.",
       "time": "1h 30min",
       "difficulty": "Medium",
@@ -1192,7 +1188,6 @@
             "name": "Salt",
             "quantity": "1/2 tsp"
           }
-        
         ]
       }
     },
@@ -1201,7 +1196,7 @@
       "name": "Bariis iyo Hilib",
       "titleImg": "img/bariis-iyo-hilib.svg",
       "titleAlt": "Handwriten text saying 'Ceviche'",
-      "category": ["Somalia","Dinner"],
+      "category": ["Somalia", "Dinner"],
       "description": "Spiced Somali rice served with meat, often lamb or goat, cooked with raisins and vegetables.",
       "time": "30min",
       "difficulty": "Easy",
@@ -1284,7 +1279,7 @@
       "name": "Rooti Farmaajo",
       "titleImg": "img/rooti.svg",
       "titleAlt": "Handwriten text saying 'rooti farmaajo'",
-      "category": ["Somalia","Dessert"],
+      "category": ["Somalia", "Dessert"],
       "description": "Somali cheesy bread or waffles, often eaten as a snack or breakfast with tea.",
       "time": "30min",
       "difficulty": "Easy",
@@ -1343,7 +1338,7 @@
       "name": "Sabaayad",
       "titleImg": "img/sabaayad.svg",
       "titleAlt": "Handwriten text saying 'Sabaayad'",
-      "category": ["Somalia","Snack"],
+      "category": ["Somalia", "Snack"],
       "description": "Somali flatbread similar to paratha, soft and flaky, usually served with honey or stew.",
       "time": "30min",
       "difficulty": "Easy",
@@ -1380,7 +1375,7 @@
       "name": "Fuul",
       "titleImg": "img/fuul.svg",
       "titleAlt": "Handwriten text saying 'Fuul'",
-      "category": ["Lunch","Somalia"],
+      "category": ["Lunch", "Somalia"],
       "description": "Mashed fava beans cooked with spices, often topped with olive oil and served with bread.",
       "time": "30min",
       "difficulty": "Easy",
@@ -1459,7 +1454,7 @@
       "name": "Bariis iyo Digaag",
       "titleImg": "img/digaag.svg",
       "titleAlt": "Handwriten text saying 'Bariis iyo Digaag'",
-      "category": ["Somalia","Dinner"],
+      "category": ["Somalia", "Dinner"],
       "description": "s a classic Somali dish consisting of fragrant spiced rice (bariis) served with tender chicken (digaag). It's a staple in Somali cuisine, often prepared for special occasions, family gatherings, and celebrations like Eid or weddings.",
       "time": "30min",
       "difficulty": "Easy",
@@ -1542,7 +1537,7 @@
       "name": "Shaah Somali",
       "titleImg": "img/shaah.svg",
       "titleAlt": "Handwriten text saying 'Shaah Somali'",
-      "category": ["Drink","Somalia"],
+      "category": ["Drink", "Somalia"],
       "description": "Sweet spiced Somali tea made with black tea, cardamom, cinnamon, and cloves",
       "time": "30min",
       "difficulty": "Easy",
@@ -1597,7 +1592,7 @@
       "name": "Suqaar",
       "titleImg": "img/suqaar.svg",
       "titleAlt": "Handwriten text saying 'suqaar'",
-      "category": ["Somalia","Dessert"],
+      "category": ["Somalia", "Dessert"],
       "description": "Deep-fried sweet dough balls, soaked in sugar syrup—similar to gulab jamun.",
       "time": "30min",
       "difficulty": "Easy",
@@ -1664,7 +1659,7 @@
       "name": "Arooz Con Pollo",
       "titleImg": "img/con-pollo.svg",
       "titleAlt": "Handwriten text saying 'Arroz con Pollo'",
-      "category": [ "Peruvian", "Dinner"],
+      "category": ["Peruvian", "Dinner"],
       "description": "A traditional Peruvian dish of chicken and rice, seasoned with spices and vegetables, often served with a side of salad.",
       "time": "30min",
       "difficulty": "Easy",
@@ -1743,7 +1738,7 @@
       "name": "Cheesy Beef Empanadas",
       "titleImg": "img/cheesy-beef.svg",
       "titleAlt": "Handwriten text saying 'Cheesy Beef Empanadas'",
-      "category": ["Peruvian","Snack"],
+      "category": ["Peruvian", "Snack"],
       "description": ".",
       "time": "30min",
       "difficulty": "Easy",
@@ -1818,7 +1813,7 @@
       "name": "Arroz con Gandules",
       "titleImg": "img/con-gandules.svg",
       "titleAlt": "Handwriten text saying 'Arroz con Gandules'",
-      "category": ["Cuban","Lunch"],
+      "category": ["Cuban", "Lunch"],
       "description": "A Cuban staple of rice, pork, pigeon peas, tomato paste, achiote, and sofrito, often enjoyed with pernil, yuca fries, and coquito.",
       "time": "30min",
       "difficulty": "Easy",
@@ -1905,7 +1900,7 @@
       "name": "Classic Mojito",
       "titleImg": "img/mojito.svg",
       "titleAlt": "Handwriten text saying 'Mojito'",
-      "category": ["Drink","Cuban"],
+      "category": ["Drink", "Cuban"],
       "description": "A Cuban cocktail made with sugar cane, lime, mint, rum, and soda water, offering refreshing beach vibes.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2021,7 +2016,7 @@
       "name": "Cuban Sandwich",
       "titleImg": "img/cuban-sandwich.svg",
       "titleAlt": "Handwriten text saying 'Cuban Sandwich'",
-      "category": ["Cuban","Lunch"],
+      "category": ["Cuban", "Lunch"],
       "description": "A Cuban  sandwich with slow-roasted citrus-marinated pork, ham, Swiss, pickles, and mustard, all pressed to perfection.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2066,10 +2061,7 @@
       "name": "Ropa Vieja",
       "titleImg": "img/ropa-vieja.svg",
       "titleAlt": "Handwriten text saying 'Ropa Vieja'",
-      "category": [
-        "Cuban",
-        "Lunch"
-      ],
+      "category": ["Cuban", "Lunch"],
       "description": "Cuba's national dish, this beef stew features shredded flank steak in a flavorful tomato-onion-pepper sauce.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2144,10 +2136,7 @@
       "name": "Mojo Shrimp",
       "titleImg": "img/mojo.svg",
       "titleAlt": "Handwriten text saying 'Mojo Shrimp'",
-      "category": [
-        "Cuban",
-        "Lunch"
-    ],
+      "category": ["Cuban", "Lunch"],
       "description": "A citrus-garlic marinade common in Cuban cuisine, this tangy blend of orange and lime juice enhances the flavor.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2206,10 +2195,7 @@
       "name": "Strawberry Daiquiri",
       "titleImg": "img/daiquiri.svg",
       "titleAlt": "Handwriten text saying 'Strawberry Daiquiri'",
-      "category": [
-        "Drink",
-        "Cuban"
-      ],
+      "category": ["Drink", "Cuban"],
       "description": "A smooth, frosty cocktail made from a blend of fresh and frozen strawberries, perfect for refreshing daiquiri lovers.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2256,11 +2242,7 @@
       "name": "Ceviche",
       "titleImg": "img/ceviche-text.svg",
       "titleAlt": "Handwriten text saying 'Ceviche'",
-      "category": [
-        "Seafood",
-        "Peruvian",
-        "Lunch"
-      ],
+      "category": ["Seafood", "Peruvian", "Lunch"],
       "description": "A refreshing Peruvian dish of fresh raw fish cured in citrus juices, spiced with chili peppers, and served with sweet potato.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2319,10 +2301,7 @@
       "name": "Lomo Saltado",
       "titleImg": "img/lomo-saltado.svg",
       "titleAlt": "Handwriten text saying 'Lomo Saltado'",
-      "category": [
-        "Peruvian",
-        "Lunch"
-      ],
+      "category": ["Peruvian", "Lunch"],
       "description": "Stir-fried beef with onions, tomatoes, soy sauce, and french fries, served with rice.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2389,10 +2368,7 @@
       "name": "Peruvian Arroz con Pollo",
       "titleImg": "img/con-pollo.svg",
       "titleAlt": "Handwriten text saying 'Arroz con Pollo'",
-      "category": [
-        "Peruvian",
-        "Dinner"
-      ],
+      "category": ["Peruvian", "Dinner"],
       "description": "Green rice with chicken, cilantro, and vegetables.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2461,10 +2437,7 @@
       "name": "Pisco Sour",
       "titleImg": "img/pisco-sour.svg",
       "titleAlt": "Handwriten text saying 'Pisco Sour'",
-      "category": [
-        "Drink",
-        "Peruvian"
-      ],
+      "category": ["Drink", "Peruvian"],
       "description": "The national drink of Peru, made with pisco (a type of brandy), lime juice, egg white, sugar, and bitters.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2505,10 +2478,7 @@
       "name": "Solterito",
       "titleImg": "img/solterito.svg",
       "titleAlt": "Handwriten text saying 'Solterito'",
-      "category": [
-        "Peruvian",
-        "Lunch"
-      ],
+      "category": ["Peruvian", "Lunch"],
       "description": "A fresh, colorful salad made with lima beans, corn, onions, tomatoes, and fresh herbs, often served as a side dish.",
       "time": "30min",
       "difficulty": "Easy",
@@ -2571,175 +2541,165 @@
       }
     },
     {
-        "id": 42,
-        "name": "Picarones",
-        "titleImg": "img/picarones.svg",
-        "titleAlt": "Handwritten text saying 'Picarones'",
-        "category": [
-          "Snack",
-          "Peruvian",
-          "Dessert"
+      "id": 42,
+      "name": "Picarones",
+      "titleImg": "img/picarones.svg",
+      "titleAlt": "Handwritten text saying 'Picarones'",
+      "category": ["Snack", "Peruvian", "Dessert"],
+      "description": "Peruvian doughnuts made from sweet potato and squash, fried and served with a syrup made from molasses.",
+      "time": "30 mins",
+      "difficulty": "Easy",
+      "rating": 5,
+      "image": "img/picarones.jpeg",
+      "imageAlt": "Golden Picarones stacked with molasses syrup drizzled over",
+      "ingredients": {
+        "Dough": [
+          {
+            "name": "Sweet potato, mashed",
+            "quantity": "1 cup"
+          },
+          {
+            "name": "Pumpkin or squash, mashed",
+            "quantity": "1 cup"
+          },
+          {
+            "name": "All-purpose flour",
+            "quantity": "2 cups"
+          },
+          {
+            "name": "Dry yeast",
+            "quantity": "1 tbsp"
+          },
+          {
+            "name": "Warm water",
+            "quantity": "1 cup"
+          },
+          {
+            "name": "Salt",
+            "quantity": "1/2 tsp"
+          }
         ],
-        "description": "Peruvian doughnuts made from sweet potato and squash, fried and served with a syrup made from molasses.",
-        "time": "30 mins",
-        "difficulty": "Easy",
-        "rating": 5,
-        "image": "img/picarones.jpeg",
-        "imageAlt": "Golden Picarones stacked with molasses syrup drizzled over",
-        "ingredients": {
-          "Dough": [
-            {
-              "name": "Sweet potato, mashed",
-              "quantity": "1 cup"
-            },
-            {
-              "name": "Pumpkin or squash, mashed",
-              "quantity": "1 cup"
-            },
-            {
-              "name": "All-purpose flour",
-              "quantity": "2 cups"
-            },
-            {
-              "name": "Dry yeast",
-              "quantity": "1 tbsp"
-            },
-            {
-              "name": "Warm water",
-              "quantity": "1 cup"
-            },
-            {
-              "name": "Salt",
-              "quantity": "1/2 tsp"
-            }
-          ],
-          "Syrup": [
-            {
-              "name": "Chancaca (or molasses)",
-              "quantity": "250 g"
-            },
-            {
-              "name": "Cinnamon stick",
-              "quantity": "1"
-            },
-            {
-              "name": "Cloves",
-              "quantity": "3"
-            },
-            {
-              "name": "Orange peel",
-              "quantity": "1 strip"
-            },
-            {
-              "name": "Water",
-              "quantity": "1 cup"
-            }
-          ],
-          "Frying": [
-            {
-              "name": "Vegetable oil",
-              "quantity": "For deep frying"
-            }
-          ]
-        }
+        "Syrup": [
+          {
+            "name": "Chancaca (or molasses)",
+            "quantity": "250 g"
+          },
+          {
+            "name": "Cinnamon stick",
+            "quantity": "1"
+          },
+          {
+            "name": "Cloves",
+            "quantity": "3"
+          },
+          {
+            "name": "Orange peel",
+            "quantity": "1 strip"
+          },
+          {
+            "name": "Water",
+            "quantity": "1 cup"
+          }
+        ],
+        "Frying": [
+          {
+            "name": "Vegetable oil",
+            "quantity": "For deep frying"
+          }
+        ]
+      }
     },
     {
-        "id": 43,
-        "name": "Fish Escabeche",
-        "titleImg": "img/fish-escabeche-title.svg",
-        "titleAlt": "Handwritten text saying 'Fish Escabeche'",
-        "category": [
-          "Lunch",
-          "Peruvian"
+      "id": 43,
+      "name": "Fish Escabeche",
+      "titleImg": "img/fish-escabeche-title.svg",
+      "titleAlt": "Handwritten text saying 'Fish Escabeche'",
+      "category": ["Lunch", "Peruvian"],
+      "description": "Fish Escabeche features fish marinated in vinegar, garlic, onions, and spices, offering a tangy, savory flavor.",
+      "time": "40 min",
+      "difficulty": "Easy",
+      "rating": 5,
+      "image": "img/fish-escabeche.avif",
+      "imageAlt": "Marinated fish topped with onions and herbs served on a plate",
+      "ingredients": {
+        "Fish": [
+          {
+            "name": "White fish fillets",
+            "quantity": "4 pieces"
+          },
+          {
+            "name": "Salt",
+            "quantity": "1 tsp"
+          },
+          {
+            "name": "Black pepper",
+            "quantity": "½ tsp"
+          },
+          {
+            "name": "Flour for coating",
+            "quantity": "½ cup"
+          },
+          {
+            "name": "Vegetable oil for frying",
+            "quantity": "1 cup"
+          }
         ],
-        "description": "Fish Escabeche features fish marinated in vinegar, garlic, onions, and spices, offering a tangy, savory flavor.",
-        "time": "40 min",
-        "difficulty": "Easy",
-        "rating": 5,
-        "image": "img/fish-escabeche.avif",
-        "imageAlt": "Marinated fish topped with onions and herbs served on a plate",
-        "ingredients": {
-          "Fish": [
-            {
-              "name": "White fish fillets",
-              "quantity": "4 pieces"
-            },
-            {
-              "name": "Salt",
-              "quantity": "1 tsp"
-            },
-            {
-              "name": "Black pepper",
-              "quantity": "½ tsp"
-            },
-            {
-              "name": "Flour for coating",
-              "quantity": "½ cup"
-            },
-            {
-              "name": "Vegetable oil for frying",
-              "quantity": "1 cup"
-            }
-          ],
-          "Escabeche Sauce": [
-            {
-              "name": "Red onions, sliced",
-              "quantity": "2 large"
-            },
-            {
-              "name": "Garlic cloves, minced",
-              "quantity": "4"
-            },
-            {
-              "name": "Aji panca or chili paste",
-              "quantity": "1 tbsp"
-            },
-            {
-              "name": "White vinegar",
-              "quantity": "¾ cup"
-            },
-            {
-              "name": "Bay leaves",
-              "quantity": "2"
-            },
-            {
-              "name": "Cumin powder",
-              "quantity": "½ tsp"
-            },
-            {
-              "name": "Salt",
-              "quantity": "to taste"
-            },
-            {
-              "name": "Black pepper",
-              "quantity": "to taste"
-            },
-            {
-              "name": "Olive oil",
-              "quantity": "2 tbsp"
-            }
-          ],
-          "Garnish": [
-            {
-              "name": "Hard-boiled eggs, halved",
-              "quantity": "2"
-            },
-            {
-              "name": "Parsley or cilantro",
-              "quantity": "for garnish"
-            }
-          ]
-        }
+        "Escabeche Sauce": [
+          {
+            "name": "Red onions, sliced",
+            "quantity": "2 large"
+          },
+          {
+            "name": "Garlic cloves, minced",
+            "quantity": "4"
+          },
+          {
+            "name": "Aji panca or chili paste",
+            "quantity": "1 tbsp"
+          },
+          {
+            "name": "White vinegar",
+            "quantity": "¾ cup"
+          },
+          {
+            "name": "Bay leaves",
+            "quantity": "2"
+          },
+          {
+            "name": "Cumin powder",
+            "quantity": "½ tsp"
+          },
+          {
+            "name": "Salt",
+            "quantity": "to taste"
+          },
+          {
+            "name": "Black pepper",
+            "quantity": "to taste"
+          },
+          {
+            "name": "Olive oil",
+            "quantity": "2 tbsp"
+          }
+        ],
+        "Garnish": [
+          {
+            "name": "Hard-boiled eggs, halved",
+            "quantity": "2"
+          },
+          {
+            "name": "Parsley or cilantro",
+            "quantity": "for garnish"
+          }
+        ]
+      }
     },
     {
       "id": 44,
       "name": "Chupe de Camarones",
       "titleImg": "img/chupe-title.svg",
       "titleAlt": "Handwritten text saying 'Chupe de Camarones'",
-      "category": [
-        "Lunch",
-        "Peruvian"
-      ],
+      "category": ["Lunch", "Peruvian"],
       "description": "Shrimp chowder with potatoes, corn, and cheese.",
       "time": "1h",
       "difficulty": "Medium",
@@ -2820,10 +2780,7 @@
       "name": "Chicha Morada",
       "titleImg": "img/chicha-morada.svg",
       "titleAlt": "Handwritten text saying 'Chicha Morada'",
-      "category": [
-        "Drink",
-        "Peruvian"
-      ],
+      "category": ["Drink", "Peruvian"],
       "description": "Sweet Peruvian drink made from purple corn and spices, typically served cold.",
       "time": "1h",
       "difficulty": "Hard",
@@ -2880,392 +2837,386 @@
       }
     },
     {
-    "id": 46,
-    "name": "Toshikoshi Soba",
-    "titleImg": "", 
-    "titleAlt": "Handwritten text saying 'Toshikoshi Soba'",
-    "category": [
-      "Japanese",
-      "Dinner"
-    ],
-    "description": "Toshikoshi Soba is a simple buckwheat noodle soup with light broth and toppings like green onions or tempura.",
-    "time": "30min",
-    "difficulty": "Easy",
-    "rating": 4.8,
-    "image": "img/toshikoshi-soba.jpg",
-    "imageAlt": "A bowl of soba noodles in broth with green onions",
-    "ingredients": {
-      "Broth": [
-        {
-          "name": "Dashi stock",
-          "quantity": "1.5 L"
-        },
-        {
-          "name": "Soy sauce",
-          "quantity": "200 ml"
-        },
-        {
-          "name": "Mirin",
-          "quantity": "100 ml"
-        }
-      ],
-      "Noodles": [
-        {
-          "name": "Soba noodles",
-          "quantity": "200 g"
-        }
-      ],
-      "Garnish": [
-        {
-          "name": "Green onions, sliced",
-          "quantity": "2 tbsp"
-        },
-        {
-          "name": "Tempura flakes",
-          "quantity": "20 g"
-        }
-      ]
-    }
-  }, {
-    "id": 47,
-    "name": "Maguro Nigiri",
-    "titleImg": "img/maguro.svg",
-    "titleAlt": "Handwritten text saying 'Maguro Nigiri'",
-    "category": [
-      "Japanese",
-      "Lunch"
-    ],
-    "description": "Hand-formed sushi with vinegared rice and raw tuna slices.",
-    "time": "30min",
-    "difficulty": "Medium",
-    "rating": 4.7,
-    "image": "img/maguro-nigiri.jpg",
-    "imageAlt": "Pieces of maguro nigiri sushi on a wooden plate",
-    "ingredients": {
-      "Main": [
-        {
-          "name": "Sushi rice",
-          "quantity": "2 cups"
-        },
-        {
-          "name": "Raw tuna, sliced",
-          "quantity": "200 g"
-        },
-        {
-          "name": "Rice vinegar",
-          "quantity": "3 tbsp"
-        },
-        {
-          "name": "Sugar",
-          "quantity": "1 tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": "1 tsp"
-        }
-      ],
-      "Optional": [
-        {
-          "name": "Wasabi",
-          "quantity": "to taste"
-        },
-        {
-          "name": "Soy sauce",
-          "quantity": "for serving"
-        }
-      ]
-    }
-  },  {
-    "id": 48,
-    "name": "Sushi Moriawase",
-    "titleImg": "img/sushi.svg",
-    "titleAlt": "Handwritten text saying 'Sushi Moriawase'",
-    "category": ["Japanese", "Lunch"],
-    "description": "Assorted sushi (nigiri, maki, sashimi), served with soy, ginger, and wasabi.",
-    "time": "1h 30min",
-    "difficulty": "Hard",
-    "rating": 4.9,
-    "image": "img/sushi-moriawase.jpg",
-    "imageAlt": "A platter of assorted sushi including sashimi, nigiri, and maki rolls",
-    "ingredients": {
-      "Main": [
-        { "name": "Sushi rice", "quantity": "2 cups" },
-        { "name": "Assorted raw fish (tuna, salmon, shrimp, etc.)", "quantity": "300 g" },
-        { "name": "Nori (seaweed)", "quantity": "4 sheets" },
-        { "name": "Cucumber, julienned", "quantity": "1 pc" },
-        { "name": "Avocado, sliced", "quantity": "1 pc" }
-      ],
-      "Condiments": [
-        { "name": "Soy sauce", "quantity": "to serve" },
-        { "name": "Wasabi", "quantity": "to serve" },
-        { "name": "Pickled ginger", "quantity": "to serve" }
-      ]
-    }
-  },{
-    "id": 49,
-    "name": "Tonkatsu",
-    "titleImg": "img/tonkatsu.svg",
-    "titleAlt": "Handwritten text saying 'Tonkatsu'",
-    "category": ["Japanese", "Lunch"],
-    "description": "Deep-fried breaded pork cutlet with sauce and cabbage.",
-    "time": "45min",
-    "difficulty": "Medium",
-    "rating": 4.8,
-    "image": "img/tonkatsu.jpg",
-    "imageAlt": "Crispy sliced Tonkatsu served with cabbage and sauce",
-    "ingredients": {
-      "Main": [
-        { "name": "Pork loin (boneless)", "quantity": "4 pcs" },
-        { "name": "All-purpose flour", "quantity": "1/2 cup" },
-        { "name": "Eggs", "quantity": "2 pcs, beaten" },
-        { "name": "Panko breadcrumbs", "quantity": "1.5 cups" },
-        { "name": "Vegetable oil", "quantity": "as needed for frying" }
-      ],
-      "Seasoning": [
-        { "name": "Salt", "quantity": "to taste" },
-        { "name": "Black pepper", "quantity": "to taste" }
-      ],
-      "Serving": [
-        { "name": "Tonkatsu sauce", "quantity": "to serve" },
-        { "name": "Shredded cabbage", "quantity": "2 cups" },
-        { "name": "Steamed rice", "quantity": "to serve" }
-      ]
-    }
-  },{
-    "id": 50,
-    "name": "Tataki",
-    "titleImg": "img/tataki.svg",
-    "titleAlt": "Handwritten text saying 'Tataki'",
-    "category": ["Japanese", "Dinner"],
-    "description": "Lightly seared meat or fish, sliced thin and served with ponzu.",
-    "time": "30min",
-    "difficulty": "Medium",
-    "rating": 4.6,
-    "image": "img/tataki.jpg",
-    "imageAlt": "Tataki beef slices garnished with scallions and sauce",
-    "ingredients": {
-      "Main": [
-        { "name": "Beef or tuna loin", "quantity": "400 g" },
-        { "name": "Vegetable oil", "quantity": "1 tbsp" },
-        { "name": "Green onions, chopped", "quantity": "2 tbsp" },
-        { "name": "Garlic cloves, sliced", "quantity": "2 pcs" }
-      ],
-      "Sauce": [
-        { "name": "Soy sauce", "quantity": "3 tbsp" },
-        { "name": "Rice vinegar", "quantity": "2 tbsp" },
-        { "name": "Citrus juice (like yuzu or lemon)", "quantity": "1 tbsp" },
-        { "name": "Ginger, grated", "quantity": "1 tsp" }
-      ]
-    }
-  },
-  {
-    "id": 51,
-    "name": "Chirashi Don",
-    "titleImg": "img/chirashi.svg",
-    "titleAlt": "Handwritten text saying 'Chirashi Don'",
-    "category": ["Japanese", "Lunch"],
-    "description": "Sushi rice bowl topped with assorted raw fish and vegetables.",
-    "time": "45min",
-    "difficulty": "Medium",
-    "rating": 4.8,
-    "image": "img/chirashi-don.jpg",
-    "imageAlt": "Colorful bowl of Chirashi sushi with raw fish and veggies",
-    "ingredients": {
-      "Main": [
-        { "name": "Sushi rice", "quantity": "2 cups" },
-        { "name": "Assorted sashimi-grade fish", "quantity": "200 g" },
-        { "name": "Cucumber, thinly sliced", "quantity": "1 pc" },
-        { "name": "Avocado, sliced", "quantity": "1 pc" },
-        { "name": "Carrot, julienned", "quantity": "1 pc" },
-        { "name": "Nori, shredded", "quantity": "1 sheet" }
-      ],
-      "Garnish": [
-        { "name": "Sesame seeds", "quantity": "1 tbsp" },
-        { "name": "Pickled ginger", "quantity": "to taste" },
-        { "name": "Wasabi", "quantity": "to serve" }
-      ]
-    }
-  },
-  {
-    "id": 52,
-    "name": "Aburi Sake Nigiri",
-    "titleImg": "img/aburi-sake.svg",
-    "titleAlt": "Handwritten text saying 'Aburi Sake Nigiri'",
-    "category": ["Japanese", "Snack", "Sushi"],
-    "description": "Flame-seared salmon on sushi rice, often with mayo or herbs.",
-    "time": "30min",
-    "difficulty": "Medium",
-    "rating": 4.7,
-    "image": "img/nigiri.jpg",
-    "imageAlt": "Aburi salmon nigiri with charred topping and garnish",
-    "ingredients": {
-      "Main": [
-        { "name": "Sushi rice", "quantity": "1 cup" },
-        { "name": "Salmon slices", "quantity": "10 pcs" },
-        { "name": "Soy sauce", "quantity": "to brush" },
-        { "name": "Mayonnaise (Japanese style)", "quantity": "2 tbsp" }
-      ],
-      "Topping": [
-        { "name": "Chopped chives or green onions", "quantity": "1 tbsp" },
-        { "name": "Lemon zest (optional)", "quantity": "to garnish" },
-        { "name": "Blowtorch (for searing)", "quantity": "as needed" }
-      ]
-    }
-  },
-  {
-    "id": 53,
-    "name": "Okonomiyaki",
-    "titleImg": "img/okonomiyaki.svg",
-    "titleAlt": "Handwritten text saying 'Okonomiyaki'",
-    "category": ["Japanese", "Lunch"],
-    "description": "A savory cabbage pancake with toppings like pork, seafood, mayo, and okonomiyaki sauce.",
-    "time": "1h",
-    "difficulty": "Medium",
-    "rating": 4.9,
-    "image": "img/okonomiyaki.jpg",
-    "imageAlt": "Okonomiyaki pancake topped with mayo, sauce, and bonito flakes",
-    "ingredients": {
-      "Main": [
-        { "name": "All-purpose flour", "quantity": "1 cup" },
-        { "name": "Dashi or water", "quantity": "3/4 cup" },
-        { "name": "Eggs", "quantity": "2 pcs" },
-        { "name": "Cabbage, finely shredded", "quantity": "2 cups" },
-        { "name": "Green onions, chopped", "quantity": "2 stalks" },
-        { "name": "Bacon slices or seafood", "quantity": "4 pcs or 200 g" }
-      ],
-      "Toppings": [
-        { "name": "Okonomiyaki sauce", "quantity": "to taste" },
-        { "name": "Mayonnaise", "quantity": "to taste" },
-        { "name": "Bonito flakes", "quantity": "to garnish" },
-        { "name": "Aonori (seaweed flakes)", "quantity": "to garnish" }
-      ]
-    }
-  },
-  {
-    "id": 54,
-    "name": "Kaiseki Ryōri",
-    "titleImg": "img/kaiseki.svg",
-    "titleAlt": "Handwritten text saying 'Kaiseki Ryōri'",
-    "category": ["Japanese", "Dinner"],
-    "description": "Refined multi-course seasonal meal with artistic presentation.",
-    "time": "3h–4h",
-    "difficulty": "Hard",
-    "rating": 5.0,
-    "image": "img/kaiseki.jpg",
-    "imageAlt": "Elegant plates with assorted seasonal Japanese dishes",
-    "ingredients": {
-      "Appetizer": [
-        { "name": "Seasonal vegetables", "quantity": "100 g" },
-        { "name": "Sesame dressing", "quantity": "2 tbsp" }
-      ],
-      "Soup": [
-        { "name": "Clear dashi broth", "quantity": "1 cup" },
-        { "name": "Tofu", "quantity": "50 g" },
-        { "name": "Mitsuba or green herbs", "quantity": "to garnish" }
-      ],
-      "Sashimi": [
-        { "name": "Fresh sashimi-grade fish", "quantity": "150 g" },
-        { "name": "Wasabi", "quantity": "to serve" },
-        { "name": "Soy sauce", "quantity": "to serve" }
-      ],
-      "Grilled Dish": [
-        { "name": "Seasonal fish or meat", "quantity": "100 g" },
-        { "name": "Salt or marinade", "quantity": "to taste" }
-      ],
-      "Dessert": [
-        { "name": "Seasonal fruit", "quantity": "100 g" },
-        { "name": "Sweet syrup or jelly", "quantity": "to serve" }
-      ]
-    }
-  },
-  {
-    "id": 55,
-    "name": "Gluten-Free Mudcake",
-    "titleImg": "img/mudcake.svg",
-    "titleAlt": "Handwriten text saying 'mudcake'",
-    "category": [
-      "Dessert",
-      "Swedish"
-    ],
-    "description": "Classic Swedish sticky chocolate cake with rich, fudgy texture.",
-    "time": "50min",
-    "difficulty": "Easy",
-    "rating": 4.8,
-    "image": "img/mudcake.jpeg",
-    "imageAlt": " A round goey chocklate cake, topped with fruits and powdered sugar ",
-    "ingredients": {
-      "Batter": [
-        {
-          "name": "Butter",
-          "quantity": "100 g"
-        },
-        {
-          "name": "Sugar",
-          "quantity": "225 g"
-        },
-        {
-          "name": "Eggs",
-          "quantity": "2 pc"
-        },
-        {
-          "name": "Cocoa powder",
-          "quantity": "3 tbsp"
-        },
-        {
-          "name": "Flour",
-          "quantity": "95 g"
-        }
-      ],
-      "Garnish": [
-        {
-          "name": "Powdered sugar",
-          "quantity": "to taste"
-        },
-        {
-          "name": "Whipped cream",
-          "quantity": "to serve"
-        }
-      ]
-    }
-  },
-  {
-    "id": 56,
-    "name": "Mashed Potatoes & Meatballs",
-    "titleImg": "img/meatballs.svg",
-    "titleAlt": "Handwriten text saying 'Mashed Potatoes & Meatballs'",
-    "category": [
-      "Lunch",
-       "Dinner",
-      "Swedish"
-      ],
-    "description": "Swedish meatballs with mashed potatoes and classic lingonberry jam.",
-    "time": "30min",
-    "difficulty": "Easy",
-    "rating": 4.9,
-    "image": "img/mashed-potatoes.jpeg",
-    "imageAlt": " An image of meatballs with mashed potatoes and gravy",
-    "ingredients": {
-    "Mashed Potatoes": [
-        {
-          "name": "Potatoes, peeled and chopped",
-          "quantity": "1 kg"
-        },
-        {
-          "name": "Butter",
-          "quantity": "50 g"
-        },
-        {
-          "name": "Milk or cream",
-          "quantity": "1/2 cup"
-        },
-        {
-          "name": "Salt",
-          "quantity": "to taste"
+      "id": 46,
+      "name": "Toshikoshi Soba",
+      "titleImg": "",
+      "titleAlt": "Handwritten text saying 'Toshikoshi Soba'",
+      "category": ["Japanese", "Dinner"],
+      "description": "Toshikoshi Soba is a simple buckwheat noodle soup with light broth and toppings like green onions or tempura.",
+      "time": "30min",
+      "difficulty": "Easy",
+      "rating": 4.8,
+      "image": "img/toshikoshi-soba.jpg",
+      "imageAlt": "A bowl of soba noodles in broth with green onions",
+      "ingredients": {
+        "Broth": [
+          {
+            "name": "Dashi stock",
+            "quantity": "1.5 L"
           },
-        {
-          "name": "White pepper",
-          "quantity": "1/4 tsp"
-        }
+          {
+            "name": "Soy sauce",
+            "quantity": "200 ml"
+          },
+          {
+            "name": "Mirin",
+            "quantity": "100 ml"
+          }
+        ],
+        "Noodles": [
+          {
+            "name": "Soba noodles",
+            "quantity": "200 g"
+          }
+        ],
+        "Garnish": [
+          {
+            "name": "Green onions, sliced",
+            "quantity": "2 tbsp"
+          },
+          {
+            "name": "Tempura flakes",
+            "quantity": "20 g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "name": "Maguro Nigiri",
+      "titleImg": "img/maguro.svg",
+      "titleAlt": "Handwritten text saying 'Maguro Nigiri'",
+      "category": ["Japanese", "Lunch"],
+      "description": "Hand-formed sushi with vinegared rice and raw tuna slices.",
+      "time": "30min",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "image": "img/maguro-nigiri.jpg",
+      "imageAlt": "Pieces of maguro nigiri sushi on a wooden plate",
+      "ingredients": {
+        "Main": [
+          {
+            "name": "Sushi rice",
+            "quantity": "2 cups"
+          },
+          {
+            "name": "Raw tuna, sliced",
+            "quantity": "200 g"
+          },
+          {
+            "name": "Rice vinegar",
+            "quantity": "3 tbsp"
+          },
+          {
+            "name": "Sugar",
+            "quantity": "1 tbsp"
+          },
+          {
+            "name": "Salt",
+            "quantity": "1 tsp"
+          }
+        ],
+        "Optional": [
+          {
+            "name": "Wasabi",
+            "quantity": "to taste"
+          },
+          {
+            "name": "Soy sauce",
+            "quantity": "for serving"
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "name": "Sushi Moriawase",
+      "titleImg": "img/sushi.svg",
+      "titleAlt": "Handwritten text saying 'Sushi Moriawase'",
+      "category": ["Japanese", "Lunch"],
+      "description": "Assorted sushi (nigiri, maki, sashimi), served with soy, ginger, and wasabi.",
+      "time": "1h 30min",
+      "difficulty": "Hard",
+      "rating": 4.9,
+      "image": "img/sushi-moriawase.jpg",
+      "imageAlt": "A platter of assorted sushi including sashimi, nigiri, and maki rolls",
+      "ingredients": {
+        "Main": [
+          { "name": "Sushi rice", "quantity": "2 cups" },
+          {
+            "name": "Assorted raw fish (tuna, salmon, shrimp, etc.)",
+            "quantity": "300 g"
+          },
+          { "name": "Nori (seaweed)", "quantity": "4 sheets" },
+          { "name": "Cucumber, julienned", "quantity": "1 pc" },
+          { "name": "Avocado, sliced", "quantity": "1 pc" }
+        ],
+        "Condiments": [
+          { "name": "Soy sauce", "quantity": "to serve" },
+          { "name": "Wasabi", "quantity": "to serve" },
+          { "name": "Pickled ginger", "quantity": "to serve" }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "name": "Tonkatsu",
+      "titleImg": "img/tonkatsu.svg",
+      "titleAlt": "Handwritten text saying 'Tonkatsu'",
+      "category": ["Japanese", "Lunch"],
+      "description": "Deep-fried breaded pork cutlet with sauce and cabbage.",
+      "time": "45min",
+      "difficulty": "Medium",
+      "rating": 4.8,
+      "image": "img/tonkatsu.jpg",
+      "imageAlt": "Crispy sliced Tonkatsu served with cabbage and sauce",
+      "ingredients": {
+        "Main": [
+          { "name": "Pork loin (boneless)", "quantity": "4 pcs" },
+          { "name": "All-purpose flour", "quantity": "1/2 cup" },
+          { "name": "Eggs", "quantity": "2 pcs, beaten" },
+          { "name": "Panko breadcrumbs", "quantity": "1.5 cups" },
+          { "name": "Vegetable oil", "quantity": "as needed for frying" }
+        ],
+        "Seasoning": [
+          { "name": "Salt", "quantity": "to taste" },
+          { "name": "Black pepper", "quantity": "to taste" }
+        ],
+        "Serving": [
+          { "name": "Tonkatsu sauce", "quantity": "to serve" },
+          { "name": "Shredded cabbage", "quantity": "2 cups" },
+          { "name": "Steamed rice", "quantity": "to serve" }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "name": "Tataki",
+      "titleImg": "img/tataki.svg",
+      "titleAlt": "Handwritten text saying 'Tataki'",
+      "category": ["Japanese", "Dinner"],
+      "description": "Lightly seared meat or fish, sliced thin and served with ponzu.",
+      "time": "30min",
+      "difficulty": "Medium",
+      "rating": 4.6,
+      "image": "img/tataki.jpg",
+      "imageAlt": "Tataki beef slices garnished with scallions and sauce",
+      "ingredients": {
+        "Main": [
+          { "name": "Beef or tuna loin", "quantity": "400 g" },
+          { "name": "Vegetable oil", "quantity": "1 tbsp" },
+          { "name": "Green onions, chopped", "quantity": "2 tbsp" },
+          { "name": "Garlic cloves, sliced", "quantity": "2 pcs" }
+        ],
+        "Sauce": [
+          { "name": "Soy sauce", "quantity": "3 tbsp" },
+          { "name": "Rice vinegar", "quantity": "2 tbsp" },
+          { "name": "Citrus juice (like yuzu or lemon)", "quantity": "1 tbsp" },
+          { "name": "Ginger, grated", "quantity": "1 tsp" }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "name": "Chirashi Don",
+      "titleImg": "img/chirashi.svg",
+      "titleAlt": "Handwritten text saying 'Chirashi Don'",
+      "category": ["Japanese", "Lunch"],
+      "description": "Sushi rice bowl topped with assorted raw fish and vegetables.",
+      "time": "45min",
+      "difficulty": "Medium",
+      "rating": 4.8,
+      "image": "img/chirashi-don.jpg",
+      "imageAlt": "Colorful bowl of Chirashi sushi with raw fish and veggies",
+      "ingredients": {
+        "Main": [
+          { "name": "Sushi rice", "quantity": "2 cups" },
+          { "name": "Assorted sashimi-grade fish", "quantity": "200 g" },
+          { "name": "Cucumber, thinly sliced", "quantity": "1 pc" },
+          { "name": "Avocado, sliced", "quantity": "1 pc" },
+          { "name": "Carrot, julienned", "quantity": "1 pc" },
+          { "name": "Nori, shredded", "quantity": "1 sheet" }
+        ],
+        "Garnish": [
+          { "name": "Sesame seeds", "quantity": "1 tbsp" },
+          { "name": "Pickled ginger", "quantity": "to taste" },
+          { "name": "Wasabi", "quantity": "to serve" }
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "name": "Aburi Sake Nigiri",
+      "titleImg": "img/aburi-sake.svg",
+      "titleAlt": "Handwritten text saying 'Aburi Sake Nigiri'",
+      "category": ["Japanese", "Snack", "Sushi"],
+      "description": "Flame-seared salmon on sushi rice, often with mayo or herbs.",
+      "time": "30min",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "image": "img/nigiri.jpg",
+      "imageAlt": "Aburi salmon nigiri with charred topping and garnish",
+      "ingredients": {
+        "Main": [
+          { "name": "Sushi rice", "quantity": "1 cup" },
+          { "name": "Salmon slices", "quantity": "10 pcs" },
+          { "name": "Soy sauce", "quantity": "to brush" },
+          { "name": "Mayonnaise (Japanese style)", "quantity": "2 tbsp" }
+        ],
+        "Topping": [
+          { "name": "Chopped chives or green onions", "quantity": "1 tbsp" },
+          { "name": "Lemon zest (optional)", "quantity": "to garnish" },
+          { "name": "Blowtorch (for searing)", "quantity": "as needed" }
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "name": "Okonomiyaki",
+      "titleImg": "img/okonomiyaki.svg",
+      "titleAlt": "Handwritten text saying 'Okonomiyaki'",
+      "category": ["Japanese", "Lunch"],
+      "description": "A savory cabbage pancake with toppings like pork, seafood, mayo, and okonomiyaki sauce.",
+      "time": "1h",
+      "difficulty": "Medium",
+      "rating": 4.9,
+      "image": "img/okonomiyaki.jpg",
+      "imageAlt": "Okonomiyaki pancake topped with mayo, sauce, and bonito flakes",
+      "ingredients": {
+        "Main": [
+          { "name": "All-purpose flour", "quantity": "1 cup" },
+          { "name": "Dashi or water", "quantity": "3/4 cup" },
+          { "name": "Eggs", "quantity": "2 pcs" },
+          { "name": "Cabbage, finely shredded", "quantity": "2 cups" },
+          { "name": "Green onions, chopped", "quantity": "2 stalks" },
+          { "name": "Bacon slices or seafood", "quantity": "4 pcs or 200 g" }
+        ],
+        "Toppings": [
+          { "name": "Okonomiyaki sauce", "quantity": "to taste" },
+          { "name": "Mayonnaise", "quantity": "to taste" },
+          { "name": "Bonito flakes", "quantity": "to garnish" },
+          { "name": "Aonori (seaweed flakes)", "quantity": "to garnish" }
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "name": "Kaiseki Ryōri",
+      "titleImg": "img/kaiseki.svg",
+      "titleAlt": "Handwritten text saying 'Kaiseki Ryōri'",
+      "category": ["Japanese", "Dinner"],
+      "description": "Refined multi-course seasonal meal with artistic presentation.",
+      "time": "3h–4h",
+      "difficulty": "Hard",
+      "rating": 5.0,
+      "image": "img/kaiseki.jpg",
+      "imageAlt": "Elegant plates with assorted seasonal Japanese dishes",
+      "ingredients": {
+        "Appetizer": [
+          { "name": "Seasonal vegetables", "quantity": "100 g" },
+          { "name": "Sesame dressing", "quantity": "2 tbsp" }
+        ],
+        "Soup": [
+          { "name": "Clear dashi broth", "quantity": "1 cup" },
+          { "name": "Tofu", "quantity": "50 g" },
+          { "name": "Mitsuba or green herbs", "quantity": "to garnish" }
+        ],
+        "Sashimi": [
+          { "name": "Fresh sashimi-grade fish", "quantity": "150 g" },
+          { "name": "Wasabi", "quantity": "to serve" },
+          { "name": "Soy sauce", "quantity": "to serve" }
+        ],
+        "Grilled Dish": [
+          { "name": "Seasonal fish or meat", "quantity": "100 g" },
+          { "name": "Salt or marinade", "quantity": "to taste" }
+        ],
+        "Dessert": [
+          { "name": "Seasonal fruit", "quantity": "100 g" },
+          { "name": "Sweet syrup or jelly", "quantity": "to serve" }
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "name": "Gluten-Free Mudcake",
+      "titleImg": "img/mudcake.svg",
+      "titleAlt": "Handwriten text saying 'mudcake'",
+      "category": ["Dessert", "Swedish"],
+      "description": "Classic Swedish sticky chocolate cake with rich, fudgy texture.",
+      "time": "50min",
+      "difficulty": "Easy",
+      "rating": 4.8,
+      "image": "img/mudcake.jpeg",
+      "imageAlt": " A round goey chocklate cake, topped with fruits and powdered sugar ",
+      "ingredients": {
+        "Batter": [
+          {
+            "name": "Butter",
+            "quantity": "100 g"
+          },
+          {
+            "name": "Sugar",
+            "quantity": "225 g"
+          },
+          {
+            "name": "Eggs",
+            "quantity": "2 pc"
+          },
+          {
+            "name": "Cocoa powder",
+            "quantity": "3 tbsp"
+          },
+          {
+            "name": "Flour",
+            "quantity": "95 g"
+          }
+        ],
+        "Garnish": [
+          {
+            "name": "Powdered sugar",
+            "quantity": "to taste"
+          },
+          {
+            "name": "Whipped cream",
+            "quantity": "to serve"
+          }
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "name": "Mashed Potatoes & Meatballs",
+      "titleImg": "img/meatballs.svg",
+      "titleAlt": "Handwriten text saying 'Mashed Potatoes & Meatballs'",
+      "category": ["Lunch", "Dinner", "Swedish"],
+      "description": "Swedish meatballs with mashed potatoes and classic lingonberry jam.",
+      "time": "30min",
+      "difficulty": "Easy",
+      "rating": 4.9,
+      "image": "img/mashed-potatoes.jpeg",
+      "imageAlt": " An image of meatballs with mashed potatoes and gravy",
+      "ingredients": {
+        "Mashed Potatoes": [
+          {
+            "name": "Potatoes, peeled and chopped",
+            "quantity": "1 kg"
+          },
+          {
+            "name": "Butter",
+            "quantity": "50 g"
+          },
+          {
+            "name": "Milk or cream",
+            "quantity": "1/2 cup"
+          },
+          {
+            "name": "Salt",
+            "quantity": "to taste"
+          },
+          {
+            "name": "White pepper",
+            "quantity": "1/4 tsp"
+          }
         ],
         "Meatballs": [
           {
@@ -3330,10 +3281,7 @@
       "name": "Waffles with Whipped Cream",
       "titleImg": "img/waffles.svg",
       "titleAlt": "Handwriten text saying 'Waffles with Whipped Cream'",
-      "category": [
-        "Snack",
-        "Swedish"
-      ],
+      "category": ["Snack", "Swedish"],
       "description": "Crispy waffles served with whipped cream and berry compot.",
       "time": "30min",
       "difficulty": "Easy",
@@ -3406,10 +3354,7 @@
       "name": "Spinach Soup",
       "titleImg": "img/spinach-soup.svg",
       "titleAlt": "Handwriten text saying 'spinach soup'",
-      "category": [
-        "Lunch",
-        "Swedish"
-      ],
+      "category": ["Lunch", "Swedish"],
       "description": "Refreshing spinach soup, usually topped with eggs.",
       "time": "30min",
       "difficulty": "Easy",
@@ -3474,11 +3419,7 @@
       "name": "Oven-Baked Chicken Thighs",
       "titleImg": "img/oven-baked.svg",
       "titleAlt": "Handwriten text saying 'oven-baked chicken thighs'",
-      "category": [
-        "Dinner",
-        "Lunch",
-        "Swedish"
-      ],
+      "category": ["Dinner", "Lunch", "Swedish"],
       "description": "Juicy chicken thighs baked in the oven with lemon and spices.",
       "time": "30min",
       "difficulty": "Easy",
@@ -3537,10 +3478,7 @@
       "name": "Roasted Pork",
       "titleImg": "img/roasted-pork.svg",
       "titleAlt": "Handwriten text saying 'roasted pork'",
-      "category": [
-        "Dinner",
-        "Swedish" 
-      ],
+      "category": ["Dinner", "Swedish"],
       "description": "Juicy roasted pork with garlic and herbs, perfect for a family dinner.",
       "time": "30min",
       "difficulty": "Easy",
@@ -3589,10 +3527,7 @@
       "name": "Blueberry Smoothie",
       "titleImg": "img/smoothie.svg",
       "titleAlt": "Handwriten text saying 'Blueberry smoothie'",
-      "category": [
-        "Drink",
-        "Swedish"
-      ],
+      "category": ["Drink", "Swedish"],
       "description": "A swedish classic. Bluberry smoothie .",
       "time": "30min",
       "difficulty": "Easy",
@@ -3643,10 +3578,7 @@
       "name": "Smörgåstårta",
       "titleImg": "img/smorgastarta.svg",
       "titleAlt": "Handwriten text saying 'smörgåstårta'",
-      "category": [
-        "Lunch",
-        "Swedish"
-      ],
+      "category": ["Lunch", "Swedish"],
       "description": "A  swedish summer stapel. Layers of sourcream, eggs and shrimp inside layers of sandwich bread .",
       "time": "30min",
       "difficulty": "Easy",
@@ -3721,11 +3653,7 @@
       "name": "Oven-Baked Salmon",
       "titleImg": "img/oven-baked-salmon.svg",
       "titleAlt": "Handwriten text saying 'Oven-Baked Salmon'",
-      "category": [
-        "Seafood",
-        "Peruvian",
-        "Lunch"
-      ],
+      "category": ["Seafood", "Peruvian", "Lunch"],
       "description": "Oven-baked salmon is perfect for serving a crowd. Serve with boiled potatoes, sour cream sauce with roe and herbs, and a salad.",
       "difficulty": "Easy",
       "rating": 4.9,
@@ -3774,6 +3702,5 @@
         ]
       }
     }
-         
   ]
 }

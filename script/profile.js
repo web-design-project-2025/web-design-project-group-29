@@ -1,24 +1,23 @@
-
 function loadProfile() {
-  const userProfile = JSON.parse(localStorage.getItem('userProfile'));
+  const userProfile = JSON.parse(localStorage.getItem("userProfile"));
 
   if (!userProfile) {
     alert("Oops! No user profile found.");
-    window.location.href = 'signup.html';
+    window.location.href = "signup.html";
     return;
   }
 
-  document.getElementById('name').textContent = userProfile.name;
-  document.getElementById('surname').textContent = userProfile.surname;
+  document.getElementById("name").textContent = userProfile.name;
+  document.getElementById("surname").textContent = userProfile.surname;
 
-  const container = document.getElementById('recentRecipesContainer');
+  const container = document.getElementById("recentRecipesContainer");
 
   if (!container) return;
 
-  container.innerHTML = '';
+  container.innerHTML = "";
 
   if (userProfile.recentRecipes && userProfile.recentRecipes.length > 0) {
-    userProfile.recentRecipes.forEach(recipe => {
+    userProfile.recentRecipes.forEach((recipe) => {
       const recipeHTML = `
                     <a href="sambusa.html?id=${recipe.id}" class="recipe-box-link">
 
@@ -44,6 +43,3 @@ function loadProfile() {
 }
 
 document.addEventListener("DOMContentLoaded", loadProfile);
-
-
-  

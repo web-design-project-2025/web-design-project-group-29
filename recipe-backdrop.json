@@ -1,42 +1,42 @@
 {
-    "nigeria" : [
-        {
-            "image" : "nigeria-backdrop.jpeg"
-        }
-    ],
-    "algeria":[
-        {
-            "image" : "algeria-background.jpeg"
-        } 
-    ],
-    "somalia":[
-        {
-            "image" : "somalia.jpg"
-        }
-    ],
-    "cuba":[
-        {
-            "image" : "cuba.jpg"
-        }
-    ],
-    "peru":[
-        {
-            "image" : "peru.jpeg"
-        }
-    ],
-    "japan":[
-        {
-            "image" : "japan.jpeg"
-        }
-    ],
-    "sweden":[
+  "nigeria": [
     {
-        "image" : "sweden.jpeg"
+      "image": "nigeria-backdrop.jpeg"
     }
-],
-    "recipes":[
+  ],
+  "algeria": [
     {
-        "image" : "homepage.jpg"
+      "image": "algeria-background.jpeg"
     }
-]
+  ],
+  "somalia": [
+    {
+      "image": "somalia.jpg"
+    }
+  ],
+  "cuba": [
+    {
+      "image": "cuba.jpg"
+    }
+  ],
+  "peru": [
+    {
+      "image": "peru.jpeg"
+    }
+  ],
+  "japan": [
+    {
+      "image": "japan.jpeg"
+    }
+  ],
+  "sweden": [
+    {
+      "image": "sweden.jpeg"
+    }
+  ],
+  "recipes": [
+    {
+      "image": "homepage.jpg"
+    }
+  ]
 }

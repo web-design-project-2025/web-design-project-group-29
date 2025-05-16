@@ -1,12 +1,12 @@
 /* navbar styling */
 :root {
-  --primary-color: #FFFDFA;
-  --secondary-color: #B6CAE5;
-  --colorful-text: #6E2E15;
-  --text-color: #4A4A4A;
+  --primary-color: #fffdfa;
+  --secondary-color: #b6cae5;
+  --colorful-text: #6e2e15;
+  --text-color: #4a4a4a;
   --light-text: #606060;
-  --border-color: #F1EEEA;
-  --starcolor: #F68F40;
+  --border-color: #f1eeea;
+  --starcolor: #f68f40;
 }
 * {
   margin: 0;
@@ -25,7 +25,6 @@
   padding: 1rem 2rem;
   width: 100%;
   z-index: 1000;
-
 }
 .logo-img {
   height: 40px;
@@ -35,14 +34,12 @@
 .logo {
   display: flex;
   align-items: center;
-  
 }
 /*desktop links*/
 .nav-links {
   list-style: none;
   display: flex;
   gap: 2rem;
-  
 }
 .nav-links li {
   position: relative;
@@ -58,7 +55,6 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  
 }
 .nav-icons a {
   color: var(--text-color);
@@ -82,7 +78,6 @@
   transition: opacity 0.3s ease;
 }
 
-
 .icon-toggle .solid-heart,
 .icon-toggle .solid-user {
   opacity: 0;
@@ -99,21 +94,21 @@
 }
 /*sign up buttun*/
 
-.sign-up{
+.sign-up {
   width: 100%;
   padding: 0.625rem;
-  border:none;
+  border: none;
   background-color: var(--secondary-color);
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
   transition: background 0.3s;
   border-radius: 1rem;
-  }
-  
-  .sign-up:hover{
+}
+
+.sign-up:hover {
   background: var(--hover-color);
-  }
+}
 /* DROPDOWNS */
 .dropdown {
   position: relative;
@@ -137,7 +132,6 @@
   z-index: 999;
   padding: 1rem 2rem;
   transition: all 0.3s ease-in-out;
-  
 }
 
 .continent-menu:hover {
@@ -222,7 +216,6 @@
 }
 
 .mobile-menu.active {
-  
   transform: translateX(0);
 }
 .close-btn {
@@ -295,7 +288,7 @@
 .mobile-back-button {
   display: none;
   position: fixed;
-  top: 80px; 
+  top: 80px;
   left: 1rem;
   width: 48px;
   height: 48px;
@@ -306,12 +299,14 @@
   align-items: center;
   cursor: pointer;
   z-index: 999;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .mobile-back-button i {
-  font-size: 2.2rem; 
+  font-size: 2.2rem;
 }
 .mobile-back-button:hover {
   background-color: var(--primary-color);
@@ -333,5 +328,3 @@
     display: flex;
   }
 }
-
-
