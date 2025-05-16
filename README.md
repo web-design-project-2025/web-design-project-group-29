@@ -1,5 +1,5 @@
 ﻿# web-design-project-group-29
- # 🌍 Nomad – A Journey Through Authentic Cuisine from around the world.
+ # 🌍 Nomad – A journey through authentic cuisine from around the world.
 
 **Nomad** is a UX/UI-focused recipe website that showcases authentic cultural cuisines from around the world. Discover dishes from 5 continents, explore culinary diversity, and enjoy a user-friendly experience designed for food lovers and cultural explorers alike.
 
