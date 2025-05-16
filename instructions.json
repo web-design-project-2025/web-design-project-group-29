@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Zobo Drink",
+      "illustrations":"img/hibiscus.svg",
       "sections": [
         {
           "name": "Preparation:",
@@ -33,6 +34,7 @@
     {
       "id": 2,
       "name": "Efo Riro",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -63,6 +65,7 @@
     {
       "id": 3,
       "name": "Moi Moi (Steamed Bean Pudding)",
+      "illustrations":"img/onion.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -103,6 +106,7 @@
     {
       "id": 4,
       "name": "Akara",
+      "illustrations":"img/onion.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -180,6 +184,7 @@
     {
       "id": 6,
       "name": "Okra Soup and Stew",
+      "illustrations":"img/okra.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -223,10 +228,59 @@
         }
       ]
     },
-   
+    {
+      "id": 7,
+      "name": "Nigerian Suya",
+      "illustrations": "img/chilli.svg",
+      "sections": [
+        {
+          "name": "Preparation",
+          "steps": [
+            "Slice beef (or chicken, ram, or liver) into thin, even strips.",
+            "In a bowl, mix ground peanuts (or store-bought suya spice), cayenne pepper, paprika, ginger powder, garlic powder, onion powder, salt, and a little bouillon powder.",
+            "Add a small amount of vegetable oil to the spice mix to form a thick paste.",
+            "Coat the meat strips evenly with the spice paste and let marinate for at least 2 hours (or overnight for best flavor)."
+          ]
+        },
+        {
+          "name": "Skewering",
+          "steps": [
+            "Thread the marinated meat onto skewers (metal or soaked wooden skewers).",
+            "Leave a little space between pieces for even cooking."
+          ]
+        },
+        {
+          "name": "Grilling",
+          "steps": [
+            "Preheat a grill, oven, or stovetop grill pan to medium-high heat.",
+            "Place the skewered meat on the grill and cook for 3–5 minutes per side, turning occasionally.",
+            "Baste with a little oil or leftover marinade to keep the meat moist.",
+            "Cook until slightly charred and fully done (adjust time for chicken or liver)."
+          ]
+        },
+        {
+          "name": "Serving",
+          "steps": [
+            "Sprinkle extra suya spice (yaji) on top for extra heat.",
+            "Serve hot with sliced onions, tomatoes, and cabbage (optional).",
+            "Pair with chilled beer or a soft drink."
+          ]
+        },
+        {
+          "name": "Tips",
+          "steps": [
+            "For extra smokiness, grill over charcoal instead of gas or electric heat.",
+            "If using wooden skewers, soak them in water for 30 minutes to prevent burning.",
+            "Adjust pepper quantity to control spiciness.",
+            "For a smoother spice blend, sieve the ground peanut mix before marinating."
+          ]
+        }
+      ]
+    },
     {
       "id": 8,
       "name": "Fried Palm Oil Stew",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -257,6 +311,7 @@
     {
       "id": 9,
       "name": "Jollof Rice and Chicken with Plantain",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -309,6 +364,7 @@
     {
       "id": 10,
       "name": "Couscous",
+      "illustrations":"img/tomato.svg",
       "sections": [
         {
           "name": "Stew:",
@@ -338,16 +394,13 @@
             "Top with meat and vegetables.",
             "Pour broth over everything to serve."
           ]
-        },
-        {
-          "name": "Tips",
-          "steps": []
         }
       ]
     },
     {
       "id": 11,
       "name": "Lham Hlou",
+      "illustrations":"img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -394,6 +447,7 @@
     {
       "id": 12,
       "name": "Mhalbi",
+      "illustrations":"img/cinnamon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -481,6 +535,7 @@
     {
       "id": 14,
       "name": "Baklawa (Algerian)",
+      "illustrations":"img/cinnamon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -521,6 +576,7 @@
     {
       "id": 15,
       "name": "Hmiss",
+      "illustrations":"img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -559,6 +615,7 @@
     {
       "id": 16,
       "name": "Chakhchoukha (Algerian)",
+      "illustrations":"img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -640,6 +697,7 @@
     {
       "id": 18,
       "name": "Chakchouka (Algerian)",
+      "illustrations":"img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -841,6 +899,7 @@
     {
       "id": 23,
       "name": "Fuul",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -870,6 +929,7 @@
     {
       "id": 24,
       "name": "Bariis iyo Digaag",
+      "illustrations":"img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -917,6 +977,7 @@
     {
       "id": 25,
       "name": "Shaah Somali",
+      "illustrations":"img/cinnamon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -998,6 +1059,7 @@
     {
       "id": 28,
       "name": "Arooz Con Pollo",
+      "illustrations":"img/.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1083,6 +1145,7 @@
     {
       "id": 30,
       "name": "Arroz Con Gandules",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1124,6 +1187,7 @@
     {
       "id": 31,
       "name": "Classic Mojito",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1261,6 +1325,7 @@
     {
       "id": 35,
       "name": "Mojo Shrimp",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1300,6 +1365,7 @@
     {
       "id": 36,
       "name": "Strawberry Daiquiri",
+      "illustrations":"img/strawberry.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1337,6 +1403,7 @@
     {
       "id": 37,
       "name": "Ceviche",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation:",
@@ -1371,6 +1438,7 @@
     {
       "id": 38,
       "name": "Lomo Saltado",
+      "illustrations":"img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1469,6 +1537,7 @@
     {
       "id": 40,
       "name": "Pisco Sour",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1506,6 +1575,7 @@
     {
       "id": 41,
       "name": "Solterito",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1549,6 +1619,7 @@
     },  {
       "id": 46,
       "name": "Toshikoshi Soba",
+      "illustrations":"img/chopsticks.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1584,6 +1655,7 @@
     },{
       "id": 47,
       "name": "Maguro Nigiri",
+      "illustrations":"img/sushi.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1618,6 +1690,7 @@
     }, {
       "id": 48,
       "name": "Sushi Moriawase",
+      "illustrations":"img/sushi.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1646,6 +1719,7 @@
     },{
       "id": 49,
       "name": "Tonkatsu",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1673,6 +1747,7 @@
     },{
       "id": 50,
       "name": "Tataki",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1702,6 +1777,7 @@
     },  {
       "id": 51,
       "name": "Chirashi Don",
+      "illustrations":"img/chopsticks.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1728,6 +1804,7 @@
     }, {
       "id": 52,
       "name": "Aburi Sake Nigiri",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1754,6 +1831,7 @@
     }, {
       "id": 53,
       "name": "Okonomiyaki",
+      "illustrations":"img/chilli.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1783,6 +1861,7 @@
     {
       "id": 54,
       "name": "Kaiseki Ryōri",
+      "illustrations":"img/chopsticks.svg",
       "sections": [
         {
           "name": "Overview",
@@ -1812,6 +1891,7 @@
     {
       "id": 55,
       "name": "Gluten-Free Mudcake",
+      "illustrations":"img/strawberry.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -1904,6 +1984,7 @@
     {
       "id": 56,
       "name": "Waffles with Whipped Cream",
+      "illustrations":"img/strawberry.svg",
       "sections": [
         {
           "name": "Making the Waffle Batter",
@@ -1994,6 +2075,7 @@
     {
       "id": 59,
       "name": "Oven-Baked Chicken Thighs",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2038,6 +2120,7 @@
     {
       "id": 60,
       "name": "Roasted Pork",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2119,6 +2202,7 @@
     {
       "id": 62,
       "name": "Smörgåstårta",
+      "illustrations":"img/tomato.svg",
       "sections": [
         {
           "name": "Preparation",
@@ -2164,6 +2248,7 @@
     {
       "id": 63,
       "name": "Oven-Baked Salmon",
+      "illustrations":"img/lemon.svg",
       "sections": [
         {
           "name": "Preparation",

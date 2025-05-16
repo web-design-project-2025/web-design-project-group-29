@@ -379,7 +379,7 @@
       "difficulty" : "Hard",
       "titleImg": "img/suya.svg",
       "titleAlt": "Handwritten text saying 'Suya'",
-      "image": "img/nigerian-suya.jpeg",
+      "image": "img/suya.jpg",
       "imageAlt": "Grilled beef skewers covered in suya spice, served with onions and tomatoes",
       "ingredients": {
         "Main": [
@@ -1823,7 +1823,7 @@
       "time": "30min",
       "difficulty": "Easy",
       "rating": 4.9,
-      "image": "img/arooz-con-gandules.jpeg",
+      "image": "img/arroz-con-gandules.jpeg",
       "imageAlt": " A plate of Arroz con Gandules with rice and pigeon peas",
       "ingredients": {
         "Main": [
