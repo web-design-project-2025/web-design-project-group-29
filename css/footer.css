@@ -1,4 +1,136 @@
-.footer {
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .page-content {
+    flex: 1;
+  }
+
+  .footer {
+    background-color: #b6cae5;
+    padding: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+    
+  }
+  
+  
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 1.5rem auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-top > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-top h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .connect-with-us {
+    margin-right: auto;
+    padding-left: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 0;
+  }
+  
+  .social-icons a {
+    color: #4a4a4a;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  
+  .shortcuts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .shortcuts li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .shortcuts a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .shortcuts a:hover {
+    text-decoration: underline;
+  }
+  
+  .newsletter form {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    min-width: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .newsletter button {
+    padding: 0.5rem 1rem;
+    background-color: #6e2e15;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    transition: background-color 0.2s;
+  }
+  
+  .newsletter button:hover {
+    background-color: #ff5722;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 1rem 1rem 0; 
+    font-size: 0.75rem;
+    border-top: 1px solid #ddd;
+    
+  }
+  
+  .footer-links a {
+    color: #333;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }.footer {
     background-color: #b6cae5;
     padding: 1rem;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -126,4 +258,57 @@
   
   .footer-links a:hover {
     text-decoration: underline;
+  }
+  /*responsiveness*/
+  @media (max-width: 1024px) {
+    .footer-top {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 768px) {
+    .footer{
+      margin-top: 50rem;
+    }
+    .footer-top {
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 2rem;
+    }
+  
+    .footer-top > div {
+      align-items: center;
+    }
+  
+    .connect-with-us {
+      margin-right: 0;
+      padding-left: 0;
+    }
+  
+    .social-icons {
+      justify-content: center;
+      margin: 0;
+    }
+  
+    .newsletter form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .newsletter input[type="email"],
+    .newsletter button {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+      gap: 0.5rem;
+    }
+  
+    .footer-links {
+      margin-top: 0.5rem;
+    }
   }
