@@ -31,7 +31,7 @@ function highlightStars(rating) {
   });
 }
 
-// 💬 Add form submission handler to display reviews
+//  Add form submission handler to display reviews
 reviewForm.addEventListener('submit', function (e) {
   e.preventDefault();
 

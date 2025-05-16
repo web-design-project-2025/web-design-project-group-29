@@ -27,10 +27,6 @@ function createRecipeElement(recipe,) {
   const heroLeft = document.createElement("div");
   heroLeft.classList.add("recipe-hero-left"); 
 
-  // // recipe title container
-  // const textBox = document.createElement("div");
-  // textBox.classList.add("title-container");
-
   // Recipe tile
   const titleImage = document.createElement("img");
   titleImage.src = recipe.titleImg;
@@ -39,8 +35,6 @@ function createRecipeElement(recipe,) {
   heroLeft.appendChild(titleImage);
   // textBox.appendChild(titleImage);
 
-
-  // Star rating 
 
   // STAR RATING https://chatgpt.com/share/68221f75-7734-8013-abc7-c79bc6177543
 const starContainer = document.createElement("div");
@@ -175,9 +169,6 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
  
  heroRight.appendChild(heartIcon);
 
-
-
-
 // INGREDIENTS SECTION
    // left recipe container
    const leftContainer = document.createElement("div");
@@ -216,12 +207,9 @@ if (Array.isArray(recipe.category)&& recipe.category.length > 0){
    const ingredientsSection = document.createElement("div");
    ingredientsSection.classList.add("ingredients-container");
  
-  //  const ingredientsList = document.createElement("ul");
-  //  ingredientsList.classList.add("ingredients-list");
-
-  //  ingredientsSection.appendChild(ingredientsList);
+  
    leftContainer.appendChild(ingredientsSection);
-   //
+   //portion control
    function safeEvaluateQuantity(expression) {
     const cleaned = expression
     .replace("½", "0.5")
@@ -416,6 +404,45 @@ plusBtn.onclick = () => {
     tipsContainer.appendChild(tipsList);
     rightContainer.appendChild(tipsContainer);
   }
+  // Review Section
+const reviewSection = document.createElement("section");
+reviewSection.classList.add("review-container");
+reviewSection.innerHTML = `
+  <div id="review-box">
+    <h1>Leave a Review</h1>
+    <form id="review-form">
+      <div class="input-group">
+        <label for="reviewer">Name</label>
+        <input type="text" id="reviewer" name="reviewer" required />
+      </div>
+
+      <div class="input-group">
+        <label for="rating">Rating</label>
+        <div class="star-rating" id="star-rating">
+          <span data-value="5">★</span>
+          <span data-value="4">★</span>
+          <span data-value="3">★</span>
+          <span data-value="2">★</span>
+          <span data-value="1">★</span>
+        </div>
+        <input type="hidden" id="rating" name="rating" required />
+      </div>
+      
+      <div class="input-group">
+        <label for="comment">Review</label>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+      </div>
+      <button type="submit" id="submit">Submit Review</button>
+    </form>
+
+    <div class="review-display" id="review-display">
+      <h2>All Reviews</h2>
+      <div id="reviews-container"></div>
+    </div>
+  </div>
+`;
+rightContainer.appendChild(reviewSection);
+
 
   // Append all sections
   recipeElement.appendChild(heroLeft);
@@ -426,6 +453,76 @@ plusBtn.onclick = () => {
    return recipeElement;
    
 }
+
+//https://chatgpt.com/share/6820c3e1-f89c-8007-893d-04d4c3774281
+function setupReviewForm(){
+const stars = document.querySelectorAll('#star-rating span');
+const ratingInput = document.getElementById('rating');
+const reviewForm = document.getElementById('review-form');
+const reviewsContainer = document.getElementById('reviews-container');
+
+// Star interactivity
+stars.forEach(star => {
+  star.addEventListener('mouseenter', () => {
+    const val = parseInt(star.dataset.value);
+    highlightStars(val);
+  });
+
+  star.addEventListener('mouseleave', () => {
+    highlightStars(parseInt(ratingInput.value));
+  });
+
+  star.addEventListener('click', () => {
+    const selected = parseInt(star.dataset.value);
+    ratingInput.value = selected;
+    highlightStars(selected);
+  });
+});
+
+function highlightStars(rating) {
+  stars.forEach(star => {
+    const val = parseInt(star.dataset.value);
+    star.classList.toggle('selected', val <= rating);
+    star.classList.toggle('hover', false); // clear hover effect
+  });
+}
+
+// Add form submission handler to display reviews
+reviewForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const name = document.getElementById('reviewer').value.trim();
+  const comment = document.getElementById('comment').value.trim();
+  const rating = parseInt(ratingInput.value);
+
+  if (!name || !comment || !rating) {
+    alert('Please complete all fields and select a rating.');
+    return;
+  }
+
+  // Create review display
+  const reviewDiv = document.createElement('div');
+  reviewDiv.classList.add('review');
+
+  // Create stars display
+  let starsHTML = '';
+  for (let i = 1; i <= 5; i++) {
+    starsHTML += `<span class="${i <= rating ? 'selected' : ''}">★</span>`;
+  }
+
+  reviewDiv.innerHTML = `
+    <h3>${name}</h3>
+    <div class="stars">${starsHTML}</div>
+    <p>${comment}</p>
+  `;
+
+  reviewsContainer.appendChild(reviewDiv);
+
+  // Clear form
+  reviewForm.reset();
+  ratingInput.value = 0;
+  highlightStars(0);
+});}
 
 
 
@@ -439,6 +536,7 @@ function renderContent() {
   if (recipe) {
     const recipeElement = createRecipeElement(recipe);
     contentElement.appendChild(recipeElement);
+    setupReviewForm();
   } else {
     contentElement.innerHTML = "<p>Recipe not found.</p>";
   }
